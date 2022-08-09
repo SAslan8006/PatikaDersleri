@@ -1,0 +1,8 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\UcgenCizme\bin\Debug\UcgenCizme.exe.config
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\UcgenCizme\bin\Debug\UcgenCizme.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\UcgenCizme\bin\Debug\UcgenCizme.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\UcgenCizme\obj\Debug\UcgenCizme.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\UcgenCizme\obj\Debug\UcgenCizme.csproj.SuggestedBindingRedirects.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\UcgenCizme\obj\Debug\UcgenCizme.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\UcgenCizme\obj\Debug\UcgenCizme.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\UcgenCizme\obj\Debug\UcgenCizme.pdb

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ortalama Hesaplama", "Ortalama Hesaplama\Ortalama Hesaplama.csproj", "{8475BF78-9FF9-4F5C-BAC9-4D10B6C6D9AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UcgenCizme", "UcgenCizme\UcgenCizme.csproj", "{B053CE73-C665-4916-AF40-2959734612AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8475BF78-9FF9-4F5C-BAC9-4D10B6C6D9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8475BF78-9FF9-4F5C-BAC9-4D10B6C6D9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8475BF78-9FF9-4F5C-BAC9-4D10B6C6D9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B053CE73-C665-4916-AF40-2959734612AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B053CE73-C665-4916-AF40-2959734612AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B053CE73-C665-4916-AF40-2959734612AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B053CE73-C665-4916-AF40-2959734612AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
