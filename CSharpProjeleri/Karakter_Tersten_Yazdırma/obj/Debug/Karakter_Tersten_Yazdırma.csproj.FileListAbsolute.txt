@@ -1,0 +1,8 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Karakter_Tersten_Yazdırma\bin\Debug\Karakter_Tersten_Yazdırma.exe.config
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Karakter_Tersten_Yazdırma\bin\Debug\Karakter_Tersten_Yazdırma.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Karakter_Tersten_Yazdırma\bin\Debug\Karakter_Tersten_Yazdırma.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Karakter_Tersten_Yazdırma\obj\Debug\Karakter_Tersten_Yazdırma.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Karakter_Tersten_Yazdırma\obj\Debug\Karakter_Tersten_Yazdırma.csproj.SuggestedBindingRedirects.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Karakter_Tersten_Yazdırma\obj\Debug\Karakter_Tersten_Yazdırma.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Karakter_Tersten_Yazdırma\obj\Debug\Karakter_Tersten_Yazdırma.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Karakter_Tersten_Yazdırma\obj\Debug\Karakter_Tersten_Yazdırma.pdb
