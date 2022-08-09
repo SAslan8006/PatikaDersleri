@@ -1,0 +1,8 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Algoritma\bin\Debug\Algoritma.exe.config
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Algoritma\bin\Debug\Algoritma.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Algoritma\bin\Debug\Algoritma.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Algoritma\obj\Debug\Algoritma.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Algoritma\obj\Debug\Algoritma.csproj.SuggestedBindingRedirects.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Algoritma\obj\Debug\Algoritma.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Algoritma\obj\Debug\Algoritma.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Algoritma\obj\Debug\Algoritma.pdb
