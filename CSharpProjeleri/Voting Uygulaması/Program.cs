@@ -10,8 +10,8 @@ namespace Voting_Uygulaması
 {
     public class Program
     {
-        static string username = "";
-        static string password = "";
+        static string username = "suleyman";
+        static string password = "1234";
         private static bool loggedIn = false;
         private static bool isVoted = false;
 

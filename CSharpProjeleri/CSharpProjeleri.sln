@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sessiz Harf", "Sessiz Harf\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voting Uygulaması", "Voting Uygulaması\Voting Uygulaması.csproj", "{537F441F-D0D3-4CAA-95ED-39F71B21C337}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM Uygulaması", "ATM Uygulaması\ATM Uygulaması.csproj", "{F69EEC76-8AE3-49B2-B23E-26470DC46017}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{537F441F-D0D3-4CAA-95ED-39F71B21C337}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{537F441F-D0D3-4CAA-95ED-39F71B21C337}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{537F441F-D0D3-4CAA-95ED-39F71B21C337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F69EEC76-8AE3-49B2-B23E-26470DC46017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69EEC76-8AE3-49B2-B23E-26470DC46017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69EEC76-8AE3-49B2-B23E-26470DC46017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69EEC76-8AE3-49B2-B23E-26470DC46017}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
