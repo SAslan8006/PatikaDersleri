@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karakter Değiştirme", "Ka
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sessiz Harf", "Sessiz Harf\Sessiz Harf.csproj", "{4742410C-838F-4AE0-B09B-C43129E7179B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voting Uygulaması", "Voting Uygulaması\Voting Uygulaması.csproj", "{537F441F-D0D3-4CAA-95ED-39F71B21C337}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{4742410C-838F-4AE0-B09B-C43129E7179B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4742410C-838F-4AE0-B09B-C43129E7179B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4742410C-838F-4AE0-B09B-C43129E7179B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{537F441F-D0D3-4CAA-95ED-39F71B21C337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{537F441F-D0D3-4CAA-95ED-39F71B21C337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{537F441F-D0D3-4CAA-95ED-39F71B21C337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{537F441F-D0D3-4CAA-95ED-39F71B21C337}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
