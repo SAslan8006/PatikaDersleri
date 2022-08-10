@@ -1,0 +1,8 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Integer İkililerin Toplamı\obj\Debug\Integer İkililerin Toplamı.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Integer İkililerin Toplamı\obj\Debug\Integer İkililerin Toplamı.csproj.SuggestedBindingRedirects.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Integer İkililerin Toplamı\obj\Debug\Integer İkililerin Toplamı.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Integer İkililerin Toplamı\bin\Debug\Integer İkililerin Toplamı.exe.config
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Integer İkililerin Toplamı\bin\Debug\Integer İkililerin Toplamı.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Integer İkililerin Toplamı\bin\Debug\Integer İkililerin Toplamı.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Integer İkililerin Toplamı\obj\Debug\Integer İkililerin Toplamı.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Integer İkililerin Toplamı\obj\Debug\Integer İkililerin Toplamı.pdb

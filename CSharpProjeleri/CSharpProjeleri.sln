@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karakter_Tersten_Yazdırma"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alan Hesaplama", "Alan Hesaplama\Alan Hesaplama.csproj", "{04794E70-298D-4E60-877C-AD9198DA625F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integer İkililerin Toplamı", "Integer İkililerin Toplamı\Integer İkililerin Toplamı.csproj", "{23703600-F4C4-4A16-9C42-0C1A8B47ADAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{04794E70-298D-4E60-877C-AD9198DA625F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04794E70-298D-4E60-877C-AD9198DA625F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04794E70-298D-4E60-877C-AD9198DA625F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23703600-F4C4-4A16-9C42-0C1A8B47ADAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23703600-F4C4-4A16-9C42-0C1A8B47ADAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23703600-F4C4-4A16-9C42-0C1A8B47ADAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23703600-F4C4-4A16-9C42-0C1A8B47ADAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
