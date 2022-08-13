@@ -1,0 +1,8 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\Yazılım_Gelistirici_Yetiştirme_Kampi\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\Yazılım_Gelistirici_Yetiştirme_Kampi\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\Yazılım_Gelistirici_Yetiştirme_Kampi\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\Yazılım_Gelistirici_Yetiştirme_Kampi\ConsoleApp1\obj\Debug\Metotlar.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\Yazılım_Gelistirici_Yetiştirme_Kampi\ConsoleApp1\obj\Debug\Metotlar.csproj.SuggestedBindingRedirects.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\Yazılım_Gelistirici_Yetiştirme_Kampi\ConsoleApp1\obj\Debug\Metotlar.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\Yazılım_Gelistirici_Yetiştirme_Kampi\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\Yazılım_Gelistirici_Yetiştirme_Kampi\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
