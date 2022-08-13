@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "ConsoleApp1\Metotlar.csproj", "{F2991FCF-EEA2-4EAB-AE23-D4D03ADC1E28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "..\..\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\Yazılım_Gelistirici_Yetiştirme_Kampi\ConsoleApp1\Metotlar.csproj", "{F2991FCF-EEA2-4EAB-AE23-D4D03ADC1E28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
