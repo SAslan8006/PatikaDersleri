@@ -1,0 +1,8 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Hafta2_odev6\obj\Debug\Hafta2_odev6.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Hafta2_odev6\obj\Debug\Hafta2_odev6.csproj.SuggestedBindingRedirects.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Hafta2_odev6\obj\Debug\Hafta2_odev6.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Hafta2_odev6\bin\Debug\Hafta2_odev6.exe.config
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Hafta2_odev6\bin\Debug\Hafta2_odev6.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Hafta2_odev6\bin\Debug\Hafta2_odev6.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Hafta2_odev6\obj\Debug\Hafta2_odev6.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CSharpProjeleri\Hafta2_odev6\obj\Debug\Hafta2_odev6.pdb

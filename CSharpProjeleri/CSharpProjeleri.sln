@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voting Uygulaması", "Votin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM Uygulaması", "ATM Uygulaması\ATM Uygulaması.csproj", "{F69EEC76-8AE3-49B2-B23E-26470DC46017}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnginDemirog", "EnginDemirog", "{9309159C-0E07-4CAD-974A-84A5D87B3FC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hafta2_odev6", "Hafta2_odev6\Hafta2_odev6.csproj", "{537FBA1D-F346-4500-BAB7-7BD6ECAB8AF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,9 +85,16 @@ Global
 		{F69EEC76-8AE3-49B2-B23E-26470DC46017}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F69EEC76-8AE3-49B2-B23E-26470DC46017}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F69EEC76-8AE3-49B2-B23E-26470DC46017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{537FBA1D-F346-4500-BAB7-7BD6ECAB8AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{537FBA1D-F346-4500-BAB7-7BD6ECAB8AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{537FBA1D-F346-4500-BAB7-7BD6ECAB8AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{537FBA1D-F346-4500-BAB7-7BD6ECAB8AF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{537FBA1D-F346-4500-BAB7-7BD6ECAB8AF2} = {9309159C-0E07-4CAD-974A-84A5D87B3FC2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A81DB5AC-266D-4238-A8F1-0B0430652939}
