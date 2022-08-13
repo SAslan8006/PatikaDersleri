@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "..\..\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\Yazılım_Gelistirici_Yetiştirme_Kampi\ConsoleApp1\Metotlar.csproj", "{F2991FCF-EEA2-4EAB-AE23-D4D03ADC1E28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banka", "Banka\Banka.csproj", "{82D1644F-2F3A-4A5C-94B9-3185EF6AC6DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F2991FCF-EEA2-4EAB-AE23-D4D03ADC1E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2991FCF-EEA2-4EAB-AE23-D4D03ADC1E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2991FCF-EEA2-4EAB-AE23-D4D03ADC1E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82D1644F-2F3A-4A5C-94B9-3185EF6AC6DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D1644F-2F3A-4A5C-94B9-3185EF6AC6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D1644F-2F3A-4A5C-94B9-3185EF6AC6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D1644F-2F3A-4A5C-94B9-3185EF6AC6DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
