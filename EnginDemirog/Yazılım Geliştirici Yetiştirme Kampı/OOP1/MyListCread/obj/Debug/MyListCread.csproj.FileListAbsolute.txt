@@ -1,0 +1,8 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\OOP1\MyListCread\bin\Debug\MyListCread.exe.config
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\OOP1\MyListCread\bin\Debug\MyListCread.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\OOP1\MyListCread\bin\Debug\MyListCread.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\OOP1\MyListCread\obj\Debug\MyListCread.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\OOP1\MyListCread\obj\Debug\MyListCread.csproj.SuggestedBindingRedirects.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\OOP1\MyListCread\obj\Debug\MyListCread.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\OOP1\MyListCread\obj\Debug\MyListCread.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\OOP1\MyListCread\obj\Debug\MyListCread.pdb

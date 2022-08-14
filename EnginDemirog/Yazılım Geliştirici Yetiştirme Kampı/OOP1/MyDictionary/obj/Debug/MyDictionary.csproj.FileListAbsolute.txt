@@ -1,0 +1,8 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\OOP1\MyDictionary\bin\Debug\MyDictionary.exe.config
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\OOP1\MyDictionary\bin\Debug\MyDictionary.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\OOP1\MyDictionary\bin\Debug\MyDictionary.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\OOP1\MyDictionary\obj\Debug\MyDictionary.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\OOP1\MyDictionary\obj\Debug\MyDictionary.csproj.SuggestedBindingRedirects.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\OOP1\MyDictionary\obj\Debug\MyDictionary.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\OOP1\MyDictionary\obj\Debug\MyDictionary.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\EnginDemirog\Yazılım Geliştirici Yetiştirme Kampı\OOP1\MyDictionary\obj\Debug\MyDictionary.pdb
