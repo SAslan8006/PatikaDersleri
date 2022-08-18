@@ -10,5 +10,6 @@ namespace Business.Abstract
         List<T> GetAll();
         List<T> GetAllByCategoryId(int id);
         List<T> GetByUnitsPrice(decimal min, decimal max);
+       
     }
 }
