@@ -1,7 +1,6 @@
 ﻿using Business.Concrete;
-using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
-using DataAccess.Concrete.InMemory;
+using DataAccess.Concrete.Memory;
 using System;
 
 namespace ConsoleUI
@@ -9,23 +8,26 @@ namespace ConsoleUI
     public class Program
     {
         static void Main(string[] args)
-        {
-            //Data Transformation Object
-            //IoC
+        {            
+            CarTest();
             ProductTest();
-            // CategoryTest();
-
-
-
             Console.ReadKey();
         }
 
-        private static void CategoryTest()
+        private static void CarTest()
         {
-            CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
-            foreach (var product in categoryManager.GetAll())
+            CarManager carManager = new CarManager(new EfCarDal());
+            var result = carManager.GetCarDetails();
+            if (result.Success == true)
             {
-                Console.WriteLine(product.CategoryName);
+                foreach (var product in result.Data)
+                {
+                    Console.WriteLine(product.CarName + " / " + product.DailyPrice);
+                }
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
             }
         }
 
@@ -37,14 +39,14 @@ namespace ConsoleUI
             {
                 foreach (var product in result.Data)
                 {
-                    Console.WriteLine(product.ProductName + " / " + product.CategoryName);
+                    Console.WriteLine(product.ProductName + " / " + product.CarName);
                 }
             }
-            else 
+            else
             {
                 Console.WriteLine(result.Message);
             }
-           
+
         }
     }
 }
