@@ -34,6 +34,12 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ProductAdded);
         }
 
+        public IResult Delete(Product rental)
+        {
+            _productDal.Delete(rental);
+            return new SuccessResult(Messages.ProductDelete);
+        }
+
         public IDataResult<List<Product>> GetAll()
         {
             if (DateTime.Now.Hour == 02)
@@ -46,7 +52,12 @@ namespace Business.Concrete
 
         public IDataResult<List<Product>> GetAllByCategoryId(int id)
         {
-            return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.BrandCategoryId== id));
+            return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.BrandCategoryId== id),Messages.Listed);
+        }
+
+        public IDataResult<List<Product>> GetAllById(int id)
+        {
+            return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.CarId == id), Messages.ProductListed);
         }
 
         public IDataResult<Product> GetById(int productId)
@@ -66,5 +77,10 @@ namespace Business.Concrete
 
         }
 
+        public IResult Update(Product rental)
+        {
+            _productDal.Update(rental);
+            return new SuccessResult(Messages.ProductUpdated);
+        }
     }
 }

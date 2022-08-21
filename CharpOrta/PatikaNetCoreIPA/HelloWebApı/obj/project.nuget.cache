@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "4kWpmFiuGVkINc0s38xQDJX8EMst9jTZYmYpZ4WjRYwJ2t1fo/okWvg6/AlZpeOy2Ue0zb7BDQG+2UYZaTY59Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\CharpOrta\\PatikaNetCoreIPA\\HelloWebApı\\HelloWebApı.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

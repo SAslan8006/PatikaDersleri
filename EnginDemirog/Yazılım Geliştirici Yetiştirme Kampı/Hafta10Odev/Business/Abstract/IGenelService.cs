@@ -10,10 +10,11 @@ namespace Business.Abstract
     public interface IGenelService<T>
     {
         IDataResult<List<T>> GetAll();
-        IDataResult<List<T>> GetAllByCategoryId(int id);
-        IDataResult<List<T>> GetByUnitsPrice(decimal min, decimal max);
+        IDataResult<List<T>> GetAllById(int id);
         IDataResult<T> GetById(int id);
-        IResult Add(T product);        
-        
+        IResult Add(T rental);
+        IResult Delete(T rental);
+        IResult Update(T rental);
+
     }
 }

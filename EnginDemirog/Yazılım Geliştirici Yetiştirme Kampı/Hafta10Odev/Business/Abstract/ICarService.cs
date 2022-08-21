@@ -9,6 +9,9 @@ namespace Business.Abstract
 {
     public interface ICarService:IGenelService<Car>
     {
-        IDataResult<List<CarDetailDto>> GetCarDetails();        
+        IDataResult<List<CarDetailDto>> GetCarDetails();
+        IDataResult<List<Car>> GetByUnitsPrice(decimal min, decimal max);
+        IDataResult<List<Car>> GetCarDetailsByBrand(int brandId);
+        IDataResult<List<Car>> GetCarDetailsByColor(int colorId);
     }
 }
