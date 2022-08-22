@@ -9,9 +9,9 @@ namespace Business.Abstract
 {
     public interface IRentalService : IGenelService<Rentals>
     {
-        IDataResult<List<Rentals>> GetByUnitsPrice(decimal min, decimal max);
-        IDataResult<List<RentalDetailDto>> GetRentalDetails();
-        IDataResult<List<RentalDetailDto>> GetRentalDetailsById(int id);
-        IDataResult<List<RentalDetailDto>> GetRentalDetailsByUserId(int userId);
+        IDataResult<List<Rentals>> GetByAmountPrice(decimal min, decimal max);
+        //IDataResult<List<RentalDetailDto>> GetRentalDetails();
+        //IDataResult<List<RentalDetailDto>> GetRentalDetailsById(int id);
+        //IDataResult<List<RentalDetailDto>> GetRentalDetailsByUserId(int userId);
     }
 }

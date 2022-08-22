@@ -18,7 +18,7 @@ namespace Core.Utilities.Results
         {
 
         }
-        public SuccessDataResult() : base(default, true)
+        public SuccessDataResult(List<global::Entities.Concrete.Rentals> rentals) : base(default, true)
         {
 
         }
