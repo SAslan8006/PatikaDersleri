@@ -70,6 +70,12 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.UnitPrice <= max && p.UnitPrice >= min));
 
         }
+       
+        public IDataResult<List<ProductDetailDto>> GetProductDetailById(int productId)
+        {
+            return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails(c => c.ProductId == productId), Messages.Listed);
+
+        }
 
         public IDataResult<List<ProductDetailDto>> GetProductDetails()
         {

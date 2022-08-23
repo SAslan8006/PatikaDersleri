@@ -75,9 +75,9 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("getcarsbycolorid")]
-        public IActionResult GetByColorId(int colorId)
+        public IActionResult GetCarDetailsByColor(int colorId)
         {
-            var result = _carService.GetCarsByColorId(colorId);
+            var result = _carService.GetCarDetailsByColor(colorId);
             if (result.Success)
             {
                 return Ok(result);
@@ -86,9 +86,9 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("carsDetailsByBrandId")]
-        public IActionResult GetCarsByBrandId(int brandId)
+        public IActionResult GetCarDetailsByBrand(int brandId)
         {
-            var result = _carService.GetCarsDetailByBrandId(brandId);
+            var result = _carService.GetCarDetailsByBrand(brandId);
             if (result.Success)
             {
                 return Ok(result);
@@ -107,27 +107,27 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpGet("getfilter")]
-        public IActionResult GetCarDetailBrandAndColorId(int brandId, int colorId)
-        {
-            var result = _carService.GetCarDetailsFilter(brandId, colorId);
-            if (result.Success)
-            {
-                return Ok(result);
-            }
+        //[HttpGet("getfilter")]
+        //public IActionResult GetCarDetailBrandAndColorId(int brandId, int colorId)
+        //{
+        //    var result = _carService.GetCarDetailsFilter(brandId, colorId);
+        //    if (result.Success)
+        //    {
+        //        return Ok(result);
+        //    }
 
-            return BadRequest(result);
-        }
+        //    return BadRequest(result);
+        //}
 
-        [HttpPost("addtransactiontest")]
-        public IActionResult AddTrancactionTest(Car car)
-        {
-            var result = _carService.AddTransactionTest(car);
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-            return BadRequest(result);
-        }
+        //[HttpPost("addtransactiontest")]
+        //public IActionResult AddTrancactionTest(Car car)
+        //{
+        //    var result = _carService.AddTransactionTest(car);
+        //    if (result.Success)
+        //    {
+        //        return Ok(result);
+        //    }
+        //    return BadRequest(result);
+        //}
     }
 }

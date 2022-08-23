@@ -71,9 +71,9 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("getcustomerdetails")]
-        public IActionResult GetCarDetails()
+        public IActionResult GetCustomersDetails()
         {
-            var result = _customerService.GetCustomerDetails();
+            var result = _customerService.GetCustomersDetails();
             if (result.Success)
             {
                 return Ok(result);
@@ -82,9 +82,9 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("getcustomerdetailbyid")]
-        public IActionResult GetCustomerDetailById(int customerId)
+        public IActionResult GetCustomersDetailById(int customerId)
         {
-            var result = _customerService.GetCustomerDetailById(customerId);
+            var result = _customerService.GetCustomersDetailById(customerId);
             if (result.Success)
             {
                 return Ok(result);
@@ -93,15 +93,6 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpGet("getbyuserid")]
-        public IActionResult GetByUserId(int id)
-        {
-            var result = _customerService.GetByUserId(id);
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-            return BadRequest(result);
-        }
+       
     }
 }

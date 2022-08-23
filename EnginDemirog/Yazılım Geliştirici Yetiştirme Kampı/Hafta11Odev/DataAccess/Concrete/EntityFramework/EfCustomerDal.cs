@@ -6,12 +6,13 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq.Expressions;
 
 namespace DataAccess.Concrete.EntityFramework
 {
     public class EfCustomerDal:EfEntityRepositoryBase<Customer, CarDbContext>, ICustomerDal
     {
-        public List<CustomerDetailDto> GetCustomerDetails()
+        public List<CustomerDetailDto> GetCustomerDetails(Expression<Func<CustomerDetailDto, bool>> filter = null)
         {
             using (CarDbContext context = new CarDbContext())
             {
@@ -24,7 +25,8 @@ namespace DataAccess.Concrete.EntityFramework
                                  FirstName = c.FirstName,
                                  LastName = c.LastName
                              };
-                return result.ToList();
+                return filter == null ? result.ToList() : result.Where(filter).ToList();
+
 
             }
         }

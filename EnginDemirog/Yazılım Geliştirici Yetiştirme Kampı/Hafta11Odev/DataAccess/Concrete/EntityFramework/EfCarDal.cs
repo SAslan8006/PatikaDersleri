@@ -5,6 +5,7 @@ using Entities.DTOs;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -24,8 +25,10 @@ namespace DataAccess.Concrete.EntityFramework
                              {                 
                                  CarId=p.CarId,
                                  CarName=p.CarName,
+                                 BrandId=p.BrandId,
                                  BrandName = d.BrandName,
                                  Model = p.Model,
+                                 ColorId=p.ColorId,
                                  ColorName = c.ColorName,
                                  ModelYear=p.ModelYear,
                                  DailyPrice=p.DailyPrice,

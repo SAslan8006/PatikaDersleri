@@ -9,8 +9,8 @@ namespace Business.Abstract
 {
     public interface ICustomerService : IService<Customer>
     {
-        //IDataResult<List<CustomerDetailDto>> GetCustomersDetailById(int customerId);
-        IDataResult<List<CustomerDetailDto>> GetCustomersDetail();
+        IDataResult<List<CustomerDetailDto>> GetCustomersDetailById(int customerId);
+        IDataResult<List<CustomerDetailDto>> GetCustomersDetails();
 
     }
 }

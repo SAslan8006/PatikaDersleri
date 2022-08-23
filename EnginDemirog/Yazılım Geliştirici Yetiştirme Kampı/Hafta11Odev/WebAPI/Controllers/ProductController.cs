@@ -9,7 +9,7 @@ namespace WebAPI.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        ICustomerService _productService;
+        IProductService _productService;
         public ProductController(IProductService productService)
         {
             _productService = productService;
@@ -93,15 +93,5 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpGet("getbyuserid")]
-        public IActionResult GetByUserId(int id)
-        {
-            var result = _productService.GetByUserId(id);
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-            return BadRequest(result);
-        }
     }
 }

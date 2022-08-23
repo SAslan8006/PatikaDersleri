@@ -23,7 +23,7 @@ namespace DataAccess.Concrete.EntityFramework
                              join d in context.Brands on c.BrandId equals d.BrandId
                              select new ProductDetailDto
                              {
-                                 ProductId = p.ProductId,
+                                 ProductId = p.ProductId,                              
                                  ProductName = p.ProductName,
                                  UnitPrice = p.UnitPrice,                                
                                  CarId = p.CarId,

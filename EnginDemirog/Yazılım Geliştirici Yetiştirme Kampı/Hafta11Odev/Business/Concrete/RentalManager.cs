@@ -51,25 +51,36 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Rental>>(_rentalDal.GetAll(p => p.Amount <= max && p.Amount >= min));
         }
 
-        //public IDataResult<List<RentalDetailDto>> GetRentalDetails()
-        //{
-        //    return new SuccessDataResult<List<RentalDetailDto>>(_rentalDal.GetRentalDetails());
-        //}
+        public IDataResult<List<RentalDetailDto>> GetRentalDetails()
+        {
+            return new SuccessDataResult<List<RentalDetailDto>>(_rentalDal.GetRentalDetails());
+        }
 
-        //public IDataResult<List<RentalDetailDto>> GetRentalDetailsById(int id)
-        //{
-        //    return new SuccessDataResult<List<RentalDetailDto>>(_rentalDal.GetRentalDetails(r => r.CarId == id));
-        //}
+        public IDataResult<List<RentalDetailDto>> GetRentalDetailsById(int id)
+        {
+            return new SuccessDataResult<List<RentalDetailDto>>(_rentalDal.GetRentalDetails(r => r.CarId == id));
+        }
 
-        //public IDataResult<List<RentalDetailDto>> GetRentalDetailsByUserId(int userId)
-        //{
-        //    return new SuccessDataResult<List<RentalDetailDto>>(_rentalDal.GetRentalDetails(r => r.UserId == userId));
-        //}
+        public IDataResult<List<RentalDetailDto>> GetRentalDetailsByUserId(int userId)
+        {
+            return new SuccessDataResult<List<RentalDetailDto>>(_rentalDal.GetRentalDetails(r => r.UserId == userId));
+        }
 
         public IResult Update(Rental rental)
         {
             _rentalDal.Update(rental);
             return new SuccessResult(Messages.Updated);
+        }
+
+        public IDataResult<List<RentalDetailDto>> GetRentalDetailByCarId(int carId)
+        {
+            return new SuccessDataResult<List<RentalDetailDto>>(_rentalDal.GetRentalDetails(r => r.CarId == carId));
+
+        }
+
+        public IDataResult<List<Rental>> GetByCarId(int carId)
+        {
+            return new SuccessDataResult<List<Rental>>(_rentalDal.GetAll(p => p.CarId==carId));
         }
     }
 }
