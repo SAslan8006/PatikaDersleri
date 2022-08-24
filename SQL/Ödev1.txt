@@ -1,0 +1,7 @@
+SQL ÖDEV-1
+
+1. SELECT title,description  FROM film;
+2. SELECT *  FROM film where length<75 and length>60;
+3. SELECT *  FROM film where rental_rate = 0.99 and replacement_cost = 12.99 or replacement_cost = 28.99;
+4. SELECT last_name  FROM customer where first_name ='Mary' ;  => Smith
+5. SELECT *  FROM film where length < 50 and not (rental_rate = 2.99 or rental_rate = 4.99);
