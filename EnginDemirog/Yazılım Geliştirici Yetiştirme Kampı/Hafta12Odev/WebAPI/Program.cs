@@ -18,13 +18,13 @@ namespace WebAPI
         {
             CreateHostBuilder(args).Build().Run();
         }
-        //Farklı container kullanmak için 
+
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .UseServiceProviderFactory(new AutofacServiceProviderFactory())
                 .ConfigureContainer<ContainerBuilder>(builder =>
                 {
-                builder.RegisterModule(new AutofacBusinessModule());
+                    builder.RegisterModule(new AutofacBusinessModule());
                 })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {

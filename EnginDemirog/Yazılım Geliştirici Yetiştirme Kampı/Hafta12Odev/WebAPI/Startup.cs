@@ -30,11 +30,8 @@ namespace WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //Autofac, Nincejt ,CastleWindsor, StructureMap, LightInject, DryInject--> IoC Container
-            //AOP
             services.AddControllers();
-            //services.AddSingleton<IProductService,ProductManager>();
-            //services.AddSingleton<IProductDal, EfProductDal>();
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,6 +40,7 @@ namespace WebAPI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+
             }
 
             app.UseHttpsRedirection();
