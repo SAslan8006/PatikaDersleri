@@ -1,0 +1,2 @@
+--SELECT first_name AS isim, last_name "soyisim test" FROM actor;
+--SELECT CONCAT(first_name, ' ' ,last_name) AS "isim ve soyisim" FROM actor;
