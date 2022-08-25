@@ -1,0 +1,13 @@
+--CREATE TABLE author (  id SERIAL PRIMARY KEY, first_name VARCHAR(50) NOT NULL, last_name VARCHAR(50) NOT NULL, email VARCHAR(100),  birthday DATE);
+--DROP TABLE IF EXISTS mahmut;
+--INSERT INTO author (first_name,last_name,email,birthday) VALUES 
+--('Mahmut', 'Yol', 'ahmet@hotmail.com', '1948-7-11'),
+--('Yakup', 'Yol', 'ahmet@hotmail.com', '1948-7-11'),
+--('Ayşe', 'Yol', 'ahmet@hotmail.com', '1948-7-11'),
+--('Fatma', 'Yol', 'ahmet@hotmail.com', '1948-7-11'),
+--('Yasin', 'Yol', 'ahmet@hotmail.com', '1948-7-11');
+--SELECT * FROM author2;
+--CREATE TABLE author2 (LIKE author);
+--INSERT INTO author2 SELECT * FROM author Where first_name='Mahmut';
+--CREATE TABLE author3 AS SELECT * FROM author);
+--DROP TABLE IF EXISTS author2;
