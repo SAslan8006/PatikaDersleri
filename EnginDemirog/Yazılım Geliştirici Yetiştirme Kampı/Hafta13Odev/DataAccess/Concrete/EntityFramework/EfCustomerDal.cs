@@ -17,7 +17,7 @@ namespace DataAccess.Concrete.EntityFramework
             using (CarDbContext context = new CarDbContext())
             {
                 var result = from p in context.Customers
-                             join c in context.Users on p.UserId equals c.UserId
+                             join c in context.Users on p.UserId equals c.Id
                              select new CustomerDetailDto
                              {
                                  CustomerId = p.CustomerId,

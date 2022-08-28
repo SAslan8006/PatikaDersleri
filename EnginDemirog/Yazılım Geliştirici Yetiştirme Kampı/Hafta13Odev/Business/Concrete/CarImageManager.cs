@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects.Autofac.Business.BusinessAspects.Autofac;
 using Business.Constans;
 using Core.Business;
 using Core.Utilities.Helpers;
@@ -23,6 +24,7 @@ namespace Business.Concrete
             _carImageDal = carImageDal;
         }
 
+        [SecuredOperation("car.add,admin")]
         public IResult Add(CarImage carImage, IFormFile formFile)
         {
             var result = BusinessRules.Run(

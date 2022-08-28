@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace Core.Utilities.İnterceptors
+namespace Core.Utilities.Interceptors
 {
     namespace Core.Utilities.Interceptors
     {

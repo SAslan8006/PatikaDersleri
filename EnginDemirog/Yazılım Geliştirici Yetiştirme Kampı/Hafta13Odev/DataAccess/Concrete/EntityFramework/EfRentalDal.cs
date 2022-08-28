@@ -22,7 +22,7 @@ namespace DataAccess.Concrete.EntityFramework
                              join cl in context.Colors
                              on c.ColorId equals cl.ColorId
                              join u in context.Users
-                             on r.UserId equals u.UserId
+                             on r.UserId equals u.Id
                              select new RentalDetailDto
                              {
                                  CarId = c.CarId,
@@ -35,7 +35,7 @@ namespace DataAccess.Concrete.EntityFramework
                                  RentDate = r.RentDate,
                                  ReturnDate = r.ReturnDate,
                                  Amount = r.Amount,
-                                 UserId = u.UserId,
+                                 UserId = u.Id,
                                  FirstName = u.FirstName,
                                  LastName = u.LastName
 
