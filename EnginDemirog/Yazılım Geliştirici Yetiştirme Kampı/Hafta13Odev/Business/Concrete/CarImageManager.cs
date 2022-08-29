@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using Business.BusinessAspects.Autofac.Business.BusinessAspects.Autofac;
 using Business.Constans;
+using Core.Aspects.Caching;
 using Core.Business;
 using Core.Utilities.Helpers;
 using Core.Utilities.Results;
@@ -23,7 +24,6 @@ namespace Business.Concrete
         {
             _carImageDal = carImageDal;
         }
-
         [SecuredOperation("car.add,admin")]
         public IResult Add(CarImage carImage, IFormFile formFile)
         {
@@ -44,7 +44,6 @@ namespace Business.Concrete
 
             return new SuccessResult(Messages.CarImageAdded);
         }
-
         public IResult Update(CarImage carImage, IFormFile formFile)
         {
             var isImage = _carImageDal.Get(c => c.CarId == carImage.Id);
@@ -75,16 +74,19 @@ namespace Business.Concrete
             return new SuccessResult(Messages.CarImageDeleted);
         }
 
+        [CacheAspect]
         public IDataResult<List<CarImage>> GetAll()
         {
             return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll());
         }
 
+        [CacheAspect]
         public IDataResult<CarImage> GetById(int id)
         {
             return new SuccessDataResult<CarImage>(_carImageDal.Get(c => c.CarId == id));
         }
 
+        [CacheAspect]
         public IDataResult<List<CarImage>> GetByCarId(int carId)
         {
             var result = _carImageDal.GetAll(c => c.CarId == carId);
