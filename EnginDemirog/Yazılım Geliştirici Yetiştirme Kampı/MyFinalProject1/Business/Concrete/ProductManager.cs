@@ -138,5 +138,10 @@ namespace Business.Concrete
             Add(product);
             return null;
         }
+
+        public IResult AddTranscationalTest(Product product)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

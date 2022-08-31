@@ -29,6 +29,11 @@ namespace WebAPI
         {
 
             services.AddControllers();
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowOrigin",
+                    builder => builder.WithOrigins("http://localhost:3000","http://localhost:4200", "http://localhost:54589"));
+            });
             var tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -57,10 +62,16 @@ namespace WebAPI
             {
                 app.UseDeveloperExceptionPage();         
             }
-            app.UseStaticFiles();
+            app.ConfigureCustomExceptionMiddleware();
+
+            app.UseCors(builder => builder.WithOrigins("http://localhost:3000", "http://localhost:4200", "http://localhost:54589").AllowAnyHeader());
+
             app.UseHttpsRedirection();
+
             app.UseRouting();
+
             app.UseAuthentication();
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

@@ -1,12 +1,15 @@
-<!-- Welcome To {{title}}
-Hello: {{user}}
 
-{{product1.productId}}
-<ul> 
-  <li *ngFor="let product of products">{{product.productId}} {{product.productName}} {{product.categoryId}} {{product.unitPrice}}</li>
-</ul>
- -->
- <app-navi></app-navi>
- <app-category></app-category>
-<app-product></app-product>
+ <div class="container">
+<app-navi></app-navi>
+ <div class="row">
+  <div class="col-md-3">
+    <app-category></app-category>
+  </div>
+  <div class="col-md-9">
+    <app-product></app-product>
+  </div>
+ </div>
 <router-outlet></router-outlet>
+
+ </div>
+ 
