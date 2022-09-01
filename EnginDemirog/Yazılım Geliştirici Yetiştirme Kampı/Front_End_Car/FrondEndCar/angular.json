@@ -3,50 +3,53 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "now-ui-dashboard-angular": {
+    "FrondEndCar": {
+      "projectType": "application",
+      "schematics": {},
       "root": "",
       "sourceRoot": "src",
-      "projectType": "application",
+      "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist",
+            "outputPath": "dist/frond-end-car",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "tsConfig": "src/tsconfig.app.json",
             "polyfills": "src/polyfills.ts",
-            "allowedCommonJsDependencies": ["hammerjs", "chart.js"],
+            "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/assets",
-              "src/favicon.ico"
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
-              "node_modules/perfect-scrollbar/css/perfect-scrollbar.css",
-              "node_modules/bootstrap/dist/css/bootstrap.css",
-              "node_modules/ngx-toastr/toastr.css",
-              "src/assets/scss/now-ui-dashboard.scss",
-              "src/assets/demo/demo.css"
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
+              
             ],
-            "scripts": [
-              "node_modules/chart.js/dist/Chart.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
-              "optimization": true,
-              "outputHashing": "all",
-              "sourceMap": false,
-              "namedChunks": false,
-              "extractLicenses": true,
-              "vendorChunk": false,
-              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
                   "with": "src/environments/environment.prod.ts"
                 }
-              ]
+              ],
+              "outputHashing": "all"
             },
             "development": {
               "buildOptimizer": false,
@@ -56,98 +59,48 @@
               "sourceMap": true,
               "namedChunks": true
             }
-          }
+          },
+          "defaultConfiguration": "production"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
-          "options": {
-            "browserTarget": "now-ui-dashboard-angular:build"
-          },
           "configurations": {
             "production": {
-              "browserTarget": "now-ui-dashboard-angular:build:production"
+              "browserTarget": "FrondEndCar:build:production"
             },
             "development": {
-              "browserTarget": "now-ui-dashboard-angular:build:development"
-            },
-            "defaultConfiguration": "development"
-          }
+              "browserTarget": "FrondEndCar:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "now-ui-dashboard-angular:build"
+            "browserTarget": "FrondEndCar:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "main": "src/test.ts",
-            "karmaConfig": "./karma.conf.js",
             "polyfills": "src/polyfills.ts",
-            "tsConfig": "src/tsconfig.spec.json",
-            "scripts": [
-              "node_modules/chart.js/dist/Chart.min.js"
+            "tsConfig": "tsconfig.spec.json",
+            "karmaConfig": "karma.conf.js",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
-              "node_modules/perfect-scrollbar/css/perfect-scrollbar.css",
-              "node_modules/ngx-toastr/toastr.css",
-              "src/assets/scss/now-ui-dashboard.scss",
-              "src/assets/demo/demo.css"
+              "src/styles.css"
             ],
-            "assets": [
-              "src/assets",
-              "src/favicon.ico"
-            ]
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "src/tsconfig.app.json",
-              "src/tsconfig.spec.json"
-            ],
-            "exclude": []
+            "scripts": []
           }
         }
       }
-    },
-    "now-ui-dashboard-angular-e2e": {
-      "root": "e2e",
-      "sourceRoot": "e2e",
-      "projectType": "application",
-      "architect": {
-        "e2e": {
-          "builder": "@angular-devkit/build-angular:protractor",
-          "options": {
-            "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "now-ui-dashboard-angular:serve"
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "e2e/tsconfig.e2e.json"
-            ],
-            "exclude": []
-          }
-        }
-      }
-    }
-  },
-  "defaultProject": "now-ui-dashboard-angular",
-  "schematics": {
-    "@schematics/angular:component": {
-      "prefix": "app",
-      "styleext": "scss"
-    },
-    "@schematics/angular:directive": {
-      "prefix": "app"
     }
   },
   "cli": {
-    "analytics": false
+    "analytics": "da33347f-61bb-413a-aa57-03eb442caefa"
   }
 }
