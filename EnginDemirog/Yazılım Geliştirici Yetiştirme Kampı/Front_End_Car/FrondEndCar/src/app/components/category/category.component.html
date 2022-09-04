@@ -1,8 +1,15 @@
 <ul class="list-group">
-  <li class="list-group-item" *ngFor="let brand of brands">
-    {{brand.brandName}}
+  <li (click)="getAllCategoryClass()" [class]= "getAllCategoryClass()" routerLink="/products" >Tüm Ürünler</li>  
+  <li (click)="setCurrentBrand(brand)" routerLink="/products/category/brand/{{brand.brandId}}"  
+   *ngFor="let brand of brands" [class]= "getCurrentBrandClass(brand)">{{brand.brandName}}
   </li>
-  <li class="list-group-item" *ngFor="let color of colors">
-    {{color.colorName}}
-  </li>
+  <li [class]= "getAllCategoryClass()" routerLink="/products">Tüm Ürünler</li>
+  <li (click)="setCurrentColor(color)" routerLink="/products/category/color/{{color.colorId}}"  
+   *ngFor="let color of colors" [class]= "getCurrentColorClass(color)">{{color.colorName}}
+  </li> 
 </ul>
+<h5 *ngIf="currentBrand"> {{currentBrand.brandName}}</h5> 
+
+ 
+  
+

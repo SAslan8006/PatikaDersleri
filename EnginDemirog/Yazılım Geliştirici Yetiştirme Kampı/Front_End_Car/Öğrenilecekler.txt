@@ -1,0 +1,4 @@
+Brand listesinde herhangi bir marka seçildiğinde, o markaya ait arabaları listeleyiniz.
+Car listesinde bir arabaya tıklandığında o arabaya ait detay sayfası oluşturunuz. Bu sayfada bu araca ait resimleri de gösteriniz.
+
+İlk Olarak fotoğrafların backend kısmında WebAPI içinde wwwroot isminde bir klasörde olması gerekiyor. İkinci olarak yine WebAPI de startup içinde Configure methodunda app.UseStaticFiles(); kodunu eklemen gerekiyor. Son olarak da angularda img'nin src kısmına başında  https://localhost:xxxxx(ApiAdresin) olacak şeklinde apiden gelen carImage nesnesinin imgPath değerini vereceksin.

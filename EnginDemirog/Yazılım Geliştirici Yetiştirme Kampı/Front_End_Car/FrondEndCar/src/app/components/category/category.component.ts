@@ -12,6 +12,8 @@ import { ColorService } from 'src/app/services/color.service';
 export class CategoryComponent implements OnInit {
   brands:Brand[]=[];
   colors:Color[]=[];
+  currentBrand :Brand;
+  currentColor:Color;
   dataLoaded=false;
   constructor(private brandService:BrandService,private colorService:ColorService) { }
   ngOnInit(): void {
@@ -23,17 +25,51 @@ export class CategoryComponent implements OnInit {
   
     this.brandService.getBrands().subscribe(response=>{
       this.brands=response.data
-      this.dataLoaded=true;
-      //console.log(response.data);
-      //debugger;
+      this.dataLoaded=true;     
      })
   }
-  getColors(){
   
+  getColors(){  
     this.colorService.getColors().subscribe(response=>{
       this.colors=response.data
       this.dataLoaded=true;
     })     
   }
 
+  setCurrentBrand(brand:Brand){
+    this.currentBrand=brand;
+  }
+  setCurrentColor(color:Color){
+    this.currentColor=color;
+  }
+
+  getCurrentColorClass(color:Color){
+    if(color==this.currentColor){
+      return "list-group-item active";
+    }else
+    {
+      return "list-group-item";
+    }
+  }
+
+  getCurrentBrandClass(brand:Brand){
+    if(brand==this.currentBrand){
+      return "list-group-item active";
+    }else
+    {
+      return "list-group-item";
+    }
+  }
+
+  
+  getAllCategoryClass(){
+    if(!this.currentBrand){
+      return "list-group-item active";
+    }else
+    {
+      return "list-group-item";
+    }
+  }
+
 }
+

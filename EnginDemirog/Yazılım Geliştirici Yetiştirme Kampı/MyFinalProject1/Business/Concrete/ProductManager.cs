@@ -53,7 +53,7 @@ namespace Business.Concrete
         //key,value
         public IDataResult<List<Product>> GetAll()
         {
-            if (DateTime.Now.Hour == 22)
+            if (DateTime.Now.Hour == 02)
             {
                 return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }
