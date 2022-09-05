@@ -1,0 +1,56 @@
+Pipe ' lar veriyi farklı formatta göstermek için kullanılan bir tekniktir. 
+Uppercase Pipe => Veriyi büyük harfe dönüştürmek için kullanılır.
+Lowercase Pipe => Veriyi küçük harfe dönüştürmek için kullanılır.
+Titlecase Pipe => Verinin baş harflerini büyük harfe dönüştürmek için kullanılır.
+Date Pipe => Herhangi bir tarih nesnesini dönüştürmek için kullanılır.
+Decimal Pipe => Bir sayıyı biçimlendirilmiş, ondalık noktalı bir dizeye dönüştürür.
+Currency Pipe => Sayıyı para birimi olarak biçimlendirmek için kullanılır.
+Percent Pipe => Sayıyı yüzde olarak biçimlendirmek için kullanılır.
+Slice Pipe => Dizinin veya dizenin bir kısmını dilimlemek istediğinizde çok kullanılır.
+Json Pipe => Veriyi json olarak döndürmek için kullanılır.
+
+date: Tarihsel veriler üzerinde formatlandırma çalışmaları için kullanılar bir filtredir.
+
+Örnek Date: 
+{{tarih}} Tarihi bu şekilde direk verirsek pipe kullanamdan  “Tue May 01 2018 15:49:30 GMT+0300 (Türkiye Standart Saati)” böyle bir sonuçla karşılaşırız 
+
+	
+{{today | date}} pipe kullanırsak May 1, 2018 şeklinde sonuç alırız
+
+NOT: | işareti pipe kullanmamızı sağlıyor
+{{ today | date : "MM/dd/yy" }} formatını değiştirirsek 05.01.18 şeklinde tarihin gözüktüğnüü görürüz
+
+	
+{{ today | date : "shortDate"  }} SONUÇ : 5/1/18
+
+	
+{{ today | date : "fullDate"  }} SONUÇ :“Tuesday, May 1, 2018 “
+
+------------
+uppercase
+
+{{ad | uppercase}} ad değerinin bütün harflerini büyük harfe dönüştürür.
+------------
+{{ad | lowercase}} ad değerinin bütün harflerini küçük harfe dönüştürür.
+
+currency
+{{price | currency}} Sayısal değerleri para birimine çevirir örneğin price : number'ın değeri 1000 olsun currency pipe özelliğini kulalnırsak $1000 şeklinde sonuç alırız.
+{{price | currency:'TL'}} Eğer para birimini kendimiz belirlemek istersek bu şekilde kullanabiliriz.
+
+percent : Saısal değerleri yüzdelik olarak göstermemizi sağlar.
+
+json: {{car | json}} json pipe özelliği bir objenin json formatında ekran da gösterir. Postman deki json formatındaki gibi düşünebiliriz ekrana gelen görüntüyü.
+
+titlecase : {{merhaba dünya | titlecase}} verilen değeri başlık düzenine çevirmeye yarar çıkan sonuç :"Merhaba Dünya" şeklinde olur.
+
+slice : {{merhaba | slice:2:7}} değeri kesmeye yarar sonuç : "rhaba" şeklinde olur.
+
+Pipe Türkçe’leştirme
+app.module.ts içerisine
+
+import { registerLocaleData } from '@angular/common';
+import localeTr from '@angular/common/locales/tr';
+registerLocaleData(localeTr, 'tr');
+ekledikten sonra artık şu şekilde DatePipe için kullanabiliriz.
+
+{{ value | date:'EEEE':null:'tr'}}

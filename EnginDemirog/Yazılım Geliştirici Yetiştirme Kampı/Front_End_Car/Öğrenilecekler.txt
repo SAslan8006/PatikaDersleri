@@ -2,3 +2,18 @@ Brand listesinde herhangi bir marka seçildiğinde, o markaya ait arabaları lis
 Car listesinde bir arabaya tıklandığında o arabaya ait detay sayfası oluşturunuz. Bu sayfada bu araca ait resimleri de gösteriniz.
 
 İlk Olarak fotoğrafların backend kısmında WebAPI içinde wwwroot isminde bir klasörde olması gerekiyor. İkinci olarak yine WebAPI de startup içinde Configure methodunda app.UseStaticFiles(); kodunu eklemen gerekiyor. Son olarak da angularda img'nin src kısmına başında  https://localhost:xxxxx(ApiAdresin) olacak şeklinde apiden gelen carImage nesnesinin imgPath değerini vereceksin.
+
+JavaScript map,filter,reduce fonksiyonlarını araştırınız.
+
+RentACar projenizde,
+
+Car, Brand, Color için pipe ile arama desteği ekleyiniz.
+Car sayfasına 2 adet açılır kutu ekleyiniz. Html-Select Option. Bu açılır kutularda sırasıyla Marka ve Renk listeleyiniz.
+Açılır kutuların yanına "Filtrele" butonu ekleyiniz.
+Filtrele butonuna tıklandığında apiden ilgili filtreye uygun arabaları listeleyiniz.
+Araba detay sayfasında "Kirala" butonu ekleyiniz. Bu aracı kiralayabilecek sistemi yazınız. Araba hali hazırda başkası tarafından seçilen tarih aralığında kiralanmışsa, kiralama işlemi yapmayınız.
+Kiralama işleminde tarihler seçildikten sonra, yeni bir sayfada kredi kartıyla ödeme desteği getiriniz.
+Ödeme işlemi için api'de sahte bir banka servisi yazınız.
+Tüm işlemler için Toastr desteği ekleyiniz.
+Github adresinizi ekleyiniz.
+Size güveniyorum. Yapacaksınız.

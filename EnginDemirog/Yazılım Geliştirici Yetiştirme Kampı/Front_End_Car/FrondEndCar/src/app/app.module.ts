@@ -8,6 +8,7 @@ import { ProductComponent } from './components/product/product.component';
 import { CategoryComponent } from './components/category/category.component';
 import { NaviComponent } from './components/navi/navi.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FilterPipePipe } from './filter-pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FooterComponent } from './components/footer/footer.component';
     ProductComponent,
     CategoryComponent,
     NaviComponent,
-    FooterComponent
+    FooterComponent,
+    FilterPipePipe
   ],
   imports: [
     BrowserModule,

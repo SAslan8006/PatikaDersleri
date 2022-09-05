@@ -1,0 +1,65 @@
+Filter Fonksiyonu 
+Linq Lambda sorgusu olarak düşünebiliriz foreach gibi döner belirttiğimiz koşula uyan veriyi getirir kısacası filtreleme işlemi yapar.
+Filter sonucu yeni bir arraye atar arka tarafta indexof bulamaz ise -1 bulur ise bulduğu yerin başlangıç indexini verir.
+-1 durumu ile ilgili Açıklama Yetersiz ise (18 Gün 1:06:37) bakabilirsin
+
+Javascript Map Nedir?
+Map fonksiyonu gönderdiğimiz array dizisindeki index elemanları ile ilgili işlem gerçekleştirerek yeni bir dizi oluşturur var olan diziyle ilgili herhangi bir işlem yapmaz onun elemanları ile ilgili işlem yapar.
+
+Array fonksiyonu : array.map( function(value, index, arr), this) 
+array --> üzerinde işlem yapılacak olan arrayi belirtiyoruz 
+index --> mevcut elemanın indeksini tutar.
+value --> o anda üzerinde işlem yapılan dizi değerini belirtir.
+arr --> üzerinde işlem yapılan diziye erişim için kullanılır
+
+Örnek: var sayilar = [1,2,3,4];
+
+var yeniDizi = sayilar.map(function(deger){
+	return deger*5;
+});
+sayilar.map diyerek arrayimizi belirttik function(deger) ile value yani dizinin değerlerini belirttik.
+
+var sayilar = [1,2,3,4];
+
+var yeniDizi = sayilar.map(function(deger,index)
+
+ return deger * index
+});
+sayilar dizisindeki index numarası ile değerlerini çarptık
+
+Reduce Nedir ?
+Reduce: Verilen array dizisinin tüm elemanları üzerinde çalışır ve tek bir sonuç döner. Genel olarak dizinin en yüksek değerli elemanı alma, elemanların toplamını bulma, array dizisndeki aynı değerden kaç tane var bulma
+
+Map => Mevcut bir diziyi istediğimiz başka bir diziye dönüştürür. Rental dizisindeki verilerden sadece BrandId olanların olduğu bir dizi gibi. 
+Kullanım örneği: 
+Söz Dizimi:
+var new_array = arr.map(function callback(currentValue[, index[, array]]) {
+    // Return element for new_array
+}[, thisArg])
+
+Kaynak: https://thrkardak.medium.com/javascript-map-reduce-ve-filter-b%C3%B6l%C3%BCm-1-bfc7cd18f1e
+--------------------------------------------------------------------------------------------------------------------
+
+Filter=> Orijinal dizinin ögelerini içeren bir alt dizi oluşturur. 
+Örnek Kullanım: function sayi(yil) {
+  return yil >= 2000;
+}
+
+var yil = [1990, 2000, 2016, 1985, 2021].filter(sayi);
+
+console.log(yil);
+
+Kaynak: https://www.webcebir.com/389-javascript-map-reduce-ve-filter-kullanimi-dersi.html">https://www.webcebir.com/389-javascript-map-reduce-ve-filter-kullanimi-dersi.html
+--------------------------------------------------------------------------------------------------------------------
+
+Reduce=> Genellikle matematik ifadeleri ve denklemler gibi şeyleri gerçekleştirmek için kullanılır. Örneğin bir sayı dizisinin toplamını hesaplamak için.
+Örnek kullanım:
+var numbers = [300, 75, 25];
+
+function test(total, num) {
+  return total - num;
+}
+
+console.log(numbers.reduce(test)); // 200
+
+Kaynak: https://www.webcebir.com/389-javascript-map-reduce-ve-filter-kullanimi-dersi.html">https://www.webcebir.com/389-javascript-map-reduce-ve-filter-kullanimi-dersi.html
