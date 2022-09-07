@@ -1,0 +1,14 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\ConsoleUI\bin\Debug\netcoreapp3.1\ConsoleUI.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\ConsoleUI\bin\Debug\netcoreapp3.1\ConsoleUI.deps.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\ConsoleUI\bin\Debug\netcoreapp3.1\ConsoleUI.runtimeconfig.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\ConsoleUI\bin\Debug\netcoreapp3.1\ConsoleUI.runtimeconfig.dev.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\ConsoleUI\bin\Debug\netcoreapp3.1\ConsoleUI.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\ConsoleUI\bin\Debug\netcoreapp3.1\ConsoleUI.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.AssemblyInfoInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.AssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.genruntimeconfig.cache

@@ -42,6 +42,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.CarDeleted);
         }
 
+        [CacheRemoveAspect("ICarService.Get")]
         public IDataResult<List<Car>> GetAll()
         {
             if (DateTime.Now.Hour == 02)
@@ -49,8 +50,9 @@ namespace Business.Concrete
                 return new ErrorDataResult<List<Car>>(Messages.MaintenanceTime);
             }
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(),Messages.CarsListed);
-        }       
+        }
 
+        [CacheRemoveAspect("ICarService.Get")]
         public IDataResult<List<Car>> GetAllById(int id)
         {
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(p => p.CarId == id),Messages.CarsListed);

@@ -1,0 +1,15 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\DataAccess\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\DataAccess\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\DataAccess\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\DataAccess\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb

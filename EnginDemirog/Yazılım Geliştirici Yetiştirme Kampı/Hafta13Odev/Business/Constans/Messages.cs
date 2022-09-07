@@ -47,7 +47,6 @@ namespace Business.Constans
         public static string CarImagesListed = "Araba resimleri listelendi";
         public static string CarImageDeleted = "Araba resmi silindi";
         public static string CarImageAdded = "Araba resmi eklendi";
-
         public static string ImageAdded = "Fotoğraf Eklendi!";
         public static string ImageDeleted = "Fotoğraf Silindi!";
         public static string ImageUpdated = "Fotoğraf Güncellendi!";
