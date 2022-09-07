@@ -18,7 +18,7 @@ namespace Business.Abstract
         IDataResult<List<OrderDetailDto>> GetOrderDetailsUserId(int userId);
         IDataResult<List<OrderDetailDto>> GetOrderDetailsBookId(int bookId);
         IDataResult<List<OrderDetailDto>> GetOrderDetailCargoId(int cargoId);
-
+        IDataResult<List<OrderDetailDto>> GetOrderDetailsIsbnNo(string isbnNo);
 
 
     }

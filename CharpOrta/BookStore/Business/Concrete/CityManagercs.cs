@@ -14,11 +14,11 @@ using System.Text;
 
 namespace Business.Concrete
 {
-    public class CityManagercs : ICityService
+    public class CityManager : ICityService
     {
         ICityDal _cityDal;
 
-        public CityManagercs(ICityDal cityDal)
+        public CityManager(ICityDal cityDal)
         {
             _cityDal = cityDal;
         }

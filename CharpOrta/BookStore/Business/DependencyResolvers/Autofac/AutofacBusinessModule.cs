@@ -17,26 +17,29 @@ namespace Business.DependencyResolvers.Autofac
     {
         protected override void Load(ContainerBuilder builder)
         {
-            //builder.RegisterType<ProductManager>().As<IProductService>().SingleInstance();
-            //builder.RegisterType<EfProductDal>().As<IProductDal>().SingleInstance();
+            builder.RegisterType<OrderManager>().As<IOrderService>().SingleInstance();
+            builder.RegisterType<EfOrderDal>().As<IOrderDal>().SingleInstance();
 
-            //builder.RegisterType<RentalManager>().As<IRentalService>().SingleInstance();
-            //builder.RegisterType<EfRentalDal>().As<IRentalDal>().SingleInstance();
+            builder.RegisterType<LaungageManager>().As<ILaungageService>().SingleInstance();
+            builder.RegisterType<EfLaungageDal>().As<ILaungageDal>().SingleInstance();
+
+            builder.RegisterType<CountyManager>().As<ICountyService>().SingleInstance();
+            builder.RegisterType<EfCountyDal>().As<ICountyDal>().SingleInstance();
 
             builder.RegisterType<UserManager>().As<IUserService>().SingleInstance();
             builder.RegisterType<EfUserDal>().As<IUserDal>().SingleInstance();
 
-            //builder.RegisterType<CustomerManager>().As<ICustomerService>().SingleInstance();
-            //builder.RegisterType<EfCustomerDal>().As<ICustomerDal>().SingleInstance();
+            builder.RegisterType<CityManager>().As<ICityService>().SingleInstance();
+            builder.RegisterType<EfCityDal>().As<ICityDal>().SingleInstance();
 
-            //builder.RegisterType<ColorManager>().As<IColorService>().SingleInstance();
-            //builder.RegisterType<EfColorDal>().As<IColorDal>().SingleInstance();
+            builder.RegisterType<CargoManager>().As<ICargoService>().SingleInstance();
+            builder.RegisterType<EfCargoDal>().As<ICargoDal>().SingleInstance();
 
-            //builder.RegisterType<CarManager>().As<ICarService>().SingleInstance();
-            //builder.RegisterType<EfCarDal>().As<ICarDal>().SingleInstance();
+            builder.RegisterType<BookManager>().As<IBookService>().SingleInstance();
+            builder.RegisterType<EfBookDal>().As<IBookDal>().SingleInstance();
 
-            //builder.RegisterType<BrandManager>().As<IBrandService>().SingleInstance();
-            //builder.RegisterType<EfBrandDal>().As<IBrandDal>().SingleInstance();
+            builder.RegisterType<AuthorManager>().As<IAuthorService>().SingleInstance();
+            builder.RegisterType<EfAuthorDal>().As<IAuthorDal>().SingleInstance();
 
             builder.RegisterType<BookImageManager>().As<IBookImageService>().SingleInstance();
             builder.RegisterType<EfBookImageDal>().As<IBookImageDal>().SingleInstance();

@@ -59,18 +59,20 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<Order>(_orderdal.Get(p => p.Id == Id), Messages.Listed);
 
-        }        
+        }
+
+        public IDataResult<List<OrderDetailDto>> GetOrderDetails()
+        {
+            return new SuccessDataResult<List<OrderDetailDto>>(_orderdal.GetOrderDetails(), Messages.Listed);
+
+        }
 
         public IDataResult<List<OrderDetailDto>> GetOrderDetailCargoId(int cargoId)
         {
             return new SuccessDataResult<List<OrderDetailDto>>(_orderdal.GetOrderDetails(c => c.CargoId == cargoId), Messages.Listed);
         }
                 
-        public IDataResult<List<OrderDetailDto>> GetOrderDetails()
-        {
-            return new SuccessDataResult<List<OrderDetailDto>>(_orderdal.GetOrderDetails(), Messages.Listed);
-
-        }
+       
 
         public IDataResult<List<OrderDetailDto>> GetOrderDetailsBookId(int bookId)
         {
@@ -80,6 +82,11 @@ namespace Business.Concrete
         public IDataResult<List<OrderDetailDto>> GetOrderDetailsUserId(int userId)
         {
             return new SuccessDataResult<List<OrderDetailDto>>(_orderdal.GetOrderDetails(c => c.UserId == userId), Messages.Listed);
+        }
+
+        public IDataResult<List<OrderDetailDto>> GetOrderDetailsIsbnNo(string isbnNo)
+        {
+            return new SuccessDataResult<List<OrderDetailDto>>(_orderdal.GetOrderDetails(c => c.IsbnNo == isbnNo), Messages.Listed);
         }
 
         [CacheAspect]

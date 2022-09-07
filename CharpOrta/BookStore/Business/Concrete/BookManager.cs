@@ -57,10 +57,12 @@ namespace Business.Concrete
 
         }
 
-        public IDataResult<List<BookDetailDto>> GetBookDetailCargoId(int cargoId)
+        [CacheAspect]
+        [PerformanceAspect(5)]
+        public IResult Update(Book book)
         {
-            return new SuccessDataResult<List<BookDetailDto>>(_bookDal.GetBookDetails(c => c.CargoId == cargoId), Messages.Listed);
-
+            _bookDal.Update(book);
+            return new SuccessResult(Messages.Updated);
         }
 
         public IDataResult<List<BookDetailDto>> GetBookDetails()
@@ -68,6 +70,12 @@ namespace Business.Concrete
             return new SuccessDataResult<List<BookDetailDto>>(_bookDal.GetBookDetails());
 
         }
+
+        public IDataResult<List<BookDetailDto>> GetBookDetailCargoId(int cargoId)
+        {
+            return new SuccessDataResult<List<BookDetailDto>>(_bookDal.GetBookDetails(c => c.CargoId == cargoId), Messages.Listed);
+
+        }              
 
         public IDataResult<List<BookDetailDto>> GetBookDetailsByAuthor(int AuthorId)
         {
@@ -89,12 +97,6 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Book>>(_bookDal.GetAll(p => p.Price <= max && p.Price >= min));
 
         }
-        [CacheAspect]
-        [PerformanceAspect(5)]
-        public IResult Update(Book book)
-        {
-            _bookDal.Update(book);
-            return new SuccessResult(Messages.Updated);
-        }
+        
     }
 }

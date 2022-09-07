@@ -9,7 +9,7 @@ using System.Linq.Expressions;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfOrdeDal : EfEntityRepositoryBase<Order, BookDbContext>, IOrderDal
+    public class EfOrderDal : EfEntityRepositoryBase<Order, BookDbContext>, IOrderDal
     {
        
         public List<OrderDetailDto> GetOrderDetails(Expression<Func<OrderDetailDto, bool>> filter = null)
