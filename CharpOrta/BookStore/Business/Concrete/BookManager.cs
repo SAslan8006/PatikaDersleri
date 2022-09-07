@@ -89,7 +89,8 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Book>>(_bookDal.GetAll(p => p.Price <= max && p.Price >= min));
 
         }
-
+        [CacheAspect]
+        [PerformanceAspect(5)]
         public IResult Update(Book book)
         {
             _bookDal.Update(book);

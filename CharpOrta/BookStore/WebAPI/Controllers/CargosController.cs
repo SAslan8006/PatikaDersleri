@@ -1,25 +1,24 @@
 ﻿using Business.Abstract;
 using Entities.Concrete;
 using Microsoft.AspNetCore.Mvc;
-using System.Drawing;
 
 namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthorsController : ControllerBase
+    public class CargosController : ControllerBase
     {
-        IAuthorService _authorService;
+        ICargoService _cargoService;
 
-        public AuthorsController(IAuthorService authorService)
+        public CargosController(ICargoService cargoService)
         {
-            _authorService = authorService;
+            _cargoService = cargoService;
         }
 
         [HttpGet("getall")]
         public IActionResult GetAll()
         {
-            var result = _authorService.GetAll();
+            var result = _cargoService.GetAll();
             if (result.Success)
             {
                 return Ok(result);
@@ -28,9 +27,9 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("getbyname")]
-        public IActionResult GetByName(string name)
+        public IActionResult GetByName(string cargo)
         {
-            var result = _authorService.GetByName(name);
+            var result = _cargoService.GetByName(cargo);
             if (result.Success)
             {
                 return Ok(result);
@@ -39,9 +38,9 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("add")]
-        public IActionResult Add(Author author)
+        public IActionResult Add(Cargo cargo)
         {
-            var result = _authorService.Add(author);
+            var result = _cargoService.Add(cargo);
             if (result.Success)
             {
                 return Ok(result);
@@ -50,9 +49,9 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("update")]
-        public IActionResult Update(Author author)
+        public IActionResult Update(Cargo cargo)
         {
-            var result = _authorService.Update(author);
+            var result = _cargoService.Update(cargo);
             if (result.Success)
             {
                 return Ok(result);
@@ -61,9 +60,9 @@ namespace WebAPI.Controllers
         }
 
         [HttpDelete("delete")]
-        public IActionResult Delete(Author author)
+        public IActionResult Delete(Cargo cargo)
         {
-            var result = _authorService.Delete(author);
+            var result = _cargoService.Delete(cargo);
             if (result.Success)
             {
                 return Ok(result);

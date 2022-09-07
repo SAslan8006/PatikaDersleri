@@ -23,8 +23,8 @@ namespace Business.Concrete
             _cargoDal = cargoDal;
         }
 
-        [CacheRemoveAspect("IAuthorService.Get")]
-        [ValidationAspect(typeof(AuthorValidator))]
+        [CacheRemoveAspect("ICargoService.Get")]
+        [ValidationAspect(typeof(CargoValidator))]
         public IResult Add(Cargo entiti)
         {
             _cargoDal.Add(entiti);

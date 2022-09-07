@@ -29,15 +29,20 @@ namespace DataAccess.Concrete.EntityFramework
                              select new OrderDetailDto
                              { 
                                  UserId=p.UserId,
+                                 BookId=p.BookId,
                                  BookName=c.BookName,
+                                 AuthorId = c.AuthorId,
                                  AuthorName = h.AuthorLastName + " " + h.AuthorLastName,
+                                 PublisherId=c.PublisherId,
                                  PublisherName = d.PublisherName, 
                                  PageNumber = c.PageNumber,
                                  Price = c.Price,
                                  IsbnNo = c.IsbnNo,
                                  About = c.About,
                                  Stock = c.Stock,
+                                 CargoId = c.CargoId,
                                  CargoName = e.CargoName,
+                                 BookLanguageId = c.BookLanguageId,
                                  BookLaungage = b.BookLaungage,
                                  FirstName=k.FirstName,
                                  LastName=k.LastName
