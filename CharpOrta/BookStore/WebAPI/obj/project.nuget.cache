@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vacQF1zCZd+9N1TeDDQeghLn0J4SXdZMBDVkYSUhkijCtFtsKNlBeSptQBh1wGUbAMghKyBJGFgNkbLf+C++QQ==",
+  "dgSpecHash": "kR5/mGWUIPG/Ryz8ZS/KioSY/FzGWMyJw8gkR/i2ygAAgBytN3pYnkaM4tZNpUQCVMpPt/1bFPoRCx/nbnbR8Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\CharpOrta\\BookStore\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\HaticeNur\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\log4net\\2.0.15\\log4net.2.0.15.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.28\\microsoft.aspnetcore.authentication.jwtbearer.3.1.28.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",

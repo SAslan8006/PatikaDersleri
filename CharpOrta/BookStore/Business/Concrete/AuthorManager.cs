@@ -47,9 +47,9 @@ namespace Business.Concrete
         }
 
 
-        public IDataResult<List<Author>> GetAllByName(string name)
+        public IDataResult<Author> GetByName(string name)
         {
-            return new SuccessDataResult<List<Author>>(_authorDal.GetAll(p => p.AuthorFirstName == name), Messages.Listed);
+            return new SuccessDataResult<Author>(_authorDal.Get(p => p.AuthorFirstName == name), Messages.Listed);
 
         }
 

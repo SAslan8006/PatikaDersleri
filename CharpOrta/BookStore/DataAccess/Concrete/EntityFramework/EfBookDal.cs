@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Linq;
 using System;
+using System.Security.Policy;
 
 namespace DataAccess.Concrete.EntityFramework
 {
@@ -25,14 +26,18 @@ namespace DataAccess.Concrete.EntityFramework
                              {
                                 Id=p.Id,
                                 BookName=p.BookName,
-                                AuthorName=c.AuthorLastName +" "+c.AuthorLastName,
-                                PublisherName=d.PublisherName,
+                                AuthorId=p.AuthorId,
+                                AuthorName =c.AuthorLastName +" "+c.AuthorLastName,
+                                PublisherId=p.PublisherId,
+                                PublisherName =d.PublisherName,
                                 PageNumber=p.PageNumber,
                                 Price=p.Price,
                                 IsbnNo=p.IsbnNo,
                                 About=p.About,
                                 Stock=p.Stock,
-                                CargoName=e.CargoName,
+                                CargoId=p.CargoId,
+                                CargoName =e.CargoName,
+                                BookLanguageId=p.BookLanguageId,
                                 BookLaungage=f.BookLaungage,
                                 BookImages = (from i in context.BookImages
                                               where p.Id == i.Id
