@@ -1,0 +1,15 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\BusnisessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\BusnisessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\BusnisessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\BusnisessTest\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\BusnisessTest\bin\Debug\BusnisessTest.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\BusnisessTest\bin\Debug\BusnisessTest.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\BusnisessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\BusnisessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\BusnisessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\BusnisessTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\BusnisessTest\obj\Debug\BusnisessTest.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\BusnisessTest\obj\Debug\BusnisessTest.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\BusnisessTest\obj\Debug\BusnisessTest.csproj.CopyComplete
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\BusnisessTest\obj\Debug\BusnisessTest.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\BusnisessTest\obj\Debug\BusnisessTest.pdb

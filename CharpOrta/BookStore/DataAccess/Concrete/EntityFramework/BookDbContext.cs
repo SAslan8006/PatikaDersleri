@@ -26,8 +26,5 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<Order> Orders { get; set; }
         public DbSet<BookImage> BookImages { get; set; }
 
-
-
-
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\Nortwind\Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\Nortwind\Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\Nortwind\Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\Nortwind\Business.Test\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\Nortwind\Business.Test\bin\Debug\Business.Test.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\Nortwind\Business.Test\bin\Debug\Business.Test.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\Nortwind\Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\Nortwind\Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\Nortwind\Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\Nortwind\Business.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\Nortwind\Business.Test\obj\Debug\Business.Test.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\Nortwind\Business.Test\obj\Debug\Business.Test.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\Nortwind\Business.Test\obj\Debug\Business.Test.csproj.CopyComplete
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\Nortwind\Business.Test\obj\Debug\Business.Test.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\Nortwind\Business.Test\obj\Debug\Business.Test.pdb

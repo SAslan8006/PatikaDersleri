@@ -153,6 +153,10 @@
               "target": "Package",
               "version": "[6.0.1, )"
             },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.2.1, )"
@@ -172,6 +176,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.27, )"
+            },
+            "NHibernate": {
+              "target": "Package",
+              "version": "[5.3.13, )"
             },
             "log4net": {
               "target": "Package",

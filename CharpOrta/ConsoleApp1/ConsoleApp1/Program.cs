@@ -61,7 +61,7 @@ namespace ConsoleApp1
                     str = ansStr;
                     newAns = ansStr.Length;
                 }
-
+ 
                 return newAns;
             }
         }

@@ -3,7 +3,42 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{A6A176E3-2FBE-47CC-A78D-8F647C7EE6B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{DCCAC45A-199E-4164-999A-AC240D5222DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{BBC59185-ED83-405E-B895-CD0DBF5550E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{7F60607E-85D6-411A-B439-B1908328E199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{AF75D6EE-7607-4324-9F0A-F32CA510E420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMvc", "WebMvc\WebMvc.csproj", "{895DF8D1-4B06-401B-A51D-046B52CBBD02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTests", "Tests\DataTests.csproj", "{C236845A-C2C6-47AA-B113-1B60B1A70699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusnisessTest", "BusnisessTest\BusnisessTest.csproj", "{7E954A36-B359-4B7C-873D-1C1646522298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{C8A88BAE-6372-483E-BFCF-E57D4FAF17E6}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WctServices", "WctServices\", "{18CB158E-3B13-4B97-B083-E6D3CDAB02BF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61882"
+		Debug.AspNetCompiler.PhysicalPath = "WctServices\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61882\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61882"
+		Release.AspNetCompiler.PhysicalPath = "WctServices\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61882\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61882"
+		SlnRelativePath = "WctServices\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +46,42 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A6A176E3-2FBE-47CC-A78D-8F647C7EE6B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6A176E3-2FBE-47CC-A78D-8F647C7EE6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6A176E3-2FBE-47CC-A78D-8F647C7EE6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A6A176E3-2FBE-47CC-A78D-8F647C7EE6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCCAC45A-199E-4164-999A-AC240D5222DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCCAC45A-199E-4164-999A-AC240D5222DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCCAC45A-199E-4164-999A-AC240D5222DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCCAC45A-199E-4164-999A-AC240D5222DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBC59185-ED83-405E-B895-CD0DBF5550E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC59185-ED83-405E-B895-CD0DBF5550E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC59185-ED83-405E-B895-CD0DBF5550E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC59185-ED83-405E-B895-CD0DBF5550E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F60607E-85D6-411A-B439-B1908328E199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F60607E-85D6-411A-B439-B1908328E199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F60607E-85D6-411A-B439-B1908328E199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F60607E-85D6-411A-B439-B1908328E199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF75D6EE-7607-4324-9F0A-F32CA510E420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF75D6EE-7607-4324-9F0A-F32CA510E420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF75D6EE-7607-4324-9F0A-F32CA510E420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF75D6EE-7607-4324-9F0A-F32CA510E420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895DF8D1-4B06-401B-A51D-046B52CBBD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895DF8D1-4B06-401B-A51D-046B52CBBD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895DF8D1-4B06-401B-A51D-046B52CBBD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895DF8D1-4B06-401B-A51D-046B52CBBD02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C236845A-C2C6-47AA-B113-1B60B1A70699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C236845A-C2C6-47AA-B113-1B60B1A70699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C236845A-C2C6-47AA-B113-1B60B1A70699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C236845A-C2C6-47AA-B113-1B60B1A70699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E954A36-B359-4B7C-873D-1C1646522298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E954A36-B359-4B7C-873D-1C1646522298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E954A36-B359-4B7C-873D-1C1646522298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E954A36-B359-4B7C-873D-1C1646522298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A88BAE-6372-483E-BFCF-E57D4FAF17E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A88BAE-6372-483E-BFCF-E57D4FAF17E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A88BAE-6372-483E-BFCF-E57D4FAF17E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A88BAE-6372-483E-BFCF-E57D4FAF17E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18CB158E-3B13-4B97-B083-E6D3CDAB02BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CB158E-3B13-4B97-B083-E6D3CDAB02BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CB158E-3B13-4B97-B083-E6D3CDAB02BF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CB158E-3B13-4B97-B083-E6D3CDAB02BF}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\Tests\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\Tests\bin\Debug\Tests.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\Tests\bin\Debug\Tests.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\Tests\obj\Debug\DataTests.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\Tests\obj\Debug\DataTests.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\Tests\obj\Debug\DataTests.csproj.CopyComplete
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\Tests\obj\Debug\Tests.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\ConsoleApp1\Tests\obj\Debug\Tests.pdb
