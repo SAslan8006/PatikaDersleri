@@ -1,0 +1,15 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Core\Eticaret.Application\bin\Debug\net6.0\ETicaret.Application.deps.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Core\Eticaret.Application\bin\Debug\net6.0\ETicaret.Application.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Core\Eticaret.Application\bin\Debug\net6.0\ETicaret.Application.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Core\Eticaret.Application\bin\Debug\net6.0\Eticaret.Domain.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Core\Eticaret.Application\bin\Debug\net6.0\Eticaret.Domain.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Core\Eticaret.Application\obj\Debug\net6.0\ETicaret.Application.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Core\Eticaret.Application\obj\Debug\net6.0\ETicaret.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Core\Eticaret.Application\obj\Debug\net6.0\ETicaret.Application.AssemblyInfoInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Core\Eticaret.Application\obj\Debug\net6.0\ETicaret.Application.AssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Core\Eticaret.Application\obj\Debug\net6.0\ETicaret.Application.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Core\Eticaret.Application\obj\Debug\net6.0\ETicaret.Application.csproj.CopyComplete
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Core\Eticaret.Application\obj\Debug\net6.0\ETicaret.Application.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Core\Eticaret.Application\obj\Debug\net6.0\refint\ETicaret.Application.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Core\Eticaret.Application\obj\Debug\net6.0\ETicaret.Application.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Core\Eticaret.Application\obj\Debug\net6.0\ref\ETicaret.Application.dll

@@ -1,0 +1,5 @@
+PostgreSQL Docker : 
+--> docker run --name PostgreSQL -p 5432:5432 -e POSTGRES_PASSWORD=123456 -d postgres
+
+EF Core Tools Install :
+--> dotnet tool install --global dotnet-ef

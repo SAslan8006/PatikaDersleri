@@ -1,0 +1,17 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Infrastructure\bin\Debug\net6.0\ETicaret.Infrastructure.deps.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Infrastructure\bin\Debug\net6.0\ETicaret.Infrastructure.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Infrastructure\bin\Debug\net6.0\ETicaret.Infrastructure.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Infrastructure\bin\Debug\net6.0\ETicaret.Application.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Infrastructure\bin\Debug\net6.0\ETicaret.Domain.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Infrastructure\bin\Debug\net6.0\ETicaret.Application.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Infrastructure\bin\Debug\net6.0\ETicaret.Domain.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Infrastructure\obj\Debug\net6.0\ETicaret.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Infrastructure\obj\Debug\net6.0\ETicaret.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Infrastructure\obj\Debug\net6.0\ETicaret.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Infrastructure\obj\Debug\net6.0\ETicaret.Infrastructure.AssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Infrastructure\obj\Debug\net6.0\ETicaret.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Infrastructure\obj\Debug\net6.0\ETicaret.Infrastructure.csproj.CopyComplete
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Infrastructure\obj\Debug\net6.0\ETicaret.Infrastructure.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Infrastructure\obj\Debug\net6.0\refint\ETicaret.Infrastructure.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Infrastructure\obj\Debug\net6.0\ETicaret.Infrastructure.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Infrastructure\obj\Debug\net6.0\ref\ETicaret.Infrastructure.dll
