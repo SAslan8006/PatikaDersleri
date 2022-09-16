@@ -1,0 +1,102 @@
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\appsettings.Development.json
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\appsettings.json
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Webapi.exe
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Webapi.deps.json
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Webapi.runtimeconfig.json
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Webapi.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Webapi.pdb
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\AutoMapper.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\FluentValidation.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\System.Collections.Immutable.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\obj\Debug\net6.0\Webapi.csproj.AssemblyReference.cache
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\obj\Debug\net6.0\Webapi.GeneratedMSBuildEditorConfig.editorconfig
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\obj\Debug\net6.0\Webapi.AssemblyInfoInputs.cache
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\obj\Debug\net6.0\Webapi.AssemblyInfo.cs
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\obj\Debug\net6.0\Webapi.csproj.CoreCompileInputs.cache
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\obj\Debug\net6.0\Webapi.MvcApplicationPartsAssemblyInfo.cs
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\obj\Debug\net6.0\Webapi.MvcApplicationPartsAssemblyInfo.cache
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\obj\Debug\net6.0\staticwebassets.build.json
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\obj\Debug\net6.0\staticwebassets.development.json
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\obj\Debug\net6.0\scopedcss\bundle\Webapi.styles.css
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\obj\Debug\net6.0\Webapi.csproj.CopyComplete
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\obj\Debug\net6.0\Webapi.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\obj\Debug\net6.0\refint\Webapi.dll
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\obj\Debug\net6.0\Webapi.pdb
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\obj\Debug\net6.0\Webapi.genruntimeconfig.cache
+c:\.net C#\dotnet projects\patika dersler\dotnet\patika_dotnet_odevler\patika_dotnet_pratikler\MovieStore\WebApi\obj\Debug\net6.0\ref\Webapi.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\appsettings.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Webapi.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Webapi.deps.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Webapi.runtimeconfig.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Webapi.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Webapi.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\System.Collections.Immutable.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\obj\Debug\net6.0\Webapi.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\obj\Debug\net6.0\Webapi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\obj\Debug\net6.0\Webapi.AssemblyInfoInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\obj\Debug\net6.0\Webapi.AssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\obj\Debug\net6.0\Webapi.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\obj\Debug\net6.0\Webapi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\obj\Debug\net6.0\Webapi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\obj\Debug\net6.0\scopedcss\bundle\Webapi.styles.css
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\obj\Debug\net6.0\Webapi.csproj.CopyComplete
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\obj\Debug\net6.0\Webapi.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\obj\Debug\net6.0\refint\Webapi.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\obj\Debug\net6.0\Webapi.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\obj\Debug\net6.0\Webapi.genruntimeconfig.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\MovieStore\WebApi\obj\Debug\net6.0\ref\Webapi.dll

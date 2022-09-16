@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "mZL/o30Oj9XGFVngCFmFqvI7HWE5GaMAKgmR5WWEofY=",
+  "Source": "Webapi",
+  "BasePath": "_content/Webapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
