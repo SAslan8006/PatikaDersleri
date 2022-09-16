@@ -15,3 +15,6 @@ C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStor
 C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
 C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\Business\bin\Debug\netcoreapp3.1\Entities.pdb
 C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\Business\bin\Debug\netcoreapp3.1\Business.runtimeconfig.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\Business\bin\Debug\netcoreapp3.1\Business.runtimeconfig.dev.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\Business\obj\Debug\netcoreapp3.1\Business.genruntimeconfig.cache

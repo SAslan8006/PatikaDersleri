@@ -1,0 +1,16 @@
+C:\Users\musau\Desktop\Patika\.NetCore\Pratikler\IkıyeBolunme\obj\Debug\net5.0\IkıyeBolunme.csproj.AssemblyReference.cache
+C:\Users\musau\Desktop\Patika\.NetCore\Pratikler\IkıyeBolunme\obj\Debug\net5.0\IkıyeBolunme.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musau\Desktop\Patika\.NetCore\Pratikler\IkıyeBolunme\obj\Debug\net5.0\IkıyeBolunme.AssemblyInfoInputs.cache
+C:\Users\musau\Desktop\Patika\.NetCore\Pratikler\IkıyeBolunme\obj\Debug\net5.0\IkıyeBolunme.AssemblyInfo.cs
+C:\Users\musau\Desktop\Patika\.NetCore\Pratikler\IkıyeBolunme\obj\Debug\net5.0\IkıyeBolunme.csproj.CoreCompileInputs.cache
+C:\Users\musau\Desktop\Patika\.NetCore\Pratikler\IkıyeBolunme\bin\Debug\net5.0\IkıyeBolunme.exe
+C:\Users\musau\Desktop\Patika\.NetCore\Pratikler\IkıyeBolunme\bin\Debug\net5.0\IkıyeBolunme.deps.json
+C:\Users\musau\Desktop\Patika\.NetCore\Pratikler\IkıyeBolunme\bin\Debug\net5.0\IkıyeBolunme.runtimeconfig.json
+C:\Users\musau\Desktop\Patika\.NetCore\Pratikler\IkıyeBolunme\bin\Debug\net5.0\IkıyeBolunme.runtimeconfig.dev.json
+C:\Users\musau\Desktop\Patika\.NetCore\Pratikler\IkıyeBolunme\bin\Debug\net5.0\IkıyeBolunme.dll
+C:\Users\musau\Desktop\Patika\.NetCore\Pratikler\IkıyeBolunme\bin\Debug\net5.0\IkıyeBolunme.pdb
+C:\Users\musau\Desktop\Patika\.NetCore\Pratikler\IkıyeBolunme\obj\Debug\net5.0\IkıyeBolunme.dll
+C:\Users\musau\Desktop\Patika\.NetCore\Pratikler\IkıyeBolunme\obj\Debug\net5.0\refint\IkıyeBolunme.dll
+C:\Users\musau\Desktop\Patika\.NetCore\Pratikler\IkıyeBolunme\obj\Debug\net5.0\IkıyeBolunme.pdb
+C:\Users\musau\Desktop\Patika\.NetCore\Pratikler\IkıyeBolunme\obj\Debug\net5.0\IkıyeBolunme.genruntimeconfig.cache
+C:\Users\musau\Desktop\Patika\.NetCore\Pratikler\IkıyeBolunme\obj\Debug\net5.0\ref\IkıyeBolunme.dll

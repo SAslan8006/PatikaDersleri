@@ -1,0 +1,16 @@
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ArrayList\bin\Debug\net5.0\ArrayList.exe
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ArrayList\bin\Debug\net5.0\ArrayList.deps.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ArrayList\bin\Debug\net5.0\ArrayList.runtimeconfig.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ArrayList\bin\Debug\net5.0\ArrayList.runtimeconfig.dev.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ArrayList\bin\Debug\net5.0\ArrayList.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ArrayList\bin\Debug\net5.0\ArrayList.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ArrayList\obj\Debug\net5.0\ArrayList.csproj.AssemblyReference.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ArrayList\obj\Debug\net5.0\ArrayList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ArrayList\obj\Debug\net5.0\ArrayList.AssemblyInfoInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ArrayList\obj\Debug\net5.0\ArrayList.AssemblyInfo.cs
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ArrayList\obj\Debug\net5.0\ArrayList.csproj.CoreCompileInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ArrayList\obj\Debug\net5.0\ArrayList.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ArrayList\obj\Debug\net5.0\refint\ArrayList.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ArrayList\obj\Debug\net5.0\ArrayList.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ArrayList\obj\Debug\net5.0\ArrayList.genruntimeconfig.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ArrayList\obj\Debug\net5.0\ref\ArrayList.dll

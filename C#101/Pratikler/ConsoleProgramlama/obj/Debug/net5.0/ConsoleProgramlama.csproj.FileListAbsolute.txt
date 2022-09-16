@@ -1,0 +1,16 @@
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ConsoleProgramlama\bin\Debug\net5.0\ConsoleProgramlama.exe
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ConsoleProgramlama\bin\Debug\net5.0\ConsoleProgramlama.deps.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ConsoleProgramlama\bin\Debug\net5.0\ConsoleProgramlama.runtimeconfig.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ConsoleProgramlama\bin\Debug\net5.0\ConsoleProgramlama.runtimeconfig.dev.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ConsoleProgramlama\bin\Debug\net5.0\ConsoleProgramlama.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ConsoleProgramlama\bin\Debug\net5.0\ConsoleProgramlama.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ConsoleProgramlama\obj\Debug\net5.0\ConsoleProgramlama.csproj.AssemblyReference.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ConsoleProgramlama\obj\Debug\net5.0\ConsoleProgramlama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ConsoleProgramlama\obj\Debug\net5.0\ConsoleProgramlama.AssemblyInfoInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ConsoleProgramlama\obj\Debug\net5.0\ConsoleProgramlama.AssemblyInfo.cs
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ConsoleProgramlama\obj\Debug\net5.0\ConsoleProgramlama.csproj.CoreCompileInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ConsoleProgramlama\obj\Debug\net5.0\ConsoleProgramlama.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ConsoleProgramlama\obj\Debug\net5.0\refint\ConsoleProgramlama.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ConsoleProgramlama\obj\Debug\net5.0\ConsoleProgramlama.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ConsoleProgramlama\obj\Debug\net5.0\ConsoleProgramlama.genruntimeconfig.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\ConsoleProgramlama\obj\Debug\net5.0\ref\ConsoleProgramlama.dll

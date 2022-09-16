@@ -1,0 +1,16 @@
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SwitchCase\bin\Debug\net5.0\SwitchCase.exe
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SwitchCase\bin\Debug\net5.0\SwitchCase.deps.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SwitchCase\bin\Debug\net5.0\SwitchCase.runtimeconfig.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SwitchCase\bin\Debug\net5.0\SwitchCase.runtimeconfig.dev.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SwitchCase\bin\Debug\net5.0\SwitchCase.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SwitchCase\bin\Debug\net5.0\SwitchCase.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SwitchCase\obj\Debug\net5.0\SwitchCase.csproj.AssemblyReference.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SwitchCase\obj\Debug\net5.0\SwitchCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SwitchCase\obj\Debug\net5.0\SwitchCase.AssemblyInfoInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SwitchCase\obj\Debug\net5.0\SwitchCase.AssemblyInfo.cs
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SwitchCase\obj\Debug\net5.0\SwitchCase.csproj.CoreCompileInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SwitchCase\obj\Debug\net5.0\SwitchCase.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SwitchCase\obj\Debug\net5.0\refint\SwitchCase.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SwitchCase\obj\Debug\net5.0\SwitchCase.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SwitchCase\obj\Debug\net5.0\SwitchCase.genruntimeconfig.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SwitchCase\obj\Debug\net5.0\ref\SwitchCase.dll

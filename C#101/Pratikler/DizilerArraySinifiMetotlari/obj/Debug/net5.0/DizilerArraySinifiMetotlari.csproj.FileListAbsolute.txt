@@ -1,0 +1,16 @@
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DizilerArraySinifiMetotlari\bin\Debug\net5.0\DizilerArraySinifiMetotlari.exe
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DizilerArraySinifiMetotlari\bin\Debug\net5.0\DizilerArraySinifiMetotlari.deps.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DizilerArraySinifiMetotlari\bin\Debug\net5.0\DizilerArraySinifiMetotlari.runtimeconfig.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DizilerArraySinifiMetotlari\bin\Debug\net5.0\DizilerArraySinifiMetotlari.runtimeconfig.dev.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DizilerArraySinifiMetotlari\bin\Debug\net5.0\DizilerArraySinifiMetotlari.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DizilerArraySinifiMetotlari\bin\Debug\net5.0\DizilerArraySinifiMetotlari.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DizilerArraySinifiMetotlari\obj\Debug\net5.0\DizilerArraySinifiMetotlari.csproj.AssemblyReference.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DizilerArraySinifiMetotlari\obj\Debug\net5.0\DizilerArraySinifiMetotlari.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DizilerArraySinifiMetotlari\obj\Debug\net5.0\DizilerArraySinifiMetotlari.AssemblyInfoInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DizilerArraySinifiMetotlari\obj\Debug\net5.0\DizilerArraySinifiMetotlari.AssemblyInfo.cs
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DizilerArraySinifiMetotlari\obj\Debug\net5.0\DizilerArraySinifiMetotlari.csproj.CoreCompileInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DizilerArraySinifiMetotlari\obj\Debug\net5.0\DizilerArraySinifiMetotlari.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DizilerArraySinifiMetotlari\obj\Debug\net5.0\refint\DizilerArraySinifiMetotlari.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DizilerArraySinifiMetotlari\obj\Debug\net5.0\DizilerArraySinifiMetotlari.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DizilerArraySinifiMetotlari\obj\Debug\net5.0\DizilerArraySinifiMetotlari.genruntimeconfig.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DizilerArraySinifiMetotlari\obj\Debug\net5.0\ref\DizilerArraySinifiMetotlari.dll

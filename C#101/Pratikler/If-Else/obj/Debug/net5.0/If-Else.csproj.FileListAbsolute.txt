@@ -1,0 +1,16 @@
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\If-Else\bin\Debug\net5.0\If-Else.exe
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\If-Else\bin\Debug\net5.0\If-Else.deps.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\If-Else\bin\Debug\net5.0\If-Else.runtimeconfig.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\If-Else\bin\Debug\net5.0\If-Else.runtimeconfig.dev.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\If-Else\bin\Debug\net5.0\If-Else.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\If-Else\bin\Debug\net5.0\If-Else.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\If-Else\obj\Debug\net5.0\If-Else.csproj.AssemblyReference.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\If-Else\obj\Debug\net5.0\If-Else.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\If-Else\obj\Debug\net5.0\If-Else.AssemblyInfoInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\If-Else\obj\Debug\net5.0\If-Else.AssemblyInfo.cs
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\If-Else\obj\Debug\net5.0\If-Else.csproj.CoreCompileInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\If-Else\obj\Debug\net5.0\If-Else.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\If-Else\obj\Debug\net5.0\refint\If-Else.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\If-Else\obj\Debug\net5.0\If-Else.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\If-Else\obj\Debug\net5.0\If-Else.genruntimeconfig.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\If-Else\obj\Debug\net5.0\ref\If-Else.dll

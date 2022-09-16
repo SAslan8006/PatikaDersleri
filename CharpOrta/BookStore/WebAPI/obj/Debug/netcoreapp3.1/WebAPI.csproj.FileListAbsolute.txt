@@ -76,3 +76,14 @@ C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStor
 C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\WebAPI\bin\Debug\netcoreapp3.1\Core.pdb
 C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\WebAPI\bin\Debug\netcoreapp3.1\DataAccess.pdb
 C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\WebAPI\bin\Debug\netcoreapp3.1\Antlr3.Runtime.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\WebAPI\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\WebAPI\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\WebAPI\bin\Debug\netcoreapp3.1\Iesi.Collections.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\WebAPI\bin\Debug\netcoreapp3.1\NHibernate.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\WebAPI\bin\Debug\netcoreapp3.1\Remotion.Linq.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\WebAPI\bin\Debug\netcoreapp3.1\Remotion.Linq.EagerFetching.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\WebAPI\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\WebAPI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

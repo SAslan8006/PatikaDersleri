@@ -1,0 +1,16 @@
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Diziler\bin\Debug\net5.0\Diziler.exe
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Diziler\bin\Debug\net5.0\Diziler.deps.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Diziler\bin\Debug\net5.0\Diziler.runtimeconfig.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Diziler\bin\Debug\net5.0\Diziler.runtimeconfig.dev.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Diziler\bin\Debug\net5.0\Diziler.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Diziler\bin\Debug\net5.0\Diziler.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Diziler\obj\Debug\net5.0\Diziler.csproj.AssemblyReference.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Diziler\obj\Debug\net5.0\Diziler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Diziler\obj\Debug\net5.0\Diziler.AssemblyInfoInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Diziler\obj\Debug\net5.0\Diziler.AssemblyInfo.cs
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Diziler\obj\Debug\net5.0\Diziler.csproj.CoreCompileInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Diziler\obj\Debug\net5.0\Diziler.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Diziler\obj\Debug\net5.0\refint\Diziler.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Diziler\obj\Debug\net5.0\Diziler.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Diziler\obj\Debug\net5.0\Diziler.genruntimeconfig.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Diziler\obj\Debug\net5.0\ref\Diziler.dll

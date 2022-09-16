@@ -1,0 +1,16 @@
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\TelefonRehberi\bin\Debug\net5.0\TelefonRehberi.exe
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\TelefonRehberi\bin\Debug\net5.0\TelefonRehberi.deps.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\TelefonRehberi\bin\Debug\net5.0\TelefonRehberi.runtimeconfig.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\TelefonRehberi\bin\Debug\net5.0\TelefonRehberi.runtimeconfig.dev.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\TelefonRehberi\bin\Debug\net5.0\TelefonRehberi.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\TelefonRehberi\bin\Debug\net5.0\TelefonRehberi.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\TelefonRehberi\obj\Debug\net5.0\TelefonRehberi.csproj.AssemblyReference.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\TelefonRehberi\obj\Debug\net5.0\TelefonRehberi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\TelefonRehberi\obj\Debug\net5.0\TelefonRehberi.AssemblyInfoInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\TelefonRehberi\obj\Debug\net5.0\TelefonRehberi.AssemblyInfo.cs
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\TelefonRehberi\obj\Debug\net5.0\TelefonRehberi.csproj.CoreCompileInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\TelefonRehberi\obj\Debug\net5.0\TelefonRehberi.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\TelefonRehberi\obj\Debug\net5.0\refint\TelefonRehberi.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\TelefonRehberi\obj\Debug\net5.0\TelefonRehberi.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\TelefonRehberi\obj\Debug\net5.0\TelefonRehberi.genruntimeconfig.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\TelefonRehberi\obj\Debug\net5.0\ref\TelefonRehberi.dll

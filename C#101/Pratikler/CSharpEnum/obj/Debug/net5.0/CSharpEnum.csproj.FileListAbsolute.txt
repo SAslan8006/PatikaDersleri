@@ -1,0 +1,16 @@
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\CSharpEnum\bin\Debug\net5.0\CSharpEnum.exe
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\CSharpEnum\bin\Debug\net5.0\CSharpEnum.deps.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\CSharpEnum\bin\Debug\net5.0\CSharpEnum.runtimeconfig.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\CSharpEnum\bin\Debug\net5.0\CSharpEnum.runtimeconfig.dev.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\CSharpEnum\bin\Debug\net5.0\CSharpEnum.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\CSharpEnum\bin\Debug\net5.0\CSharpEnum.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\CSharpEnum\obj\Debug\net5.0\CSharpEnum.csproj.AssemblyReference.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\CSharpEnum\obj\Debug\net5.0\CSharpEnum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\CSharpEnum\obj\Debug\net5.0\CSharpEnum.AssemblyInfoInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\CSharpEnum\obj\Debug\net5.0\CSharpEnum.AssemblyInfo.cs
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\CSharpEnum\obj\Debug\net5.0\CSharpEnum.csproj.CoreCompileInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\CSharpEnum\obj\Debug\net5.0\CSharpEnum.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\CSharpEnum\obj\Debug\net5.0\refint\CSharpEnum.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\CSharpEnum\obj\Debug\net5.0\CSharpEnum.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\CSharpEnum\obj\Debug\net5.0\CSharpEnum.genruntimeconfig.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\CSharpEnum\obj\Debug\net5.0\ref\CSharpEnum.dll

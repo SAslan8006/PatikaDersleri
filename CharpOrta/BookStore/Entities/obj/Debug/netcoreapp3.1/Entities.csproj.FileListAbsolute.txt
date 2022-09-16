@@ -11,3 +11,6 @@ C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStor
 C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\Entities\bin\Debug\netcoreapp3.1\Core.dll
 C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\Entities\bin\Debug\netcoreapp3.1\Core.pdb
 C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.dev.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\CharpOrta\BookStore\Entities\obj\Debug\netcoreapp3.1\Entities.genruntimeconfig.cache

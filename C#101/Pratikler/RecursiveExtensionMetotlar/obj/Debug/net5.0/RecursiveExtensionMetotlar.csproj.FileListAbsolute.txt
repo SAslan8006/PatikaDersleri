@@ -1,0 +1,16 @@
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\RecursiveExtensionMetotlar\bin\Debug\net5.0\RecursiveExtensionMetotlar.exe
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\RecursiveExtensionMetotlar\bin\Debug\net5.0\RecursiveExtensionMetotlar.deps.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\RecursiveExtensionMetotlar\bin\Debug\net5.0\RecursiveExtensionMetotlar.runtimeconfig.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\RecursiveExtensionMetotlar\bin\Debug\net5.0\RecursiveExtensionMetotlar.runtimeconfig.dev.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\RecursiveExtensionMetotlar\bin\Debug\net5.0\RecursiveExtensionMetotlar.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\RecursiveExtensionMetotlar\bin\Debug\net5.0\RecursiveExtensionMetotlar.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\RecursiveExtensionMetotlar\obj\Debug\net5.0\RecursiveExtensionMetotlar.csproj.AssemblyReference.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\RecursiveExtensionMetotlar\obj\Debug\net5.0\RecursiveExtensionMetotlar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\RecursiveExtensionMetotlar\obj\Debug\net5.0\RecursiveExtensionMetotlar.AssemblyInfoInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\RecursiveExtensionMetotlar\obj\Debug\net5.0\RecursiveExtensionMetotlar.AssemblyInfo.cs
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\RecursiveExtensionMetotlar\obj\Debug\net5.0\RecursiveExtensionMetotlar.csproj.CoreCompileInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\RecursiveExtensionMetotlar\obj\Debug\net5.0\RecursiveExtensionMetotlar.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\RecursiveExtensionMetotlar\obj\Debug\net5.0\refint\RecursiveExtensionMetotlar.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\RecursiveExtensionMetotlar\obj\Debug\net5.0\RecursiveExtensionMetotlar.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\RecursiveExtensionMetotlar\obj\Debug\net5.0\RecursiveExtensionMetotlar.genruntimeconfig.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\RecursiveExtensionMetotlar\obj\Debug\net5.0\ref\RecursiveExtensionMetotlar.dll

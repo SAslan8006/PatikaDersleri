@@ -1,0 +1,16 @@
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\StaticSinifVeUyeler\bin\Debug\net5.0\StaticSinifVeUyeler.exe
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\StaticSinifVeUyeler\bin\Debug\net5.0\StaticSinifVeUyeler.deps.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\StaticSinifVeUyeler\bin\Debug\net5.0\StaticSinifVeUyeler.runtimeconfig.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\StaticSinifVeUyeler\bin\Debug\net5.0\StaticSinifVeUyeler.runtimeconfig.dev.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\StaticSinifVeUyeler\bin\Debug\net5.0\StaticSinifVeUyeler.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\StaticSinifVeUyeler\bin\Debug\net5.0\StaticSinifVeUyeler.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\StaticSinifVeUyeler\obj\Debug\net5.0\StaticSinifVeUyeler.csproj.AssemblyReference.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\StaticSinifVeUyeler\obj\Debug\net5.0\StaticSinifVeUyeler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\StaticSinifVeUyeler\obj\Debug\net5.0\StaticSinifVeUyeler.AssemblyInfoInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\StaticSinifVeUyeler\obj\Debug\net5.0\StaticSinifVeUyeler.AssemblyInfo.cs
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\StaticSinifVeUyeler\obj\Debug\net5.0\StaticSinifVeUyeler.csproj.CoreCompileInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\StaticSinifVeUyeler\obj\Debug\net5.0\StaticSinifVeUyeler.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\StaticSinifVeUyeler\obj\Debug\net5.0\refint\StaticSinifVeUyeler.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\StaticSinifVeUyeler\obj\Debug\net5.0\StaticSinifVeUyeler.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\StaticSinifVeUyeler\obj\Debug\net5.0\StaticSinifVeUyeler.genruntimeconfig.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\StaticSinifVeUyeler\obj\Debug\net5.0\ref\StaticSinifVeUyeler.dll

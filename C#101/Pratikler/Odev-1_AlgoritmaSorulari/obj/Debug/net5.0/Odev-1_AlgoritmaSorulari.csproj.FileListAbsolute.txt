@@ -1,0 +1,16 @@
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Odev-1_AlgoritmaSorulari\bin\Debug\net5.0\Odev-1_AlgoritmaSorulari.exe
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Odev-1_AlgoritmaSorulari\bin\Debug\net5.0\Odev-1_AlgoritmaSorulari.deps.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Odev-1_AlgoritmaSorulari\bin\Debug\net5.0\Odev-1_AlgoritmaSorulari.runtimeconfig.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Odev-1_AlgoritmaSorulari\bin\Debug\net5.0\Odev-1_AlgoritmaSorulari.runtimeconfig.dev.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Odev-1_AlgoritmaSorulari\bin\Debug\net5.0\Odev-1_AlgoritmaSorulari.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Odev-1_AlgoritmaSorulari\bin\Debug\net5.0\Odev-1_AlgoritmaSorulari.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Odev-1_AlgoritmaSorulari\obj\Debug\net5.0\Odev-1_AlgoritmaSorulari.csproj.AssemblyReference.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Odev-1_AlgoritmaSorulari\obj\Debug\net5.0\Odev-1_AlgoritmaSorulari.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Odev-1_AlgoritmaSorulari\obj\Debug\net5.0\Odev-1_AlgoritmaSorulari.AssemblyInfoInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Odev-1_AlgoritmaSorulari\obj\Debug\net5.0\Odev-1_AlgoritmaSorulari.AssemblyInfo.cs
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Odev-1_AlgoritmaSorulari\obj\Debug\net5.0\Odev-1_AlgoritmaSorulari.csproj.CoreCompileInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Odev-1_AlgoritmaSorulari\obj\Debug\net5.0\Odev-1_AlgoritmaSorulari.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Odev-1_AlgoritmaSorulari\obj\Debug\net5.0\refint\Odev-1_AlgoritmaSorulari.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Odev-1_AlgoritmaSorulari\obj\Debug\net5.0\Odev-1_AlgoritmaSorulari.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Odev-1_AlgoritmaSorulari\obj\Debug\net5.0\Odev-1_AlgoritmaSorulari.genruntimeconfig.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Odev-1_AlgoritmaSorulari\obj\Debug\net5.0\ref\Odev-1_AlgoritmaSorulari.dll

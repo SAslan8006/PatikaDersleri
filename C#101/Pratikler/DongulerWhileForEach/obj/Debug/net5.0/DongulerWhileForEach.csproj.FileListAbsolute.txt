@@ -1,0 +1,16 @@
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DongulerWhileForEach\bin\Debug\net5.0\DongulerWhileForEach.exe
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DongulerWhileForEach\bin\Debug\net5.0\DongulerWhileForEach.deps.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DongulerWhileForEach\bin\Debug\net5.0\DongulerWhileForEach.runtimeconfig.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DongulerWhileForEach\bin\Debug\net5.0\DongulerWhileForEach.runtimeconfig.dev.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DongulerWhileForEach\bin\Debug\net5.0\DongulerWhileForEach.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DongulerWhileForEach\bin\Debug\net5.0\DongulerWhileForEach.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DongulerWhileForEach\obj\Debug\net5.0\DongulerWhileForEach.csproj.AssemblyReference.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DongulerWhileForEach\obj\Debug\net5.0\DongulerWhileForEach.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DongulerWhileForEach\obj\Debug\net5.0\DongulerWhileForEach.AssemblyInfoInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DongulerWhileForEach\obj\Debug\net5.0\DongulerWhileForEach.AssemblyInfo.cs
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DongulerWhileForEach\obj\Debug\net5.0\DongulerWhileForEach.csproj.CoreCompileInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DongulerWhileForEach\obj\Debug\net5.0\DongulerWhileForEach.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DongulerWhileForEach\obj\Debug\net5.0\refint\DongulerWhileForEach.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DongulerWhileForEach\obj\Debug\net5.0\DongulerWhileForEach.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DongulerWhileForEach\obj\Debug\net5.0\DongulerWhileForEach.genruntimeconfig.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\DongulerWhileForEach\obj\Debug\net5.0\ref\DongulerWhileForEach.dll

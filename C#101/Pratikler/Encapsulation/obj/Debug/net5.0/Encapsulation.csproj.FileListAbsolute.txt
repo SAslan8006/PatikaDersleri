@@ -1,0 +1,16 @@
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Encapsulation\bin\Debug\net5.0\Encapsulation.exe
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Encapsulation\bin\Debug\net5.0\Encapsulation.deps.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Encapsulation\bin\Debug\net5.0\Encapsulation.runtimeconfig.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Encapsulation\bin\Debug\net5.0\Encapsulation.runtimeconfig.dev.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Encapsulation\bin\Debug\net5.0\Encapsulation.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Encapsulation\bin\Debug\net5.0\Encapsulation.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Encapsulation\obj\Debug\net5.0\Encapsulation.csproj.AssemblyReference.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Encapsulation\obj\Debug\net5.0\Encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Encapsulation\obj\Debug\net5.0\Encapsulation.AssemblyInfoInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Encapsulation\obj\Debug\net5.0\Encapsulation.AssemblyInfo.cs
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Encapsulation\obj\Debug\net5.0\Encapsulation.csproj.CoreCompileInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Encapsulation\obj\Debug\net5.0\Encapsulation.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Encapsulation\obj\Debug\net5.0\refint\Encapsulation.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Encapsulation\obj\Debug\net5.0\Encapsulation.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Encapsulation\obj\Debug\net5.0\Encapsulation.genruntimeconfig.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\Encapsulation\obj\Debug\net5.0\ref\Encapsulation.dll

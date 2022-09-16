@@ -1,0 +1,16 @@
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SinifKavrami\bin\Debug\net5.0\SinifKavrami.exe
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SinifKavrami\bin\Debug\net5.0\SinifKavrami.deps.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SinifKavrami\bin\Debug\net5.0\SinifKavrami.runtimeconfig.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SinifKavrami\bin\Debug\net5.0\SinifKavrami.runtimeconfig.dev.json
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SinifKavrami\bin\Debug\net5.0\SinifKavrami.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SinifKavrami\bin\Debug\net5.0\SinifKavrami.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SinifKavrami\obj\Debug\net5.0\SinifKavrami.csproj.AssemblyReference.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SinifKavrami\obj\Debug\net5.0\SinifKavrami.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SinifKavrami\obj\Debug\net5.0\SinifKavrami.AssemblyInfoInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SinifKavrami\obj\Debug\net5.0\SinifKavrami.AssemblyInfo.cs
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SinifKavrami\obj\Debug\net5.0\SinifKavrami.csproj.CoreCompileInputs.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SinifKavrami\obj\Debug\net5.0\SinifKavrami.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SinifKavrami\obj\Debug\net5.0\refint\SinifKavrami.dll
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SinifKavrami\obj\Debug\net5.0\SinifKavrami.pdb
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SinifKavrami\obj\Debug\net5.0\SinifKavrami.genruntimeconfig.cache
+C:\Users\musau\Desktop\Patika\C#101\Pratikler\SinifKavrami\obj\Debug\net5.0\ref\SinifKavrami.dll
