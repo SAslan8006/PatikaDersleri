@@ -1,9 +1,19 @@
+using ETicaret.Application.Validatiors.Products;
+using ETicaret.Infrastructure.Filters;
 using ETicaret.Persistence;
+using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
 builder.Services.AddPersistenceServices();
+
+builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
+    policy.WithOrigins("http://localhost:4200", "https://localhost:41200").AllowAnyHeader().AllowAnyMethod()
+));
+builder.Services.AddControllers(options => options.Filters.Add<Validationfilter>())
+    .AddFluentValidation(configuration=>configuration.RegisterValidatorsFromAssemblyContaining<CreatProductValidation>()).
+    ConfigureApiBehaviorOptions(options=>options.SuppressModelStateInvalidFilter=true);
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -14,6 +24,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors();
 
 app.UseHttpsRedirection();
 

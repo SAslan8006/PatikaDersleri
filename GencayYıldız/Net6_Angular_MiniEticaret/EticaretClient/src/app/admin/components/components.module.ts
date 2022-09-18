@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { ProductsModule } from './products/products.module';
 import { OrdersModule } from './orders/orders.module';
 import { CustomerModule } from './customer/customer.module';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { DashboardModule } from './dashboard/dashboard.module';
 
 

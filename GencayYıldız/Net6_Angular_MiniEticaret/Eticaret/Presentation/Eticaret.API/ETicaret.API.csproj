@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.9">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -16,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\Eticaret.Application\ETicaret.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Eticaret.Infrastructure\ETicaret.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Infrastructure\Eticaret.Persistence\ETicaret.Persistence.csproj" />
   </ItemGroup>
 

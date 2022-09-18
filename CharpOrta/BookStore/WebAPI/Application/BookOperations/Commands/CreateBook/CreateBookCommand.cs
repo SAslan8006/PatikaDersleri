@@ -21,7 +21,7 @@ namespace WebApi.Application.BookOperations.Commands.CreateBook
         public void Handle()
         {
             var book = _context.Books.SingleOrDefault(x => x.Title == Model.Title);
-            if (book is not null)
+            if (book !=null)
                 throw new InvalidOperationException("Kitap Zaten Mevcut");
             book = _mapper.Map<Book>(Model);
             //new Book();

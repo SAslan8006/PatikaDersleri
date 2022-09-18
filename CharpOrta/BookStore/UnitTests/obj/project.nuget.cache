@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dx4SuBjJ0jPfGKeNY66/Jdtl5mQrkXggySbWU7HYR69QVKaD7OOoCm3YsN7wPNdcJA1HUdQhRBgeuyRepG8T5g==",
+  "dgSpecHash": "ZnST45KZXKw8u/K9EOT8d0WfEZ1n7eMN7lFo+Yz8wqcyj/xe4lwqR8NC9kBmXryHWU/8qPf7S9DjaD+/OJVFEg==",
   "success": true,
   "projectFilePath": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\CharpOrta\\BookStore\\UnitTests\\UnitTests.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\HaticeNur\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

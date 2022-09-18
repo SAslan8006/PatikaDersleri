@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aghB7YAuI/0Q8Jllk7qxtmmfCr6i0WbUMVzwV3vEnlb6vnL6M/zDq9llCStphwYax+cUt08nyuIaF7Gkgv4jQA==",
+  "dgSpecHash": "1KmUSmRnpHud6g/8jnER1QfYMUayLjOm+sdjIHQWULY5Wwtt8PtnwcKPotY2n9Kd052bJcRGjz8NDXEqIWMRKg==",
   "success": true,
   "projectFilePath": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\CharpOrta\\BookStore\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\HaticeNur\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.1\\autofac.extras.dynamicproxy.6.0.1.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",

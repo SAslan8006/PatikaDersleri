@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "SyLIGGu7EUK5nLrWkQaEtu3FFXAynCSk6BtH6J4jXlxu3PYqr6VkfVzbJXC4pvPmk2aWFdF10YMoWzenD6+giw==",
+  "dgSpecHash": "imz3v2HMDAj1roTl+J+Z9jVJnKRrEfND9ZwWS8Y5mdV6HhKT6IaC+n1vF41EIZmSMBXkahitlXQV6r6cwlJ2vA==",
   "success": true,
   "projectFilePath": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\ETicaret.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.2\\fluentvalidation.dependencyinjectionextensions.11.2.2.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.9\\microsoft.entityframeworkcore.abstractions.6.0.9.nupkg.sha512",

@@ -33,7 +33,8 @@ export enum MessageType{
   Error="error",
   Message="message",
   Notify="notify",
-  Warning="warning"
+  Warning="warning",
+  Success="success"
 }
 export enum Position{
   TopCenter="top-center",
