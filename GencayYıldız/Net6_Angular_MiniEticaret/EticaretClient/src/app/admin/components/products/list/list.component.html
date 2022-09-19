@@ -23,13 +23,13 @@
       </ng-container>
     
       <ng-container matColumnDef="updatedDate">
-        <th mat-header-cell *matHeaderCellDef> Created Date </th>
+        <th mat-header-cell *matHeaderCellDef> Update Date </th>
         <td mat-cell *matCellDef="let element"> {{element.updatedDate}} </td>
       </ng-container>
 
       <ng-container matColumnDef="delete">
         <th mat-header-cell *matHeaderCellDef width="40"> </th>
-        <td [id]="element.id" mat-cell *matCellDef="let element" appDelete (callback)="getProducts()" >  </td>   
+        <td mat-cell *matCellDef="let element" appDelete [id]="element.id" (callback)="getProducts()" controller="products">  </td>   
         <!-- <img src="../../../../../assets/delete.png" width="38" height="38" (click)="delete(element.id,$event)"> -->
       </ng-container>
       <ng-container matColumnDef="update">
