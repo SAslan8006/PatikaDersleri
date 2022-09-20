@@ -14,8 +14,7 @@ export class OrdersComponent extends BaseComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.showSpinner(SpinnerType.BallScaleRippleMultiple);
-   
+    //this.showSpinner(SpinnerType.BallScaleRippleMultiple);   
 }
 
 }

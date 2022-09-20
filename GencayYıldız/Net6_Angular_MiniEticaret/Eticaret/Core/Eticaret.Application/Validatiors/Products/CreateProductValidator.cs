@@ -3,9 +3,9 @@ using FluentValidation;
 
 namespace ETicaret.Application.Validatiors.Products
 {
-    public class CreatProductValidation : AbstractValidator<VM_Create_Product>
+    public class CreateProductValidator : AbstractValidator<VM_Create_Product>
     {
-        public CreatProductValidation()
+        public CreateProductValidator()
         {
             RuleFor(p => p.Name).NotEmpty().NotNull().WithMessage("Lütfen ürün adını boş geçmeyiniz.")
                 .MaximumLength(150).MinimumLength(2).WithMessage("Lütfen ürün adını 2 ile 150 karekter arasında giriniz.");

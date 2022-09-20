@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ETicaret.Infrastructure.Filters
 {
-    public class Validationfilter : IAsyncActionFilter
+    public class ValidationFilter : IAsyncActionFilter
     {
         public async Task OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
         {

@@ -21,4 +21,8 @@
     <ProjectReference Include="..\..\Infrastructure\Eticaret.Persistence\ETicaret.Persistence.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
 </Project>

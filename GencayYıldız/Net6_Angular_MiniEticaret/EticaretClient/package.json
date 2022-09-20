@@ -24,6 +24,7 @@
     "alertifyjs": "^1.13.1",
     "bootstrap": "^5.2.1",
     "jquery": "^3.6.1",
+    "ngx-file-drop": "^14.0.1",
     "ngx-spinner": "^14.0.0",
     "ngx-toastr": "^15.0.0",
     "rxjs": "~7.5.0",

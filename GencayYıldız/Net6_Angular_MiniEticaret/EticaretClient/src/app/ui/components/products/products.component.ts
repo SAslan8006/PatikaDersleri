@@ -13,7 +13,7 @@ export class ProductsComponent extends BaseComponent implements OnInit {
     super(spinner)}
 
   ngOnInit(): void {
-    this.showSpinner(SpinnerType.BallScaleMultiple);
+    
   }
 
 }

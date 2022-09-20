@@ -10,10 +10,9 @@ builder.Services.AddPersistenceServices();
 builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
     policy.WithOrigins("http://localhost:4200", "https://localhost:41200").AllowAnyHeader().AllowAnyMethod()
 ));
-builder.Services.AddControllers(options => options.Filters.Add<Validationfilter>())
-    .AddFluentValidation(configuration=>configuration.RegisterValidatorsFromAssemblyContaining<CreatProductValidation>()).
-    ConfigureApiBehaviorOptions(options=>options.SuppressModelStateInvalidFilter=true);
-
+builder.Services.AddControllers(options => options.Filters.Add<ValidationFilter>())
+    .AddFluentValidation(configuration => configuration.RegisterValidatorsFromAssemblyContaining<CreateProductValidator>())
+    .ConfigureApiBehaviorOptions(options => options.SuppressModelStateInvalidFilter = true);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -25,8 +24,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseStaticFiles();
 app.UseCors();
-
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

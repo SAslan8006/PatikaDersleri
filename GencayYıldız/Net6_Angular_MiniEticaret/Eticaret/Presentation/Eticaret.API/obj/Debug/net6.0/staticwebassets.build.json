@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "UIpLNOewunakc76Yrxev63cx9/IcBTiQq3tHD3Hgh4g=",
+  "Hash": "EZp3IoFNB/24eP3iGoZ3AoBKIAvesiL0AA8p81X7G2U=",
   "Source": "ETicaret.API",
   "BasePath": "_content/ETicaret.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ETicaret.API\\wwwroot",
+      "Source": "ETicaret.API",
+      "ContentRoot": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\wwwroot\\",
+      "BasePath": "_content/ETicaret.API",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
