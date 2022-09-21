@@ -12,11 +12,9 @@ namespace ETicaret.Infrastructure
 {
     public static class ServiceRegistration
     {
-        public static void AddInfrastructreServices(this IServiceCollection serviceColletion)
+        public static void AddInfrastructureServices(this IServiceCollection serviceCollection)
         {
-            serviceColletion.AddScoped<IFileService,FileService>();            
-
+            serviceCollection.AddScoped<IFileService, FileService>();
         }
-
     }
 }
