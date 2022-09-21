@@ -1,4 +1,5 @@
 using ETicaret.Application.Validatiors.Products;
+using ETicaret.Infrastructure;
 using ETicaret.Infrastructure.Filters;
 using ETicaret.Persistence;
 using FluentValidation.AspNetCore;
@@ -6,7 +7,7 @@ using FluentValidation.AspNetCore;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddPersistenceServices();
-
+builder.Services.AddInfrastructreServices();
 builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
     policy.WithOrigins("http://localhost:4200", "https://localhost:41200").AllowAnyHeader().AllowAnyMethod()
 ));
