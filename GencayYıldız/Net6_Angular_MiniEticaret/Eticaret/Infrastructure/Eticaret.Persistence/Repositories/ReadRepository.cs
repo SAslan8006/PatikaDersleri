@@ -12,7 +12,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace ETicaret.Persistence.Repositories
 {
-    public class ReadRepository<T> : IReadRepostiyory<T> where T : BaseEntity
+    public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity
     {
         private readonly ETicaretDBContext _context;
         public ReadRepository(ETicaretDBContext context)

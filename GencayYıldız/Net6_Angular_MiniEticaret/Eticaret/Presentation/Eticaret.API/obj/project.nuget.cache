@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "imz3v2HMDAj1roTl+J+Z9jVJnKRrEfND9ZwWS8Y5mdV6HhKT6IaC+n1vF41EIZmSMBXkahitlXQV6r6cwlJ2vA==",
+  "dgSpecHash": "O3Ky4WEj1r8fA8EjDir457tQHIHWpMkS2snXMarF7+v+USdhpZi7H3lhOejCfLO3Gja+8GmkimxdfnCz3f3P9Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\ETicaret.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\azure.storage.blobs\\12.13.1\\azure.storage.blobs.12.13.1.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\azure.storage.common\\12.12.0\\azure.storage.common.12.12.0.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.2\\fluentvalidation.dependencyinjectionextensions.11.2.2.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.9\\microsoft.entityframeworkcore.abstractions.6.0.9.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.9\\microsoft.entityframeworkcore.analyzers.6.0.9.nupkg.sha512",
@@ -38,9 +42,13 @@
     "C:\\Users\\HaticeNur\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\system.io.hashing\\6.0.0\\system.io.hashing.6.0.0.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\HaticeNur\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

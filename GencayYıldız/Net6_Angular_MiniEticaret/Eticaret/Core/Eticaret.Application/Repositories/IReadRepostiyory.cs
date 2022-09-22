@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ETicaret.Application.Repositories
 {
-    public  interface IReadRepostiyory<T>:IRepository<T> where T : BaseEntity
+    public  interface IReadRepository<T>:IRepository<T> where T : BaseEntity
     {
         IQueryable<T> GetAll(bool tracking=true);
         IQueryable<T> GetWhere(Expression<Func <T,bool>> method, bool tracking = true);

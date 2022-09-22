@@ -43,6 +43,38 @@ namespace ETicaret.Persistence.Migrations
                     b.ToTable("Customers");
                 });
 
+            modelBuilder.Entity("ETicaret.Domain.Entities.File", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Path")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Storage")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Files");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("File");
+                });
+
             modelBuilder.Entity("ETicaret.Domain.Entities.Order", b =>
                 {
                     b.Property<Guid>("Id")
@@ -113,6 +145,23 @@ namespace ETicaret.Persistence.Migrations
                     b.HasIndex("ProductsId");
 
                     b.ToTable("OrderProduct");
+                });
+
+            modelBuilder.Entity("ETicaret.Domain.Entities.InvoiceFile", b =>
+                {
+                    b.HasBaseType("ETicaret.Domain.Entities.File");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric");
+
+                    b.HasDiscriminator().HasValue("InvoiceFile");
+                });
+
+            modelBuilder.Entity("ETicaret.Domain.Entities.ProductImageFile", b =>
+                {
+                    b.HasBaseType("ETicaret.Domain.Entities.File");
+
+                    b.HasDiscriminator().HasValue("ProductImageFile");
                 });
 
             modelBuilder.Entity("ETicaret.Domain.Entities.Order", b =>

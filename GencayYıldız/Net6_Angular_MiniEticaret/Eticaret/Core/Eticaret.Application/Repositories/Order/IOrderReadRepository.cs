@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ETicaret.Application.Repositories
 {
-    public interface IOrderReadRepository:IReadRepostiyory<Order>
+    public interface IOrderReadRepository:IReadRepository<Order>
     {
     }
 }

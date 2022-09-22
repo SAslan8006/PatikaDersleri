@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.13.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\Core\Eticaret.Application\ETicaret.Application.csproj" />
   </ItemGroup>
 

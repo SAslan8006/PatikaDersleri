@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace ETicaret.Persistence.Repositories
 {
-    public class WriteRepository<T> : IWriteRepostiyory<T> where T : BaseEntity
+    public class WriteRepository<T> : IWriteRepository<T> where T : BaseEntity
     {
         private readonly ETicaretDBContext _context;
         public WriteRepository(ETicaretDBContext context)

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EZp3IoFNB/24eP3iGoZ3AoBKIAvesiL0AA8p81X7G2U=",
+  "Hash": "GvZGELB61Zj13oMFECkqhu0RTB8AZoYWB38+vp4XQvc=",
   "Source": "ETicaret.API",
   "BasePath": "_content/ETicaret.API",
   "Mode": "Default",
@@ -15,5 +15,91 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\wwwroot\\files\\683731.jpg",
+      "SourceId": "ETicaret.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\wwwroot\\",
+      "BasePath": "_content/ETicaret.API",
+      "RelativePath": "files/683731.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\683731.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\wwwroot\\files\\884665.jpg",
+      "SourceId": "ETicaret.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\wwwroot\\",
+      "BasePath": "_content/ETicaret.API",
+      "RelativePath": "files/884665.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\884665.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\wwwroot\\files\\Ekran-Alintisi22-10-2021.PNG",
+      "SourceId": "ETicaret.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\wwwroot\\",
+      "BasePath": "_content/ETicaret.API",
+      "RelativePath": "files/Ekran-Alintisi22-10-2021.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Ekran-Alintisi22-10-2021.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\wwwroot\\files\\Nasihatler-arkaplan-resimleri-092-1024x576.jpg",
+      "SourceId": "ETicaret.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\wwwroot\\",
+      "BasePath": "_content/ETicaret.API",
+      "RelativePath": "files/Nasihatler-arkaplan-resimleri-092-1024x576.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Nasihatler-arkaplan-resimleri-092-1024x576.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\wwwroot\\files\\thumb-1920-708178.jpg",
+      "SourceId": "ETicaret.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\wwwroot\\",
+      "BasePath": "_content/ETicaret.API",
+      "RelativePath": "files/thumb-1920-708178.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\thumb-1920-708178.jpg"
+    }
+  ]
 }
