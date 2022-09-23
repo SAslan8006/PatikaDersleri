@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GvZGELB61Zj13oMFECkqhu0RTB8AZoYWB38+vp4XQvc=",
+  "Hash": "V8TJVZJU58LZX+t4hCqlPMI13Z1jPKSVfpR1Jl+k/bM=",
   "Source": "ETicaret.API",
   "BasePath": "_content/ETicaret.API",
   "Mode": "Default",
@@ -16,23 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\wwwroot\\files\\683731.jpg",
-      "SourceId": "ETicaret.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\wwwroot\\",
-      "BasePath": "_content/ETicaret.API",
-      "RelativePath": "files/683731.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\files\\683731.jpg"
-    },
     {
       "Identity": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\wwwroot\\files\\884665.jpg",
       "SourceId": "ETicaret.API",

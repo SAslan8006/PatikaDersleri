@@ -27,6 +27,7 @@ namespace ETicaret.Infrastructure.Services.Storage.Local
 
         public bool HasFile(string path, string fileName)
             => File.Exists($"{path}\\{fileName}");
+
         async Task<bool> CopyFileAsync(string path, IFormFile file)
         {
             try
