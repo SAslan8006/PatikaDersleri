@@ -1,3 +1,4 @@
+using ETicaret.Application;
 using ETicaret.Application.Validatiors.Products;
 using ETicaret.Infrastructure;
 using ETicaret.Infrastructure.Enums;
@@ -11,6 +12,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureServices();
+builder.Services.AddApplicationServices();
+
 
 //builder.Services.AddStorage<LocalStorage>();
 builder.Services.AddStorage<AzureStorage>();
