@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ETicaret.Application.Repositories;
 using ETicaret.Persistence.Repositories;
+using ETicaret.Domain.Entities.Identity;
 
 namespace ETicaret.Persistence
 {
@@ -16,7 +17,17 @@ namespace ETicaret.Persistence
     {
         public static void AddPersistenceServices(this IServiceCollection services)
         {
-            services.AddDbContext<ETicaretDBContext>(options=>options.UseNpgsql(Configuration.ConnectionString));
+            services.AddDbContext<ETicaretDBContext>(options => options.UseNpgsql(Configuration.ConnectionString));
+            services.AddIdentity<AppUser, AppRole>(options =>
+            {
+                options.Password.RequiredLength = 3;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireDigit = false;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireUppercase = false;
+            }).AddEntityFrameworkStores<ETicaretDBContext>();
+
+            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<ETicaretDBContext>();
             services.AddScoped<ICustomerReadRepository,CustomerReadRepository>();
             services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
             services.AddScoped<IOrderReadRepository, OrderReadRepository>();

@@ -1,5 +1,7 @@
 ﻿using ETicaret.Domain.Entities;
 using ETicaret.Domain.Entities.Common;
+using ETicaret.Domain.Entities.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace ETicaret.Persistence.Contexts
 {
-    public class ETicaretDBContext : DbContext
+    public class ETicaretDBContext : IdentityDbContext<AppUser,AppRole,string>
     {
         public ETicaretDBContext(DbContextOptions options) : base(options)
         {
