@@ -12,7 +12,7 @@
     "Eticaret.API": {
       "commandName": "Project",
       "dotnetRunMessages": true,
-      "launchBrowser": false, // tarayıcı acılmamamıs için 
+      "launchBrowser": true, // tarayıcı acılmamamıs için 
       "launchUrl": "swagger",
       "applicationUrl": "https://localhost:7223;http://localhost:5223",
       "environmentVariables": {

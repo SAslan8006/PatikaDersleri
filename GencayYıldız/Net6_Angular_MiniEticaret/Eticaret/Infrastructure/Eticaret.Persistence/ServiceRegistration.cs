@@ -27,8 +27,7 @@ namespace ETicaret.Persistence
                 options.Password.RequireUppercase = false;
             }).AddEntityFrameworkStores<ETicaretDBContext>();
 
-            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<ETicaretDBContext>();
-            services.AddScoped<ICustomerReadRepository,CustomerReadRepository>();
+            services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
             services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
             services.AddScoped<IOrderReadRepository, OrderReadRepository>();
             services.AddScoped<IOrderWriteRepository, OrderWriteRepository>();

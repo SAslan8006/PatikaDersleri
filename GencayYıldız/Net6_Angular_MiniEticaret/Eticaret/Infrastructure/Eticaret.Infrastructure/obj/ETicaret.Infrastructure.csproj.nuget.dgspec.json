@@ -216,6 +216,10 @@
             "Azure.Storage.Blobs": {
               "target": "Package",
               "version": "[12.13.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
             }
           },
           "imports": [
