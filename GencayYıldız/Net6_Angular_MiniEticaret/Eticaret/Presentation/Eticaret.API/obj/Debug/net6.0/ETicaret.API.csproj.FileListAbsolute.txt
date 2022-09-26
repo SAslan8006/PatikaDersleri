@@ -68,3 +68,8 @@ C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net
 C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Presentation\Eticaret.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Presentation\Eticaret.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Presentation\Eticaret.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Presentation\Eticaret.API\bin\Debug\net6.0\Google.Apis.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Presentation\Eticaret.API\bin\Debug\net6.0\Google.Apis.Auth.PlatformServices.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Presentation\Eticaret.API\bin\Debug\net6.0\Google.Apis.Auth.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Presentation\Eticaret.API\bin\Debug\net6.0\Google.Apis.Core.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Presentation\Eticaret.API\bin\Debug\net6.0\Newtonsoft.Json.dll

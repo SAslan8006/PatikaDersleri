@@ -1,6 +1,7 @@
+import { SocialUser } from '@abacritt/angularx-social-login';
 import { Token } from '@angular/compiler';
 import { Injectable } from '@angular/core';
-import { firstValueFrom, observable, Observable } from 'rxjs';
+import { firstValueFrom, Observable } from 'rxjs';
 import { TokenResponse } from 'src/app/contracts/token/tokenResponse';
 import { Create_User } from 'src/app/contracts/users/create_user';
 import { User } from 'src/app/entities/user';
@@ -37,7 +38,25 @@ export class UserService {
         position: ToastrPosition.TopRight
       })
     }
-
     callBackFunction();
   }
+  
+  async gooogleLogin(user: SocialUser,  callBackFunction?: () => void): Promise<any>{
+    const observable: Observable<SocialUser | TokenResponse>= this.httpClientService.post<SocialUser | TokenResponse>({
+      action: "google-login",
+      controller: "users"
+    }, user);
+    const tokenResponse:TokenResponse= await firstValueFrom(observable) as TokenResponse;
+
+    if(tokenResponse){
+      localStorage.setItem("accessToken",tokenResponse.token.accessToken);
+
+      this.toastrService.message("Google üzerinde giriş başarıyla sağlanmıştır.", "Giriş Başarılı", {
+        messageType: ToastrMessageType.Success,
+        position: ToastrPosition.TopRight
+      })
+    }    
+    callBackFunction();
+  }
+
 }

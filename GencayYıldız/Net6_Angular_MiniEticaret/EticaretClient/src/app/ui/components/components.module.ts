@@ -18,7 +18,7 @@ import { LoginModule } from './login/login.module';
     HomeModule,
     BasketsModule,
     RegisterModule,
-    LoginModule
+    //LoginModule
   ]
 })
 export class ComponentsModule { }

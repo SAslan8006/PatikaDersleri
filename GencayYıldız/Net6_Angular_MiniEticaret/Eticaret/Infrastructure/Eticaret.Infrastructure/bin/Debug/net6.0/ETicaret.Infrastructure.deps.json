@@ -89,6 +89,44 @@
           }
         }
       },
+      "Google.Apis/1.57.0": {
+        "dependencies": {
+          "Google.Apis.Core": "1.57.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "assemblyVersion": "1.57.0.0",
+            "fileVersion": "1.57.0.0"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.57.0": {
+        "dependencies": {
+          "Google.Apis": "1.57.0",
+          "Google.Apis.Core": "1.57.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {
+            "assemblyVersion": "1.57.0.0",
+            "fileVersion": "1.57.0.0"
+          },
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "assemblyVersion": "1.57.0.0",
+            "fileVersion": "1.57.0.0"
+          }
+        }
+      },
+      "Google.Apis.Core/1.57.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "assemblyVersion": "1.57.0.0",
+            "fileVersion": "1.57.0.0"
+          }
+        }
+      },
       "MediatR/10.0.1": {
         "dependencies": {
           "MediatR.Contracts": "1.0.1"
@@ -477,6 +515,14 @@
           "System.Security.Principal.Windows": "4.5.0"
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
       "System.Buffers/4.5.0": {},
       "System.Collections.Immutable/6.0.0": {
         "dependencies": {
@@ -565,6 +611,7 @@
           "FluentValidation": "11.2.2",
           "FluentValidation.AspNetCore": "11.2.2",
           "FluentValidation.DependencyInjectionExtensions": "11.2.2",
+          "Google.Apis.Auth": "1.57.0",
           "MediatR": "10.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
           "Microsoft.AspNetCore.Http": "2.2.2",
@@ -632,6 +679,27 @@
       "sha512": "sha512-4JFJec9ILLax7vrVN7S6mVzlvc2Lwqu0lN3yl0LUoNVsJ8m1QB/twif/DX05EG+pYD83SWJ07wQ65WePGu2iGg==",
       "path": "fluentvalidation.dependencyinjectionextensions/11.2.2",
       "hashPath": "fluentvalidation.dependencyinjectionextensions.11.2.2.nupkg.sha512"
+    },
+    "Google.Apis/1.57.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-30V7T2G98HQjfI6y0AzBOXJUu7j7Trl1ZzH0e6DKmUaXNCvdMPwxApjBKESeTOkWjMdFRmkpAGyDEoxim+Xq1A==",
+      "path": "google.apis/1.57.0",
+      "hashPath": "google.apis.1.57.0.nupkg.sha512"
+    },
+    "Google.Apis.Auth/1.57.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xNY9rprn3iih1H5dymbxxHeZggn4bMYKtYdwO3Yr+Cj06f6xrxnL0LqEi1bmG46LBY2FlVMy9NKIF99tZ6ZBZg==",
+      "path": "google.apis.auth/1.57.0",
+      "hashPath": "google.apis.auth.1.57.0.nupkg.sha512"
+    },
+    "Google.Apis.Core/1.57.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5wuY88PewhfaWsk37EEHcwU6CFqxpaWMm20ogWLXmaCw8NbTlV/Lna0gjtr2jpTLgb3mtVa7RC1AG/mgi530SQ==",
+      "path": "google.apis.core/1.57.0",
+      "hashPath": "google.apis.core.1.57.0.nupkg.sha512"
     },
     "MediatR/10.0.1": {
       "type": "package",
@@ -982,6 +1050,13 @@
       "sha512": "sha512-+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
     "System.Buffers/4.5.0": {
       "type": "package",
