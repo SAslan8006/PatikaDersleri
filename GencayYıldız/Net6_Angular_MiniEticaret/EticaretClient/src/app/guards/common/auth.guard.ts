@@ -4,6 +4,7 @@ import { JwtHelperService } from '@auth0/angular-jwt';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { Observable } from 'rxjs';
 import { SpinnerType } from 'src/app/base/base.component';
+import { AuthService, _isAuthenticated } from 'src/app/services/common/auth.service';
 import { CustomToastrService, ToastrMessageType, ToastrPosition } from 'src/app/services/ui/custom-toastr.service';
 
 @Injectable({
@@ -11,24 +12,25 @@ import { CustomToastrService, ToastrMessageType, ToastrPosition } from 'src/app/
 })
 export class AuthGuard implements CanActivate {
 
-  constructor(private jwtHelper: JwtHelperService, private router: Router, private toastrService: CustomToastrService, private spinner: NgxSpinnerService) {
+  constructor(private jwtHelper: JwtHelperService, private router: Router, private toastrService: CustomToastrService, private spinner: NgxSpinnerService,
+    private authService:AuthService) {
 
   }
 
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot) {
     this.spinner.show(SpinnerType.BallScaleMultiple);
-    const token: string = localStorage.getItem("accessToken");
+    // const token: string = localStorage.getItem("accessToken");
 
-    //const decodeToken = this.jwtHelper.decodeToken(token);
-    //const expirationDate: Date = this.jwtHelper.getTokenExpirationDate(token);
-    let expired: boolean;
-    try {
-      expired = this.jwtHelper.isTokenExpired(token);
-    } catch {
-      expired = true;
-    }
+    // //const decodeToken = this.jwtHelper.decodeToken(token);
+    // //const expirationDate: Date = this.jwtHelper.getTokenExpirationDate(token);
+    // let expired: boolean;
+    // try {
+    //   expired = this.jwtHelper.isTokenExpired(token);
+    // } catch {
+    //   expired = true;
+    // }
 
-    if (!token || expired) {
+    if (!_isAuthenticated) {
       this.router.navigate(["login"], { queryParams: { returnUrl: state.url } });
       this.toastrService.message("Oturum açmanız gerekiyor!", "Yetkisiz Erişim!", {
         messageType: ToastrMessageType.Warning,
