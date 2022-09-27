@@ -1,4 +1,5 @@
-export class Token{
+export class Token {
     accessToken: string;
-    expiration:Date;
-}
+    expiration: Date;
+    refreshToken: string;
+  }
