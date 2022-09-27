@@ -9,6 +9,7 @@
       "ETicaret.Persistence/1.0.0": {
         "dependencies": {
           "ETicaret.Application": "1.0.0",
+          "Google.Apis.Auth": "1.57.0",
           "Microsoft.EntityFrameworkCore": "6.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.9",
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -561,7 +562,6 @@
           "FluentValidation": "11.2.2",
           "FluentValidation.AspNetCore": "11.2.2",
           "FluentValidation.DependencyInjectionExtensions": "11.2.2",
-          "Google.Apis.Auth": "1.57.0",
           "MediatR": "10.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
           "Microsoft.AspNetCore.Http": "2.2.2",
