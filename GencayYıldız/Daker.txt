@@ -3,3 +3,6 @@ PostgreSQL Docker :
 
 EF Core Tools Install :
 --> dotnet tool install --global dotnet-ef
+
+seq konfigurasyonu seq de versiyon uyumsuzluğu var 5.1.1 kulanılmalıdır
+docker run --name seq -d --restart unless-stopped -e ACCEPT_EULA=Y -p 5341:80 datalust/seq:latest
