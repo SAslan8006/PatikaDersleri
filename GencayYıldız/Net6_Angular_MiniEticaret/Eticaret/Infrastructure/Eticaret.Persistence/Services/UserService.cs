@@ -1,5 +1,6 @@
 ﻿using ETicaret.Application.Abstractions.Services;
 using ETicaret.Application.DTOs.User;
+using ETicaret.Application.Exceptions;
 using ETicaret.Domain.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
 using System;
@@ -37,6 +38,18 @@ namespace ETicaret.Persistence.Services
                     response.Message += $"{error.Code} - {error.Description}\n";
 
             return response;
+        }
+
+        public async Task UpdateRefreshToken(string refreshToken, AppUser user, DateTime accessTokenDate, int addOnAccessTokenDate)
+        {
+            if (user != null)
+            {
+                user.RefreshToken = refreshToken;
+                user.RefreshTokenEndDate = accessTokenDate.AddSeconds(addOnAccessTokenDate);
+                await _userManager.UpdateAsync(user);
+            }
+            else
+                throw new NotFoundUserException();
         }
     }
 }
