@@ -1,3 +1,4 @@
+using ETicaret.API.Extensions;
 using ETicaret.Application;
 using ETicaret.Application.Validatiors.Products;
 using ETicaret.Infrastructure;
@@ -101,7 +102,7 @@ internal class Program
             app.UseSwaggerUI();
         }
 
-
+        app.ConfigureExceptionHandler<Program>(app.Services.GetRequiredService<ILogger<Program>>());
         app.UseStaticFiles();
 
         app.UseSerilogRequestLogging();
