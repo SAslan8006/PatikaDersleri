@@ -1365,3 +1365,1035 @@ ETicaret.Application.Exceptions.NotFoundUserException: Kullanıcı adı veya şi
    at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
 2022-09-28 18:13:52.140 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/auth/refreshtokenlogin application/json 63 - 500 - text/plain;+charset=utf-8 677.0719ms
+2022-09-28 18:50:11.316 +03:00 [INF] User profile is available. Using 'C:\Users\HaticeNur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-09-28 18:50:11.942 +03:00 [INF] Now listening on: https://localhost:7223
+2022-09-28 18:50:11.945 +03:00 [INF] Now listening on: http://localhost:5223
+2022-09-28 18:50:11.953 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-28 18:50:11.955 +03:00 [INF] Hosting environment: Development
+2022-09-28 18:50:11.957 +03:00 [INF] Content root path: C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Presentation\Eticaret.API\
+2022-09-28 18:50:14.358 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-09-28 18:50:15.433 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 1082.3801ms
+2022-09-28 18:50:15.516 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-09-28 18:50:15.516 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-09-28 18:50:15.545 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 29.6859ms
+2022-09-28 18:50:15.736 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 219.9378ms
+2022-09-28 18:50:15.799 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/favicon-16x16.png - -
+2022-09-28 18:50:15.834 +03:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2022-09-28 18:50:15.852 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/favicon-16x16.png - - - 0 665 image/png 52.9298ms
+2022-09-28 18:50:15.999 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-09-28 18:50:16.889 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 889.6420ms
+2022-09-28 18:52:43.098 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/auth/login - -
+2022-09-28 18:52:43.129 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/login
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:52:43.141 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:52:43.148 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-28 18:52:43.155 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/auth/login - - - 204 - - 57.8923ms
+2022-09-28 18:52:43.167 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/auth/login application/json 52
+2022-09-28 18:52:43.175 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/login
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 52
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:52:43.182 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:52:43.220 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.AuthController.Login (ETicaret.API)'
+2022-09-28 18:52:43.299 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ETicaret.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandRequest) on controller ETicaret.API.Controllers.AuthController (ETicaret.API).
+2022-09-28 18:52:43.348 +03:00 [INF] RequestBody: {"userNameOrEmail":"saslan2","password":"12345678a"}
+2022-09-28 18:52:45.576 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-28 18:52:46.542 +03:00 [INF] Executed DbCommand (41ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2022-09-28 18:52:47.161 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2022-09-28 18:52:47.412 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2022-09-28 18:52:47.510 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaret.Application.Features.Commands.AppUser.LoginUser.LoginUserSuccessCommandResponse'.
+2022-09-28 18:52:47.529 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-09-28 18:52:47.545 +03:00 [INF] Executed action ETicaret.API.Controllers.AuthController.Login (ETicaret.API) in 4232.0671ms
+2022-09-28 18:52:47.551 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.AuthController.Login (ETicaret.API)'
+2022-09-28 18:52:47.558 +03:00 [INF] ResponseBody: {"token":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoic2FzbGFuMiIsIm5iZiI6MTY2NDM4MDM2NiwiZXhwIjoxNjY0MzgwMzgxLCJpc3MiOiJ3d3cubXlhcGkuY29tIiwiYXVkIjoid3d3LmJpbG1lbW5lLmNvbSJ9.fRe69KvtQxXRfrwHgP7VSzhmn7kH1yaGEpSQECjYslE","expiration":"2022-09-28T15:53:01.9173697Z","refreshToken":"1ZmsP8AHWU3qtB49/EfIXic31bUW0bfV7EBMTyWoDCs="}}
+2022-09-28 18:52:47.579 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/auth/login application/json 52 - 200 - application/json;+charset=utf-8 4411.8257ms
+2022-09-28 18:52:57.608 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/products?page=0&size=5 - -
+2022-09-28 18:52:57.612 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:52:57.616 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:52:57.617 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-28 18:52:57.620 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/products?page=0&size=5 - - - 204 - - 11.5354ms
+2022-09-28 18:52:57.623 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/products?page=0&size=5 - -
+2022-09-28 18:52:57.625 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:52:57.628 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:52:57.871 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.ProductsController.Get (ETicaret.API)'
+2022-09-28 18:52:57.885 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaret.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaret.API.Controllers.ProductsController (ETicaret.API).
+2022-09-28 18:52:57.933 +03:00 [INF] Get all products
+2022-09-28 18:52:58.039 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-28 18:52:58.121 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2022-09-28 18:52:58.149 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-09-28 18:52:58.152 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-09-28 18:52:58.182 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2022-09-28 18:52:58.201 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaret.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2022-09-28 18:52:58.221 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-09-28 18:52:58.223 +03:00 [INF] Executed action ETicaret.API.Controllers.ProductsController.Get (ETicaret.API) in 325.1844ms
+2022-09-28 18:52:58.226 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.ProductsController.Get (ETicaret.API)'
+2022-09-28 18:52:58.228 +03:00 [INF] ResponseBody: {"totalCount":15,"products":[{"id":"9b16d62f-026b-41ef-80b2-cdecfddc2697","name":"Kalem","stock":100,"price":15,"createdDate":"2022-09-17T12:37:13.780656Z","updatedDate":"0001-01-01T00:00:00"},{"id":"8592331a-c930-41de-8a70-03c84fca5af4","name":"Defter","stock":100,"price":50,"createdDate":"2022-09-17T12:37:30.078678Z","updatedDate":"0001-01-01T00:00:00"},{"id":"8935b460-d07a-40db-9e89-b6ab26a3fcc5","name":"Kita","stock":100,"price":75,"createdDate":"2022-09-17T12:37:30.075308Z","updatedDate":"0001-01-01T00:00:00"},{"id":"18ad6052-9899-4bc9-8a16-366d2f8884d2","name":"Renkli Kağıt","stock":1500,"price":5.5,"createdDate":"2022-09-17T12:37:13.780746Z","updatedDate":"2022-09-17T12:43:03.454366Z"},{"id":"d5e8e86c-2653-4043-9a70-058e5ada236b","name":"Kağıt","stock":100,"price":65,"createdDate":"2022-09-17T12:37:30.090654Z","updatedDate":"0001-01-01T00:00:00"}]}
+2022-09-28 18:52:58.233 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 610.1829ms
+2022-09-28 18:53:00.822 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/products?page=0&size=5 - -
+2022-09-28 18:53:00.825 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:53:00.831 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:53:00.839 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.ProductsController.Get (ETicaret.API)'
+2022-09-28 18:53:00.842 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaret.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaret.API.Controllers.ProductsController (ETicaret.API).
+2022-09-28 18:53:00.852 +03:00 [INF] Get all products
+2022-09-28 18:53:00.874 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-28 18:53:00.884 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2022-09-28 18:53:00.892 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2022-09-28 18:53:00.899 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaret.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2022-09-28 18:53:00.904 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-09-28 18:53:00.907 +03:00 [INF] Executed action ETicaret.API.Controllers.ProductsController.Get (ETicaret.API) in 60.1036ms
+2022-09-28 18:53:00.912 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.ProductsController.Get (ETicaret.API)'
+2022-09-28 18:53:00.915 +03:00 [INF] ResponseBody: {"totalCount":15,"products":[{"id":"9b16d62f-026b-41ef-80b2-cdecfddc2697","name":"Kalem","stock":100,"price":15,"createdDate":"2022-09-17T12:37:13.780656Z","updatedDate":"0001-01-01T00:00:00"},{"id":"8592331a-c930-41de-8a70-03c84fca5af4","name":"Defter","stock":100,"price":50,"createdDate":"2022-09-17T12:37:30.078678Z","updatedDate":"0001-01-01T00:00:00"},{"id":"8935b460-d07a-40db-9e89-b6ab26a3fcc5","name":"Kita","stock":100,"price":75,"createdDate":"2022-09-17T12:37:30.075308Z","updatedDate":"0001-01-01T00:00:00"},{"id":"18ad6052-9899-4bc9-8a16-366d2f8884d2","name":"Renkli Kağıt","stock":1500,"price":5.5,"createdDate":"2022-09-17T12:37:13.780746Z","updatedDate":"2022-09-17T12:43:03.454366Z"},{"id":"d5e8e86c-2653-4043-9a70-058e5ada236b","name":"Kağıt","stock":100,"price":65,"createdDate":"2022-09-17T12:37:30.090654Z","updatedDate":"0001-01-01T00:00:00"}]}
+2022-09-28 18:53:00.925 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 102.6176ms
+2022-09-28 18:55:10.209 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/auth/facebook-login - -
+2022-09-28 18:55:10.209 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/auth/facebook-login - -
+2022-09-28 18:55:10.226 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/facebook-login
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:55:10.240 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/facebook-login
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:55:10.249 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:55:10.258 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:55:10.260 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-28 18:55:10.262 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-28 18:55:10.264 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/auth/facebook-login - - - 204 - - 57.2622ms
+2022-09-28 18:55:10.268 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/auth/facebook-login - - - 204 - - 58.9285ms
+2022-09-28 18:55:10.266 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/auth/facebook-login application/json 971
+2022-09-28 18:55:10.272 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/auth/facebook-login application/json 971
+2022-09-28 18:55:10.276 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/facebook-login
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 971
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:55:10.278 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/facebook-login
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 971
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:55:10.281 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:55:10.286 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:55:10.288 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.AuthController.FacebookLogin (ETicaret.API)'
+2022-09-28 18:55:10.290 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.AuthController.FacebookLogin (ETicaret.API)'
+2022-09-28 18:55:10.295 +03:00 [INF] Route matched with {action = "FacebookLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FacebookLogin(ETicaret.Application.Features.Commands.AppUser.FacebookLogin.FacebookLoginCommandRequest) on controller ETicaret.API.Controllers.AuthController (ETicaret.API).
+2022-09-28 18:55:10.297 +03:00 [INF] Route matched with {action = "FacebookLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FacebookLogin(ETicaret.Application.Features.Commands.AppUser.FacebookLogin.FacebookLoginCommandRequest) on controller ETicaret.API.Controllers.AuthController (ETicaret.API).
+2022-09-28 18:55:10.302 +03:00 [INF] RequestBody: {"id":"110719425134699","name":"Süleyman Aslan","email":"byastim@gmail.com","photoUrl":"https://graph.facebook.com/110719425134699/picture?type=normal","firstName":"Süleyman","lastName":"Aslan","authToken":"EAAHCrKmXN4cBAJ2709CIVJZBxg8un6fZASIoDlYjAsPOvr6zM71yhZB039EMHoo3FamkPuWxrm6EnUFq9aRLeVuE8ZAEn2kZB6WZCk4ZApWGq9x6hI2NRIaZCdBDs9STzKxMSqZCJ7ZAM5yx7fuFZCrtEbZAVOPzwNpsU8DTdAE0uD1FeCYHEdBpZAkYk47bk2LXbqmUeCUsnsTIPEJ8XbjsN8Aaq","response":{"name":"Süleyman Aslan","email":"byastim@gmail.com","picture":{"data":{"height":50,"is_silhouette":true,"url":"https://scontent.fesb8-1.fna.fbcdn.net/v/t1.30497-1/84628273_176159830277856_972693363922829312_n.jpg?stp=c15.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=1&ccb=1-7&_nc_sid=12b3be&_nc_ohc=8hwh4WTwA-kAX_p_wLj&_nc_ht=scontent.fesb8-1.fna&edm=AP4hL3IEAAAA&oh=00_AT9MoTF1y3T-e37R_lqMBoZnyo7QP-etnobVMUeWSXgPlA&oe=635ABD19","width":50}},"first_name":"Süleyman","last_name":"Aslan","id":"110719425134699"},"provider":"FACEBOOK"}
+2022-09-28 18:55:10.307 +03:00 [INF] RequestBody: {"id":"110719425134699","name":"Süleyman Aslan","email":"byastim@gmail.com","photoUrl":"https://graph.facebook.com/110719425134699/picture?type=normal","firstName":"Süleyman","lastName":"Aslan","authToken":"EAAHCrKmXN4cBAJ2709CIVJZBxg8un6fZASIoDlYjAsPOvr6zM71yhZB039EMHoo3FamkPuWxrm6EnUFq9aRLeVuE8ZAEn2kZB6WZCk4ZApWGq9x6hI2NRIaZCdBDs9STzKxMSqZCJ7ZAM5yx7fuFZCrtEbZAVOPzwNpsU8DTdAE0uD1FeCYHEdBpZAkYk47bk2LXbqmUeCUsnsTIPEJ8XbjsN8Aaq","response":{"name":"Süleyman Aslan","email":"byastim@gmail.com","picture":{"data":{"height":50,"is_silhouette":true,"url":"https://scontent.fesb8-1.fna.fbcdn.net/v/t1.30497-1/84628273_176159830277856_972693363922829312_n.jpg?stp=c15.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=1&ccb=1-7&_nc_sid=12b3be&_nc_ohc=8hwh4WTwA-kAX_p_wLj&_nc_ht=scontent.fesb8-1.fna&edm=AP4hL3IEAAAA&oh=00_AT9MoTF1y3T-e37R_lqMBoZnyo7QP-etnobVMUeWSXgPlA&oe=635ABD19","width":50}},"first_name":"Süleyman","last_name":"Aslan","id":"110719425134699"},"provider":"FACEBOOK"}
+2022-09-28 18:55:10.325 +03:00 [INF] Start processing HTTP request GET "https://graph.facebook.com/oauth/access_token?client_id=495521812133767&client_secret=0abb8b2f24773ce394378fbe085671e3&grant_type=client_credentials"
+2022-09-28 18:55:10.325 +03:00 [INF] Start processing HTTP request GET "https://graph.facebook.com/oauth/access_token?client_id=495521812133767&client_secret=0abb8b2f24773ce394378fbe085671e3&grant_type=client_credentials"
+2022-09-28 18:55:10.330 +03:00 [INF] Sending HTTP request GET "https://graph.facebook.com/oauth/access_token?client_id=495521812133767&client_secret=0abb8b2f24773ce394378fbe085671e3&grant_type=client_credentials"
+2022-09-28 18:55:10.333 +03:00 [INF] Sending HTTP request GET "https://graph.facebook.com/oauth/access_token?client_id=495521812133767&client_secret=0abb8b2f24773ce394378fbe085671e3&grant_type=client_credentials"
+2022-09-28 18:55:10.587 +03:00 [INF] Received HTTP response headers after 230.6645ms - 200
+2022-09-28 18:55:10.587 +03:00 [INF] Received HTTP response headers after 235.5507ms - 200
+2022-09-28 18:55:10.602 +03:00 [INF] End processing HTTP request after 279.8592ms - 200
+2022-09-28 18:55:10.607 +03:00 [INF] End processing HTTP request after 284.8442ms - 200
+2022-09-28 18:55:10.622 +03:00 [INF] Start processing HTTP request GET "https://graph.facebook.com/debug_token?input_token=EAAHCrKmXN4cBAJ2709CIVJZBxg8un6fZASIoDlYjAsPOvr6zM71yhZB039EMHoo3FamkPuWxrm6EnUFq9aRLeVuE8ZAEn2kZB6WZCk4ZApWGq9x6hI2NRIaZCdBDs9STzKxMSqZCJ7ZAM5yx7fuFZCrtEbZAVOPzwNpsU8DTdAE0uD1FeCYHEdBpZAkYk47bk2LXbqmUeCUsnsTIPEJ8XbjsN8Aaq&access_token=495521812133767|MyZutXCtCQ8t4XlK6NmGMOYlTGA"
+2022-09-28 18:55:10.622 +03:00 [INF] Start processing HTTP request GET "https://graph.facebook.com/debug_token?input_token=EAAHCrKmXN4cBAJ2709CIVJZBxg8un6fZASIoDlYjAsPOvr6zM71yhZB039EMHoo3FamkPuWxrm6EnUFq9aRLeVuE8ZAEn2kZB6WZCk4ZApWGq9x6hI2NRIaZCdBDs9STzKxMSqZCJ7ZAM5yx7fuFZCrtEbZAVOPzwNpsU8DTdAE0uD1FeCYHEdBpZAkYk47bk2LXbqmUeCUsnsTIPEJ8XbjsN8Aaq&access_token=495521812133767|MyZutXCtCQ8t4XlK6NmGMOYlTGA"
+2022-09-28 18:55:10.626 +03:00 [INF] Sending HTTP request GET "https://graph.facebook.com/debug_token?input_token=EAAHCrKmXN4cBAJ2709CIVJZBxg8un6fZASIoDlYjAsPOvr6zM71yhZB039EMHoo3FamkPuWxrm6EnUFq9aRLeVuE8ZAEn2kZB6WZCk4ZApWGq9x6hI2NRIaZCdBDs9STzKxMSqZCJ7ZAM5yx7fuFZCrtEbZAVOPzwNpsU8DTdAE0uD1FeCYHEdBpZAkYk47bk2LXbqmUeCUsnsTIPEJ8XbjsN8Aaq&access_token=495521812133767|MyZutXCtCQ8t4XlK6NmGMOYlTGA"
+2022-09-28 18:55:10.629 +03:00 [INF] Sending HTTP request GET "https://graph.facebook.com/debug_token?input_token=EAAHCrKmXN4cBAJ2709CIVJZBxg8un6fZASIoDlYjAsPOvr6zM71yhZB039EMHoo3FamkPuWxrm6EnUFq9aRLeVuE8ZAEn2kZB6WZCk4ZApWGq9x6hI2NRIaZCdBDs9STzKxMSqZCJ7ZAM5yx7fuFZCrtEbZAVOPzwNpsU8DTdAE0uD1FeCYHEdBpZAkYk47bk2LXbqmUeCUsnsTIPEJ8XbjsN8Aaq&access_token=495521812133767|MyZutXCtCQ8t4XlK6NmGMOYlTGA"
+2022-09-28 18:55:10.931 +03:00 [INF] Received HTTP response headers after 299.4731ms - 200
+2022-09-28 18:55:10.931 +03:00 [INF] Received HTTP response headers after 295.3196ms - 200
+2022-09-28 18:55:10.938 +03:00 [INF] End processing HTTP request after 315.7998ms - 200
+2022-09-28 18:55:10.940 +03:00 [INF] End processing HTTP request after 318.6576ms - 200
+2022-09-28 18:55:10.945 +03:00 [INF] Start processing HTTP request GET "https://graph.facebook.com/me?fields=email,name&access_token=EAAHCrKmXN4cBAJ2709CIVJZBxg8un6fZASIoDlYjAsPOvr6zM71yhZB039EMHoo3FamkPuWxrm6EnUFq9aRLeVuE8ZAEn2kZB6WZCk4ZApWGq9x6hI2NRIaZCdBDs9STzKxMSqZCJ7ZAM5yx7fuFZCrtEbZAVOPzwNpsU8DTdAE0uD1FeCYHEdBpZAkYk47bk2LXbqmUeCUsnsTIPEJ8XbjsN8Aaq"
+2022-09-28 18:55:10.945 +03:00 [INF] Start processing HTTP request GET "https://graph.facebook.com/me?fields=email,name&access_token=EAAHCrKmXN4cBAJ2709CIVJZBxg8un6fZASIoDlYjAsPOvr6zM71yhZB039EMHoo3FamkPuWxrm6EnUFq9aRLeVuE8ZAEn2kZB6WZCk4ZApWGq9x6hI2NRIaZCdBDs9STzKxMSqZCJ7ZAM5yx7fuFZCrtEbZAVOPzwNpsU8DTdAE0uD1FeCYHEdBpZAkYk47bk2LXbqmUeCUsnsTIPEJ8XbjsN8Aaq"
+2022-09-28 18:55:10.948 +03:00 [INF] Sending HTTP request GET "https://graph.facebook.com/me?fields=email,name&access_token=EAAHCrKmXN4cBAJ2709CIVJZBxg8un6fZASIoDlYjAsPOvr6zM71yhZB039EMHoo3FamkPuWxrm6EnUFq9aRLeVuE8ZAEn2kZB6WZCk4ZApWGq9x6hI2NRIaZCdBDs9STzKxMSqZCJ7ZAM5yx7fuFZCrtEbZAVOPzwNpsU8DTdAE0uD1FeCYHEdBpZAkYk47bk2LXbqmUeCUsnsTIPEJ8XbjsN8Aaq"
+2022-09-28 18:55:10.951 +03:00 [INF] Sending HTTP request GET "https://graph.facebook.com/me?fields=email,name&access_token=EAAHCrKmXN4cBAJ2709CIVJZBxg8un6fZASIoDlYjAsPOvr6zM71yhZB039EMHoo3FamkPuWxrm6EnUFq9aRLeVuE8ZAEn2kZB6WZCk4ZApWGq9x6hI2NRIaZCdBDs9STzKxMSqZCJ7ZAM5yx7fuFZCrtEbZAVOPzwNpsU8DTdAE0uD1FeCYHEdBpZAkYk47bk2LXbqmUeCUsnsTIPEJ8XbjsN8Aaq"
+2022-09-28 18:55:11.139 +03:00 [INF] Received HTTP response headers after 183.781ms - 200
+2022-09-28 18:55:11.147 +03:00 [INF] End processing HTTP request after 202.2258ms - 200
+2022-09-28 18:55:11.158 +03:00 [INF] Received HTTP response headers after 199.1803ms - 200
+2022-09-28 18:55:11.162 +03:00 [INF] End processing HTTP request after 216.5641ms - 200
+2022-09-28 18:55:11.167 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-28 18:55:11.167 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-28 18:55:11.200 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2022-09-28 18:55:11.376 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2022-09-28 18:55:11.415 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2022-09-28 18:55:11.418 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2022-09-28 18:55:11.436 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2022-09-28 18:55:11.436 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2022-09-28 18:55:11.449 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2022-09-28 18:55:11.454 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2022-09-28 18:55:11.460 +03:00 [WRN] AddLogin for user failed because it was already associated with another user.
+2022-09-28 18:55:11.463 +03:00 [WRN] AddLogin for user failed because it was already associated with another user.
+2022-09-28 18:55:11.470 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2022-09-28 18:55:11.470 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2022-09-28 18:55:11.487 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2022-09-28 18:55:11.495 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2022-09-28 18:55:11.496 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaret.Application.Features.Commands.AppUser.FacebookLogin.FacebookLoginCommandResponse'.
+2022-09-28 18:55:11.506 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-09-28 18:55:11.508 +03:00 [INF] Executed action ETicaret.API.Controllers.AuthController.FacebookLogin (ETicaret.API) in 1201.3568ms
+2022-09-28 18:55:11.511 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.AuthController.FacebookLogin (ETicaret.API)'
+2022-09-28 18:55:11.514 +03:00 [INF] ResponseBody: {"token":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYnlhc3RpbUBnbWFpbC5jb20iLCJuYmYiOjE2NjQzODA1MTEsImV4cCI6MTY2NDM4MDUyNiwiaXNzIjoid3d3Lm15YXBpLmNvbSIsImF1ZCI6Ind3dy5iaWxtZW1uZS5jb20ifQ.E5moxXgG5Q4lWwNbm7Q9Arw4b_lUzFGdjBchHLrPuOk","expiration":"2022-09-28T15:55:26.4670729Z","refreshToken":"eXd7vIsL74IVn0kvGJfoxU6nYDOnqZkzYTAea0vmA0E="}}
+2022-09-28 18:55:11.518 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/auth/facebook-login application/json 971 - 200 - application/json;+charset=utf-8 1245.5311ms
+2022-09-28 18:55:11.678 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaret.Application.Features.Commands.AppUser.FacebookLogin.FacebookLoginCommandResponse'.
+2022-09-28 18:55:11.683 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-09-28 18:55:11.685 +03:00 [INF] Executed action ETicaret.API.Controllers.AuthController.FacebookLogin (ETicaret.API) in 1384.0789ms
+2022-09-28 18:55:11.688 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.AuthController.FacebookLogin (ETicaret.API)'
+2022-09-28 18:55:11.690 +03:00 [INF] ResponseBody: {"token":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYnlhc3RpbUBnbWFpbC5jb20iLCJuYmYiOjE2NjQzODA1MTEsImV4cCI6MTY2NDM4MDUyNiwiaXNzIjoid3d3Lm15YXBpLmNvbSIsImF1ZCI6Ind3dy5iaWxtZW1uZS5jb20ifQ.E5moxXgG5Q4lWwNbm7Q9Arw4b_lUzFGdjBchHLrPuOk","expiration":"2022-09-28T15:55:26.4663327Z","refreshToken":"VP6rbNRkfwKrsT51KhHE5XehIB79ehj6ggbun/9pT+E="}}
+2022-09-28 18:55:11.693 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/auth/facebook-login application/json 971 - 200 - application/json;+charset=utf-8 1426.3444ms
+2022-09-28 18:55:15.575 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/products?page=0&size=5 - -
+2022-09-28 18:55:15.580 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:55:15.586 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:55:15.590 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-28 18:55:15.594 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/products?page=0&size=5 - - - 204 - - 18.9925ms
+2022-09-28 18:55:15.596 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/products?page=0&size=5 - -
+2022-09-28 18:55:15.601 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:55:15.605 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:55:15.608 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.ProductsController.Get (ETicaret.API)'
+2022-09-28 18:55:15.612 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaret.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaret.API.Controllers.ProductsController (ETicaret.API).
+2022-09-28 18:55:15.623 +03:00 [INF] Get all products
+2022-09-28 18:55:15.626 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-28 18:55:15.635 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2022-09-28 18:55:15.646 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2022-09-28 18:55:15.652 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaret.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2022-09-28 18:55:15.656 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-09-28 18:55:15.660 +03:00 [INF] Executed action ETicaret.API.Controllers.ProductsController.Get (ETicaret.API) in 42.4685ms
+2022-09-28 18:55:15.664 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.ProductsController.Get (ETicaret.API)'
+2022-09-28 18:55:15.666 +03:00 [INF] ResponseBody: {"totalCount":15,"products":[{"id":"9b16d62f-026b-41ef-80b2-cdecfddc2697","name":"Kalem","stock":100,"price":15,"createdDate":"2022-09-17T12:37:13.780656Z","updatedDate":"0001-01-01T00:00:00"},{"id":"8592331a-c930-41de-8a70-03c84fca5af4","name":"Defter","stock":100,"price":50,"createdDate":"2022-09-17T12:37:30.078678Z","updatedDate":"0001-01-01T00:00:00"},{"id":"8935b460-d07a-40db-9e89-b6ab26a3fcc5","name":"Kita","stock":100,"price":75,"createdDate":"2022-09-17T12:37:30.075308Z","updatedDate":"0001-01-01T00:00:00"},{"id":"18ad6052-9899-4bc9-8a16-366d2f8884d2","name":"Renkli Kağıt","stock":1500,"price":5.5,"createdDate":"2022-09-17T12:37:13.780746Z","updatedDate":"2022-09-17T12:43:03.454366Z"},{"id":"d5e8e86c-2653-4043-9a70-058e5ada236b","name":"Kağıt","stock":100,"price":65,"createdDate":"2022-09-17T12:37:30.090654Z","updatedDate":"0001-01-01T00:00:00"}]}
+2022-09-28 18:55:15.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 74.4782ms
+2022-09-28 18:55:18.131 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/products?page=1&size=5 - -
+2022-09-28 18:55:18.135 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:55:18.141 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:55:18.143 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-28 18:55:18.146 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/products?page=1&size=5 - - - 204 - - 15.3122ms
+2022-09-28 18:55:18.148 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/products?page=1&size=5 - -
+2022-09-28 18:55:18.149 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:55:18.154 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:55:18.157 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.ProductsController.Get (ETicaret.API)'
+2022-09-28 18:55:18.160 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaret.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaret.API.Controllers.ProductsController (ETicaret.API).
+2022-09-28 18:55:18.166 +03:00 [INF] Get all products
+2022-09-28 18:55:18.169 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-28 18:55:18.179 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2022-09-28 18:55:18.185 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-09-28 18:55:18.189 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-09-28 18:55:18.197 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_0 OFFSET @__p_0
+2022-09-28 18:55:18.205 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaret.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2022-09-28 18:55:18.211 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-09-28 18:55:18.213 +03:00 [INF] Executed action ETicaret.API.Controllers.ProductsController.Get (ETicaret.API) in 48.2507ms
+2022-09-28 18:55:18.216 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.ProductsController.Get (ETicaret.API)'
+2022-09-28 18:55:18.220 +03:00 [INF] ResponseBody: {"totalCount":15,"products":[{"id":"52327353-b1e2-4552-98e4-1b10c2e2122c","name":"product1","stock":1,"price":7,"createdDate":"2022-09-18T15:35:20.050086Z","updatedDate":"0001-01-01T00:00:00"},{"id":"65bd1aa0-f06b-4b2b-b1ee-8c8a923dbb4a","name":"product2","stock":2,"price":3,"createdDate":"2022-09-18T15:37:35.01013Z","updatedDate":"0001-01-01T00:00:00"},{"id":"89bb3e20-37a2-497f-b65c-3c30590d9616","name":"product4","stock":2,"price":4,"createdDate":"2022-09-18T15:37:48.694Z","updatedDate":"0001-01-01T00:00:00"},{"id":"035cf8ec-102a-4cfc-bfc0-f8b183d0e762","name":"product5","stock":2,"price":5,"createdDate":"2022-09-18T15:37:54.818928Z","updatedDate":"0001-01-01T00:00:00"},{"id":"fdd23053-6643-4d79-a610-630065447350","name":"product7","stock":2,"price":5,"createdDate":"2022-09-18T15:38:02.716788Z","updatedDate":"0001-01-01T00:00:00"}]}
+2022-09-28 18:55:18.227 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/products?page=1&size=5 - - - 200 - application/json;+charset=utf-8 79.1440ms
+2022-09-28 18:57:43.542 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/auth/facebook-login - -
+2022-09-28 18:57:43.554 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/facebook-login
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:57:43.561 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:57:43.566 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-28 18:57:43.569 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/auth/facebook-login - - - 204 - - 28.5075ms
+2022-09-28 18:57:43.579 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/auth/facebook-login application/json 971
+2022-09-28 18:57:43.582 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/facebook-login
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 971
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:57:43.586 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:57:43.588 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.AuthController.FacebookLogin (ETicaret.API)'
+2022-09-28 18:57:43.591 +03:00 [INF] Route matched with {action = "FacebookLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FacebookLogin(ETicaret.Application.Features.Commands.AppUser.FacebookLogin.FacebookLoginCommandRequest) on controller ETicaret.API.Controllers.AuthController (ETicaret.API).
+2022-09-28 18:57:43.598 +03:00 [INF] RequestBody: {"id":"110719425134699","name":"Süleyman Aslan","email":"byastim@gmail.com","photoUrl":"https://graph.facebook.com/110719425134699/picture?type=normal","firstName":"Süleyman","lastName":"Aslan","authToken":"EAAHCrKmXN4cBAJ2709CIVJZBxg8un6fZASIoDlYjAsPOvr6zM71yhZB039EMHoo3FamkPuWxrm6EnUFq9aRLeVuE8ZAEn2kZB6WZCk4ZApWGq9x6hI2NRIaZCdBDs9STzKxMSqZCJ7ZAM5yx7fuFZCrtEbZAVOPzwNpsU8DTdAE0uD1FeCYHEdBpZAkYk47bk2LXbqmUeCUsnsTIPEJ8XbjsN8Aaq","response":{"name":"Süleyman Aslan","email":"byastim@gmail.com","picture":{"data":{"height":50,"is_silhouette":true,"url":"https://scontent.fesb8-1.fna.fbcdn.net/v/t1.30497-1/84628273_176159830277856_972693363922829312_n.jpg?stp=c15.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=1&ccb=1-7&_nc_sid=12b3be&_nc_ohc=8hwh4WTwA-kAX_p_wLj&_nc_ht=scontent.fesb8-1.fna&edm=AP4hL3IEAAAA&oh=00_AT9MoTF1y3T-e37R_lqMBoZnyo7QP-etnobVMUeWSXgPlA&oe=635ABD19","width":50}},"first_name":"Süleyman","last_name":"Aslan","id":"110719425134699"},"provider":"FACEBOOK"}
+2022-09-28 18:57:43.619 +03:00 [INF] Start processing HTTP request GET "https://graph.facebook.com/oauth/access_token?client_id=495521812133767&client_secret=0abb8b2f24773ce394378fbe085671e3&grant_type=client_credentials"
+2022-09-28 18:57:43.624 +03:00 [INF] Sending HTTP request GET "https://graph.facebook.com/oauth/access_token?client_id=495521812133767&client_secret=0abb8b2f24773ce394378fbe085671e3&grant_type=client_credentials"
+2022-09-28 18:57:43.870 +03:00 [INF] Received HTTP response headers after 242.4633ms - 200
+2022-09-28 18:57:43.874 +03:00 [INF] End processing HTTP request after 254.9674ms - 200
+2022-09-28 18:57:43.882 +03:00 [INF] Start processing HTTP request GET "https://graph.facebook.com/debug_token?input_token=EAAHCrKmXN4cBAJ2709CIVJZBxg8un6fZASIoDlYjAsPOvr6zM71yhZB039EMHoo3FamkPuWxrm6EnUFq9aRLeVuE8ZAEn2kZB6WZCk4ZApWGq9x6hI2NRIaZCdBDs9STzKxMSqZCJ7ZAM5yx7fuFZCrtEbZAVOPzwNpsU8DTdAE0uD1FeCYHEdBpZAkYk47bk2LXbqmUeCUsnsTIPEJ8XbjsN8Aaq&access_token=495521812133767|MyZutXCtCQ8t4XlK6NmGMOYlTGA"
+2022-09-28 18:57:43.889 +03:00 [INF] Sending HTTP request GET "https://graph.facebook.com/debug_token?input_token=EAAHCrKmXN4cBAJ2709CIVJZBxg8un6fZASIoDlYjAsPOvr6zM71yhZB039EMHoo3FamkPuWxrm6EnUFq9aRLeVuE8ZAEn2kZB6WZCk4ZApWGq9x6hI2NRIaZCdBDs9STzKxMSqZCJ7ZAM5yx7fuFZCrtEbZAVOPzwNpsU8DTdAE0uD1FeCYHEdBpZAkYk47bk2LXbqmUeCUsnsTIPEJ8XbjsN8Aaq&access_token=495521812133767|MyZutXCtCQ8t4XlK6NmGMOYlTGA"
+2022-09-28 18:57:44.071 +03:00 [INF] Received HTTP response headers after 172.924ms - 200
+2022-09-28 18:57:44.076 +03:00 [INF] End processing HTTP request after 194.7102ms - 200
+2022-09-28 18:57:44.080 +03:00 [INF] Start processing HTTP request GET "https://graph.facebook.com/me?fields=email,name&access_token=EAAHCrKmXN4cBAJ2709CIVJZBxg8un6fZASIoDlYjAsPOvr6zM71yhZB039EMHoo3FamkPuWxrm6EnUFq9aRLeVuE8ZAEn2kZB6WZCk4ZApWGq9x6hI2NRIaZCdBDs9STzKxMSqZCJ7ZAM5yx7fuFZCrtEbZAVOPzwNpsU8DTdAE0uD1FeCYHEdBpZAkYk47bk2LXbqmUeCUsnsTIPEJ8XbjsN8Aaq"
+2022-09-28 18:57:44.085 +03:00 [INF] Sending HTTP request GET "https://graph.facebook.com/me?fields=email,name&access_token=EAAHCrKmXN4cBAJ2709CIVJZBxg8un6fZASIoDlYjAsPOvr6zM71yhZB039EMHoo3FamkPuWxrm6EnUFq9aRLeVuE8ZAEn2kZB6WZCk4ZApWGq9x6hI2NRIaZCdBDs9STzKxMSqZCJ7ZAM5yx7fuFZCrtEbZAVOPzwNpsU8DTdAE0uD1FeCYHEdBpZAkYk47bk2LXbqmUeCUsnsTIPEJ8XbjsN8Aaq"
+2022-09-28 18:57:44.275 +03:00 [INF] Received HTTP response headers after 187.2044ms - 200
+2022-09-28 18:57:44.281 +03:00 [INF] End processing HTTP request after 200.4178ms - 200
+2022-09-28 18:57:44.283 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-28 18:57:44.290 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2022-09-28 18:57:44.297 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2022-09-28 18:57:44.305 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2022-09-28 18:57:44.312 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2022-09-28 18:57:44.318 +03:00 [WRN] AddLogin for user failed because it was already associated with another user.
+2022-09-28 18:57:44.322 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2022-09-28 18:57:44.332 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2022-09-28 18:57:44.339 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaret.Application.Features.Commands.AppUser.FacebookLogin.FacebookLoginCommandResponse'.
+2022-09-28 18:57:44.343 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-09-28 18:57:44.345 +03:00 [INF] Executed action ETicaret.API.Controllers.AuthController.FacebookLogin (ETicaret.API) in 747.635ms
+2022-09-28 18:57:44.350 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.AuthController.FacebookLogin (ETicaret.API)'
+2022-09-28 18:57:44.357 +03:00 [INF] ResponseBody: {"token":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYnlhc3RpbUBnbWFpbC5jb20iLCJuYmYiOjE2NjQzODA2NjQsImV4cCI6MTY2NDM4MDY3OSwiaXNzIjoid3d3Lm15YXBpLmNvbSIsImF1ZCI6Ind3dy5iaWxtZW1uZS5jb20ifQ.vii2Vhbv8OVmvFsdk0OxZTZKLVUUFPRQYJJrrcRqQl0","expiration":"2022-09-28T15:57:59.3200659Z","refreshToken":"Lmbsk7B+1F6GZutrBZp1F5f/vjW1jnMWQ4WNAS0OYFQ="}}
+2022-09-28 18:57:44.364 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/auth/facebook-login application/json 971 - 200 - application/json;+charset=utf-8 786.7686ms
+2022-09-28 18:57:49.903 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/auth/google-login - -
+2022-09-28 18:57:49.903 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/auth/google-login - -
+2022-09-28 18:57:49.903 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/auth/google-login - -
+2022-09-28 18:57:49.909 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/google-login
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:57:49.912 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/google-login
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:57:49.913 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/auth/google-login
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:57:49.917 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:57:49.925 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:57:49.929 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:57:49.932 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-28 18:57:49.934 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-28 18:57:49.937 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-28 18:57:49.942 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/auth/google-login application/json 1432
+2022-09-28 18:57:49.943 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/auth/google-login - - - 204 - - 39.6598ms
+2022-09-28 18:57:49.964 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/google-login
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 1432
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:57:49.964 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/auth/google-login application/json 1432
+2022-09-28 18:57:49.949 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/auth/google-login - - - 204 - - 45.5974ms
+2022-09-28 18:57:49.940 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/auth/google-login - - - 204 - - 37.0659ms
+2022-09-28 18:57:49.976 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/auth/google-login application/json 1432
+2022-09-28 18:57:49.994 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:57:49.998 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/google-login
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 1432
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:57:50.006 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/auth/google-login
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 1432
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:57:50.008 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.AuthController.GoogleLogin (ETicaret.API)'
+2022-09-28 18:57:50.017 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:57:50.021 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:57:50.026 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.AuthController.GoogleLogin (ETicaret.API)'
+2022-09-28 18:57:50.031 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.AuthController.GoogleLogin (ETicaret.API)'
+2022-09-28 18:57:50.032 +03:00 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(ETicaret.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandRequest) on controller ETicaret.API.Controllers.AuthController (ETicaret.API).
+2022-09-28 18:57:50.034 +03:00 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(ETicaret.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandRequest) on controller ETicaret.API.Controllers.AuthController (ETicaret.API).
+2022-09-28 18:57:50.037 +03:00 [INF] Route matched with {action = "GoogleLogin", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(ETicaret.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandRequest) on controller ETicaret.API.Controllers.AuthController (ETicaret.API).
+2022-09-28 18:57:50.042 +03:00 [INF] RequestBody: {"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImJhMDc5YjQyMDI2NDFlNTRhYmNlZDhmYjEzNTRjZTAzOTE5ZmIyOTQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2NjQzODAzNzAsImF1ZCI6IjcyNTA3NjMyNjkwNy1pbm1jNDNkNW5wcmp0Ym8yMWtjMzFlcmQ2dGxqMXQwMS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjExMzczNzc1NzQwNDAzNTA1NTcwNiIsImVtYWlsIjoiaHRjbnJzb3lhc2xhbkBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiNzI1MDc2MzI2OTA3LWlubWM0M2Q1bnByanRibzIxa2MzMWVyZDZ0bGoxdDAxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwibmFtZSI6Ik51ciBBU0xBTiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQUNOUEV1OHAxdUwyb2JCSDhfc0wtUlVFcjc0c0JubWxrUWI4U3cwMTJHYkhOUT1zOTYtYyIsImdpdmVuX25hbWUiOiJOdXIiLCJmYW1pbHlfbmFtZSI6IkFTTEFOIiwiaWF0IjoxNjY0MzgwNjcwLCJleHAiOjE2NjQzODQyNzAsImp0aSI6IjM0NWVkNjRjYTYxYmRhODNjZDk3YmZmZTllMGRjYWRkY2UwNzliNGMifQ.VHaFlx0ZZ1u2DjWn3qAxhRtuRf0KM6ltBwsGy3sS4wSJlmZyOdGozA5J5NcwhA5YhUiumpC2yTr36_yoNzIiRjld4szA_4VPHyZuSgVZjVZBtBzE1OjtLbp3fdwV5E5XasItcHPQP9Cy9y3YtVhBIavwvd5t-4GjltjpoLwXtyaOgaZ_4h8P00_h2SA5368dWpCGhTfmlVxnZx9UZdL_GsMzHS1-fRnCJ56d0Kyj0aJp8dxutuk6wPKRFvAN4nZyiO8YHOHVmbn9ABPG26gGyTpev5WV8zZabkxPcQvoVJAdajObdTbzrEYhHkxh97DqS3ZNnEH8Mm2ydT9UYRp22g","id":"113737757404035055706","name":"Nur ASLAN","email":"htcnrsoyaslan@gmail.com","photoUrl":"https://lh3.googleusercontent.com/a-/ACNPEu8p1uL2obBH8_sL-RUEr74sBnmlkQb8Sw012GbHNQ=s96-c","firstName":"Nur","lastName":"ASLAN","provider":"GOOGLE"}
+2022-09-28 18:57:50.048 +03:00 [INF] RequestBody: {"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImJhMDc5YjQyMDI2NDFlNTRhYmNlZDhmYjEzNTRjZTAzOTE5ZmIyOTQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2NjQzODAzNzAsImF1ZCI6IjcyNTA3NjMyNjkwNy1pbm1jNDNkNW5wcmp0Ym8yMWtjMzFlcmQ2dGxqMXQwMS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjExMzczNzc1NzQwNDAzNTA1NTcwNiIsImVtYWlsIjoiaHRjbnJzb3lhc2xhbkBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiNzI1MDc2MzI2OTA3LWlubWM0M2Q1bnByanRibzIxa2MzMWVyZDZ0bGoxdDAxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwibmFtZSI6Ik51ciBBU0xBTiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQUNOUEV1OHAxdUwyb2JCSDhfc0wtUlVFcjc0c0JubWxrUWI4U3cwMTJHYkhOUT1zOTYtYyIsImdpdmVuX25hbWUiOiJOdXIiLCJmYW1pbHlfbmFtZSI6IkFTTEFOIiwiaWF0IjoxNjY0MzgwNjcwLCJleHAiOjE2NjQzODQyNzAsImp0aSI6IjM0NWVkNjRjYTYxYmRhODNjZDk3YmZmZTllMGRjYWRkY2UwNzliNGMifQ.VHaFlx0ZZ1u2DjWn3qAxhRtuRf0KM6ltBwsGy3sS4wSJlmZyOdGozA5J5NcwhA5YhUiumpC2yTr36_yoNzIiRjld4szA_4VPHyZuSgVZjVZBtBzE1OjtLbp3fdwV5E5XasItcHPQP9Cy9y3YtVhBIavwvd5t-4GjltjpoLwXtyaOgaZ_4h8P00_h2SA5368dWpCGhTfmlVxnZx9UZdL_GsMzHS1-fRnCJ56d0Kyj0aJp8dxutuk6wPKRFvAN4nZyiO8YHOHVmbn9ABPG26gGyTpev5WV8zZabkxPcQvoVJAdajObdTbzrEYhHkxh97DqS3ZNnEH8Mm2ydT9UYRp22g","id":"113737757404035055706","name":"Nur ASLAN","email":"htcnrsoyaslan@gmail.com","photoUrl":"https://lh3.googleusercontent.com/a-/ACNPEu8p1uL2obBH8_sL-RUEr74sBnmlkQb8Sw012GbHNQ=s96-c","firstName":"Nur","lastName":"ASLAN","provider":"GOOGLE"}
+2022-09-28 18:57:50.054 +03:00 [INF] RequestBody: {"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImJhMDc5YjQyMDI2NDFlNTRhYmNlZDhmYjEzNTRjZTAzOTE5ZmIyOTQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2NjQzODAzNzAsImF1ZCI6IjcyNTA3NjMyNjkwNy1pbm1jNDNkNW5wcmp0Ym8yMWtjMzFlcmQ2dGxqMXQwMS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjExMzczNzc1NzQwNDAzNTA1NTcwNiIsImVtYWlsIjoiaHRjbnJzb3lhc2xhbkBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiNzI1MDc2MzI2OTA3LWlubWM0M2Q1bnByanRibzIxa2MzMWVyZDZ0bGoxdDAxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwibmFtZSI6Ik51ciBBU0xBTiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQUNOUEV1OHAxdUwyb2JCSDhfc0wtUlVFcjc0c0JubWxrUWI4U3cwMTJHYkhOUT1zOTYtYyIsImdpdmVuX25hbWUiOiJOdXIiLCJmYW1pbHlfbmFtZSI6IkFTTEFOIiwiaWF0IjoxNjY0MzgwNjcwLCJleHAiOjE2NjQzODQyNzAsImp0aSI6IjM0NWVkNjRjYTYxYmRhODNjZDk3YmZmZTllMGRjYWRkY2UwNzliNGMifQ.VHaFlx0ZZ1u2DjWn3qAxhRtuRf0KM6ltBwsGy3sS4wSJlmZyOdGozA5J5NcwhA5YhUiumpC2yTr36_yoNzIiRjld4szA_4VPHyZuSgVZjVZBtBzE1OjtLbp3fdwV5E5XasItcHPQP9Cy9y3YtVhBIavwvd5t-4GjltjpoLwXtyaOgaZ_4h8P00_h2SA5368dWpCGhTfmlVxnZx9UZdL_GsMzHS1-fRnCJ56d0Kyj0aJp8dxutuk6wPKRFvAN4nZyiO8YHOHVmbn9ABPG26gGyTpev5WV8zZabkxPcQvoVJAdajObdTbzrEYhHkxh97DqS3ZNnEH8Mm2ydT9UYRp22g","id":"113737757404035055706","name":"Nur ASLAN","email":"htcnrsoyaslan@gmail.com","photoUrl":"https://lh3.googleusercontent.com/a-/ACNPEu8p1uL2obBH8_sL-RUEr74sBnmlkQb8Sw012GbHNQ=s96-c","firstName":"Nur","lastName":"ASLAN","provider":"GOOGLE"}
+2022-09-28 18:57:50.721 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-28 18:57:50.721 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-28 18:57:50.729 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2022-09-28 18:57:50.721 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-28 18:57:50.749 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2022-09-28 18:57:50.768 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2022-09-28 18:57:50.789 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2022-09-28 18:57:50.839 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?', @p1='?' (DbType = Int32), @p2='?', @p3='?', @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime), @p7='?', @p8='?', @p9='?', @p10='?', @p11='?', @p12='?' (DbType = Boolean), @p13='?', @p14='?' (DbType = DateTime), @p15='?', @p16='?' (DbType = Boolean), @p17='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NameSurname", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "RefreshToken", "RefreshTokenEndDate", "SecurityStamp", "TwoFactorEnabled", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17);
+2022-09-28 18:57:50.844 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2022-09-28 18:57:50.854 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2022-09-28 18:57:50.859 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2022-09-28 18:57:50.870 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2022-09-28 18:57:51.044 +03:00 [INF] Executed DbCommand (57ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2022-09-28 18:57:51.435 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p21='?', @p4='?' (DbType = Int32), @p5='?', @p22='?', @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTime), @p10='?', @p11='?', @p12='?', @p13='?', @p14='?', @p15='?' (DbType = Boolean), @p16='?', @p17='?' (DbType = DateTime), @p18='?', @p19='?' (DbType = Boolean), @p20='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AspNetUserLogins" ("LoginProvider", "ProviderKey", "ProviderDisplayName", "UserId")
+VALUES (@p0, @p1, @p2, @p3);
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p4, "ConcurrencyStamp" = @p5, "Email" = @p6, "EmailConfirmed" = @p7, "LockoutEnabled" = @p8, "LockoutEnd" = @p9, "NameSurname" = @p10, "NormalizedEmail" = @p11, "NormalizedUserName" = @p12, "PasswordHash" = @p13, "PhoneNumber" = @p14, "PhoneNumberConfirmed" = @p15, "RefreshToken" = @p16, "RefreshTokenEndDate" = @p17, "SecurityStamp" = @p18, "TwoFactorEnabled" = @p19, "UserName" = @p20
+WHERE "Id" = @p21 AND "ConcurrencyStamp" = @p22;
+2022-09-28 18:57:51.661 +03:00 [INF] Executed action ETicaret.API.Controllers.AuthController.GoogleLogin (ETicaret.API) in 1607.9809ms
+2022-09-28 18:57:51.668 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2022-09-28 18:57:51.661 +03:00 [INF] Executed action ETicaret.API.Controllers.AuthController.GoogleLogin (ETicaret.API) in 1613.7089ms
+2022-09-28 18:57:51.670 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.AuthController.GoogleLogin (ETicaret.API)'
+2022-09-28 18:57:51.676 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2022-09-28 18:57:51.678 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.AuthController.GoogleLogin (ETicaret.API)'
+2022-09-28 18:57:51.886 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Invalid external authentication.
+   at ETicaret.Persistence.Services.AuthService.CreateUserExternalAsync(AppUser user, String email, String name, UserLoginInfo info, Int32 accessTokenLifeTime) in C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Persistence\Services\AuthService.cs:line 70
+   at ETicaret.Persistence.Services.AuthService.GoogleLoginAsync(String idToken, Int32 accessTokenLifeTime) in C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Persistence\Services\AuthService.cs:line 107
+   at ETicaret.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandHandler.Handle(GoogleLoginCommandRequest request, CancellationToken cancellationToken) in C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Core\Eticaret.Application\Features\Commands\AppUser\GoogleLogin\GoogleLoginCommandHandler.cs:line 25
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at ETicaret.API.Controllers.AuthController.GoogleLogin(GoogleLoginCommandRequest googleLoginCommandRequest) in C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Presentation\Eticaret.API\Controllers\AuthController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<Main>b__0_6>d.MoveNext() in C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Presentation\Eticaret.API\Program.cs:line 119
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-09-28 18:57:51.887 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaret.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandResponse'.
+2022-09-28 18:57:52.043 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Invalid external authentication.
+   at ETicaret.Persistence.Services.AuthService.CreateUserExternalAsync(AppUser user, String email, String name, UserLoginInfo info, Int32 accessTokenLifeTime) in C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Persistence\Services\AuthService.cs:line 70
+   at ETicaret.Persistence.Services.AuthService.GoogleLoginAsync(String idToken, Int32 accessTokenLifeTime) in C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Infrastructure\Eticaret.Persistence\Services\AuthService.cs:line 107
+   at ETicaret.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandHandler.Handle(GoogleLoginCommandRequest request, CancellationToken cancellationToken) in C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Core\Eticaret.Application\Features\Commands\AppUser\GoogleLogin\GoogleLoginCommandHandler.cs:line 25
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at ETicaret.API.Controllers.AuthController.GoogleLogin(GoogleLoginCommandRequest googleLoginCommandRequest) in C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Presentation\Eticaret.API\Controllers\AuthController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<Main>b__0_6>d.MoveNext() in C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Presentation\Eticaret.API\Program.cs:line 119
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-09-28 18:57:52.270 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-09-28 18:57:52.275 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/auth/google-login application/json 1432 - 500 - text/plain;+charset=utf-8 2298.4328ms
+2022-09-28 18:57:52.298 +03:00 [INF] Executed action ETicaret.API.Controllers.AuthController.GoogleLogin (ETicaret.API) in 2257.2892ms
+2022-09-28 18:57:52.301 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/auth/google-login application/json 1432 - 500 - text/plain;+charset=utf-8 2336.4256ms
+2022-09-28 18:57:52.303 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.AuthController.GoogleLogin (ETicaret.API)'
+2022-09-28 18:57:52.310 +03:00 [INF] ResponseBody: {"token":{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiaHRjbnJzb3lhc2xhbkBnbWFpbC5jb20iLCJuYmYiOjE2NjQzODA2NzEsImV4cCI6MTY2NDM4MDY4NiwiaXNzIjoid3d3Lm15YXBpLmNvbSIsImF1ZCI6Ind3dy5iaWxtZW1uZS5jb20ifQ.Q2E4jOJPI4Ia7-Vs10Kc2EDyamIgLwKUka4FtkrKzv0","expiration":"2022-09-28T15:58:06.6654549Z","refreshToken":"fyPbJi/9YuSvhdZoiLs8JR/Chr4JzwxDDp0AXAt+7SM="}}
+2022-09-28 18:57:52.314 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/auth/google-login application/json 1432 - 200 - application/json;+charset=utf-8 2371.9934ms
+2022-09-28 18:57:59.398 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/products?page=0&size=5 - -
+2022-09-28 18:57:59.402 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:57:59.406 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:57:59.408 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-28 18:57:59.410 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/products?page=0&size=5 - - - 204 - - 11.8399ms
+2022-09-28 18:57:59.412 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/products?page=0&size=5 - -
+2022-09-28 18:57:59.416 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-28 18:57:59.420 +03:00 [INF] CORS policy execution successful.
+2022-09-28 18:57:59.424 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.ProductsController.Get (ETicaret.API)'
+2022-09-28 18:57:59.427 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaret.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaret.API.Controllers.ProductsController (ETicaret.API).
+2022-09-28 18:57:59.433 +03:00 [INF] Get all products
+2022-09-28 18:57:59.436 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-28 18:57:59.445 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2022-09-28 18:57:59.457 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+LIMIT @__p_1 OFFSET @__p_0
+2022-09-28 18:57:59.465 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaret.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2022-09-28 18:57:59.469 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-09-28 18:57:59.472 +03:00 [INF] Executed action ETicaret.API.Controllers.ProductsController.Get (ETicaret.API) in 39.8524ms
+2022-09-28 18:57:59.476 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.ProductsController.Get (ETicaret.API)'
+2022-09-28 18:57:59.478 +03:00 [INF] ResponseBody: {"totalCount":15,"products":[{"id":"9b16d62f-026b-41ef-80b2-cdecfddc2697","name":"Kalem","stock":100,"price":15,"createdDate":"2022-09-17T12:37:13.780656Z","updatedDate":"0001-01-01T00:00:00"},{"id":"8592331a-c930-41de-8a70-03c84fca5af4","name":"Defter","stock":100,"price":50,"createdDate":"2022-09-17T12:37:30.078678Z","updatedDate":"0001-01-01T00:00:00"},{"id":"8935b460-d07a-40db-9e89-b6ab26a3fcc5","name":"Kita","stock":100,"price":75,"createdDate":"2022-09-17T12:37:30.075308Z","updatedDate":"0001-01-01T00:00:00"},{"id":"18ad6052-9899-4bc9-8a16-366d2f8884d2","name":"Renkli Kağıt","stock":1500,"price":5.5,"createdDate":"2022-09-17T12:37:13.780746Z","updatedDate":"2022-09-17T12:43:03.454366Z"},{"id":"d5e8e86c-2653-4043-9a70-058e5ada236b","name":"Kağıt","stock":100,"price":65,"createdDate":"2022-09-17T12:37:30.090654Z","updatedDate":"0001-01-01T00:00:00"}]}
+2022-09-28 18:57:59.482 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 70.0913ms
