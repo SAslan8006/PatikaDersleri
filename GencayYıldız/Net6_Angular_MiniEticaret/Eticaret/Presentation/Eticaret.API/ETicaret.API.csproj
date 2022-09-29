@@ -24,6 +24,7 @@
     <ProjectReference Include="..\..\Core\Eticaret.Application\ETicaret.Application.csproj" />
     <ProjectReference Include="..\..\Infrastructure\Eticaret.Infrastructure\ETicaret.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Infrastructure\Eticaret.Persistence\ETicaret.Persistence.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\ETicaretSignalR\ETicaretSignalR.csproj" />
   </ItemGroup>
 
   <ItemGroup>

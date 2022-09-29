@@ -44,7 +44,7 @@ put<T>(requestParameter: Partial<RequestParameters>, body: Partial<T>): Observab
 delete<T>(requestParameter: Partial<RequestParameters>, id: string): Observable<T> {
   let url: string = "";
   if (requestParameter.fullEndPoint)
-    url = requestParameter.fullEndPoint;
+    url = requestParameter.fullEndPoint; 
   else
     url = `${this.url(requestParameter)}/${id}${requestParameter.queryString ? `?${requestParameter.queryString}` : ""}`;
 

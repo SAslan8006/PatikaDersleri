@@ -2099,6 +2099,22 @@
         "runtime": {
           "bin/placeholder/ETicaret.Persistence.dll": {}
         }
+      },
+      "ETicaretSignalR/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ETicaret.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ETicaretSignalR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ETicaretSignalR.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -5704,6 +5720,11 @@
       "type": "project",
       "path": "../../Infrastructure/Eticaret.Persistence/ETicaret.Persistence.csproj",
       "msbuildProject": "../../Infrastructure/Eticaret.Persistence/ETicaret.Persistence.csproj"
+    },
+    "ETicaretSignalR/1.0.0": {
+      "type": "project",
+      "path": "../../Infrastructure/ETicaretSignalR/ETicaretSignalR.csproj",
+      "msbuildProject": "../../Infrastructure/ETicaretSignalR/ETicaretSignalR.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5711,6 +5732,7 @@
       "ETicaret.Application >= 1.0.0",
       "ETicaret.Infrastructure >= 1.0.0",
       "ETicaret.Persistence >= 1.0.0",
+      "ETicaretSignalR >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.2.2",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.9",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.9",
@@ -5762,6 +5784,9 @@
             },
             "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Infrastructure\\Eticaret.Persistence\\ETicaret.Persistence.csproj": {
               "projectPath": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Infrastructure\\Eticaret.Persistence\\ETicaret.Persistence.csproj"
+            },
+            "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Infrastructure\\ETicaretSignalR\\ETicaretSignalR.csproj": {
+              "projectPath": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Infrastructure\\ETicaretSignalR\\ETicaretSignalR.csproj"
             }
           }
         }
