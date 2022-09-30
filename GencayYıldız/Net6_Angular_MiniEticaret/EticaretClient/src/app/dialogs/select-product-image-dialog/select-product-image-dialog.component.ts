@@ -60,6 +60,14 @@ export class SelectProductImageDialogComponent extends BaseDialog<SelectProductI
       }
     })
   }
+
+  showCase(imageId: string) {
+    this.spinner.show(SpinnerType.BallScaleMultiple);
+    //alert("image id:"+imageId +"product id:"+ this.data);
+    this.productService.changeShowcaseImage(imageId, this.data as string, () => {
+      this.spinner.hide(SpinnerType.BallScaleMultiple);
+    });
+  }
 }
 
 
