@@ -37,7 +37,10 @@
               "node_modules/ngx-spinner/animations/ball-scale-ripple-multiple.css",              
               "node_modules/ngx-spinner/animations/ball-scale-multiple.css",              
               "node_modules/ngx-spinner/animations/ball-spin-clockwise-fade-rotating.css",
-              "node_modules/ngx-spinner/animations/line-scale-party.css"
+              "node_modules/ngx-spinner/animations/line-scale-party.css",
+              "node_modules/ngx-spinner/animations/ball-scale-multiple.css",
+              "node_modules/ngx-spinner/animations/ball-atom.css",
+              "node_modules/ngx-spinner/animations/ball-spin-clockwise-fade-rotating.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.min.js",

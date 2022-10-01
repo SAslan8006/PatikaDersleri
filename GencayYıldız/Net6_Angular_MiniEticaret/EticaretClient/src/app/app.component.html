@@ -47,7 +47,7 @@
         </ul>
         <div class="d-flex">
           <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" 
-          type="submit">Sepet</button>
+          type="submit" (click)="loadComponent()">Sepet</button>
         </div>
       </div>
     </div>
@@ -68,4 +68,10 @@
 <ngx-spinner bdColor = "rgba(0, 0, 0, 0.8)" size = "default" color = "#fff" name="s3" type = "ball-spin-clockwise-fade-rotating" [fullScreen] = "true"><p style="color: white" > Loading... </p></ngx-spinner>
 
 
-<app-baskets></app-baskets>
+<!-- <app-baskets></app-baskets> -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <ng-template appDynamicLoadComponent></ng-template>
+  </div>
+</div>
