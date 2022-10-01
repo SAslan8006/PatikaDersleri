@@ -29785,3 +29785,668 @@ Content-Type: application/json; charset=utf-8
 2022-09-30 18:17:05.647 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.ProductsController.Get (ETicaret.API)'
 2022-09-30 18:17:05.650 +03:00 [INF] ResponseBody: {"totalProductCount":16,"products":[{"id":"035cf8ec-102a-4cfc-bfc0-f8b183d0e762","name":"product5","stock":2,"price":5,"createdDate":"2022-09-18T15:37:54.818928Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"18ad6052-9899-4bc9-8a16-366d2f8884d2","name":"Renkli Kağıt","stock":1500,"price":5.5,"createdDate":"2022-09-17T12:37:13.780746Z","updatedDate":"2022-09-17T12:43:03.454366Z","productImageFiles":[{"showcase":false,"products":null,"fileName":"Nasihatler-arkaplan-resimleri-092-1024x576.jpg","path":"photo-images/Nasihatler-arkaplan-resimleri-092-1024x576.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"41ca25e1-7f75-4fe4-9d58-2a901815a8bc","createdDate":"2022-09-30T15:11:00.453182Z"},{"showcase":true,"products":null,"fileName":"thumb-1920-708178.jpg","path":"photo-images/thumb-1920-708178.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"7c674621-3dc0-4686-9b22-20079fd4a267","createdDate":"2022-09-30T15:11:00.453294Z"}]},{"id":"40372f1b-4df5-4857-adf8-ac85cbaeaa09","name":"product9","stock":5,"price":5,"createdDate":"2022-09-18T15:38:47.796167Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"52327353-b1e2-4552-98e4-1b10c2e2122c","name":"product1","stock":1,"price":7,"createdDate":"2022-09-18T15:35:20.050086Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"65bd1aa0-f06b-4b2b-b1ee-8c8a923dbb4a","name":"product2","stock":2,"price":3,"createdDate":"2022-09-18T15:37:35.01013Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"8592331a-c930-41de-8a70-03c84fca5af4","name":"Defter","stock":100,"price":50,"createdDate":"2022-09-17T12:37:30.078678Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":false,"products":null,"fileName":"530568.jpg","path":"photo-images/530568.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"1a0d89ea-edb1-4581-894b-420c13bf2b6f","createdDate":"2022-09-30T15:16:33.607299Z"},{"showcase":true,"products":null,"fileName":"884665.jpg","path":"photo-images/884665.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"7ed4866c-2ea0-4b46-afd2-30cab86f3f60","createdDate":"2022-09-30T15:16:33.607301Z"},{"showcase":false,"products":null,"fileName":"683731.jpg","path":"photo-images/683731.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"b4600db0-764d-44ff-8bc6-cd52b030f1e2","createdDate":"2022-09-30T15:16:33.6073Z"}]},{"id":"8935b460-d07a-40db-9e89-b6ab26a3fcc5","name":"Kita","stock":100,"price":75,"createdDate":"2022-09-17T12:37:30.075308Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":false,"products":null,"fileName":"884665-2.jpg","path":"photo-images/884665-2.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"535c46bd-7fb4-4e68-9ef2-253db49410e7","createdDate":"2022-09-30T15:16:56.025001Z"},{"showcase":true,"products":null,"fileName":"683731-2.jpg","path":"photo-images/683731-2.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"fa41e031-27d4-4031-8ecb-5a473baf6018","createdDate":"2022-09-30T15:16:56.025Z"}]},{"id":"89bb3e20-37a2-497f-b65c-3c30590d9616","name":"product4","stock":2,"price":4,"createdDate":"2022-09-18T15:37:48.694Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"9b16d62f-026b-41ef-80b2-cdecfddc2697","name":"Kalem","stock":100,"price":15,"createdDate":"2022-09-17T12:37:13.780656Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"d5e8e86c-2653-4043-9a70-058e5ada236b","name":"Kağıt","stock":100,"price":65,"createdDate":"2022-09-17T12:37:30.090654Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"fdd23053-6643-4d79-a610-630065447350","name":"product7","stock":2,"price":5,"createdDate":"2022-09-18T15:38:02.716788Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"fdf07eca-6397-4cbb-8d09-9b0c8e697430","name":"product8","stock":2,"price":5,"createdDate":"2022-09-18T15:38:06.254579Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]}]}
 2022-09-30 18:17:05.656 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/products?page=0&size=12 - - - 200 - application/json;+charset=utf-8 53.7345ms
+2022-09-30 18:29:27.356 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/products?page=0&size=5 - -
+2022-09-30 18:29:27.362 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-30 18:29:27.368 +03:00 [INF] CORS policy execution successful.
+2022-09-30 18:29:27.370 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-30 18:29:27.373 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/products?page=0&size=5 - - - 204 - - 26.5582ms
+2022-09-30 18:29:27.376 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/products?page=0&size=5 - -
+2022-09-30 18:29:27.379 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-30 18:29:27.383 +03:00 [INF] CORS policy execution successful.
+2022-09-30 18:29:27.387 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.ProductsController.Get (ETicaret.API)'
+2022-09-30 18:29:27.390 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaret.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaret.API.Controllers.ProductsController (ETicaret.API).
+2022-09-30 18:29:27.400 +03:00 [INF] Get all products
+2022-09-30 18:29:27.406 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-30 18:29:27.557 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2022-09-30 18:29:27.579 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."Path", t0."Storage", t0."Showcase", t0."ProductImageFilesId", t0."ProductsId"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."Path", t1."Storage", t1."Showcase", p0."ProductImageFilesId", p0."ProductsId"
+    FROM "ProductProductImageFile" AS p0
+    INNER JOIN (
+        SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase"
+        FROM "Files" AS f
+        WHERE f."Discriminator" = 'ProductImageFile'
+    ) AS t1 ON p0."ProductImageFilesId" = t1."Id"
+) AS t0 ON t."Id" = t0."ProductsId"
+ORDER BY t."Id", t0."ProductImageFilesId", t0."ProductsId"
+2022-09-30 18:29:27.591 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaret.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2022-09-30 18:29:27.594 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-09-30 18:29:27.597 +03:00 [INF] Executed action ETicaret.API.Controllers.ProductsController.Get (ETicaret.API) in 201.8762ms
+2022-09-30 18:29:27.601 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.ProductsController.Get (ETicaret.API)'
+2022-09-30 18:29:27.604 +03:00 [INF] ResponseBody: {"totalProductCount":16,"products":[{"id":"18ad6052-9899-4bc9-8a16-366d2f8884d2","name":"Renkli Kağıt","stock":1500,"price":5.5,"createdDate":"2022-09-17T12:37:13.780746Z","updatedDate":"2022-09-17T12:43:03.454366Z","productImageFiles":[{"showcase":false,"products":null,"fileName":"Nasihatler-arkaplan-resimleri-092-1024x576.jpg","path":"photo-images/Nasihatler-arkaplan-resimleri-092-1024x576.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"41ca25e1-7f75-4fe4-9d58-2a901815a8bc","createdDate":"2022-09-30T15:11:00.453182Z"},{"showcase":true,"products":null,"fileName":"thumb-1920-708178.jpg","path":"photo-images/thumb-1920-708178.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"7c674621-3dc0-4686-9b22-20079fd4a267","createdDate":"2022-09-30T15:11:00.453294Z"}]},{"id":"8592331a-c930-41de-8a70-03c84fca5af4","name":"Defter","stock":100,"price":50,"createdDate":"2022-09-17T12:37:30.078678Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":false,"products":null,"fileName":"530568.jpg","path":"photo-images/530568.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"1a0d89ea-edb1-4581-894b-420c13bf2b6f","createdDate":"2022-09-30T15:16:33.607299Z"},{"showcase":true,"products":null,"fileName":"884665.jpg","path":"photo-images/884665.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"7ed4866c-2ea0-4b46-afd2-30cab86f3f60","createdDate":"2022-09-30T15:16:33.607301Z"},{"showcase":false,"products":null,"fileName":"683731.jpg","path":"photo-images/683731.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"b4600db0-764d-44ff-8bc6-cd52b030f1e2","createdDate":"2022-09-30T15:16:33.6073Z"}]},{"id":"8935b460-d07a-40db-9e89-b6ab26a3fcc5","name":"Kita","stock":100,"price":75,"createdDate":"2022-09-17T12:37:30.075308Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":false,"products":null,"fileName":"884665-2.jpg","path":"photo-images/884665-2.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"535c46bd-7fb4-4e68-9ef2-253db49410e7","createdDate":"2022-09-30T15:16:56.025001Z"},{"showcase":true,"products":null,"fileName":"683731-2.jpg","path":"photo-images/683731-2.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"fa41e031-27d4-4031-8ecb-5a473baf6018","createdDate":"2022-09-30T15:16:56.025Z"}]},{"id":"9b16d62f-026b-41ef-80b2-cdecfddc2697","name":"Kalem","stock":100,"price":15,"createdDate":"2022-09-17T12:37:13.780656Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"d5e8e86c-2653-4043-9a70-058e5ada236b","name":"Kağıt","stock":100,"price":65,"createdDate":"2022-09-17T12:37:30.090654Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]}]}
+2022-09-30 18:29:27.612 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/products?page=0&size=5 - - - 200 - application/json;+charset=utf-8 236.0606ms
+2022-09-30 18:29:29.815 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/products/getproductimages/8592331a-c930-41de-8a70-03c84fca5af4 - -
+2022-09-30 18:29:29.820 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products/getproductimages/8592331a-c930-41de-8a70-03c84fca5af4
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-30 18:29:29.826 +03:00 [INF] CORS policy execution successful.
+2022-09-30 18:29:29.829 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-30 18:29:29.832 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/products/getproductimages/8592331a-c930-41de-8a70-03c84fca5af4 - - - 204 - - 16.7296ms
+2022-09-30 18:29:29.834 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/products/getproductimages/8592331a-c930-41de-8a70-03c84fca5af4 - -
+2022-09-30 18:29:29.837 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products/getproductimages/8592331a-c930-41de-8a70-03c84fca5af4
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-30 18:29:29.843 +03:00 [INF] CORS policy execution successful.
+2022-09-30 18:29:29.852 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.ProductsController.GetProductImages (ETicaret.API)'
+2022-09-30 18:29:29.858 +03:00 [INF] Route matched with {action = "GetProductImages", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductImages(ETicaret.Application.Features.Queries.ProductImageFile.GetProductImages.GetProductImagesQueryRequest) on controller ETicaret.API.Controllers.ProductsController (ETicaret.API).
+2022-09-30 18:29:29.869 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-30 18:29:29.892 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[@__Parse_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."CreatedDate", t."Name", t."Price", t."Stock", t."UpdatedDate", t0."ProductImageFilesId", t0."ProductsId", t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."Path", t0."Storage", t0."Showcase"
+FROM (
+    SELECT p."Id", p."CreatedDate", p."Name", p."Price", p."Stock", p."UpdatedDate"
+    FROM "Products" AS p
+    WHERE p."Id" = @__Parse_0
+    LIMIT 1
+) AS t
+LEFT JOIN (
+    SELECT p0."ProductImageFilesId", p0."ProductsId", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."Path", t1."Storage", t1."Showcase"
+    FROM "ProductProductImageFile" AS p0
+    INNER JOIN (
+        SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase"
+        FROM "Files" AS f
+        WHERE f."Discriminator" = 'ProductImageFile'
+    ) AS t1 ON p0."ProductImageFilesId" = t1."Id"
+) AS t0 ON t."Id" = t0."ProductsId"
+ORDER BY t."Id", t0."ProductImageFilesId", t0."ProductsId"
+2022-09-30 18:29:29.905 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ETicaret.Application.Features.Queries.ProductImageFile.GetProductImages.GetProductImagesQueryResponse, ETicaret.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-09-30 18:29:29.909 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-09-30 18:29:29.911 +03:00 [INF] Executed action ETicaret.API.Controllers.ProductsController.GetProductImages (ETicaret.API) in 47.835ms
+2022-09-30 18:29:29.915 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.ProductsController.GetProductImages (ETicaret.API)'
+2022-09-30 18:29:29.922 +03:00 [INF] ResponseBody: [{"path":"https://minieticaret123.blob.core.windows.net/photo-images/530568.jpg","fileName":"530568.jpg","id":"1a0d89ea-edb1-4581-894b-420c13bf2b6f"},{"path":"https://minieticaret123.blob.core.windows.net/photo-images/884665.jpg","fileName":"884665.jpg","id":"7ed4866c-2ea0-4b46-afd2-30cab86f3f60"},{"path":"https://minieticaret123.blob.core.windows.net/photo-images/683731.jpg","fileName":"683731.jpg","id":"b4600db0-764d-44ff-8bc6-cd52b030f1e2"}]
+2022-09-30 18:29:29.925 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/products/getproductimages/8592331a-c930-41de-8a70-03c84fca5af4 - - - 200 - application/json;+charset=utf-8 90.5210ms
+2022-09-30 18:29:34.436 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/products/getproductimages/d5e8e86c-2653-4043-9a70-058e5ada236b - -
+2022-09-30 18:29:34.439 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products/getproductimages/d5e8e86c-2653-4043-9a70-058e5ada236b
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-30 18:29:34.446 +03:00 [INF] CORS policy execution successful.
+2022-09-30 18:29:34.449 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-30 18:29:34.452 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/products/getproductimages/d5e8e86c-2653-4043-9a70-058e5ada236b - - - 204 - - 16.3962ms
+2022-09-30 18:29:34.456 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/products/getproductimages/d5e8e86c-2653-4043-9a70-058e5ada236b - -
+2022-09-30 18:29:34.460 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products/getproductimages/d5e8e86c-2653-4043-9a70-058e5ada236b
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-30 18:29:34.465 +03:00 [INF] CORS policy execution successful.
+2022-09-30 18:29:34.470 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.ProductsController.GetProductImages (ETicaret.API)'
+2022-09-30 18:29:34.474 +03:00 [INF] Route matched with {action = "GetProductImages", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductImages(ETicaret.Application.Features.Queries.ProductImageFile.GetProductImages.GetProductImagesQueryRequest) on controller ETicaret.API.Controllers.ProductsController (ETicaret.API).
+2022-09-30 18:29:34.490 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-30 18:29:34.508 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__Parse_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."CreatedDate", t."Name", t."Price", t."Stock", t."UpdatedDate", t0."ProductImageFilesId", t0."ProductsId", t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."Path", t0."Storage", t0."Showcase"
+FROM (
+    SELECT p."Id", p."CreatedDate", p."Name", p."Price", p."Stock", p."UpdatedDate"
+    FROM "Products" AS p
+    WHERE p."Id" = @__Parse_0
+    LIMIT 1
+) AS t
+LEFT JOIN (
+    SELECT p0."ProductImageFilesId", p0."ProductsId", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."Path", t1."Storage", t1."Showcase"
+    FROM "ProductProductImageFile" AS p0
+    INNER JOIN (
+        SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase"
+        FROM "Files" AS f
+        WHERE f."Discriminator" = 'ProductImageFile'
+    ) AS t1 ON p0."ProductImageFilesId" = t1."Id"
+) AS t0 ON t."Id" = t0."ProductsId"
+ORDER BY t."Id", t0."ProductImageFilesId", t0."ProductsId"
+2022-09-30 18:29:34.524 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ETicaret.Application.Features.Queries.ProductImageFile.GetProductImages.GetProductImagesQueryResponse, ETicaret.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-09-30 18:29:34.536 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-09-30 18:29:34.542 +03:00 [INF] Executed action ETicaret.API.Controllers.ProductsController.GetProductImages (ETicaret.API) in 54.2084ms
+2022-09-30 18:29:34.547 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.ProductsController.GetProductImages (ETicaret.API)'
+2022-09-30 18:29:34.555 +03:00 [INF] ResponseBody: []
+2022-09-30 18:29:34.560 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/products/getproductimages/d5e8e86c-2653-4043-9a70-058e5ada236b - - - 200 - application/json;+charset=utf-8 103.4408ms
+2022-09-30 18:29:42.929 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/products/upload?id=d5e8e86c-2653-4043-9a70-058e5ada236b - -
+2022-09-30 18:29:42.934 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products/upload
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-30 18:29:42.946 +03:00 [INF] CORS policy execution successful.
+2022-09-30 18:29:42.950 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-30 18:29:42.957 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/products/upload?id=d5e8e86c-2653-4043-9a70-058e5ada236b - - - 204 - - 28.4407ms
+2022-09-30 18:29:42.962 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7223/api/products/upload?id=d5e8e86c-2653-4043-9a70-058e5ada236b multipart/form-data;+boundary=----WebKitFormBoundaryIBw0lpjAlBTLGHkY 487949
+2022-09-30 18:29:42.975 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/products/upload
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryIBw0lpjAlBTLGHkY
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 487949
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+responsetype: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-30 18:29:42.982 +03:00 [INF] CORS policy execution successful.
+2022-09-30 18:29:42.986 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.ProductsController.Upload (ETicaret.API)'
+2022-09-30 18:29:42.989 +03:00 [INF] Route matched with {action = "Upload", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(ETicaret.Application.Features.Commands.ProductImageFile.UploadProductImage.UploadProductImageCommandRequest) on controller ETicaret.API.Controllers.ProductsController (ETicaret.API).
+2022-09-30 18:29:45.709 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-30 18:29:45.717 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__Parse_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreatedDate", p."Name", p."Price", p."Stock", p."UpdatedDate"
+FROM "Products" AS p
+WHERE p."Id" = @__Parse_0
+LIMIT 1
+2022-09-30 18:29:45.727 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?', @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?' (DbType = Guid), @p8='?' (DbType = DateTime), @p9='?', @p10='?', @p11='?', @p12='?' (DbType = Boolean), @p13='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Files" ("Id", "CreatedDate", "Discriminator", "FileName", "Path", "Showcase", "Storage")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+INSERT INTO "Files" ("Id", "CreatedDate", "Discriminator", "FileName", "Path", "Showcase", "Storage")
+VALUES (@p7, @p8, @p9, @p10, @p11, @p12, @p13);
+2022-09-30 18:29:45.734 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p14='?' (DbType = Guid), @p15='?' (DbType = Guid), @p16='?' (DbType = Guid), @p17='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ProductProductImageFile" ("ProductImageFilesId", "ProductsId")
+VALUES (@p14, @p15);
+INSERT INTO "ProductProductImageFile" ("ProductImageFilesId", "ProductsId")
+VALUES (@p16, @p17);
+2022-09-30 18:29:45.740 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-09-30 18:29:45.743 +03:00 [INF] Executed action ETicaret.API.Controllers.ProductsController.Upload (ETicaret.API) in 2747.0578ms
+2022-09-30 18:29:45.745 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.ProductsController.Upload (ETicaret.API)'
+2022-09-30 18:29:45.748 +03:00 [INF] Response:
+StatusCode: 200
+2022-09-30 18:29:45.751 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7223/api/products/upload?id=d5e8e86c-2653-4043-9a70-058e5ada236b multipart/form-data;+boundary=----WebKitFormBoundaryIBw0lpjAlBTLGHkY 487949 - 200 0 - 2788.8800ms
+2022-09-30 18:29:47.795 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/products/getproductimages/d5e8e86c-2653-4043-9a70-058e5ada236b - -
+2022-09-30 18:29:47.799 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products/getproductimages/d5e8e86c-2653-4043-9a70-058e5ada236b
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-30 18:29:47.803 +03:00 [INF] CORS policy execution successful.
+2022-09-30 18:29:47.806 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-30 18:29:47.809 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/products/getproductimages/d5e8e86c-2653-4043-9a70-058e5ada236b - - - 204 - - 14.4998ms
+2022-09-30 18:29:47.812 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/products/getproductimages/d5e8e86c-2653-4043-9a70-058e5ada236b - -
+2022-09-30 18:29:47.818 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products/getproductimages/d5e8e86c-2653-4043-9a70-058e5ada236b
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-30 18:29:47.825 +03:00 [INF] CORS policy execution successful.
+2022-09-30 18:29:47.829 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.ProductsController.GetProductImages (ETicaret.API)'
+2022-09-30 18:29:47.834 +03:00 [INF] Route matched with {action = "GetProductImages", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductImages(ETicaret.Application.Features.Queries.ProductImageFile.GetProductImages.GetProductImagesQueryRequest) on controller ETicaret.API.Controllers.ProductsController (ETicaret.API).
+2022-09-30 18:29:47.845 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-30 18:29:47.853 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__Parse_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."CreatedDate", t."Name", t."Price", t."Stock", t."UpdatedDate", t0."ProductImageFilesId", t0."ProductsId", t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."Path", t0."Storage", t0."Showcase"
+FROM (
+    SELECT p."Id", p."CreatedDate", p."Name", p."Price", p."Stock", p."UpdatedDate"
+    FROM "Products" AS p
+    WHERE p."Id" = @__Parse_0
+    LIMIT 1
+) AS t
+LEFT JOIN (
+    SELECT p0."ProductImageFilesId", p0."ProductsId", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."Path", t1."Storage", t1."Showcase"
+    FROM "ProductProductImageFile" AS p0
+    INNER JOIN (
+        SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase"
+        FROM "Files" AS f
+        WHERE f."Discriminator" = 'ProductImageFile'
+    ) AS t1 ON p0."ProductImageFilesId" = t1."Id"
+) AS t0 ON t."Id" = t0."ProductsId"
+ORDER BY t."Id", t0."ProductImageFilesId", t0."ProductsId"
+2022-09-30 18:29:47.867 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ETicaret.Application.Features.Queries.ProductImageFile.GetProductImages.GetProductImagesQueryResponse, ETicaret.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-09-30 18:29:47.869 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-09-30 18:29:47.876 +03:00 [INF] Executed action ETicaret.API.Controllers.ProductsController.GetProductImages (ETicaret.API) in 32.3762ms
+2022-09-30 18:29:47.882 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.ProductsController.GetProductImages (ETicaret.API)'
+2022-09-30 18:29:47.884 +03:00 [INF] ResponseBody: [{"path":"https://minieticaret123.blob.core.windows.net/photo-images/thumb-1920-708179.jpg","fileName":"thumb-1920-708179.jpg","id":"28c57a49-9c26-4fa7-af96-dc6de30b51f0"},{"path":"https://minieticaret123.blob.core.windows.net/photo-images/Nasihatler-arkaplan-resimleri-092-1024x576-2.jpg","fileName":"Nasihatler-arkaplan-resimleri-092-1024x576-2.jpg","id":"738bc337-398b-4ee2-adbc-1a5bbb24a36a"}]
+2022-09-30 18:29:47.889 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/products/getproductimages/d5e8e86c-2653-4043-9a70-058e5ada236b - - - 200 - application/json;+charset=utf-8 76.4536ms
+2022-09-30 18:29:52.263 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/products/ChangeShowcaseImage?imageId=738bc337-398b-4ee2-adbc-1a5bbb24a36a&productId=d5e8e86c-2653-4043-9a70-058e5ada236b - -
+2022-09-30 18:29:52.266 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products/ChangeShowcaseImage
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-30 18:29:52.268 +03:00 [INF] CORS policy execution successful.
+2022-09-30 18:29:52.270 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-30 18:29:52.272 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/products/ChangeShowcaseImage?imageId=738bc337-398b-4ee2-adbc-1a5bbb24a36a&productId=d5e8e86c-2653-4043-9a70-058e5ada236b - - - 204 - - 9.6915ms
+2022-09-30 18:29:52.275 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/products/ChangeShowcaseImage?imageId=738bc337-398b-4ee2-adbc-1a5bbb24a36a&productId=d5e8e86c-2653-4043-9a70-058e5ada236b - -
+2022-09-30 18:29:52.278 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products/ChangeShowcaseImage
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-30 18:29:52.281 +03:00 [INF] CORS policy execution successful.
+2022-09-30 18:29:52.283 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.ProductsController.ChangeShowcaseImage (ETicaret.API)'
+2022-09-30 18:29:52.286 +03:00 [INF] Route matched with {action = "ChangeShowcaseImage", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangeShowcaseImage(ETicaret.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandRequest) on controller ETicaret.API.Controllers.ProductsController (ETicaret.API).
+2022-09-30 18:29:52.292 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-30 18:29:52.303 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__Parse_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."Path", t0."Storage", t0."Showcase", t0."ProductImageFilesId", t0."ProductsId", t0."Id0", t1."ProductImageFilesId", t1."ProductsId", t1."Id", t1."CreatedDate", t1."Name", t1."Price", t1."Stock", t1."UpdatedDate", t0."CreatedDate0", t0."Name", t0."Price", t0."Stock", t0."UpdatedDate"
+FROM (
+    SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase", t."Id" AS "Id0", t."CreatedDate" AS "CreatedDate0", t."Name", t."Price", t."Stock", t."UpdatedDate", t."ProductImageFilesId", t."ProductsId"
+    FROM "Files" AS f
+    INNER JOIN (
+        SELECT p0."Id", p0."CreatedDate", p0."Name", p0."Price", p0."Stock", p0."UpdatedDate", p."ProductImageFilesId", p."ProductsId"
+        FROM "ProductProductImageFile" AS p
+        INNER JOIN "Products" AS p0 ON p."ProductsId" = p0."Id"
+    ) AS t ON f."Id" = t."ProductImageFilesId"
+    WHERE (f."Discriminator" = 'ProductImageFile') AND ((t."Id" = @__Parse_0) AND f."Showcase")
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT p1."ProductImageFilesId", p1."ProductsId", p2."Id", p2."CreatedDate", p2."Name", p2."Price", p2."Stock", p2."UpdatedDate"
+    FROM "ProductProductImageFile" AS p1
+    INNER JOIN "Products" AS p2 ON p1."ProductsId" = p2."Id"
+) AS t1 ON t0."Id" = t1."ProductImageFilesId"
+ORDER BY t0."Id", t0."ProductImageFilesId", t0."ProductsId", t0."Id0", t1."ProductImageFilesId", t1."ProductsId"
+2022-09-30 18:29:52.317 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__Parse_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."Path", t0."Storage", t0."Showcase", t0."ProductImageFilesId", t0."ProductsId", t0."Id0", t1."ProductImageFilesId", t1."ProductsId", t1."Id", t1."CreatedDate", t1."Name", t1."Price", t1."Stock", t1."UpdatedDate", t0."CreatedDate0", t0."Name", t0."Price", t0."Stock", t0."UpdatedDate"
+FROM (
+    SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase", t."Id" AS "Id0", t."CreatedDate" AS "CreatedDate0", t."Name", t."Price", t."Stock", t."UpdatedDate", t."ProductImageFilesId", t."ProductsId"
+    FROM "Files" AS f
+    INNER JOIN (
+        SELECT p0."Id", p0."CreatedDate", p0."Name", p0."Price", p0."Stock", p0."UpdatedDate", p."ProductImageFilesId", p."ProductsId"
+        FROM "ProductProductImageFile" AS p
+        INNER JOIN "Products" AS p0 ON p."ProductsId" = p0."Id"
+    ) AS t ON f."Id" = t."ProductImageFilesId"
+    WHERE (f."Discriminator" = 'ProductImageFile') AND (f."Id" = @__Parse_0)
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT p1."ProductImageFilesId", p1."ProductsId", p2."Id", p2."CreatedDate", p2."Name", p2."Price", p2."Stock", p2."UpdatedDate"
+    FROM "ProductProductImageFile" AS p1
+    INNER JOIN "Products" AS p2 ON p1."ProductsId" = p2."Id"
+) AS t1 ON t0."Id" = t1."ProductImageFilesId"
+ORDER BY t0."Id", t0."ProductImageFilesId", t0."ProductsId", t0."Id0", t1."ProductImageFilesId", t1."ProductsId"
+2022-09-30 18:29:52.334 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Files" SET "Showcase" = @p0
+WHERE "Id" = @p1;
+2022-09-30 18:29:52.342 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaret.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage.ChangeShowcaseImageCommandResponse'.
+2022-09-30 18:29:52.347 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-09-30 18:29:52.349 +03:00 [INF] Executed action ETicaret.API.Controllers.ProductsController.ChangeShowcaseImage (ETicaret.API) in 58.3491ms
+2022-09-30 18:29:52.352 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.ProductsController.ChangeShowcaseImage (ETicaret.API)'
+2022-09-30 18:29:52.354 +03:00 [INF] ResponseBody: {}
+2022-09-30 18:29:52.356 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/products/ChangeShowcaseImage?imageId=738bc337-398b-4ee2-adbc-1a5bbb24a36a&productId=d5e8e86c-2653-4043-9a70-058e5ada236b - - - 200 - application/json;+charset=utf-8 80.9940ms
+2022-09-30 18:29:55.484 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/files/GetBaseStorageUrl - -
+2022-09-30 18:29:55.491 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/files/GetBaseStorageUrl
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-30 18:29:55.496 +03:00 [INF] CORS policy execution successful.
+2022-09-30 18:29:55.500 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-30 18:29:55.504 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/files/GetBaseStorageUrl - - - 204 - - 19.9147ms
+2022-09-30 18:29:55.507 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/files/GetBaseStorageUrl - -
+2022-09-30 18:29:55.511 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/files/GetBaseStorageUrl
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-30 18:29:55.516 +03:00 [INF] CORS policy execution successful.
+2022-09-30 18:29:55.519 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.FilesController.GetBaseStorageUrl (ETicaret.API)'
+2022-09-30 18:29:55.521 +03:00 [INF] Route matched with {action = "GetBaseStorageUrl", controller = "Files"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBaseStorageUrl() on controller ETicaret.API.Controllers.FilesController (ETicaret.API).
+2022-09-30 18:29:55.527 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-09-30 18:29:55.532 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-09-30 18:29:55.536 +03:00 [INF] Executed action ETicaret.API.Controllers.FilesController.GetBaseStorageUrl (ETicaret.API) in 8.5448ms
+2022-09-30 18:29:55.541 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.FilesController.GetBaseStorageUrl (ETicaret.API)'
+2022-09-30 18:29:55.543 +03:00 [INF] ResponseBody: {"url":"https://minieticaret123.blob.core.windows.net"}
+2022-09-30 18:29:55.545 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/files/GetBaseStorageUrl - - - 200 - application/json;+charset=utf-8 38.9886ms
+2022-09-30 18:29:55.549 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7223/api/products?page=0&size=12 - -
+2022-09-30 18:29:55.554 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: OPTIONS
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Access-Control-Request-Headers: [Redacted]
+Access-Control-Request-Method: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-30 18:29:55.559 +03:00 [INF] CORS policy execution successful.
+2022-09-30 18:29:55.562 +03:00 [INF] Response:
+StatusCode: 204
+Access-Control-Allow-Credentials: [Redacted]
+Access-Control-Allow-Headers: [Redacted]
+Access-Control-Allow-Methods: [Redacted]
+Access-Control-Allow-Origin: [Redacted]
+Vary: [Redacted]
+2022-09-30 18:29:55.564 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7223/api/products?page=0&size=12 - - - 204 - - 15.2181ms
+2022-09-30 18:29:55.566 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/api/products?page=0&size=12 - -
+2022-09-30 18:29:55.569 +03:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /api/products
+Accept: application/json, text/plain, */*
+Host: localhost:7223
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-09-30 18:29:55.573 +03:00 [INF] CORS policy execution successful.
+2022-09-30 18:29:55.575 +03:00 [INF] Executing endpoint 'ETicaret.API.Controllers.ProductsController.Get (ETicaret.API)'
+2022-09-30 18:29:55.578 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(ETicaret.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaret.API.Controllers.ProductsController (ETicaret.API).
+2022-09-30 18:29:55.583 +03:00 [INF] Get all products
+2022-09-30 18:29:55.585 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.6+6fa8f3c27a7c241a66e72a6c09e0b252509215d0' with options: None
+2022-09-30 18:29:55.590 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2022-09-30 18:29:55.597 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."Path", t0."Storage", t0."Showcase", t0."ProductImageFilesId", t0."ProductsId"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."Path", t1."Storage", t1."Showcase", p0."ProductImageFilesId", p0."ProductsId"
+    FROM "ProductProductImageFile" AS p0
+    INNER JOIN (
+        SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."Path", f."Storage", f."Showcase"
+        FROM "Files" AS f
+        WHERE f."Discriminator" = 'ProductImageFile'
+    ) AS t1 ON p0."ProductImageFilesId" = t1."Id"
+) AS t0 ON t."Id" = t0."ProductsId"
+ORDER BY t."Id", t0."ProductImageFilesId", t0."ProductsId"
+2022-09-30 18:29:55.604 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaret.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2022-09-30 18:29:55.607 +03:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+2022-09-30 18:29:55.609 +03:00 [INF] Executed action ETicaret.API.Controllers.ProductsController.Get (ETicaret.API) in 27.2087ms
+2022-09-30 18:29:55.612 +03:00 [INF] Executed endpoint 'ETicaret.API.Controllers.ProductsController.Get (ETicaret.API)'
+2022-09-30 18:29:55.615 +03:00 [INF] ResponseBody: {"totalProductCount":16,"products":[{"id":"035cf8ec-102a-4cfc-bfc0-f8b183d0e762","name":"product5","stock":2,"price":5,"createdDate":"2022-09-18T15:37:54.818928Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"18ad6052-9899-4bc9-8a16-366d2f8884d2","name":"Renkli Kağıt","stock":1500,"price":5.5,"createdDate":"2022-09-17T12:37:13.780746Z","updatedDate":"2022-09-17T12:43:03.454366Z","productImageFiles":[{"showcase":false,"products":null,"fileName":"Nasihatler-arkaplan-resimleri-092-1024x576.jpg","path":"photo-images/Nasihatler-arkaplan-resimleri-092-1024x576.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"41ca25e1-7f75-4fe4-9d58-2a901815a8bc","createdDate":"2022-09-30T15:11:00.453182Z"},{"showcase":true,"products":null,"fileName":"thumb-1920-708178.jpg","path":"photo-images/thumb-1920-708178.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"7c674621-3dc0-4686-9b22-20079fd4a267","createdDate":"2022-09-30T15:11:00.453294Z"}]},{"id":"40372f1b-4df5-4857-adf8-ac85cbaeaa09","name":"product9","stock":5,"price":5,"createdDate":"2022-09-18T15:38:47.796167Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"52327353-b1e2-4552-98e4-1b10c2e2122c","name":"product1","stock":1,"price":7,"createdDate":"2022-09-18T15:35:20.050086Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"65bd1aa0-f06b-4b2b-b1ee-8c8a923dbb4a","name":"product2","stock":2,"price":3,"createdDate":"2022-09-18T15:37:35.01013Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"8592331a-c930-41de-8a70-03c84fca5af4","name":"Defter","stock":100,"price":50,"createdDate":"2022-09-17T12:37:30.078678Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":false,"products":null,"fileName":"530568.jpg","path":"photo-images/530568.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"1a0d89ea-edb1-4581-894b-420c13bf2b6f","createdDate":"2022-09-30T15:16:33.607299Z"},{"showcase":true,"products":null,"fileName":"884665.jpg","path":"photo-images/884665.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"7ed4866c-2ea0-4b46-afd2-30cab86f3f60","createdDate":"2022-09-30T15:16:33.607301Z"},{"showcase":false,"products":null,"fileName":"683731.jpg","path":"photo-images/683731.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"b4600db0-764d-44ff-8bc6-cd52b030f1e2","createdDate":"2022-09-30T15:16:33.6073Z"}]},{"id":"8935b460-d07a-40db-9e89-b6ab26a3fcc5","name":"Kita","stock":100,"price":75,"createdDate":"2022-09-17T12:37:30.075308Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":false,"products":null,"fileName":"884665-2.jpg","path":"photo-images/884665-2.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"535c46bd-7fb4-4e68-9ef2-253db49410e7","createdDate":"2022-09-30T15:16:56.025001Z"},{"showcase":true,"products":null,"fileName":"683731-2.jpg","path":"photo-images/683731-2.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"fa41e031-27d4-4031-8ecb-5a473baf6018","createdDate":"2022-09-30T15:16:56.025Z"}]},{"id":"89bb3e20-37a2-497f-b65c-3c30590d9616","name":"product4","stock":2,"price":4,"createdDate":"2022-09-18T15:37:48.694Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"9b16d62f-026b-41ef-80b2-cdecfddc2697","name":"Kalem","stock":100,"price":15,"createdDate":"2022-09-17T12:37:13.780656Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"d5e8e86c-2653-4043-9a70-058e5ada236b","name":"Kağıt","stock":100,"price":65,"createdDate":"2022-09-17T12:37:30.090654Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[{"showcase":false,"products":null,"fileName":"thumb-1920-708179.jpg","path":"photo-images/thumb-1920-708179.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"28c57a49-9c26-4fa7-af96-dc6de30b51f0","createdDate":"2022-09-30T15:29:45.724473Z"},{"showcase":true,"products":null,"fileName":"Nasihatler-arkaplan-resimleri-092-1024x576-2.jpg","path":"photo-images/Nasihatler-arkaplan-resimleri-092-1024x576-2.jpg","storage":"AzureStorage","updatedDate":"0001-01-01T00:00:00","id":"738bc337-398b-4ee2-adbc-1a5bbb24a36a","createdDate":"2022-09-30T15:29:45.724473Z"}]},{"id":"fdd23053-6643-4d79-a610-630065447350","name":"product7","stock":2,"price":5,"createdDate":"2022-09-18T15:38:02.716788Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]},{"id":"fdf07eca-6397-4cbb-8d09-9b0c8e697430","name":"product8","stock":2,"price":5,"createdDate":"2022-09-18T15:38:06.254579Z","updatedDate":"0001-01-01T00:00:00","productImageFiles":[]}]}
+2022-09-30 18:29:55.623 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/api/products?page=0&size=12 - - - 200 - application/json;+charset=utf-8 56.8769ms
+2022-10-01 10:42:47.698 +03:00 [INF] User profile is available. Using 'C:\Users\HaticeNur\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-10-01 10:42:48.838 +03:00 [INF] Now listening on: https://localhost:7223
+2022-10-01 10:42:48.841 +03:00 [INF] Now listening on: http://localhost:5223
+2022-10-01 10:42:48.848 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-01 10:42:48.850 +03:00 [INF] Hosting environment: Development
+2022-10-01 10:42:48.851 +03:00 [INF] Content root path: C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Net6_Angular_MiniEticaret\Eticaret\Presentation\Eticaret.API\
+2022-10-01 10:42:52.400 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/index.html - -
+2022-10-01 10:42:54.324 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/index.html - - - 200 - text/html;charset=utf-8 1932.3918ms
+2022-10-01 10:42:54.369 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - -
+2022-10-01 10:42:54.396 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/_vs/browserLink - -
+2022-10-01 10:42:54.431 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 61.4570ms
+2022-10-01 10:42:54.547 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 151.2129ms
+2022-10-01 10:42:54.616 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/favicon-16x16.png - -
+2022-10-01 10:42:54.655 +03:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2022-10-01 10:42:54.659 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/favicon-16x16.png - - - 0 665 image/png 43.7146ms
+2022-10-01 10:42:54.803 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - -
+2022-10-01 10:42:55.311 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7223/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 508.4386ms
