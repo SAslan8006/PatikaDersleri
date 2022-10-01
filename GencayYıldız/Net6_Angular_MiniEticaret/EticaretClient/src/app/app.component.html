@@ -15,10 +15,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page"routerLink="products">Ürünler</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" routerLink="basket">Sepet</a>
-          </li>      
+          </li>        
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" routerLink="register" *ngIf="!authService.isAuthenticated">Kayıt Ol</a>
           </li>      
@@ -48,10 +45,10 @@
           </li> -->
           
         </ul>
-        <!-- <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form> -->
+        <div class="d-flex">
+          <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal" 
+          type="submit">Sepet</button>
+        </div>
       </div>
     </div>
   </nav>
@@ -71,4 +68,4 @@
 <ngx-spinner bdColor = "rgba(0, 0, 0, 0.8)" size = "default" color = "#fff" name="s3" type = "ball-spin-clockwise-fade-rotating" [fullScreen] = "true"><p style="color: white" > Loading... </p></ngx-spinner>
 
 
-
+<app-baskets></app-baskets>
