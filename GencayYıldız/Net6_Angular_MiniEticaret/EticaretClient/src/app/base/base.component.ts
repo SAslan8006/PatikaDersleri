@@ -16,7 +16,8 @@ constructor(private spinner:NgxSpinnerService) {}
 export enum SpinnerType{
   BallScaleRippleMultiple="s1",
   BallScaleMultiple="s2",
-  BallSpinClockwiseFadeRotating="s3"
+  BallSpinClockwiseFadeRotating="s3",
+  BallAtom="s4"
 }
 
 
