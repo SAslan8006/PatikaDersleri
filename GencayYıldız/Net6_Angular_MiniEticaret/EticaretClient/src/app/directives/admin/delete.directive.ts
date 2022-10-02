@@ -8,7 +8,9 @@ import { AlertifyService, MessageType, Position } from 'src/app/services/admin/a
 import { DialogService } from 'src/app/services/common/dialog.service';
 import { HttpClientService } from 'src/app/services/common/http-client.service';
 import { ProductService } from 'src/app/services/common/models/product.service';
+
 declare var $: any;
+
 @Directive({
   selector: '[appDelete]'
 })

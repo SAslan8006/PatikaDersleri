@@ -23,8 +23,4 @@
     <ProjectReference Include="..\..\Core\Eticaret.Application\ETicaret.Application.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Concretes\" />
-  </ItemGroup>
-
 </Project>
