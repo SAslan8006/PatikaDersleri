@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AdminModule } from './admin/admin.module';
 
@@ -19,7 +19,7 @@ import { DynamicLoadComponentDirective } from './directives/common/dynamic-load-
   declarations: [
     AppComponent ,
     LoginComponent,
-    DynamicLoadComponentDirective 
+    DynamicLoadComponentDirective,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +35,7 @@ import { DynamicLoadComponentDirective } from './directives/common/dynamic-load-
         tokenGetter: () => localStorage.getItem("accessToken"),
         allowedDomains: ["localhost:7223"]      
       }}), 
-      SocialLoginModule
+      SocialLoginModule,    
   ],
   providers: [
     {provide:"baseUrl",useValue:"https://localhost:7223/api",multi:true},
@@ -59,6 +59,7 @@ import { DynamicLoadComponentDirective } from './directives/common/dynamic-load-
     },
     { provide: HTTP_INTERCEPTORS, useClass: HttpErrorHandlerInterceptorService, multi: true }
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent], 
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { } 

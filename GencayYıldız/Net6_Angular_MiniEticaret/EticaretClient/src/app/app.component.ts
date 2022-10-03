@@ -5,6 +5,7 @@ import { AuthService } from './services/common/auth.service';
 import { DynamicLoadComponentService } from './services/common/dynamic-load-component.service';
 import { CustomToastrService, ToastrMessageType, ToastrPosition } from './services/ui/custom-toastr.service';
 import{ComponentType} from '../app/services/common/dynamic-load-component.service'
+
 declare var $: any
 
 @Component({
