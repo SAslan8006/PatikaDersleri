@@ -9,11 +9,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.IdentityModel.Tokens; 
 
 namespace WebAPI
 {
@@ -65,7 +61,11 @@ namespace WebAPI
             {
                 app.UseDeveloperExceptionPage();
             }
+            
+            app.ConfigureCustomExceptionMiddleware();
+
             app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
+            
             app.UseHttpsRedirection();
 
             app.UseRouting();
