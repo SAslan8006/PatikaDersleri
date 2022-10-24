@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodluyoruz - Front-End 101</title>
+    <!-- <style>
+        .text-primary {
+            color: blue
+        }
+        .text-danger {
+            color: red
+        }
+    </style> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div id="alert"></div>
+
+    <h1 id="greeting">Kodluyoruz - Front-End 101</h1>
+
+
+
+
+    <!-- 010 dom icerisinden oge secimi ve duzenleme islemleri: 
+    <h2 id="title">Merhaba Dunya</h2>
+    <ul id="list">
+        <li>
+            <a href="#" id="kodluyoruzLink">link bilgisi</a>
+        </li>
+    </ul>
+    -->
+
+    <!-- 012 - liste icerisindeki son elemana ulasmak veya eleman eklemek 
+    <ul id="list">
+        <li>Lorem.</li>
+        <li>Aliquam!</li>
+        <li>Asperiores!</li>
+    </ul>
+    -->
+
+    <!-- 015 - 016 - 017 - 018 - Kosullarla Calismak -->
+    <h2 id="info"></h2>
+
+    <!-- 023 - 026 - js counter 
+    <h3 id="counter">100</h3>
+    <button id="increase">Arttir</button>
+    <button id="decrease">Azalt</button>
+    -->
+
+    <!-- 027 - 029 form islemleri ve listeleme 
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <form id="userForm">
+                    <div class="mb-3">
+                        <label class="form-label" for="username">Kullanici Adi</label>
+                        <input class="form-control" type="text" name="username" id="username">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="score">Not Bilgisi</label>
+                        <input class="form-control" type="number" name="score" id="score">
+                    </div>
+                    <div class="mb-3">
+
+                        <button type="reset" class="btn btn-danger">Sifirla</button>
+                        <button type="submit" class="btn btn-success">Gonder</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-8 offset-sm-2 mt-4">
+                <ul class="list-group" id="userList">
+                    
+                  </ul>
+            </div>
+        </div>
+    </div>
+    -->
+
+    <!-- 033-for-dongusu-kullanimi -->
+    <ul class="list-group" id="userList">
+
+    </ul>
+
+    <!-- 
+        Not: 
+        Her Çalışma İçin Ayrı Ayrı JS Dosyaları Oluşturuldu
+        Dosya Üzerinde Çalışmadan Önce Lütfen Açıklama Satırında Olup Olmadığını Kontrol Edin
+    -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <!-- <script src="js/001-hello-world.js"></script> -->
+    <!-- <script src="js/002-degisken-tanimlama.js"></script> -->
+    <!-- <script src="js/003-degisken-tanimlama-kurallari.js"></script> -->
+    <!-- <script src="js/004-number-veri-turu-ile-calismak.js"></script> -->
+    <!-- <script src="js/005-boolean-veri-turu-ile-calismak.js"></script> -->
+    <!-- <script src="js/006-veri-turu-ve-veri-turu-donusumleri.js"></script> -->
+    <!-- <script src="js/007-template-literals-kullanimi.js"></script> -->
+    <!-- <script src="js/008-string-veri-turu-islemleri.js"></script> -->
+    <!-- <script src="js/009-document-object-model.js"></script> -->
+    <!-- <script src="js/010-dom-icerisinden-oge-secimi.js"></script> -->
+    <!-- <script src="js/011-prompt-ile-kullanicidan-bilgi-almak.js"></script> -->
+    <!-- <script src="js/012-liste-icindeki-ogeye-ulasmak-veya-yeni-oge-eklemek.js"></script> -->
+    <!-- <script src="js/013-css-class-eklemek-veya-cikartmak.js"></script> -->
+    <!-- <script src="js/014-karsilastirma-operatorleri-ve-mantiksal-operatorler.js"></script> -->
+    <!-- <script src="js/015-kosullarla-calismak.js"></script> -->
+    <!-- <script src="js/016-coklu-kosullar-ile-calismak.js"></script> -->
+    <!-- <script src="js/017-ternary-operator-ile-short-if-kullanimi.js"></script> -->
+    <!-- <script src="js/018-kosullarla-calismak-bolum-sonu-egzersizi.js"></script> -->
+    <!-- <script src="js/019-fonksiyonlar-neden-fonksiyonlara-ihtiyac-duyariz-ve-ilk-fonksiyonumuz.js"></script> -->
+    <!-- <script src="js/020-fonksiyona-parametre-atamak-ve-geridonus-almak.js"></script> -->
+    <!-- <script src="js/021-arrow-function-kullanimi.js"></script> -->
+    <!-- <script src="js/022-dom-etkinlikleriyle-calismak.js"></script> -->
+    <!-- <script src="js/023-functions-bolum-sonu-egzersizi.js"></script> -->
+    <!-- <script src="js/024-localStorage-icerisine-veri-eklemek-duzenlemek-ve-silmek.js"></script> -->
+    <!-- <script src="js/025-localStorage-icerisinde-farkli-turde-bilgilerin-saklanmasi.js"></script> -->
+    <!-- <script src="js/026-localStorage-bolum-sonu-egzersizi.js"></script> -->
+    <!-- <script src="js/027-form-submit-yonetimi.js"></script> -->
+    <!-- <script src="js/028-input-icerisindeki-veriyi-almak.js"></script> -->
+    <!-- <script src="js/029-formlarla-calismak-bolum-sonu-egzersizi.js"></script> -->
+    <!-- <script src="js/030-dizi-olusturmak-ve-dizi-icindeki-ilk-son-elemana-ulasmak.js"></script> -->
+    <!-- <script src="js/031-array-yapisina-oge-eklemek-cikartmak-ve-guncellemek.js"></script> -->
+    <!-- <script src="js/032-cok-kullanilan-array-dizi-metotlari.js"></script> -->
+    <!-- <script src="js/033-for-dongusu-kullanimi.js"></script> -->
+    <!-- <script src="js/034-break-ve-continue-kullanimi.js"></script> -->
+    <!-- <script src="js/035-while-dongusu-kullanimi.js"></script> -->
+    <!-- <script src="js/036-array-forEach-kullanimi.js"></script> -->
+    <!-- <script src="js/037-array-filter-kullanimi.js"></script> -->
+    <!-- <script src="js/038-array-map-kullanimi.js"></script> -->
+    <!-- <script src="js/039-object-nedir-nasil-olusturulur.js"></script> -->
+    <!-- <script src="js/040-object-key-ve-value-yapisinin-kullanimi.js"></script> -->
+    <!-- <script src="js/041-object-icinde-metot-nasil-ekleriz.js"></script> -->
+    <!-- <script src="js/042-09-042-object-ve-array-destructuring-nasil-kullanilir.js"></script> -->
+    <!-- <script src="js/043-hata-yonetimi-icin-try-catch-kullanimi.js"></script> -->
+    <script src="js/044-fetch-api-ile-calismak.js"></script>
+</body>
+
+</html>
