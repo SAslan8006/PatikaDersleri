@@ -1,0 +1,29 @@
+﻿@using MVC_Altyapisi.Models
+
+
+@* /*** Model Bazlı Veri Gönderme ***/
+    @model List<Product> // küçük harfle "model" yazarak gelecek olan modeli belirtiyoruz. Büyük harfli "Model" ile de o veriyi sayfada kullanıyoruz.
+<ul>
+    @foreach(var item in Model)
+    {
+        <li>@item.ProductName Ürünü</li>
+    }
+</ul>*@
+
+@* /*** ViewBag ile taşıma ***/
+<ul>
+    @foreach(var item in ViewBag.urunler as List<Product>) /* Gelecek olan data dynamic olduğu zaman türü runtimeda belirlenir  
+                                 o yüzden yanına as list... diyerek türünü belirttik ki kodu yazarken içerde o itemin propertylerine erişebilelim. */
+    {
+        <li>@item.ProductName Ürünü</li>
+    }
+</ul>*@
+
+@* /*** ViewData ile taşıma ***/
+    @model List<Product> // küçük harfle "model" yazarak gelecek olan modeli belirtiyoruz. Büyük harfli "Model" ile de o veriyi sayfada kullanıyoruz.
+<ul>
+    @foreach(var item in ViewData["products"] as List<Product>) // gelecek olan veri box olarak geleceği için as veya cast kullanarak unboxing yapılmalı
+    {
+        <li>@item.ProductName Ürünü</li>
+    }
+</ul>*@

@@ -1,0 +1,13 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@* Partials adlı bi klasör oluşturup altında parça dosyamızı oluşturduk. Indexte de o parçayı çağırmak istediğimiz yerde 
+    partial taghelperı ile dosyanın dizinini veriyoruz.
+*@
+<partial name="~/Views/Home/Partials/_HeaderPartial.cshtml" />
+
+
+@* Asenkron çalıştığımız için await ekledik. Veri de gönderebiliyoruz. Burada parametre olarak yolladığımızı componentin cs'inde Invoke içinde karşılıyoruz.
+    Bu şekilde render edilecek parçanın duruma göre farklı sonuçlarla render edilmesini sağlayabiliyoruz.
+*@
+@await Component.InvokeAsync("Personeller", new {id=5})
+

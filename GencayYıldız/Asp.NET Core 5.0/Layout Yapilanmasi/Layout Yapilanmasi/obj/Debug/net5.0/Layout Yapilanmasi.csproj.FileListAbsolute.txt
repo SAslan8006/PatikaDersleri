@@ -1,0 +1,42 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\bin\Debug\net5.0\appsettings.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\bin\Debug\net5.0\Layout Yapilanmasi.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\bin\Debug\net5.0\Layout Yapilanmasi.deps.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\bin\Debug\net5.0\Layout Yapilanmasi.runtimeconfig.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\bin\Debug\net5.0\Layout Yapilanmasi.runtimeconfig.dev.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\bin\Debug\net5.0\Layout Yapilanmasi.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\bin\Debug\net5.0\Layout Yapilanmasi.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\bin\Debug\net5.0\Layout Yapilanmasi.Views.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\bin\Debug\net5.0\Layout Yapilanmasi.Views.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.AssemblyInfoInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.AssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.RazorAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.RazorAssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\scopedcss\bundle\Layout Yapilanmasi.styles.css
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\staticwebassets\Layout Yapilanmasi.StaticWebAssets.Manifest.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.TagHelpers.input.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.TagHelpers.output.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.RazorCoreGenerate.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Razor\Views\Home\Components\Personeller\Default.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Razor\Views\Home\Partials\_HeaderPartial.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.RazorTargetAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.RazorTargetAssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.Views.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\refint\Layout Yapilanmasi.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.genruntimeconfig.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\ref\Layout Yapilanmasi.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Layout Yapilanmasi\Layout Yapilanmasi\obj\Debug\net5.0\Layout Yapilanmasi.csproj.CopyComplete

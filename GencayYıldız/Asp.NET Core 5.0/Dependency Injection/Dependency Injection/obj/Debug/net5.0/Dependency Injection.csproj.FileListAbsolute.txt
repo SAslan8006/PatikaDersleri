@@ -1,0 +1,50 @@
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.csproj.AssemblyReference.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.AssemblyInfoInputs.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.AssemblyInfo.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.csproj.CoreCompileInputs.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.RazorAssemblyInfo.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.RazorAssemblyInfo.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\bin\Debug\net5.0\appsettings.json
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\bin\Debug\net5.0\Dependency Injection.exe
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\bin\Debug\net5.0\Dependency Injection.deps.json
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\bin\Debug\net5.0\Dependency Injection.runtimeconfig.json
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\bin\Debug\net5.0\Dependency Injection.runtimeconfig.dev.json
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\bin\Debug\net5.0\Dependency Injection.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\bin\Debug\net5.0\Dependency Injection.pdb
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\bin\Debug\net5.0\Dependency Injection.Views.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\bin\Debug\net5.0\Dependency Injection.Views.pdb
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\scopedcss\bundle\Dependency Injection.styles.css
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\staticwebassets\Dependency Injection.StaticWebAssets.Manifest.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.TagHelpers.input.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.TagHelpers.output.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.RazorCoreGenerate.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.RazorTargetAssemblyInfo.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.RazorTargetAssemblyInfo.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.Views.pdb
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\refint\Dependency Injection.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.pdb
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.genruntimeconfig.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\ref\Dependency Injection.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.csproj.CopyComplete
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.AssemblyInfoInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.AssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.RazorAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.RazorAssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Dependency Injection\Dependency Injection\obj\Debug\net5.0\refint\Dependency Injection.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Dependency Injection\Dependency Injection\obj\Debug\net5.0\Dependency Injection.pdb

@@ -1,0 +1,41 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\bin\Debug\net5.0\appsettings.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\bin\Debug\net5.0\ekAyar.Development.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\bin\Debug\net5.0\ekAyar.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\bin\Debug\net5.0\appsettings.json Dosyası.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\bin\Debug\net5.0\appsettings.json Dosyası.deps.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\bin\Debug\net5.0\appsettings.json Dosyası.runtimeconfig.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\bin\Debug\net5.0\appsettings.json Dosyası.runtimeconfig.dev.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\bin\Debug\net5.0\appsettings.json Dosyası.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\bin\Debug\net5.0\appsettings.json Dosyası.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\bin\Debug\net5.0\appsettings.json Dosyası.Views.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\bin\Debug\net5.0\appsettings.json Dosyası.Views.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.AssemblyInfoInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.AssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.RazorAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.RazorAssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\scopedcss\bundle\appsettings.json Dosyası.styles.css
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\staticwebassets\appsettings.json Dosyası.StaticWebAssets.Manifest.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.TagHelpers.input.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.TagHelpers.output.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.RazorCoreGenerate.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.RazorTargetAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.RazorTargetAssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.Views.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\refint\appsettings.json Dosyası.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.genruntimeconfig.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\ref\appsettings.json Dosyası.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\appsettings.json Dosyası\appsettings.json Dosyası\obj\Debug\net5.0\appsettings.json Dosyası.csproj.CopyComplete

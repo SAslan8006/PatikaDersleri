@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "91WEuBJw7OOFG+7qJVz4B0XGbf7gQr0JjG9H9eUNczv7EmYiKWhtC56MY7YxPZ1yIb123U+0F+gjQGKNsMSgdw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Asp.NET Core 5.0\\Custom Route Handler\\Custom Route Handler\\Custom Route Handler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\magick.net-q16-anycpu\\11.1.2\\magick.net-q16-anycpu.11.1.2.nupkg.sha512",
+    "C:\\Users\\HaticeNur\\.nuget\\packages\\magick.net.core\\11.1.2\\magick.net.core.11.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

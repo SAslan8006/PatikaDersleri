@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Area_Yapilanmasi</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\fatura_paneli\Data\" />
+    <Folder Include="Areas\fatura_paneli\Models\" />
+    <Folder Include="Areas\fatura_paneli\Views\" />
+    <Folder Include="Areas\yonetim_paneli\Data\" />
+    <Folder Include="Areas\yonetim_paneli\Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+</Project>

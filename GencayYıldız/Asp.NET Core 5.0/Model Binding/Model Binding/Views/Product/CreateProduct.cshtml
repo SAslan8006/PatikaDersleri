@@ -1,0 +1,25 @@
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@model Model_Binding.Models.Product
+<form asp-action="CreateProduct" method="post">
+
+    @*<input type="text" name="txtProductName" placeholder="Product Name" />
+    <br /> ******* Burada parametreler yoluyla yakaladık *******
+    <input type="number" name="txtQuantity" placeholder="Quantity" />*@
+
+    @*<input type="text" name="ProductName" placeholder="Product Name" />
+    <br /> ******* Burada ise inputlara modelin propertylerinin isimlerini vererek actionda yakalanmasını sağladık ******
+    <input type="number" name="Quantity" placeholder="Quantity" />
+    *@
+
+    @*Burada da sayfaya model ekledik asp-for kullanarak o modelin hangi propertysine bağlanacağını gösterdik bu şekilde bağladık*@
+    <input type="text" asp-for="ProductName" placeholder="Product Name" />
+    <br />
+    <input type="number" asp-for="Quantity" placeholder="Quantity" />
+    <br />
+    <button>Add Product</button>
+</form>
+
+@* Form tetiklendiğinde veriler controller belirtilmemişse ait olduğu controllera gider. Actionu ise belirttik.
+    Verinin post ile gönderildiği yerde yakalanabilmesi için ise bu isteği karşılayacak bir post actionu olması lazım
+    onu da controllerda yaptık
+*@

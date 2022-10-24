@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appsettings.json Dosyası", "appsettings.json Dosyası\appsettings.json Dosyası.csproj", "{FDBE628D-7F06-45A7-BBB8-119A53F4F9FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDBE628D-7F06-45A7-BBB8-119A53F4F9FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDBE628D-7F06-45A7-BBB8-119A53F4F9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDBE628D-7F06-45A7-BBB8-119A53F4F9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDBE628D-7F06-45A7-BBB8-119A53F4F9FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {273EEEAF-03EE-4342-B950-90A3E1F6A834}
+	EndGlobalSection
+EndGlobal

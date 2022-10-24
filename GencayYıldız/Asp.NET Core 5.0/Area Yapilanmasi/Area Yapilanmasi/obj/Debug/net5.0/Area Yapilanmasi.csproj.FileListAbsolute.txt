@@ -1,0 +1,231 @@
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\appsettings.json
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Area Yapilanmasi.exe
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Area Yapilanmasi.deps.json
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Area Yapilanmasi.runtimeconfig.json
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Area Yapilanmasi.runtimeconfig.dev.json
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Area Yapilanmasi.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Area Yapilanmasi.pdb
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Area Yapilanmasi.Views.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Area Yapilanmasi.Views.pdb
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Humanizer.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.csproj.AssemblyReference.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.AssemblyInfoInputs.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.AssemblyInfo.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.csproj.CoreCompileInputs.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.RazorAssemblyInfo.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.RazorAssemblyInfo.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\scopedcss\bundle\Area Yapilanmasi.styles.css
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\staticwebassets\Area Yapilanmasi.StaticWebAssets.Manifest.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.TagHelpers.input.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.TagHelpers.output.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.RazorCoreGenerate.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.RazorTargetAssemblyInfo.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.RazorTargetAssemblyInfo.cs
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.Views.pdb
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.csproj.CopyComplete
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\refint\Area Yapilanmasi.dll
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.pdb
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.genruntimeconfig.cache
+C:\Users\furka\Desktop\Asp.Net 5 Notes\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\ref\Area Yapilanmasi.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\appsettings.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Area Yapilanmasi.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Area Yapilanmasi.deps.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Area Yapilanmasi.runtimeconfig.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Area Yapilanmasi.runtimeconfig.dev.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Area Yapilanmasi.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Area Yapilanmasi.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Area Yapilanmasi.Views.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Area Yapilanmasi.Views.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Humanizer.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.AssemblyInfoInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.AssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.RazorAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.RazorAssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\scopedcss\bundle\Area Yapilanmasi.styles.css
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\staticwebassets\Area Yapilanmasi.StaticWebAssets.Manifest.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.TagHelpers.input.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.TagHelpers.output.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.RazorCoreGenerate.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Razor\Areas\yonetim_paneli\Views\Home\Index.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.RazorTargetAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.RazorTargetAssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.Views.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.csproj.CopyComplete
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\refint\Area Yapilanmasi.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\Area Yapilanmasi.genruntimeconfig.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Area Yapilanmasi\Area Yapilanmasi\obj\Debug\net5.0\ref\Area Yapilanmasi.dll
