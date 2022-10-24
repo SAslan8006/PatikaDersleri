@@ -1,0 +1,39 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\bin\Debug\net5.0\appsettings.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\bin\Debug\net5.0\Route Yapılanması.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\bin\Debug\net5.0\Route Yapılanması.deps.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\bin\Debug\net5.0\Route Yapılanması.runtimeconfig.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\bin\Debug\net5.0\Route Yapılanması.runtimeconfig.dev.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\bin\Debug\net5.0\Route Yapılanması.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\bin\Debug\net5.0\Route Yapılanması.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\bin\Debug\net5.0\Route Yapılanması.Views.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\bin\Debug\net5.0\Route Yapılanması.Views.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.AssemblyInfoInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.AssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.RazorAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.RazorAssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\scopedcss\bundle\Route Yapılanması.styles.css
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\staticwebassets\Route Yapılanması.StaticWebAssets.Manifest.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.TagHelpers.input.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.TagHelpers.output.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.RazorCoreGenerate.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.RazorTargetAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.RazorTargetAssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.Views.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\refint\Route Yapılanması.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.genruntimeconfig.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\ref\Route Yapılanması.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\Route Yapılanması\Route Yapılanması\obj\Debug\net5.0\Route Yapılanması.csproj.CopyComplete
