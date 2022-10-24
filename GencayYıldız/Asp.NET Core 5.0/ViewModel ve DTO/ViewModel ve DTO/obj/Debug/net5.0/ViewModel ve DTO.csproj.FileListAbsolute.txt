@@ -1,0 +1,43 @@
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.csproj.AssemblyReference.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.AssemblyInfoInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.AssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.csproj.CoreCompileInputs.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.RazorAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.RazorAssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\scopedcss\bundle\ViewModel ve DTO.styles.css
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\staticwebassets\ViewModel ve DTO.StaticWebAssets.Manifest.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.TagHelpers.input.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.TagHelpers.output.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.RazorCoreGenerate.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\Razor\Views\Personel\Index.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\Razor\Views\Personel\Listele.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.RazorTargetAssemblyInfo.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.RazorTargetAssemblyInfo.cs
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\refint\ViewModel ve DTO.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\bin\Debug\net5.0\appsettings.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\bin\Debug\net5.0\ViewModel ve DTO.exe
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\bin\Debug\net5.0\ViewModel ve DTO.deps.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\bin\Debug\net5.0\ViewModel ve DTO.runtimeconfig.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\bin\Debug\net5.0\ViewModel ve DTO.runtimeconfig.dev.json
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\bin\Debug\net5.0\ViewModel ve DTO.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\bin\Debug\net5.0\ViewModel ve DTO.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\bin\Debug\net5.0\ViewModel ve DTO.Views.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\bin\Debug\net5.0\ViewModel ve DTO.Views.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.Views.pdb
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.csproj.CopyComplete
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ViewModel ve DTO.genruntimeconfig.cache
+C:\Users\HaticeNur\Desktop\Süleyman Javascript\PatikaDersler\GencayYıldız\Asp.NET Core 5.0\ViewModel ve DTO\ViewModel ve DTO\obj\Debug\net5.0\ref\ViewModel ve DTO.dll

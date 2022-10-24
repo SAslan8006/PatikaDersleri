@@ -1,0 +1,8 @@
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@model (Tuple_Nesne_Post_Etme_ve_Yakalama.Models.Product p, Tuple_Nesne_Post_Etme_ve_Yakalama.Models.User u)
+
+<form method="post">
+    <input type="text" asp-for="p.Name" placeholder="Product Name"/>
+    <input type="text" asp-for="u.Name" placeholder="User Name"/>
+    <button>Submit</button>
+</form>

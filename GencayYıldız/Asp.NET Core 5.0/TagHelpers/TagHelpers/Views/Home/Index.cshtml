@@ -1,0 +1,14 @@
+﻿@* View üzerinde tag helper kullanılacaksa view kısmına eklenmeli. * verip bu kütüphanedeki tüm sınıfları kullanmak istediğimizi belirttik *@
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+
+<form asp-action="index" asp-controller="Home" method="post"></form>
+@* Hangi kontrollerde hangi aksiyonu tetikleyeceğini veriyoruz*@
+
+@addTagHelper *,TagHelpers
+@* Yukarıda eklediğimiz hazır taghelperlardı kendi oluşturduklarımızı da kullanabilmek için ayrıyetten eklememiz gerekir. Solutionın adını baz aldık
+    Klasör olanla karıştırma. Kullanım noktasında sınıf isimlendirmeleri önemli burada kullanırken classa verdiğimiz addan yakalıyor. 
+*@
+<email mail="furkan.ince123@hotmail.com" display="Mail adresim"></email>
+
+@* Birden çok kelimeyle isimlendirdiğimiz tag helperı büyük harfine göre kelime kelime ayırarak araya tire ekler*@
+<mail-gonder-form></mail-gonder-form>

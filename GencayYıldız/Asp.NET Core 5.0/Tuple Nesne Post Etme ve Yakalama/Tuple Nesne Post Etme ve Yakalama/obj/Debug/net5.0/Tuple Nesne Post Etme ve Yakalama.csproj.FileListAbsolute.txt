@@ -1,0 +1,40 @@
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\bin\Debug\net5.0\appsettings.json
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\bin\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.exe
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\bin\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.deps.json
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\bin\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.runtimeconfig.json
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\bin\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.runtimeconfig.dev.json
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\bin\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.dll
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\bin\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.pdb
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\bin\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.Views.dll
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\bin\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.Views.pdb
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.csproj.AssemblyReference.cache
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.AssemblyInfoInputs.cache
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.AssemblyInfo.cs
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.csproj.CoreCompileInputs.cache
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.RazorAssemblyInfo.cache
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.RazorAssemblyInfo.cs
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\scopedcss\bundle\Tuple Nesne Post Etme ve Yakalama.styles.css
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\staticwebassets\Tuple Nesne Post Etme ve Yakalama.StaticWebAssets.Manifest.cache
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.TagHelpers.input.cache
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.TagHelpers.output.cache
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.RazorCoreGenerate.cache
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.RazorTargetAssemblyInfo.cache
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.RazorTargetAssemblyInfo.cs
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.Views.pdb
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.dll
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\refint\Tuple Nesne Post Etme ve Yakalama.dll
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.pdb
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.genruntimeconfig.cache
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\ref\Tuple Nesne Post Etme ve Yakalama.dll
+C:\Users\furka\Desktop\Asp-Giris-Core-5-Gencayla\Tuple Nesne Post Etme ve Yakalama\Tuple Nesne Post Etme ve Yakalama\obj\Debug\net5.0\Tuple Nesne Post Etme ve Yakalama.csproj.CopyComplete
