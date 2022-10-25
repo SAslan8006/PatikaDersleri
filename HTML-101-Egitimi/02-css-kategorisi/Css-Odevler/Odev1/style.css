@@ -1,0 +1,34 @@
+body {background-color: #603c69;
+    text-align: center;
+}
+
+h1,h2,h3 {font-family: 'Cinzel', serif;
+    color: #A8A4CE;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+ul {
+    color: #C8B6E2;
+    font-size:20px
+}
+
+a {
+    color: #C8B6E2 ;
+}
+
+p {
+    color: #7A86B6;
+    font-size: 20px; 
+}
+
+
+li {
+    display: inline;
+    margin: 20px;
+    
+}
+
+
