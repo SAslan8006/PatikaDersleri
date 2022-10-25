@@ -1,0 +1,25 @@
+.center {
+    margin: auto;
+    width: 90%;
+    border: 20  px ;   
+    padding: 1px;
+  }
+ p{
+    padding-bottom: 0em;
+ }
+    
+  .yanyana{
+    float:left;
+width: 33%  ;
+margin-right: 4px;
+height: 130px;
+background: #28fde8;
+border-color: rgb(0, 0, 0);
+}
+  .yaziOrtala{
+    text-align: center;
+  }
+ul{
+    list-style-type:none;
+    text-align: center;
+}
