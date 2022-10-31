@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XlrerXMVwKSHgjtm5mYfhaG4sMKaZ5+MOm1qlHprasZ+0NDfLDaIGTrTjKaJnI7gZWzvzFWkSpNjyhJDnUUQEw==",
+  "dgSpecHash": "LsV3WFqYVBE/IfilqHL9oUxmYQS6DMngSSO/RQw1E+1ZlY+2Xy65yx5LZr6kODGAhBjFl3Ivkv3eULGvAkwjHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Infrastructure\\Eticaret.Persistence\\ETicaret.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\HaticeNur\\Documents\\GitHub\\PatikaDersleri\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Infrastructure\\Eticaret.Persistence\\ETicaret.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HaticeNur\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",

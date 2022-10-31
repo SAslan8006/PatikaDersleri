@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uNBy+kMO9elrIoxEYoJV3Gj8yXC88NKCzfmhEWJdi5ETPzKhKU1Qd9Esa3JN/dCot6gV3vzznRWr1XxVBg7qSw==",
+  "dgSpecHash": "AmC9xKJzfn85COBy0RtniycdzZ2BlPigdaDMzzJRKbPgVVjBxjpwaQHmSbl9MnibuCH3d4H4bfOvtBnB3p0ljw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HaticeNur\\Desktop\\Süleyman Javascript\\PatikaDersler\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\ETicaret.API.csproj",
+  "projectFilePath": "C:\\Users\\HaticeNur\\Documents\\GitHub\\PatikaDersleri\\GencayYıldız\\Net6_Angular_MiniEticaret\\Eticaret\\Presentation\\Eticaret.API\\ETicaret.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HaticeNur\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\HaticeNur\\.nuget\\packages\\azure.storage.blobs\\12.13.1\\azure.storage.blobs.12.13.1.nupkg.sha512",
