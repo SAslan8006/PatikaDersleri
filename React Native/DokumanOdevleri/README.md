@@ -77,7 +77,7 @@ export default App;
 ```
 ### Kullanılan Methodlar: 
 #### addEventListener(type, handler) :
-Bir olay Eventi ekleyimemize yardımcı olur. Bu event sayesinde ekran değiştiğinde bu değerleri yeniden alabilmemizi sağlar.Desteklenen event ise ;
+Bir olay Eventi eklememize yardımcı olur. Bu event sayesinde ekran değiştiğinde bu değerleri yeniden alabilmemizi sağlar.Desteklenen event ise ;
 #### change:
 Dimensions nesnesindeki bir özellik değiştiğinde tetiklenir. Olay işleyicisinin bağımsız değişkeni, DimensionsValue türünde bir nesnedir.
 #### get(dim): 
