@@ -1,4 +1,4 @@
-## Dimensions
+## Dimensions Kullanımı
 ***
 useWindowDimensions, React bileşenlerinde tercih edilen API'dir. Kullanıcının farklı ekranlarda kullandıkça boyutlar güncellenir. React paradigmasıyla iyi çalışır.Bu komutu style sayfasında kullanarak resimlerimizin yada menülerimizin boyutlarını buradan şekillendirebiliriz. Bu şekilde tüm telefon ekranlarında düzgün görünmesini sağlayabiliriz.
 İlk olarak çalışması için asağıdaki kütüphane import edilmelidir;
