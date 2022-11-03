@@ -6,7 +6,67 @@ Hem Android hem de iOS üzerinde çalışan ve statik uyarılar gösterebilen bi
 ***
 ### Example
 ```JS
+import React, { useState } from "react";
+import { View, StyleSheet, Button, Alert } from "react-native";
+//Kullanılması için ilk olarak kütüphanesi tanımlanmalıdır 
 
+const App = () => {
+  const createTwoButtonAlert = () => //iki alertli buton 
+    Alert.alert(
+       "Alert Başlığı", //Alert başlığı yazılmalısı gereklidir.
+       "My Alert Msg", //Alert mesajı
+      [
+        {  //Button konsepti olarak negative(Negatif) kullanılmaktadır.Buttonların onPress Methodu ile gerekli dönüş yapılmaktadır.      
+          text: "Cancel",
+          onPress: () => console.log("Cancel Pressed"),
+          style: "cancel" //3 Stil vardır: default,cancel ve destructive
+        },
+        { //Button konsepti olarak positive(Pozitif) kullanılmaktadır. Buttonların onPress Methodu ile gerekli dönüş yapılmaktadır.
+            text: "OK", 
+            onPress: () => console.log("OK Pressed") 
+        }
+      ]
+    );
+
+  const createThreeButtonAlert = () => // Android'de en fazla üç button belirtilebilir. 3 buttonlu Alert
+    Alert.alert(
+      "Alert Title",
+      "My Alert Msg",
+      [
+        { //Button konsepti olarak neutral(Nötr) kullanılmaktadır.Buttonların onPress Methodu ile gerekli dönüş yapılmaktadır.
+          text: "Ask me later",
+          onPress: () => console.log("Ask me later pressed")
+        },
+        {//Button konsepti olarak negative(Negatif) kullanılmaktadır.Buttonların onPress Methodu ile gerekli dönüş yapılmaktadır.
+          text: "Cancel",
+          onPress: () => console.log("Cancel Pressed"),
+          style: "cancel",
+          
+
+        },
+        { //Button konsepti olarak positive(Pozitif) kullanılmaktadır.Buttonların onPress Methodu ile gerekli dönüş yapılmaktadır.
+            text: "OK", onPress: () => console.log("OK Pressed") 
+        }
+      ],
+    );
+
+  return (
+    <View style={styles.container}>
+      <Button title={"2-Button Alert"} onPress={createTwoButtonAlert} />
+      <Button title={"3-Button Alert"} onPress={createThreeButtonAlert} />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "space-around",
+    alignItems: "center"
+  }
+});
+
+export default App;
 
 ```
 ***
@@ -14,7 +74,7 @@ Hem Android hem de iOS üzerinde çalışan ve statik uyarılar gösterebilen bi
 
 iOS'ta istediğiniz sayıda button belirleyebilirsiniz. Her button isteğe bağlı olarak stil belirlenebilir, mevcut seçenekler AlertButtonStyle enum ile temsil edilir.
 ### Android
-Android'de en fazla üç düğme belirtilebilir. Androide kulllanılan konsepler ise neutral(Nötr), negative(Negatif) ve positive(Pozitif) buttonlarıdır:
+Android'de en fazla üç button belirtilebilir. Androide kulllanılan konsepler ise neutral(Nötr), negative(Negatif) ve positive(Pozitif) buttonlarıdır:
 1. Eğer bir buton kullanılıyorsa kullanılan konsept 'positive(pozitif)' olmalıdır('Ok' yada 'Tamam' gibi).
 2. Eğer iki buton kullanılıyorsa kullanılan konsept 'negative(Negatif)'ve 'positive(pozitif)' olmalıdır('Ok(Tamam)' ve 'Cancel(İptal)' gibi).
 3. Eğer üç buton kullanılıyorsa kullanılan konsept neutral(Nötr),'negative(Negatif)'ve 'positive(pozitif)' olmalıdır('Ok(Tamam)','Latter(Daha Sonra)' ve 'Cancel(İptal)' gibi).
@@ -28,16 +88,17 @@ Olay iptal etmek için options parametresi içinde bir onDismiss callback özell
 ```JS
 import React from "react";
 import { View, StyleSheet, Button, Alert } from "react-native";
+//Kullanılması için ilk olarak kütüphanesi tanımlanmalıdır 
 
 const showAlert = () =>
   Alert.alert(
     "Alert Başlığı", //Alert başlığı yazılmalısı gereklidir.
-    "My Alert Msg", //Aler mesajı
+    "My Alert Msg", //Alert mesajı
     [
-      {
+      {//Button konsepti olarak positive(Pozitif) kullanılmaktadır.Buttonların onPress Methodu ile gerekli dönüş yapılmaktadır.
         text: "Cancel",
         onPress: () => Alert.alert("Cancel Pressed"),
-        style: "cancel", //3 Stil vardır: neutral(Nötr),'negative(Negatif)'ve 'positive(pozitif)'
+        style: "cancel", ///3 Stil vardır: default,cancel ve destructive
       },
     ],
     {
@@ -64,7 +125,6 @@ const styles = StyleSheet.create({
 });
 
 export default App;
-
 ```
 
 ***
