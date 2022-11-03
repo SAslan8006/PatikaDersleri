@@ -39,7 +39,7 @@ static alert(title, message?, buttons?, options?)
 ```
 ##### Parameters:
 
-|NAME     |  TYPE                      | DESCRİPTION          |                
+| NAME     |  TYPE                      | DESCRİPTION          |                
 |--------:|----------------------------|:--------------------:|
 |  title (Required) |    string                  |  İletişim kutusunun başlığı. Null veya boş dize geçmek başlığı gizleyecektir. |                
 |message  |  string                 | İletişim kutusunun başlığının altında görünen isteğe bağlı bir mesaj.| 
