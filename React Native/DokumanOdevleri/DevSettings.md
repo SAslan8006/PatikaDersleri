@@ -32,4 +32,4 @@ Uygulamayı yeniden yükler. Doğrudan veya kullanıcı etkileşimi ile çağrı
 // Developer menudeki gibi uygulamayı yeniden yükler.
 ```
 ##### Example Image:
-https://user-images.githubusercontent.com/2677334/62000297-71624680-b0a1-11e9-8403-bc95c4747f0c.gif
+![Alt Text](https://user-images.githubusercontent.com/2677334/62000297-71624680-b0a1-11e9-8403-bc95c4747f0c.gif)
