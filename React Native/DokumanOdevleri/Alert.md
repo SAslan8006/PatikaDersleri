@@ -54,11 +54,16 @@ Uyarı biçiminde bir metin girmek için bir bilgi istemi oluşturun ve görünt
 ##### Parameters:
 |NAME     | TYPE                       | DESCRIPTION          |                   
 |--------:|----------------------------|:--------------------:|
-|title (Required)|    string        |                      |                   
-|     message    |             string        |                      |           
+|title (Required)|    string        |   İletişim kutusunun başlığı. |                   
+|     message    |             string        |  Metin girişinin üzerinde görünen isteğe bağlı bir mesaj.  |           
 |  callbackOrButtons | function   |  Bir işlev iletilirse, kullanıcı 'Tamam'a dokunduğunda bilgi isteminin değeri (metin: dize) => void ile çağrılır. |             
 |    callbackOrButtons      |  Buttons | Bir dizi iletilirse, düğmeler dizi içeriğine göre yapılandırılacaktır. |         
 |  type |       AlertType |   Bu, metin girişini yapılandırır.|                   
 |   defaultValue |  string   | Metin girişinde varsayılan metin.|  
 |  keyboardType | string         |İlk metin alanının klavye türü (varsa). TextInput klavye türlerinden biri.  |                   
 |     options    |    Options   |  İsteğe bağlı bir Uyarı yapılandırması.                     | 
+***
+###  Type Definitions
+#### AlertButtonStyle (iOS)
+İOS için Alert button sitili
+
