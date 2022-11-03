@@ -33,4 +33,32 @@ Olay iptal etmek için options parametresi içinde bir onDismiss callback özell
 ***
 ###  Reference
 ###  Methods
+#### alert()
+```JS
+static alert(title, message?, buttons?, options?)
+```
+##### Parameters:
 
+|NAME     |  TYPE                      | DESCRİPTION          |                
+|--------:|----------------------------|:--------------------:|
+|  title (Required) |    string                  |  İletişim kutusunun başlığı. Null veya boş dize geçmek başlığı gizleyecektir. |                
+|message  |  string                 | İletişim kutusunun başlığının altında görünen isteğe bağlı bir mesaj.| 
+|buttons  |    Buttons              |Düğme yapılandırmasını içeren isteğe bağlı bir dizi.|                   
+|options  |      Options               | İsteğe bağlı bir Uyarı yapılandırması.|        
+
+#### prompt() iOS
+```JS
+static prompt(title, message?, callbackOrButtons?, type?, defaultValue?, keyboardType?)
+``` 
+Uyarı biçiminde bir metin girmek için bir bilgi istemi oluşturun ve görüntüleyin.
+##### Parameters:
+|NAME     | TYPE                       | DESCRIPTION          |                   
+|--------:|----------------------------|:--------------------:|
+|title (Required)|    string        |                      |                   
+|     message    |             string        |                      |           
+|  callbackOrButtons | function   |  Bir işlev iletilirse, kullanıcı 'Tamam'a dokunduğunda bilgi isteminin değeri (metin: dize) => void ile çağrılır. |             
+|    callbackOrButtons      |  Buttons | Bir dizi iletilirse, düğmeler dizi içeriğine göre yapılandırılacaktır. |         
+|  type |       AlertType |   Bu, metin girişini yapılandırır.|                   
+|   defaultValue |  string   | Metin girişinde varsayılan metin.|  
+|  keyboardType | string         |İlk metin alanının klavye türü (varsa). TextInput klavye türlerinden biri.  |                   
+|     options    |    Options   |  İsteğe bağlı bir Uyarı yapılandırması.                     | 
