@@ -75,7 +75,7 @@ Uyarı biçiminde bir metin girmek için bir bilgi istemi oluşturun ve görünt
 |'default'| Varsayılan button stili.|   
 | 'cancel'|Cancel button sitili |      
 |'destructive'|Destructive button sitili|         
-
+***
 #### AlertType (iOS)
 İOS için Alert tipi
 | TYPE |
@@ -88,6 +88,7 @@ Uyarı biçiminde bir metin girmek için bir bilgi istemi oluşturun ve görünt
 | 'plain-text'|Düz metin girişi uyarısı |      
 |'secure-text'|Güvenli metin girişi uyarısı|         
 |'login-password'| Giriş ve şifre uyarısı| 
+***
 #### Buttons
 Alert button yapılandırmasını içeren nesneler dizisi.
 | TYPE |
@@ -99,6 +100,7 @@ Alert button yapılandırmasını içeren nesneler dizisi.
 |text |    string                  | Button etiketi |                
 |onPress  |  function                 | Düğmeye basıldığında geri arama işlevi.| 
 |style (iOS)  |    AlertButtonStyle           |Düğme stili, Android'de bu özellik yok sayılır.| 
+***
 #### Options
 | TYPE |
 |--------:|
