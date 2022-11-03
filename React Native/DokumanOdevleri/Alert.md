@@ -103,3 +103,10 @@ Alert button yapılandırmasını içeren nesneler dizisi.
 | TYPE |
 |--------:|
 |  object  |
+##### Properties:
+|NAME     |  TYPE                      | DESCRİPTION          |                
+|--------:|----------------------------|:--------------------:|
+|cancelable (Android)| boolean   | Uyarı kutusunun dışına dokunularak uyarının kapatılıp kapatılamayacağını tanımlar. |                
+|userInterfaceStyle (iOS) |  string  | Uyarı için kullanılan arayüz stili açık veya koyu olarak ayarlanabilir, aksi takdirde varsayılan sistem stili kullanılacaktır.| 
+|onDismiss (Android) |    	function           |Uyarı kapatıldığında geri arama işlevi başlatıldı.| 
+
