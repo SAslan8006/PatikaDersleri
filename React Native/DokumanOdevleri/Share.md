@@ -55,3 +55,15 @@ iOS'ta, action ve ActivityType içeren bir nesneyle çağrılacak bir promise d�
 |--------:|----------------------------|:--------------------:|
 |  content (Required) |    object  | 1. message - a message to share  2. url - a URL to share (iOS) 3.title - title of the message (Android) 4. url ve message iletiden biri gereklidir.|                
 |options  |  object                | 1. dialogTitle (Android) 2. excludedActivityTypes (iOS) 3. subject - a subject to share via email(iOS) 4. tintColor(iOS)|  
+***
+### Properties
+#### sharedAction
+```JS
+static share(content, options)
+```
+İçerik başarıyla paylaşıldı.
+#### dismissedAction (iOS)
+```JS
+static dismissedAction
+```
+Diyalog reddedildi.
