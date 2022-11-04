@@ -1,26 +1,35 @@
-import React from 'react';
+import React,{useState} from 'react';
 import {SafeAreaView, Text, FlatList, StyleSheet} from 'react-native';
-import productData from './product-data.json';
+import product_data from './product-data.json';
 import ProductCard from './components/ProductCard';
-import SearchBar from './components/SearchBox';
+import SearchBar from './components/SearchBar';
 
 
 const App = () => {
-  const renderItem = ({item}) => <ProductCard product={item} />;
+  const [list,setList]=useState(product_data);
+  const renderProduct= ({item})=> <ProductCard product={item} />;
+  const renderSeperator= ()=> <View style={styles.seperator} />;
+  const handleSearch=text =>{
+    const filteredList=product_data.filter(product=>{
+      const searchedText=text.toLowerCase();
+      const currentTitle=product.title.toLowerCase();
 
-  const keyEx = item => item.id.toString();
-  // render
+      return currentTitle.indexOf(searchedText)>-1;
+    });
+    setList(filteredList);
+  };
+
   return (
     <SafeAreaView style={style.container}>
       <Text style={style.headerText}>STORE APP</Text>
-      <SearchBar />
+      <SearchBar onSearch={handleSearch} />
       <FlatList
-        //ListHeaderComponent={SearchBar}
-        data={productData}
+        keyExtractor={item => item.id}
+        data={list}
         horizontal={false}
         numColumns={2}
-        renderItem={renderItem}
-        keyExtractor={keyEx}
+        renderItem={renderProduct}
+        
       />
     </SafeAreaView>
   );
