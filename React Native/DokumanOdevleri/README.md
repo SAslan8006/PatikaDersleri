@@ -26,18 +26,17 @@ Katlanabilir cihazları veya ekran boyutunu veya uygulama penceresi boyutunu de�
 Örneğin ; 
 ```JS
 import React, { useState, useEffect } from "react";
+//İlk olarak çalışması için asağıdaki kütüphane import edilmelidir
 import { View, StyleSheet, Text, Dimensions } from "react-native";
 
-import React, { useState, useEffect } from "react";
-import { View, StyleSheet, Text, Dimensions } from "react-native";
-
-const window = Dimensions.get("window");
-const screen = Dimensions.get("screen");
+const window = Dimensions.get("window"); //window değerini alığ window constuna atanmıştır.
+const screen = Dimensions.get("screen"); //screen değerini alığ screen constuna atanmıştır.
 
 const App = () => {
   const [dimensions, setDimensions] = useState({ window, screen });
 
   useEffect(() => {
+  //Kodda, ekranda herhangi bir değişiklik yapıldığında, "change" ile değerlerde değişiklik yapması için yazılmıştır.
     const subscription = Dimensions.addEventListener(
       "change",
       ({ window, screen }) => {
@@ -46,7 +45,7 @@ const App = () => {
     );
     return () => subscription?.remove();
   });
-
+ 
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Window Dimensions</Text>
@@ -91,6 +90,7 @@ Kullanımdan kaldırılmıştır. addEventListener() tarafından döndürülen r
 
 ```JS
 useEffect(() => {
+ //Kodda, ekranda herhangi bir değişiklik yapıldığında, "change" ile değerlerde değişiklik yapması için yazılmıştır.
     const subscription = Dimensions.addEventListener(
       "change",
       ({ window, screen }) => {
