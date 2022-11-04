@@ -50,4 +50,8 @@ Metin içeriğini paylaşmak için bir iletişim kutusu açmaktadır.
 
 iOS'ta, action ve ActivityType içeren bir nesneyle çağrılacak bir promise döndürür.Kullanıcı iletişim kutusunu kapattıysa, promise 'Share' eylemiyle çözülmeye devam edecektir. 'dismissedAction' ve diğer tüm anahtarlar tanımsız. Bazı paylaşım seçeneklerinin iOS simülatöründe görünmeyeceğini veya çalışmayacağını unutmayın.Android'de, eylemin Share.sharedAction olmasıyla her zaman çözülecek bir promise döndürür.
 
-Properties:
+###### Properties:
+| NAME     |  TYPE                      | DESCRİPTION          |                
+|--------:|----------------------------|:--------------------:|
+|  content (Required) |    object  | 1. message - a message to share  2. url - a URL to share (iOS) 3.title - title of the message (Android) 4. url ve message iletiden biri gereklidir.|                
+|options  |  object                | 1. dialogTitle (Android) 2. excludedActivityTypes (iOS) 3. subject - a subject to share via email(iOS) 4. tintColor(iOS)|  
