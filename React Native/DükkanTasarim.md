@@ -7,7 +7,7 @@ Bu yazımızda dükkanımıza nasıl api den veri cektiğimi anlatmaya calışac
 4. https://www.npmjs.com/package/dotenv sayfasındaki ayarlamalar ve kurulumları yapıyoruz.
 * npm install react-native-dotenv dosyasını yükle daha sonra ise
 * babel.config.js dosyasına aşağıdaki kodu ekleyin.
-* [ ["module:react-native-dotenv", { "moduleName": "@env", "path": ".env", "blacklist": null, "whitelist": null, "safe": false, "allowUndefined": true }] ]  
+*  plugins: [ ["module:react-native-dotenv", { "moduleName": "@env", "path": ".env", "blacklist": null, "whitelist": null, "safe": false, "allowUndefined": true }] ]  
 * extra olarak yapılsa iyi olur :android/app/build.gradle dosya yoluna : apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"   yazısını 2. satırına ekleyiniz.
 * Daha sonra .env dosyasını gitignorenin bulundugu konuma oluşturup gerekli değerlerinizi giriniz. 
 5. https://reactjs.org/docs/hooks-custom.html custom hooks yapısını entegre ettik yapımıza. Ek makale(https://erdemuslu.medium.com/custom-react-hooks-aa88c1305cef)
