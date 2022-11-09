@@ -13,6 +13,7 @@ Bu yazımızda dükkanımıza nasıl api den veri cektiğimi anlatmaya calışac
 5. https://reactjs.org/docs/hooks-custom.html custom hooks yapısını entegre ettik yapımıza. Ek makale(https://erdemuslu.medium.com/custom-react-hooks-aa88c1305cef)
 6. Sistemimiz animasyon kullanmak için : https://github.com/lottie-react-native/lottie-react-native paketini kuruyoruz.
 7. https://lottiefiles.com/ sitesinde lottie animasyonlarımız indiriniz. indirim sırasında dosya formatı olarak json seçiyoruz.Dosyaları src klasorü altındaki assets klasor oluşturup içerisine kayıt ediyoruz. 
+8. Lottide Android specific problems ler için https://www.npmjs.com/package/lottie-react-native en altına bakınız. 
 
 
 
