@@ -16,6 +16,12 @@ and make sure to add the following import statement at the top of this file belo
 3. Stack kurulumun aşamalarını yap. (https://reactnavigation.org/docs/stack-navigator/)
 4. https://reactnavigation.org/docs/native-stack-navigator
 4. https://github.com/luggit/react-native-config sayfasındaki ayarlamaları yapıyoruz.
+  Extra step for Android
+You'll also need to manually apply a plugin to your app, from android/app/build.gradle:
+
+// 2nd line, add a new apply:
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
+  
 5. https://www.npmjs.com/package/dotenv sayfasındaki ayarlamalar ve kurulumları yapıyoruz.
 * npm install react-native-dotenv dosyasını yükle daha sonra ise
 * babel.config.js dosyasına aşağıdaki kodu ekleyin.
