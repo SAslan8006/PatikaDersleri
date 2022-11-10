@@ -14,6 +14,7 @@ and make sure to add the following import statement at the top of this file belo
 
     import android.os.Bundle;
 3. Stack kurulumun aşamalarını yap. (https://reactnavigation.org/docs/stack-navigator/)
+4. https://reactnavigation.org/docs/native-stack-navigator
 4. https://github.com/luggit/react-native-config sayfasındaki ayarlamaları yapıyoruz.
 5. https://www.npmjs.com/package/dotenv sayfasındaki ayarlamalar ve kurulumları yapıyoruz.
 * npm install react-native-dotenv dosyasını yükle daha sonra ise
