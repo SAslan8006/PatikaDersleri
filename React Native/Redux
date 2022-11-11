@@ -10,7 +10,7 @@ Kurulum aşamaları:
 4. npm install --save-dev @redux-devtools/core buda kittir kurulumu seçime bağlıdır.
 
 redux yapısının kullanımı ve mantığı : 
-*** js
+```JS
 import {legacy_createStore as createStore} from 'redux';
 import { Provider,useSelector,useDispatch } from 'react-redux';
-*** js
+```
