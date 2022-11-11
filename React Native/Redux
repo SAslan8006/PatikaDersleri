@@ -1,0 +1,4 @@
+#Redux Yapısı Ne işe yapar
+
+1. Redux değişkenlerin yada veririnin tüm uygulamada kullanılmasını ve onlara ulaşılmasını sağlayan sarmallama yapısıdır. Örneğin 1 kullanıcı şifresini girdiğinde bu işlem sonucu dondürülen tokenın olup olmadığını kullanmamızı sağlayan yapıdır.
+2. Redux ile verileri globalleştirebildiğimiz kadar bu verilerin güncellemesini yapabiliriz. 
