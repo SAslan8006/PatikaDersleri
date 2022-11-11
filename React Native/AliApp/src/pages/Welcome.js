@@ -4,9 +4,11 @@ import {SafeAreaView, Text, Image, StyleSheet, View} from 'react-native';
 import {Button,Input} from '../components';
 
 function Welcome({navigation}){
+    //navigasyonun navigatesi kullanılarak loginine yönlendirilmiştier.
     function gotoLogin(){
         navigation.navigate('Login');    
     }
+    //navigasyonun navigatesi kullanılarak registera yönlendirilmiştier.
     function gotoRegister(){
       navigation.navigate('Register');    
   }

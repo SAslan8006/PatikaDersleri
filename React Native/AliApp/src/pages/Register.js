@@ -8,7 +8,7 @@ function Register({navigation}){
     const[Surname,setSurname]=useState(null);
     const[Mail,setMail]=useState(null);
     const[Pasword,setPasword]=useState(null);
-
+    // Veriler user değişkene atanmıştır 
     function handleSubmit(){
         const user={
             Name,
@@ -18,7 +18,7 @@ function Register({navigation}){
         };
         
         //console.log(user);
-
+        //verilerin boş geçmesi durumu kontrol edilmiştir.
         if(!Name ||  !Surname || !Mail || !Pasword ){
             Alert.alert('Ali Dayı Alış-Veriş','Bilgiler Boş Bırakılmaz');
             return;

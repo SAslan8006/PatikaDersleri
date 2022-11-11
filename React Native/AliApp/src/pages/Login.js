@@ -6,7 +6,7 @@ import {Input,Button} from '../components';
 function Login({navigation}){
     const[Mail,setMail]=useState(null);
     const[Pasword,setPasword]=useState(null);  
-    
+    //Burada şimdilik veri tabanı olmadığı için sistemde isim ve soyad olmadan sabit tanımlanarak kontrol edilmiştir.
     function handleSubmit(){
         const user={
             Name:"Ahmet",
@@ -22,6 +22,7 @@ function Login({navigation}){
     };
     
     return (
+        //Safe areaView ile veriler yansıtılmıştır
         <SafeAreaView style={styles.container}>   
             <View style={styles.modal}>         
                 <Input  label="Mail" placeholder="Mail giriniz...(email)" onChangeText={setMail}/>

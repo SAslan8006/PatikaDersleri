@@ -8,6 +8,7 @@ function Shop({route}){
     const [list,setList]=useState(music_data);
     const renderSong= ({item})=> <SongCard song={item} />;
     const renderSeperator= ()=> <View style={styles.seperator} />;
+    //veriler texte girildiğinde listedeki veriler eşletirilip ona göre verilerin filtrelenmesi sağlanmış bu değişiklikler ise küçük buyük harf etkisi kaldırılmıştır.
     const handleSearch=text =>{
       const filteredList=music_data.filter(song=>{
         const searchedText=text.toLowerCase();
