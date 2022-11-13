@@ -8,6 +8,7 @@ Kurulum aşamaları:
 2. npm install redux ile reduxu kuruyoruz bu olmazsa olmazdır uygulama kurulması gerekmektedir. 
 3. npm install react-redux  kuruyoruz bu olmazsa olmazdır uygulama kurulması gerekmektedir. 
 4. npm install --save-dev @redux-devtools/core buda kittir kurulumu seçime bağlıdır.
+5. npm i react-redux redux redux-persist redux-thunk @reduxjs/toolkit bu kurulmalıdır kısaca
 
 redux yapısının kullanımı ve mantığı : 
 ```JS
