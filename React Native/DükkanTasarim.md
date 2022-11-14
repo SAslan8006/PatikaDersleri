@@ -35,7 +35,7 @@ apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.grad
 9. Lottide Android specific problems ler için https://www.npmjs.com/package/lottie-react-native en altına bakınız. 
 10. Genellikle : android/app/src/main/java/\<AppName\>/MainApplication.java içerisine --- import com.airbnb.android.react.lottie.LottiePackage; --- eklemelisiniz hatası karşımıza çıkmaktadır. 
 11. Formik ve yup kullanımı ile login girişi kontrolleri kolaylaştırmak için yüklendi https://formik.org/docs/overview :  npm install formik yup
-12. https://github.com/oblador/react-native-vector-icons bu nu kullanmak için yüklüyoruz
+12. https://www.npmjs.com/package/react-native-vector-icons bu nu kullanmak için yüklüyoruz
 13. https://www.youtube.com/watch?v=R0KKUwN64hk&amp;ab_channel=L%E1%BA%ADpTr%C3%ACnhC%C3%B9ngNg%C3%A2n
 14. import Icon from 'react-native-vector-icons/FontAwesome';
 const myIcon = <Icon name="rocket" size={30} color="#900" />;
