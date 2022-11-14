@@ -34,7 +34,8 @@ apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.grad
 10. https://lottiefiles.com/ sitesinde lottie animasyonlarımız indiriniz. indirim sırasında dosya formatı olarak json seçiyoruz.Dosyaları src klasorü altındaki assets klasor oluşturup içerisine kayıt ediyoruz. 
 9. Lottide Android specific problems ler için https://www.npmjs.com/package/lottie-react-native en altına bakınız. 
 10. Genellikle : android/app/src/main/java/\<AppName\>/MainApplication.java içerisine --- import com.airbnb.android.react.lottie.LottiePackage; --- eklemelisiniz hatası karşımıza çıkmaktadır. 
-
+11. Formik ve yup kullanımı ile login girişi kontrolleri kolaylaştırmak için yüklendi https://formik.org/docs/overview :  npm install formik yup
+12. 
 
 
 
