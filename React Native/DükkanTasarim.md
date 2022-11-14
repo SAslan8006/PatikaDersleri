@@ -40,6 +40,6 @@ apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.grad
 14. import Icon from 'react-native-vector-icons/FontAwesome';
 const myIcon = <Icon name="rocket" size={30} color="#900" />;
   https://oblador.github.io/react-native-vector-icons/
-
+15. https://react-native-async-storage.github.io/async-storage/docs/install yüklenmelidir..
 
 
