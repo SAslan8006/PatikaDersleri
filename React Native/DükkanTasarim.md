@@ -39,6 +39,7 @@ apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.grad
 13. https://www.youtube.com/watch?v=R0KKUwN64hk&amp;ab_channel=L%E1%BA%ADpTr%C3%ACnhC%C3%B9ngNg%C3%A2n
 14. import Icon from 'react-native-vector-icons/FontAwesome';
 const myIcon = <Icon name="rocket" size={30} color="#900" />;
+  https://oblador.github.io/react-native-vector-icons/
 
 
 
