@@ -29,7 +29,7 @@ const listenDb=()=>{
 ```
 
 # Veriyi  Kaydetme - Update - Pushing Yapma işlemleri 
-Setting data
+Setting data: Eski dataların hepsini siler yeni verilerinizi ekler
 ``` JS
 import database from '@react-native-firebase/database';
 database()
@@ -40,7 +40,7 @@ database()
   })
   .then(() => console.log('Data set.'));
   ``` 
-  Updating data
+  Updating data: Verdiğiniz yoldaki verilerinizi güncellemek için kullanırız.
   ```JS
   import database from '@react-native-firebase/database';
 
@@ -51,4 +51,15 @@ database()
   })
   .then(() => console.log('Data updated.'));
   ```
-  
+  Pushing data:Veriye ekleme yapmak için kullanırsınız mesala yeni bir reference numarası vererek verilerinizi ekler sistemimize
+  ```JS
+  const newReference = database().ref('/users').push();
+
+console.log('Auto generated key: ', newReference.key);
+
+newReference
+  .set({
+    age: 32,
+  })
+  .then(() => console.log('Data updated.'));
+  ```
