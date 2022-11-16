@@ -9,5 +9,4 @@
 8. Gelen uygulama adını gerekli yere yaz ve sonra goole-services.json dosyasını app içine koyunuz.
 9. /android/build.gradle buraya git classpath 'com.google.gms:google-services:4.3.14' bunu ekle bulidlscript --- dependisin altına
 10. /android/app/build.gradle file 2 satıra apply plugin: 'com.google.gms.google-services' ekle
-11. 
 
