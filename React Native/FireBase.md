@@ -11,4 +11,8 @@
 10. /android/app/build.gradle file 2 satıra apply plugin: 'com.google.gms.google-services' ekle
 
 
-# firebase-auth-modulu
+# Firebase-auth-modulu
+
+1. https://rnfirebase.io/auth/usage buradaki auth kısmına geliyoruz.
+2. npm i @react-native-firebase/auth paketini kuruyoruz.
+3. 
