@@ -29,6 +29,7 @@ const listenDb=()=>{
 ```
 
 # Veriyi  Kaydetme - Update - Pushing Yapma işlemleri 
+Setting data
 ``` JS
 import database from '@react-native-firebase/database';
 database()
@@ -39,4 +40,15 @@ database()
   })
   .then(() => console.log('Data set.'));
   ``` 
+  Updating data
+  ```JS
+  import database from '@react-native-firebase/database';
+
+database()
+  .ref('/users/123')
+  .update({
+    age: 32,
+  })
+  .then(() => console.log('Data updated.'));
+  ```
   
