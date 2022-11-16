@@ -4,4 +4,5 @@
 3. npm install @react-native-firebase/app        npm install @react-native-firebase/database
 4. https://console.firebase.google.com/u/0/project/api-eticaret/database/api-eticaret-default-rtdb/data realtime database içindede 1 database create ediyoruz. 
 5. Burada test modeyi seciyoruz şimdlik. 
-6. 
+6. import database from '@react-native-firebase/database'; bunu import ediyoruz ilk olarak .
+7. 
