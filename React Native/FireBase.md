@@ -42,5 +42,10 @@
         const user= auth().currentUser;
         console.log(user);
     }
+    
+    
+    ****
+       <Button text="Hesap Oluştur" onPress={signUp} loading={loading} />
+       <Button text="Gmail" onPress={signIn} loading={loading} />
 ```
 
