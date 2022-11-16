@@ -33,5 +33,10 @@
        .then(res=>console.log(res))
        .catch(err=>console.log(err))
     }
+    const singOut=()=>{
+     auth().signOut()
+       .then(res=>console.log(res))
+       .catch(err=>console.log(err))
+    }
 ```
 
