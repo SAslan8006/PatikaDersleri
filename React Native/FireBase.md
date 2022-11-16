@@ -10,3 +10,5 @@
 9. /android/build.gradle buraya git classpath 'com.google.gms:google-services:4.3.14' bunu ekle bulidlscript --- dependisin altına
 10. /android/app/build.gradle file 2 satıra apply plugin: 'com.google.gms.google-services' ekle
 
+
+# firebase-auth-modulu
