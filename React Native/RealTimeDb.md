@@ -63,3 +63,13 @@ newReference
   })
   .then(() => console.log('Data updated.'));
   ```
+  
+  Removing data
+   ```JS
+   await database().ref('/users/123').remove();
+   
+   // Optionally, you can also set the value of a reference node to null to remove it from the database:
+   
+   await database().ref('/users/123').set(null);
+  ```
+  
