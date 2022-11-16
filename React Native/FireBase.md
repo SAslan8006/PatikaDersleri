@@ -16,4 +16,21 @@
 1. https://rnfirebase.io/auth/usage buradaki auth kısmına geliyoruz.
 2. npm i @react-native-firebase/auth paketini kuruyoruz.
 3. https://console.firebase.google.com/u/0/project/api-eticaret/authentication/providers  altındaki Email/Password alanını Enable yapıp save yapınız..
-4. 
+*** js
+    const signUp = () => {
+        auth().createUserWithEmailAndPassword(
+            'jane.doe@example.com',
+            'SuperSecretPassword',
+        )
+       .then(res=>console.log(res))
+       .catch(err=>console.log(err))
+    }
+    const signIn = () => {
+        auth().signInWithEmailAndPassword(
+            'jane.doe@example.com',
+            'SuperSecretPassword',
+        )
+       .then(res=>console.log(res))
+       .catch(err=>console.log(err))
+    }
+***
