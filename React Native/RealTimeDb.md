@@ -27,3 +27,5 @@ const listenDb=()=>{
 
  
 ```
+
+# Veriyi  Kaydetme - Update - Pushing Yapma işlemleri 
