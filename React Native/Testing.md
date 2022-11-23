@@ -89,9 +89,24 @@ test('should render default theme style', () => {
     const submintButton=comp.getByTestId('button-touchable');
     fireEvent.press(submintButton);
     
-    cons list=comp.getByTestId('list').props;
+    const list=comp.getByTestId('list').props;
     expect(list.data.length).toBe(1);
 })
 
 
+test('should render given theme style', () => {
+    const comp =render(<Button />);  
+
+    const input=comp.getByTestId('input-area');
+    fireEvent.changeText(input,'test element');
+    
+    const submintButton=comp.getByTestId('button-touchable');
+    fireEvent.press(submintButton);
+    fireEvent.press(submintButton);
+    fireEvent.press(submintButton);
+    
+    const list=comp.getByTestId('list').props;
+    expect(list.data.length).toBe(3);
+
+})
 ```
