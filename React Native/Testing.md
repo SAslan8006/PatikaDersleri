@@ -89,8 +89,8 @@ test('should render default theme style', () => {
     const submintButton=comp.getByTestId('button-touchable');
     fireEvent.press(submintButton);
     
-    cons list=comp.getByTestId('list');
-    
+    cons list=comp.getByTestId('list').props;
+    expect(list.data.length).toBe(1);
 })
 
 
