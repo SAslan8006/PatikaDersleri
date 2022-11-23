@@ -8,3 +8,19 @@ Projenin isterlerinin aşamalarını ve gerekliliklerini belirlemek için kullan
 1. Hastalar sorunsuz bir şekilde randevu alabileceği,
 2. doktorların da randevularını kontrol edebileceği bir mobil uygulama gerekli.
 3. Hasta Tck numarası ve şifreyle bir hesap açabilmeli.
+....
+## Proje Adı: 
+E-Randevum
+## Proje İçeriği :
+Vatandaşların istedikleri bir doktordan ilgili hastaneyi ve polikiniğiseçerek randevu alabilmesini alınan randevuların takip edilebilmesini sağlayan bir mobil uygulama.
+## Gereksinimler
+1. Hastalar ugulama üzerinden hesap oluşturabilecektir. 
+2. Hastalar uygulama üzeirnden TCK no şifre ile giriş yapabilecektir.
+3. Hastalar uygulama üzerinden sehir listesinin görüntüleyebilecek
+4. Hastalar uygulama üzeirnden şehirdeki hastaneleri görüntüleyebilecektir.
+5. Hsatalar uygulama üzerinden hastane seçebilecektir.
+6. .....
+
+## Ek Gereksinimler
+1. Kullanıcılara randevu saaatinden önce bildirim gönderilecektir.
+2. 
