@@ -1,0 +1,2 @@
+# Proje Raporu 
+projenin isterlerinin aşamalarını ve gerekliliklerini belirlemek için kullanılmaktadır. Alınan işin çercevesinin belirler ve sizleri güvenceye almaktadır. Bu nedenle bir projeye başlamadan ilk olarak projenin raporunun oluşturulup iş akdi sözlemesininde bunu belirtilerek karşılıklı imza alınmadan işe başlamak emeğiniz boşa olmasına neden olabilir. Yada sizlere açılmış bir davaya neden olabilir. 
