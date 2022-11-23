@@ -85,6 +85,12 @@ test('should render default theme style', () => {
     const comp =render (<App/>);
     const input=comp.getByTestId('input-area');
     fireEvent.changeText(input,'test element');
+    
+    const submintButton=comp.getByTestId('button-touchable');
+    fireEvent.press(submintButton);
+    
+    cons list=comp.getByTestId('list');
+    
 })
 
 
