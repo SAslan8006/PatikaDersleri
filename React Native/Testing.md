@@ -110,3 +110,8 @@ test('should render given theme style', () => {
 
 })
 ```
+## Coverage
+  Testlerimizi hangi işlemlere yaptığımızı göstermektedir. 
+  Test etmediğimiz alanlar hakkında bilgi vermektedir.
+1. npm test --coverage
+
