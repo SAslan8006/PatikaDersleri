@@ -70,3 +70,22 @@ test('should render given theme style', () => {
 
 })
 ```
+## Uygulama Genel testi
+```JS
+import react from "react";
+import App from "./App";
+import {render,fireEvent} from '@testing-library/react-native';
+
+test('should match with snapshot', () => { 
+    const comp =render (<App/>);
+    expect(comp).toMatchSnapshot(); 
+});
+
+test('should render default theme style', () => {
+    const comp =render (<App/>);
+    const input=comp.getByTestId('input-area');
+    fireEvent.changeText(input,'test element');
+})
+
+
+```
