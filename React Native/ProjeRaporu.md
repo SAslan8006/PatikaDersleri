@@ -23,4 +23,24 @@ Vatandaşların istedikleri bir doktordan ilgili hastaneyi ve polikiniğiseçere
 
 ## Ek Gereksinimler
 1. Kullanıcılara randevu saaatinden önce bildirim gönderilecektir.
-2. 
+
+## Aktörler ve Aksiyonlar
+### Hasta 
+1. Hesap oluşturma
+2. Giriş yapma
+3. Sehirleri görüntüleme
+4. Hastane Seçebilme
+5. ...
+### Doktor
+1. Giriş yapma
+2. Alınan Randevuları görüntüleme
+3. Reçete bilgisi girme
+
+## Adım Adım Gösterim
+![image](https://user-images.githubusercontent.com/109723263/203600323-7ae1c988-5ad5-4fb8-9800-2145207c3909.png)
+
+
+
+
+
+
