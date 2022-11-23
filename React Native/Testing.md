@@ -20,6 +20,8 @@ test('should match with snapshot', () => {
 3. çalıştırırken npm test komutu kullanılmaktadır.
 4. Tüm testler izleme ve sürekli npm test yapmamak için ise : jest -u --watchAll yapabilirsiniz.
 
+## Buton text ve render Kontrolu
+
 ```JS
 import react from "react";
 import Button from "./Button";
@@ -38,7 +40,7 @@ test('should render title correctly', () => {
     console.log(buttonText);
 })
 ```
-
+## Buton onPress Kontrolu
 ```JS
 test('should trigerr onPress', () => {
     const mockFunction=jest.fn();
@@ -49,5 +51,22 @@ test('should trigerr onPress', () => {
     
     expect(mockFunction).toBeCalled();
     //    expect(mockFunction).toBeCalledTimes(1); tıklanma sayısını kontrolü için kullanılmaktadır.
+})
+```
+## Tema Kontrolu
+```JS
+test('should render default theme style', () => {
+    const comp =render(<Button />);    
+    const buttonContainer=comp.geyByTestId('button-touchable');
+    expect(buttonStyles).toMatchObject(styles.primary.container);
+
+})
+
+test('should render given theme style', () => {
+    const selectedTheme='primary';
+    const comp =render(<Button />);    
+    const buttonContainer=comp.geyByTestId('button-touchable');
+    expect(buttonStyles).toMatchObject(styles[selectedTheme].container);
+
 })
 ```
