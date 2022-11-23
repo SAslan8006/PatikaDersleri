@@ -37,3 +37,15 @@ test('should render title correctly', () => {
     console.log(buttonText);
 })
 ```
+
+```JS
+test('should trigerr onPress', () => {
+    const mockFunction=jest.fn();
+    const comp=render(<Button onClick={mockFunction} />)  
+
+    const buttonTouchable=com.geyByTestId('button-touchable');
+    fireEvent(buttonTouchable,'press');
+    
+    expect(mockFunction).toBeCalled();
+})
+```
