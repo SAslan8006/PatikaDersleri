@@ -4,4 +4,5 @@
 2. https://jestjs.io/
 3. Test yazarken isterseniz test klasorüne toplanabilir isterseniz de buton componeneti örneğin içerisine button.test.js yazarakda oluşturabilirsiniz. 
 4. Buton.test.js yapmak dosyların hangisi testi olduğunu daha net şekilde kullanım kolaylığı sağlar tercihen. 
-5. 
+5. ilk once testing library kurulumu yapıyoruz bunun için adımlar : 
+  1. npm install --save-dev @testing-library/react-native kuruyoruz.
