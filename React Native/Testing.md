@@ -18,3 +18,22 @@ test('should match with snapshot', () => {
 
 ```
 3. çalıştırırken npm test komutu kullanılmaktadır.
+
+```JS
+import react from "react";
+import Button from "./Button";
+import {render} from '@testing-library/jest-native'
+test('should match with snapshot', () => { 
+    const comp =render (<Button/>);
+    expect(comp).toMatchSnapshot(); 
+});
+
+test('should render title correctly', () => {
+    const testTitle='test';
+    const comp=render(<Button title={testTitle}/>);
+
+    const buttonText=comp.geyByTestId('btton-title').children[0];
+    expect(buttonText).toBe(testTitle);
+    console.log(buttonText);
+})
+```
