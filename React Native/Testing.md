@@ -10,7 +10,7 @@
 ```JS
 import react from "react";
 import Button from "./Button";
-import {render} from ''
+import {render} from '@testing-library/react-native';
 test('should match with snapshot', () => { 
     const comp =render (<Button/>);
     expect(comp).toMatchSnapshot(); 
