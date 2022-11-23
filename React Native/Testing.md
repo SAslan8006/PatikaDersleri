@@ -18,6 +18,7 @@ test('should match with snapshot', () => {
 
 ```
 3. çalıştırırken npm test komutu kullanılmaktadır.
+4. Tüm testler izleme ve sürekli npm test yapmamak için ise : jest -u --watchAll yapabilirsiniz.
 
 ```JS
 import react from "react";
