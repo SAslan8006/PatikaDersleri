@@ -17,3 +17,4 @@ test('should match with snapshot', () => {
 });
 
 ```
+3. çalıştırırken npm test komutu kullanılmaktadır.
