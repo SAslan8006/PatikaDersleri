@@ -47,5 +47,6 @@ test('should trigerr onPress', () => {
     fireEvent(buttonTouchable,'press');
     
     expect(mockFunction).toBeCalled();
+    //    expect(mockFunction).toBeCalledTimes(1); tıklanma sayısını kontrolü için kullanılmaktadır.
 })
 ```
