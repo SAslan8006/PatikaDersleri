@@ -6,3 +6,14 @@
 4. Buton.test.js yapmak dosyların hangisi testi olduğunu daha net şekilde kullanım kolaylığı sağlar tercihen. 
 5. ilk once testing library kurulumu yapıyoruz bunun için adımlar : 
   1. npm install --save-dev @testing-library/react-native kuruyoruz.
+  2. Dev kelimesi ile geliştirici modunda kullanılacaktır demek yani yayınladığında eklenmeyecektir pakete bu önemli bir bilgildir. 
+```JS
+import react from "react";
+import Button from "./Button";
+import {render} from ''
+test('should match with snapshot', () => { 
+    const comp =render (<Button/>);
+    expect(comp).toMatchSnapshot(); 
+});
+
+```
