@@ -4,5 +4,6 @@
  
 ## Değişkenler sabitler ve Operatörler
 1. Değişkenler let ile tanımlanır. (let randomSayi;)
+Örnek: let randomSayi: Math.floor(Math.random()*100); //0 ile 100 arasında sayı üretir.
 2. Sabitler const ile tanımlanır. (const a =14)
 3. 
