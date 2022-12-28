@@ -6,9 +6,9 @@
 4.  foreach yerine map de kullanılmaktadı
 ![image](https://user-images.githubusercontent.com/109723263/209792185-ab38d8dd-d7bf-4a16-998d-930934275fcc.png)
 5. Örnek : Aşağıdaki şekildedir.
-´´´JS 
+```JS 
 {numList.map((num,index)=>(
     <Text style={styles.textStyle} key={index.toString()}> {num} </Text> 
 ))}
-´´´ 
+``` 
 ![image](https://user-images.githubusercontent.com/109723263/209794312-d26caefd-ce82-40c7-a085-c3f05c8a750c.png)
