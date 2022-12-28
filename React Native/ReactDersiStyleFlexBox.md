@@ -18,3 +18,8 @@
 #### Örnek: 
 ![image](https://user-images.githubusercontent.com/109723263/209785631-2e2dd9ca-f903-4609-b6b8-089ec7a75ba2.png)
 
+```JS
+ <Text> 
+  {randomSayi%2==0?"Sayı Çifttir":"Sayi Tektir"}
+ <Text/>
+```
