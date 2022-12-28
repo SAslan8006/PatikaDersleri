@@ -12,3 +12,7 @@
 ))}
 ``` 
 ![image](https://user-images.githubusercontent.com/109723263/209794312-d26caefd-ce82-40c7-a085-c3f05c8a750c.png)
+
+6. map ile listelemeler yaparken içerisinde listeleme vs için kullanılmaktadır aşağıda örneği mevcuttur.
+
+![image](https://user-images.githubusercontent.com/109723263/209818347-67760198-82c7-4a48-b0c6-af3281bb5c3a.png)
