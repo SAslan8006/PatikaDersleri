@@ -1,8 +1,11 @@
 # Vector Icons Kurulumu ve Kullanımı
 ## Kurulum Aşaması 
 1. https://www.npmjs.com/package/react-native-vector-icons sitesine gidiyoruz. 
-2. npm i react-native-vector-icons ile kurulumu terminalden projemize yapıyoruz. 
-3. android/app/build.grandle  içerisine  yaklaşık 89 satıra şu kodu ekliyoruz...  
+2. Kurulum aşamalarının en güncel hali her zaman https://github.com/oblador/react-native-vector-icons sitesinde bulabilirsiniz. Burada android için işlemler yapılmıştır. 
+3. Ios kurulumu yukarıdaki linkteki işlemleri takip ederek ilerleyebilirsiniz. 
+4. Son olarak yazılanları takip edip yapamamanız durumunda https://www.youtube.com/watch?v=R0KKUwN64hk linkteki videoyu izleyebilirsiniz. 
+5. npm i react-native-vector-icons ile kurulumu terminalden projemize yapıyoruz. 
+6. android/app/build.grandle  içerisine  yaklaşık 89 satıra şu kodu ekliyoruz...  
 ```JS
 apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 ```
@@ -23,4 +26,22 @@ Not: Önemli bir hatırlatma eğer bir paketi kurulumunu yaparken sonuna //Paket
 ```JS
 include ':react-native-vector-icons'  //Vector icons
 project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')  //Vector icons
+```
+## Kullanımı Ve Icon isimleri nereden alındığı
+1. Vector icon kutüphanesi içerisindeki icon isimleri https://oblador.github.io/react-native-vector-icons/ sitesinde bakabilirsiniz kullanmak istediğiniz icon ismini kütüphanesini oradan seçebilirsiniz
+2. Örneğin FontAwesome kütüphanesindeki music isimli iconu kullnacaksanız aşağıdaki kodları kullanırsınız: 
+```JS
+import React from 'react';
+import {ActivityIndicator, Text, SafeAreaView } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
+
+export default App=()=> {  
+    return (
+      <SafeAreaView style={{flex:1,alignItems:'center',justifyContent:'center'}}>
+        <Icon name='music' size={72} color="green" />
+      </SafeAreaView>
+    )
+  }
+
+
 ```
