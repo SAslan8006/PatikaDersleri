@@ -1,5 +1,5 @@
 ## ScrollView Kullanımında Style
-Scrolview kullanırken style özelliğini kullanmak isterseniz.. aşağdıka kodu kullanabilirsiniz. contentContainerStyle
+Scrolview kullanırken style de  alignItems:'center' özelliğini kullanmak isterseniz.. aşağdıka kodu kullanabilirsiniz.Bunun hatasını aşağıdaki kodlarla cozebilirsiniz. style yerine contentContainerStyle kullanarak çözebiliriz
 ```JS
  <ScrollView contentContainerStyle = {{flex: 1, alignItems:'center', width: '100%'}}>
                 <TouchableOpacity
