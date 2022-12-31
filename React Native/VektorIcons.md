@@ -5,7 +5,7 @@
 3. Ios kurulumu yukarıdaki linkteki işlemleri takip ederek ilerleyebilirsiniz. 
 4. Son olarak yazılanları takip edip yapamamanız durumunda https://www.youtube.com/watch?v=R0KKUwN64hk linkteki videoyu izleyebilirsiniz. 
 5. npm i react-native-vector-icons ile kurulumu terminalden projemize yapıyoruz. 
-6. android/app/build.grandle  içerisine  yaklaşık 89 satıra şu kodu ekliyoruz...  
+6. android/app/build.grandle  içerisine  yaklaşık 86 satıra şu kodu ekliyoruz...  
 ```JS
 apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 ```
@@ -17,7 +17,7 @@ project.ext.vectoricons = [
 
 apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 ```
-4. Aynı dosyanın içerisinide app/build.grandle nin içerisinde yaklaşık 260. satıra yani dependencies {... içerisine aşağıdaki kodu ekliyorsunuz
+4. Aynı dosyanın içerisinide app/build.grandle nin içerisinde yaklaşık 256. satıra yani dependencies {... içerisine aşağıdaki kodu ekliyorsunuz
 ```JS
     implementation project(':react-native-vector-icons')  //Vector icons
 ```
