@@ -10,3 +10,7 @@ protected void onCreate(Bundle savedInstanceState) {
   super.onCreate(null);
 }  
 ```
+4. npm install @react-navigation/native-stack 
+5. npm install react-native-gesture-handler 
+6. npm install @react-native-masked-view/masked-view
+ 
