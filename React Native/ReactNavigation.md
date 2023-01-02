@@ -20,3 +20,7 @@ protected void onCreate(Bundle savedInstanceState) {
   
 1. npm install @react-navigation/drawer
 2. npm install react-native-gesture-handler react-native-reanimated
+ babel config e pulings ayarı ekleyiniz. 
+  
+# React Bottom Tabs Kurulumu
+1. npm install @react-navigation/bottom-tabs
