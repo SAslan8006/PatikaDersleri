@@ -1,4 +1,4 @@
-## codeTalks app
+# CodeTalks app
 
 ## Login Page and Sign Out Page
 
