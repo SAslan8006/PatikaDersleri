@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react';
 import Router from './Router'
 import ChatRoomContextProvider from './context/ChatRoomContext'
 
