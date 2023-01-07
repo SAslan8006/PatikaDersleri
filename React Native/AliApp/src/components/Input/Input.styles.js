@@ -3,14 +3,13 @@ import { StyleSheet } from "react-native";
 export default StyleSheet.create({
     container: {
         padding: 8,
-        margin: 5,
+        margin: 10,
+        backgroundColor: "white",
         borderRadius: 5,
-        backgroundColor: "#eceff1",
-
+        flexDirection: "row",
+        alignItems: "center",
     },
-    searchTitle: {
-        color: "black",
-        borderWidth: 1,
-        borderColor: "grey"
+    input: {
+        flex: 1,
     }
-});
+})
