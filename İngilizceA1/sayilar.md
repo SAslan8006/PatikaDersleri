@@ -34,5 +34,5 @@
 320. three hundred twenty
 1000. one thousand
 3523. three thousand five hundred twenty three
-100.000: one hundred thousand
-150.000: one hundred fifty thousand
+100000. one hundred thousand
+150000. one hundred fifty thousand
