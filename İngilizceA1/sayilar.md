@@ -20,3 +20,16 @@
 19. Nineteen
 20. Twenty
 21. Twenty -one
+22. ....- two
+30. thirty 
+31. .. - one
+40. forty
+50. fifty
+60. sixty
+70. seventy
+80. eigthty 
+90. ninety
+100. one hundred
+200. two hundred
+320. three hundred twenty
+
