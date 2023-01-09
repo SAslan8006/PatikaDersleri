@@ -23,10 +23,13 @@ We aren't studying English in the library.
 # The Present Continuous Tense Yes/No Questions
 I am reading a book now.  
 Are you reading a book now? Yes. I am/No I'm not reading a book now.  
+  
 She is playing tennis.  
 Is she playing tennis? Yes, she is./No, she isn't.  
+    
 They are working right now.  
 Are they working right now? Yes, they are./ No, they aren't.  
+    
 Chris is fixing his computer.  
 Is Chris fixing(tamir etmek) his computer? Yes, he is./No, he isn't.  
 
