@@ -10,3 +10,8 @@
 7. Do you like your room?(Harika. Odanı seviyor musun?)
 8. Yes, I do because I read books and listen to music in my room. (Evet çünkü odamda kitaplar okurum ve müzik dinlerim.)
 9. Nice hobbies.
+10. What do you have in your kitchen?
+11. I have a kitchen table, a refrigerator, a dishwasher and a cupboard. (Bir mutfak masası, buzdolabı, bulaşık makinesi ve dolaba sahibim.)
+12. What about your livingroom? (Peki ya oturma odan ?)
+13. Well, a television, two sofas, one armchair, siz chairs and a dinner table. (Hım, bir televizyon, iki kanepe, bir koltuk, altı sandalye ve bir yemek masası.)
+14. Very nice.
