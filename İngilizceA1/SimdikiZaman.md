@@ -55,8 +55,16 @@ I'm going to work.
   
 Why are you launghing(gülmek)?  
 Because you look funny(komik).  
+# Expressing The Future with Present Continuous (Şimdiki zaman ile gelecek zamanı ifade etme)
 
+I am flying to Rome next week. (Gelecek hafta romaya uçuyorum)  
+We are having a birthday party tomorrow.  
+She is meeting(buluşmak) her friends next weekend.  
+They are getting married in October.  
 
-
-
-
+### Kıyaslama
+Present: I am going to Manchester now.  
+Future:  I am going to Manchester tomorrow.  
+  
+Present: We are taking a trip at the moment.  
+Future:  We are taking a trip next summer.     
