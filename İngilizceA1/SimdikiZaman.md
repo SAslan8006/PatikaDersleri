@@ -46,7 +46,15 @@ Who are you talking to? My friend.
 She is holding a pen in her hand.  
 What is she holding in her hand? A pen  
 
-
+## Examples 
+Is your sister eating something now?  
+No, she isn't. She is writing a poem(Şiir).  
+  
+Where are you going?  
+I'm going to work.  
+  
+Why are you launghing(gülmek)?  
+Because you look funny(komik).  
 
 
 
