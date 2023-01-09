@@ -4,17 +4,17 @@ be + Verb - ing
 I am work**ing** on a project right now  
 You **are** read**ing** a new book now.  
 He **is** talk**ing** on the phone.  
-She is lauunghing at the moment.  
+She is lauunghing(gülmek) at the moment.  
 We are studying English in the library.  
 #
 I am eatting dinner now.  
-Jane is swimming in the pool.  
+Jane is swimming in the pool(havuz).  
 They are listening to music right now.  
 Michael and bob are chatting at the moment.  
 We are sitting at a cafe.  
 
 # The Present Continuous Tense Negatives
-I am not work**ing** on a project right now  
+I am not work**ing** on a project right now(I amn't diye bir kullanım yoktur)  
 You **are** not read**ing** a new book now.  
 He **is** not talk**ing** on the phone.  
 She isn't lauunghing at the moment.  
