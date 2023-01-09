@@ -33,13 +33,13 @@ Is Chris fixing(tamir etmek) his computer? Yes, he is./No, he isn't.
 # The Present Continuous Tense Information Questions
 I am studying in the library.  
 Where are you studying?  In the library.  
-  
+    
 They are smilin because they are happy.  
 Why are they smiling? Because they are happy.  
-    
+      
 I am talking to my friend.   
 Who are you talking to? My friend.  
-  
+    
 She is holding a pen in her hand.  
 What is she holding in her hand? A pen  
 
