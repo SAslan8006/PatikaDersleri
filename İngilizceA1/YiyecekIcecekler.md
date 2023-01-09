@@ -16,4 +16,17 @@
 12. Would you like to drink something? (Birşeyler içmek istermisiniz?)
 13. Yes. May I have a coke, please? (Evet. Bir kola alabilir  miyim, lütfen?)
 14. Alright (Tamam/Peki)
-15. 
+#
+15. What is your favorite meal, sarah?  (Favori yemeğin ne, sarah?)
+16. I love pasta. How about you? (Makarnayı seviyorum. Peki ya sen?)
+17. I love dessert, especially chocolate cake. (Tatlı seviyorum, özellikle cikolatalı pasta)
+18. Let's make a cake together. (Hadi birlikte bir pasta yapalım.)
+19. Great idea. (Harika fikir)
+#
+20. Do you know how to cook? (Yemek yapmayı biliyor musun?)
+21. No, I can't cook well. What about you?(Hayır iyi yemek yapamam. Ya sen?)
+22. I can cook many different meals. (Bir çok farklı yemek pişirebilirim).
+23. Excellent! You should teach me how to cook. (Müthiş! Bana yemek yapmayı öğretmelisin.)
+24. I'd be glad to. (Memnuniyetle.)
+
+
