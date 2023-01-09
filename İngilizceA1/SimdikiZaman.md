@@ -60,7 +60,7 @@ Because you look funny(komik).
 I am flying to Rome next week. (Gelecek hafta romaya uçuyorum)  
 We are having a birthday party tomorrow.  
 She is meeting(buluşmak) her friends next weekend.  
-They are getting married in October.  
+They are getting married(evlenmek) in October.  
 
 ### Kıyaslama
 Present: I am going to Manchester now.  
