@@ -15,3 +15,10 @@
 12. What about your livingroom? (Peki ya oturma odan ?)
 13. Well, a television, two sofas, one armchair, siz chairs and a dinner table. (Hım, bir televizyon, iki kanepe, bir koltuk, altı sandalye ve bir yemek masası.)
 14. Very nice.
+
+#
+15. I want to buy a new bed and  a wardrobe for my bedroom. (Yatak odam için yeni bir yatak ve bir elbise dolabı almak istiyorum)
+16. Why? 
+17. Because the current ones are too old. (Çünkü su ankiler cok eski.)
+18. You should also bu curtains and a mirror (perdeler ve bir ayna da almalısın.) 
+19. Good idea. (İyi fikir)
