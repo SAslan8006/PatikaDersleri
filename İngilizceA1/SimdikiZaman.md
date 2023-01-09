@@ -11,14 +11,27 @@ I am eatting dinner now.
 Jane is swimming in the pool(havuz).  
 They are listening to music right now.  
 Michael and bob are chatting at the moment.  
-We are sitting at a cafe.  
+We are sitting(oturmak) at a cafe.  
 
 # The Present Continuous Tense Negatives
 I am not work**ing** on a project right now(I amn't diye bir kullanım yoktur)  
 You **are** not read**ing** a new book now.  
 He **is** not talk**ing** on the phone.  
-She isn't lauunghing at the moment.  
+She isn't launghing at the moment.  
 We aren't studying English in the library.  
+
+# The Present Continuous Tense Yes/No Questions
+I am reading a book now.  
+Are you reading a book now? Yes. I am/No I'm not reading a book now.  
+She is playing tennis.  
+Is she playing tennis? Yes, she is./No, she isn't.  
+They are working right now.  
+Are they working right now? Yes, they are./ No, they aren't.  
+Chris is fixing his computer.  
+Is Chris fixing(tamir etmek) his computer? Yes, he is./No, he isn't.  
+
+
+
 
 
 
