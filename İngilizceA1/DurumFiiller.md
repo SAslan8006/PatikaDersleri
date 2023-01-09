@@ -27,3 +27,13 @@ I think the world is small.
 #### Have 
 I have a nice car.    
 I am having breakfast now. 
+
+### State Verbs
+want -need -like -love -hate + Noun  
+I want water. She needs food. We like soccer. I love my family. They hate exams.  
+want + to verb ==> I want to drink water  
+need  + to verb ==> She needs to eat food.  
+like + verb-ing/to verb ==> We like playing/ to play soccer.   
+love+ verb-ing/to verb ==>  I love seeing/to see my family.   
+hate + verb-ing/to verb ==> They hate taking/to take exams.  
+
