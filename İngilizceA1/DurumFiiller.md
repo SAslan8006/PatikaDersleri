@@ -36,7 +36,7 @@ need  + to verb ==> She needs to eat food.
 like + verb-ing/to verb ==> We like playing/ to play soccer.   
 love+ verb-ing/to verb ==>  I love seeing/to see my family.   
 hate + verb-ing/to verb ==> They hate taking/to take exams.  
-#### Think (That)
+### Think (That)
 think (that)  (bence) + Sentence ==> I think the world is small.  
 I think that you are a very good friend.  
 She thinks that she is successfull  
@@ -44,7 +44,7 @@ think about(hakkında) + Noun ==>  I am thinking about my exams now.
 She is thinking about her family right now.  
 I think about my hometown every day.  
 
-#### Would Like (istemek)
+### Would Like (istemek)
 I would like some water. (kibarca istemektir.)  
 I want some water. 
 I would like a pizza.  
@@ -58,6 +58,26 @@ I want to eat a pizza.
 I'd like (I would like) some water.  
 I'd like a pizza.  
 I'd like to drink some water.  
+#
+Would you like some water?  
+- Yes, I would. Thank you.  
+- Yes,please.  
+Would you like to go out tonight?  
+- No, thank you.
+
+#### Would Like to(istemek) vs Like to
+I would like to go out.(Dışarı cıkmayı isterim.)  
+I like to go out.(Dışarı cıkmayı severim.)  
+  
+I would like to read a book.(Kitap okumayı isterim.)  
+I like to read a book.(Kitap okumayı severim.)  
+##### Examples
+I would like to go to the cinema now.  
+I like to watch a movie at home.  
+Would you like to eat a hamburger?  
+Do you like to drink fruit juice?  
+They would like to meet at a cafe.  
+They like to visit their relatives.  
 
 
 
