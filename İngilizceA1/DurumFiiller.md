@@ -36,4 +36,28 @@ need  + to verb ==> She needs to eat food.
 like + verb-ing/to verb ==> We like playing/ to play soccer.   
 love+ verb-ing/to verb ==>  I love seeing/to see my family.   
 hate + verb-ing/to verb ==> They hate taking/to take exams.  
+#### Think (That)
+think (that)  (bence) + Sentence ==> I think the world is small.  
+I think that you are a very good friend.  
+She thinks that she is successfull  
+think about(hakkında) + Noun ==>  I am thinking about my exams now.  
+She is thinking about her family right now.  
+I think about my hometown every day.  
+
+#### Would Like (istemek)
+I would like some water. (kibarca istemektir.)  
+I want some water. 
+I would like a pizza.  
+I want a pizza.  
+#
+I would like to drink some water.  
+I want to drink some water.  
+I would like to eat a pizza.  
+I want to eat a pizza.  
+#
+I'd like (I would like) some water.  
+I'd like a pizza.  
+I'd like to drink some water.  
+
+
 
