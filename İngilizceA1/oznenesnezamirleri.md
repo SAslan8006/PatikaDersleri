@@ -67,4 +67,8 @@ nowhere-- olumluda hiç biryer
 Someone is waiting for you outside(Birisi dışarıda senin için bekliyor).  
 Something is burning in the kitchen.(Birşey mutfakta yanıyor.)  
 Nowhere is like my hometown.(hiçbir yer benim memleketim gibi değildir.)  
+## Using indefinite pronouns as objects.   
+There is something strange(tuhaf) in the room(Odada tuhaf birşey var.).  
+I don't see anyone there(orada hiçkimseyi görmüyorum.).  
+He is somewhere near here.(O buranın yakınında bir yerde)  
  
