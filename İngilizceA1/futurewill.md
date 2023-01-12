@@ -18,4 +18,15 @@ We will not invite(davet etmek) to the party next week.
 You will not visit us tomorrow morning.  
 They won't (will not) see a doctor next month.  
 ## Questions 
-Will you come home early tonight?   
+Will you come home early tonight? Yes,I will /No, I won't.   
+Will she pass the test? Yes,she will /No,she won't.    
+Will they help you tomorrow? Yes,they will /No,they won't.    
+# Examples 
+Jack will join the army in two years(2 yılsonunda askeriyeye girecek.).  
+Carol and I won't accept their offer.  
+Will they ask you questions tomorrow?  
+My parent will pick(birisini bir yerden almak) me up at the airport.  
+I think it will rain tonight.(Sanırım yağmur yağacak.)  
+The boss will not see us tomorrow morning.(Patron bizi yarın sabah görmeyecek.)  
+
+
