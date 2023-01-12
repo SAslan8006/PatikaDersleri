@@ -19,4 +19,8 @@ He is a great architect.(o harika bir mimar.)
 We trust him a lot(Biz ona cok güveniyoruz.).  
 She lives in a small town.  
 Her friends sometimes visit her.(onun arkadaşları bazen onu ziyaret eder)  
-  
+It is hot and sunny today.  
+I don't like it at all.(onu hiç sevmiyorum.)  
+We are happy together.(biz birlikte mutluyuz.)  
+Some people(bazı insanlar) don't like us(bizi).   
+They are(onlar) looking for(arıyorlar anahtaları) the keys.  
