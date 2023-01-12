@@ -89,3 +89,8 @@ I'm doing nothing now.
 I can live nowhere else.  
 I know nobody in this neighborhood(Bu mahellede hiç kimseyi tanımıyorum.).  
 Nothing can change my mind(Benim fikrimi hiçbirşey değiştiremez.).  
+## Examples 
+Nothing is more important than health(Hiçbirşey pahalılıktan önemli değildir.).  
+I don't have anything in my mind.   
+No one can help you now.(Hiç kimse sana sunada yardım edemez.)  
+Anyone can solve this problem(Herhangi birisi bu problemi cözebilir).  
