@@ -77,4 +77,11 @@ I am going shopping to buy something(Birşeyler satın almak için alış veriş
 Let's go somewhere to relax(Hadi rahatlamak için biryerlere gidelim.).  
 Someone is coming toward us.  
 Do you have something in the refrigerator?  
+## anyone/anybody  -anything - anywhere
+There isn't anyone in the classroom.  
+I'm not doing anything now.  
+I don't want to go anywhere.  
+Do you have anything in your pocket?  
+Is there anyone to talk?  
+
 
