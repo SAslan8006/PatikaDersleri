@@ -57,3 +57,14 @@ The king is giving a speech now.(kral şuanda bir konuşma yapıyor.)
 someone(birisi/herhangi birisi)---- somebody de kullanılır.  
 anyone(olumsuzda hiçkimse /olumluda Herhangi birsi/ herkes) ---- anybody  
 no one(olumlu cümlede hiç kimse demektir.)---- nobody  
+something -- Birşey demektir.  
+anything --olumsuzda hiçbirşey olumluda herhangi birşey /herşey    
+nothing -- olumluda hiç birşey   
+somewhere-- biryer biryerler  
+anywhere--olumsuzda hiçbir yer olumluda herhangi biryer /heryer    
+nowhere-- olumluda hiç biryer   
+## Indefinite Pronoun + Singular verb 
+Someone is waiting for you outside(Birisi dışarıda senin için bekliyor).  
+Something is burning in the kitchen.(Birşey mutfakta yanıyor.)  
+Nowhere is like my hometown.(hiçbir yer benim memleketim gibi değildir.)  
+ 
