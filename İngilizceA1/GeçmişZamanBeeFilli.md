@@ -126,9 +126,71 @@
  They didn't eat anything during lunch.  
  ## Questions
  Did + Subject +Verb..?  
+ Did you break the vase?  Yes, I did. /No, I didn't.  
+ Did Carol understand the teacher well? Yes, I did. /No, I didn't.  
+ Did they sleep well last night?  Yes, I did. /No, I didn't.  
+ ## Examples 
+ Mark understood(anlamak 2hal) that he made(make) a mistake.   
+ My brother broke(kırmak) the plates in the kitchen.  
+ Sally didn't go to the cinema with us(bizimle) yesterday.  
+ They didn't swim in the lake because it was dirty.  
+ Did she make a cake yesterday evening?  
+ Last week we had an important meeting.  
 
-
-
-
-
-
+## Negatives
+I was at home last night.  
+I wasn't at home last night.   
+You were very happy this morning.  
+You weren't very happy this morning.  
+We watched an horror movie yesterday.  
+We did not watch an horror movie yesterday.  
+Jane took the bus to school.  
+Jane didn't take the bus to school.  
+## Yes/No Questions 
+Were you at home last night? Yes,I was. /No, I wasn't.  
+Was Carol in class yesterday? Yes,She was. /No, She wasn't.  
+Did they walk in the park last weekend?  Yes,they did./No they didn't.   
+Did you buy a car two months ago? Yes,we did./No , we didn't.  
+## Information Questions  
+Where were you last night? At home (I was at home last night.)   
+When were you at home? Last night. (I was at home last night.)   
+What did she buy at the shopping mall? A computer. (She bought(buy) at the shopping mall.)  
+Why did you come here? Because I needed help.  
+What time did you get up this morning? At 8 o'clock.  
+Who did you meet yesterday? My uncle.  
+How did they go to work?  By bus.  
+## Examples
+Were they at the concert last night?  
+Where were they last night?  
+Did she read a novel yesterday?   
+What did she read yesterday?  
+Did you help your brother?  
+Who did you help?  
+Did you get up at 7 a.m?  
+What time did you get up?  
+How did he go to school?  
+## Who/What 
+Mike bought(buy) a car last year.  
+Who bought a car last year?  
+I met Carol at a cafe yesterday.  
+Who(m) did you meet at a cafe yesterday?  
+An earthquake(deprem) happened in Izmir last week.  
+What happened in Izmir last week?  
+We sold(satmak) a hıuse a few days ago.  
+What did you sell(satmak) a few days ago?   
+## What /Which 
+What did you eat last night? A cake.  
+What did you have in your bag? A cell phone.  
+You had two cars. Which/Which one /Which car did you sell? The red one.  
+There were three books on your desk yesterday. Which/Which one /Which book was yours? None of them. 
+# Examples
+Who helped you yesterday?  
+Who did you talk to on the phone?  
+What happened?  
+What did you see in the garden?  
+What language did you speak?  
+Engilish or French? What language did you speak?  
+Who was at the party?  
+Whom did she get married to?  
+What did you see in the room?  
+There were two windows in the room. Which one did you open?  
