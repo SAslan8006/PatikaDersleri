@@ -53,3 +53,7 @@ Music is necessary(gereklidir.) for everyone.
 The earth revolves(dönmek) around the sun.(Dünya güneşin etrafında döner.)  
 I see the moon in the sky every night.(Her gece ayı görürüm)  
 The king is giving a speech now.(kral şuanda bir konuşma yapıyor.)  
+# Belgisiz/Belirsiz Zamirler(Indefinite Pronouns)
+someone(birisi/herhangi birisi)---- somebody de kullanılır.  
+anyone(olumsuzda hiçkimse /olumluda Herhangi birsi/ herkes) ---- anybody  
+no one(olumlu cümlede hiç kimse demektir.)---- nobody  
