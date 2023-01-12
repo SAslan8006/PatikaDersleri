@@ -61,7 +61,25 @@
  She watched TV last night.  
  It always rains a lot in this city.  
  It rained a lot last weekend.  
+ We talk on the phone every week.  
+ We talked on the phone last week.  
+ You look nice today.  
+ You looked nice at the ceremony.  
+ They stay at a nice hotel in summer holidays.  
+ The stayed at a nice hotel last summer.  
+
+ ## Negative
+ did not + Verb === didn't +Verb  
+ I didn't walk to school yesterday.  
+ You didn't work in your own office last year.   
+ He didn't smile at us this morning.  
+ She didn't watch TV last night.  
+ It didn't rain a lot last weekend.  
+ We didn't talk on the phone last week.  
+ You didn't look nice at the ceremony.  
+ They didn't stay at a nice hotel last summer.  
  
+
 
 
 
