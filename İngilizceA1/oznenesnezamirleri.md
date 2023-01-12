@@ -24,3 +24,26 @@ I don't like it at all.(onu hiç sevmiyorum.)
 We are happy together.(biz birlikte mutluyuz.)  
 Some people(bazı insanlar) don't like us(bizi).   
 They are(onlar) looking for(arıyorlar anahtaları) the keys.  
+I have many frieds at school(okulda bir cok arkadaşım var). I like them(onları) a lot(cok).  
+I usually drive my car(genellikle arabayı sürerim). I am washing(yıkarmak) it(onu/arabayı) now.  
+Elena is happy when she is with her father. She loves him very much.  
+We like that house, so we are buying it now.  
+The don't know your sister, but you know her very well.  
+We like them a lot, but they don't like us much.  
+# Indefinite Articles(Belirsiz belirteçler a/an) -- Definite Article(Belirli Belirteçler the)
+Carol is in a garden . --------> Carol is in the garden.   
+I need an apple. --------> I need the apple.   
+I want some book. --------> I want the books.  
+Give me a pen. --------> Give me the pen.   
+There is a dog in the garde. The dog  is running after a cat(kopek kendinin arkasından koşuyor.). The cat is running after a mouse. The mouse is very fast.  
+## Nouns used with <<the>>
+the sun - The sun is shining(parlamak).   
+the moon -  
+the king -  
+the queen -  
+the president- I see the president on TV.  
+the sky - The sky is dark now.  
+the weather -The weather is very nice.  
+## Generalizatons 
+Apples are good for you.  
+Rice(prinç) is important for our economy.(Prinç ekonomimiz için önemlidir.)  
