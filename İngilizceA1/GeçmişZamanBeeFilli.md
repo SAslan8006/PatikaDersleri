@@ -78,7 +78,18 @@
  We didn't talk on the phone last week.  
  You didn't look nice at the ceremony.  
  They didn't stay at a nice hotel last summer.  
- 
+  ## Questions
+  Did + Subject +Verb..?  
+  Did you talk to your teacher yesterday?  Yes, I did/ No, I didn't.  
+  Did your sister watch the film with you? Yes, I did/ No, I didn't.  
+  Did Michael and Sam stay with you? Yes, I did/ No, I didn't.  
+
+  My friends laughed(gülmek) at my mistakes in class.  
+  My brother needed my help yesterday morning.  
+  Jack didn't like the cake.  
+  We didn't live in this city when we were young.  
+  Did they help you with your homework?  
+  Last week we decided to buy a new car.  
 
 
 
