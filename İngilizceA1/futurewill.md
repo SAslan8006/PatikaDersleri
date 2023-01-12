@@ -58,4 +58,26 @@ They aren't going to go to bed early tonight.
 Is your sister going to attend the ceremony?(Kız kardeşin seremoniye katılacak mı?)  
 The sky is dark and cloudy. It's going to rain.  
 Carol is sick. She isn't going to go to school today.  
-
+# Geçmiş ve Gelecek Zaman Zarfları 
+# Time Expressions 
+## Past Time ------- Future Time 
+yesterday(dün) ----- tomorrow(yarın)  
+yesterday morning--- tomorrow afternoon(öğleden sonra)  
+last night(geçen gece)-tomorrow night(yarın gece)  
+last week(gecen hafta)-next week(yarın gece)
+two hours ago(2 saat önce)- in two hours(2 saat sonra)
+# Examples  
+I attended a ceremony yesterday.(dün seremonye katıldım)  
+I will attend a ceremony tomorrow.  
+Jess took a hard exam yesterday morning.  
+Jess is going to take a hard exam tomorrow morning.  
+We graduated from high schoo two years ago.  
+We will graduted  from high schoo in two years.  
+My friends rented an expensive car last month.   
+My friends are going to rented an expensive car next month.   
+He had a big breakfast a few hours ago.  
+He will have a big breakfast in a few hours.  
+# Dikkat  
+We are going to move to Ankara **two years later**.two years kullanılma cünkü 2 yıl kas edilmez.   
+We are going to move to Ankara **in two years**.(doğrusu/2 yıl sonra)   
+We are going to move to Ankara **within two years**.(2 yıl içinde)   
