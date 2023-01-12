@@ -79,9 +79,9 @@ Someone is coming toward us.
 Do you have something in the refrigerator?  
 ## anyone/anybody  -anything - anywhere
 There isn't anyone in the classroom.  
-I'm not doing anything now.  
-I don't want to go anywhere.  
+I'm not doing anything now(Şuan hiçbir şey yapmıyorum).  
+I don't want to go anywhere(hiç bir yere gitmek istemiyorum).  
 Do you have anything in your pocket?  
-Is there anyone to talk?  
+Is there anyone to talk(Konuşacak kimse varmı?)?  
 
 
