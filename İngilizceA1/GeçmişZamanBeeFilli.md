@@ -2,3 +2,34 @@
  Present --- Past  
  today ----- yesterday  
  this week-- last week  
+ this month- last month  
+ this year - last year  
+ this morning-yesterday morning  
+ this afternon-yesterday afternon   
+ this evening -yesterday evening  
+ tonight --- last night (two days ago- three weeks ago- in 1998)  
+
+ # The Simple Past Tens
+ I am a student.  
+ I was a student.  
+ You are beautiful this evening.  
+ You were beautiful yesterday evening.  
+ He is in Ankara this week.  
+ He was in Ankara last week.  
+ She is happy today.  
+ She was happy yesterday.  
+ It is rainy this morning.  
+ It was rainy yesterday morning.  
+ We are outside the library now.  
+ We were outside the library two hours ago.  
+ You are in New York tonight.  
+ You were in New York last night.  
+ They are nervous(kaygılı) in today's class.  
+ They were nervous in yesterday's class.  
+ # The Simple Past Tens Negative
+ I wasn't at home last night.  
+ 
+
+
+
+
