@@ -50,6 +50,18 @@
  Look ------> looked  
  watch------> watched  
  play ------> played
+ ## Examples
+ I walk to school every day.  
+ I walked to school yesterday.  
+ You work in your own office.  
+ You worked in your own office last year.  
+ He often smiles at us.  
+ He smiled at us this morning.  
+ She watches TV every evening.  
+ She watched TV last night.  
+ It always rains a lot in this city.  
+ It rained a lot last weekend.  
+ 
 
 
 
