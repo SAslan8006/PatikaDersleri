@@ -81,3 +81,10 @@ He will have a big breakfast in a few hours.
 We are going to move to Ankara **two years later**.two years kullanılma cünkü 2 yıl kas edilmez.   
 We are going to move to Ankara **in two years**.(doğrusu/2 yıl sonra)   
 We are going to move to Ankara **within two years**.(2 yıl içinde)   
+# Examples  
+He bought a car a couple of days ago.  
+Mike and I will go on a trip within a week.  
+They are going to get married in six months.  
+Did you see your friends last weekend?  
+Are you going to go out next friday?  
+Where will you live in the future?  
