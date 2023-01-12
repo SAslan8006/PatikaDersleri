@@ -71,4 +71,10 @@ Nowhere is like my hometown.(hiçbir yer benim memleketim gibi değildir.)
 There is something strange(tuhaf) in the room(Odada tuhaf birşey var.).  
 I don't see anyone there(orada hiçkimseyi görmüyorum.).  
 He is somewhere near here.(O buranın yakınında bir yerde)  
- 
+## someone/somebody  -something - somewhere  
+I would like to help somebody in this city(Bu şehirde birisine yardım etmek istiyorum.).   
+I am going shopping to buy something(Birşeyler satın almak için alış verişe gidiyorum.).  
+Let's go somewhere to relax(Hadi rahatlamak için biryerlere gidelim.).  
+Someone is coming toward us.  
+Do you have something in the refrigerator?  
+
