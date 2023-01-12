@@ -28,7 +28,15 @@
  They were nervous in yesterday's class.  
  # The Simple Past Tens Negative
  I wasn't at home last night.  
+ You weren't happy this morning.  
+ He wasn't a student two years ago.  
+ She wasn't in class yesterday afternoon.  
+ It wasn't sunny last weekend.  
+ We weren't in town last summer.  
+ You weren't at the meeting yesterday.  
+ They weren't pleased with their exam results.  
  
+
 
 
 
