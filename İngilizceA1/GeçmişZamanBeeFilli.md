@@ -38,6 +38,18 @@
  My brother and I were at school yesterday morning.  
  My father was very happy this morning.  
  Jack was at the bus stop last night.  
+ I wasn't here three days ago.  
+ They weren't with us last weekend.(Gecen hafta bizimle değillerdi)  
+ My exam results weren't good enough(yeterince yeterli.). 
+ # Geçmiş zamanda düzenli fiiller 
+ ## Present ------- Past 
+ Walk ------> Walked  
+ Work ------> Worked  
+ Talk ------> talked  
+ Stay ------> stayed  
+ Look ------> looked  
+ watch------> watched  
+ play ------> played
 
 
 
