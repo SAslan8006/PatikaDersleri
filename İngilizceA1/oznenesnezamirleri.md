@@ -47,3 +47,9 @@ the weather -The weather is very nice.
 ## Generalizatons 
 Apples are good for you.  
 Rice(prinç) is important for our economy.(Prinç ekonomimiz için önemlidir.)  
+Students always do their homework.  
+Music is necessary(gereklidir.) for everyone.  
+### Examples 
+The earth revolves(dönmek) around the sun.(Dünya güneşin etrafında döner.)  
+I see the moon in the sky every night.(Her gece ayı görürüm)  
+The king is giving a speech now.(kral şuanda bir konuşma yapıyor.)  
