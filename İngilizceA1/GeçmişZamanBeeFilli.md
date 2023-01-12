@@ -90,7 +90,42 @@
   We didn't live in this city when we were young.  
   Did they help you with your homework?  
   Last week we decided to buy a new car.  
-
+ # Geçmiş zamanda düzensiz fiiller 
+ Present --- Past  
+ go   ------ Went  
+ Sleep ----- slept  
+ buy  ------ bought(satın almak)  
+ take ------ took(almak)  
+ get ------- got(almak edinmek)  
+ have ------ had  
+ known ----- knew  
+ speak ----- spoke  
+ ## Examples 
+ I sleep eight hours every night.  
+ I slept eight hours last night.  
+ You buy some bread every morning.  
+ You bought some bread yesterday morning.  
+ He speaks with tourists every summer.  
+ He spoke with tourists last summer.  
+ She has breakfast every morning.  
+ She had breakfast this morning.  
+ My dog eats a lot when he is hungry.  
+ My dog ate a lot yesterday.  
+ We take a walk in the park every day.  
+ We took a walk in the park last weekend.  
+ You know many people in this city.  
+ You knew many people in this city ten years ago.  
+ They do their homework every night.  
+ They did their homework last night.  
+ # Negative
+ did not + Verb= didn't +Verb
+ I didn't speak much in class yesterday.  
+ He didn't buy a new house last month.  
+ My cat didn't run when it saw me.  
+ We didn't see you at the concert.  
+ They didn't eat anything during lunch.  
+ ## Questions
+ Did + Subject +Verb..?  
 
 
 
