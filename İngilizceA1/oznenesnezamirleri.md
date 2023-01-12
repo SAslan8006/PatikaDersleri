@@ -83,5 +83,9 @@ I'm not doing anything now(Şuan hiçbir şey yapmıyorum).
 I don't want to go anywhere(hiç bir yere gitmek istemiyorum).  
 Do you have anything in your pocket?  
 Is there anyone to talk(Konuşacak kimse varmı?)?  
-
-
+## noone/nobody  -nothing - nowhere
+There is no one in the classroom.  
+I'm doing nothing now.  
+I can live nowhere else.  
+I know nobody in this neighborhood(Bu mahellede hiç kimseyi tanımıyorum.).  
+Nothing can change my mind(Benim fikrimi hiçbirşey değiştiremez.).  
