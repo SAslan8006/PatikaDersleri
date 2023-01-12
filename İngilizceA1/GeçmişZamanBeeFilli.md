@@ -35,7 +35,10 @@
  We weren't in town last summer.  
  You weren't at the meeting yesterday.  
  They weren't pleased with their exam results.  
- 
+ My brother and I were at school yesterday morning.  
+ My father was very happy this morning.  
+ Jack was at the bus stop last night.  
+
 
 
 
