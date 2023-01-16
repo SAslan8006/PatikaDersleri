@@ -9,6 +9,7 @@ title.innerHTML = "Degisen Bilgi"
 console.log(title.innerHTML)
 
 let link = document.querySelector("#kodluyoruzLink")
+console.log(link.innerHTML)
 link.innerHTML += " degisti"
-link.style.color = "red"
+link.style.color = "blue"
 link.classList.add('btn')

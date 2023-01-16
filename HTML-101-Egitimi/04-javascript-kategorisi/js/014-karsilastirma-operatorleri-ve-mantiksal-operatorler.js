@@ -39,3 +39,4 @@ console.log( price > 0 || user != "guest" )
 user = "guest"
 price = 1
 console.log( price > 0 && !user == "guest" )
+console.log(!!2); 
