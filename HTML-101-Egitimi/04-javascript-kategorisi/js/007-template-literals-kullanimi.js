@@ -20,3 +20,16 @@ kisa isminiz: ${username[0]}.
 `
 
 console.log(info)
+
+const ad =`Aycan`
+const soyad =`Yerdelen`
+const gozRengi =`Kahverengi`
+const yas =21
+
+const kisi = `
+<p>${ad}</>
+<p>${soyad}</>
+<p>${gozRengi}</>
+<p>${yas}</>
+`;
+document.body.innerHTML = kisi;
