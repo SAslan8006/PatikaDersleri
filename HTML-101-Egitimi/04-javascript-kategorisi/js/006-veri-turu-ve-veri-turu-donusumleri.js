@@ -1,24 +1,15 @@
-// ********** Veri Turunu Ogrenmek ve Veri Turu Donusumleri ********** 
+ // ********** Veri Turunu Ogrenmek ve Veri Turu Donusumleri ********** 
 
 // veri turunu ogrenmek typeof:
 let price = 111
 let stringPrice = "111"
 let hasPassword = true
 
-console.log(
-    "price: ",
-    typeof(price)
-)
+console.log("price: ", typeof(price))
 
-console.log(
-    "stringPrice: ",
-    typeof(stringPrice)
-)
+console.log("stringPrice: ", typeof(stringPrice))
 
-console.log(
-    "hasPassword: ",
-    typeof(hasPassword)
-)
+console.log("hasPassword: ", typeof(hasPassword))
 
 // string(metinsel) bilgileri int ve float'a donusturmek
 let number1 = "11"
@@ -38,6 +29,6 @@ number4 = parseFloat(number4)
 console.log("number4: ", number4, typeof(number4) )
 
 // number veri tipinden string'e donusturmek:
-let number5 = 55
+let number5 = 55;
 number5 = number5.toString()
 console.log(number5, typeof(number5))
