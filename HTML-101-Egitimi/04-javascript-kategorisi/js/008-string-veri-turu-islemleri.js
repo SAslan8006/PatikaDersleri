@@ -49,3 +49,13 @@ console.log(
 firstName = "FIRST"
 lastName = "LAST"
 let fullName = `${firstName[0].toUpperCase()}${firstName.slice(1).toLowerCase()} ${lastName[0].toUpperCase()}${lastName.slice(1).toLowerCase()}`
+console.log(fullName);
+
+let url = "www.kodluyoruz.org";
+let language = "Java";
+
+console.log(url.indexOf("."));
+//Önce indexOf kullanarak "noktanın" yerini öğrendik.
+domain = url.slice(3+1)
+//3+1 olması "noktadan" sonrasını al demek.
+console.log(domain)
