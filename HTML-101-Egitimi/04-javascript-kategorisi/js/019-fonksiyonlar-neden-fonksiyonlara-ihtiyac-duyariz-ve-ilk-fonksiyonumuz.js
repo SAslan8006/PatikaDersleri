@@ -10,7 +10,9 @@ function hello() {
 }
 
 
-// hata alabiliriz...
+// // hata alabiliriz...
+// let userName="Ahmet";
+// let age=18;
 // function userCheck () {
 //     if (userName && age >= 18) {
 //         info.innerHTML = "ehliyet alabilirsiniz"
@@ -20,6 +22,6 @@ function hello() {
 //         info.innerHTML = "Yas Bilginiz Yok veya 18 Yasindan Kucuksunuz"
 //     }
 // }
-
+ 
 
 hello() // calistir
