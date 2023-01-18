@@ -18,10 +18,11 @@ console.log(NEW_USERS)
 //     }
 //   } 
 // )
+// console.log(USERS_OBJ)
 
-const USERS_OBJ = USERS.map( item => (
+const USERS_OBJ1 = USERS.map( item => (
       {userName: item, shortName: `${item[0]}.`, newName: `${item[0].toUpperCase()}${item.slice(1).toLowerCase()}`}
     )
 )
 
-console.log(USERS_OBJ)
+console.log(USERS_OBJ1)

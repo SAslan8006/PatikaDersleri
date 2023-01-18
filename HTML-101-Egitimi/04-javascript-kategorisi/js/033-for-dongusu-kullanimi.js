@@ -7,15 +7,15 @@
 
 let users = ["Lorem", "Ipsum", "Dolor", ]
 
-// for (let index = 0; index < 10; index++) {
-//   console.log(index)
-// }
+for (let index = 1; index <= 10; index++) {
+  console.log(index)
+}
 
-// let index = 0
+let index = 1
 
-// for (; index < 10; index++) {
-//   console.log(index)
-// }
+for (; index <= 10; index++) {
+  console.log(index)
+}
 
 const userListDOM = document.querySelector('#userList')
 
