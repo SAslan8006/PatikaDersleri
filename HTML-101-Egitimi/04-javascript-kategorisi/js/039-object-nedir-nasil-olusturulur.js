@@ -16,3 +16,4 @@ let item3 = {}
 let item4 = new Object()
 
 console.log("object1", object1)
+console.log(typeof(JSON.stringify(arrayObj)))

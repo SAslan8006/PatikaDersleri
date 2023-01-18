@@ -18,3 +18,9 @@ console.log("hata yonetimi duzgun calisiyor")
 
 let info = "kodluyoruz"
 console.log(info)
+
+(function() {
+  var a = b = 5;
+})();
+
+console.log(b);

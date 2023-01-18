@@ -1,7 +1,7 @@
 // Object Key - Value:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
 
-// [key1:1, key1:2, key3:3, ]
+// [key1:1, key2:2, key3:3, ]
 let laptop1 = {
   brand: "Apple", 
   model: "MacBook Pro",
@@ -53,4 +53,6 @@ let setting = {
   password: 1234,
   userName: 'user1'
 }
+
+console.log(setting)
 
