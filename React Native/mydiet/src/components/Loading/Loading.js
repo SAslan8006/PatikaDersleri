@@ -1,11 +1,11 @@
 import React from "react"
-import { View, ActivityIndicator } from 'react-native'
-import styles from "./Loading.style"
+import Lottie from 'lottie-react-native';
 const Loading = () => {
     return (
-        <View style={styles.container}>
-        <ActivityIndicator color="blue" />
-    </View>
+        <Lottie
+            source={require('../../assets/error.json')}
+            autoPlay
+        />
     )
 }
 export default Loading;

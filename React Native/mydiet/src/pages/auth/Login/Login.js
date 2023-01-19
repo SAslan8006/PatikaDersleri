@@ -76,8 +76,6 @@ const Login = ({ navigation }) => {
 
             </Formik>
 
-
-
         </View >
     )
 }
