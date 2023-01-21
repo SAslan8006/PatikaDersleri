@@ -34,8 +34,8 @@ Sunucu tarafından ilgili isteğin sonucunu belirten, 3 rakamdan oluşan sayısa
 
 # Informational responses (Bidirimsel cevaplar) (100–199)
 
-1. 100 Continue    
-2. 102 Processing    
+100 Continue    
+102 Processing    
 #  Successful responses (Başarılı cevaplar) (200–299)
 
 200 OK  
