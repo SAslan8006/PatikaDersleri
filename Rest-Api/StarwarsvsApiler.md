@@ -79,26 +79,26 @@ https://git-scm.com/downloads (Git Bash kullanımı için)
 -I (--head): Yalnızca HTTP başlıklarını görmek için kullanılır.  
 -o (--output) <file> : Çıktıyı bir dosyaya yazdırmak için kullanılır.  
 -v (--verbose): Daha fazla detay.  
-Çalışmada bulunan cURL komutları  
-## GET A FILM DTEAIL (SWAPI)  
+## Çalışmada bulunan cURL komutları  
+GET A FILM DTEAIL (SWAPI)   
 curl https://swapi.dev/api/films/1/  
-## GET POPULAR MOVIES (TMDBAPI)
+GET POPULAR MOVIES (TMDBAPI)  
 curl https://api.themoviedb.org/3/movie/popular?api_key=your_api_key  
-GET POPULAR MOVIES (TMDBAPI) -d seçeneği ile   
+GET POPULAR MOVIES (TMDBAPI) -d seçeneği ile     
 curl -X GET -G -d api_key=your_api_key https://api.themoviedb.org/3/movie/popular  
 GET A MOVIE DETAIL (TMDBAPI) -d seçeneği ile  
 curl -X GET -G -d api_key=your_api_key https://api.themoviedb.org/3/movie/:movie_id  
-## GET ALL EMPLOYEES (Fake API)
+GET ALL EMPLOYEES (Fake API)  
 curl http://localhost:3000/employees  
-## GET AN EMPLOYEE DETAIL (Fake API)
+GET AN EMPLOYEE DETAIL (Fake API)   
 curl http://localhost:3000/employees/:employee_id  
-## POST AN EMPLOYEE (Fake API)
+POST AN EMPLOYEE (Fake API)  
 curl -X POST -H "Content-Type: application/json" -d '{ "first_name": "Ricardo", "last_name": "Quaresma", "email": "ricardo@test.tr", "gender": "Male", "roleId": 3 }' http://localhost:3000/employees  
-## DELETE AN EMPLOYEE (Fake API)
+DELETE AN EMPLOYEE (Fake API)  
 curl -X DELETE http://localhost:3000/employees/:employee_id  
-## UPDATE AN EMPLOYEE (Fake API) - PATCH
+UPDATE AN EMPLOYEE (Fake API) - PATCH  
 curl -X PATCH -H "Content-Type: application/json" -d '{ "first_name": "Ricardo", "last_name": "Quaresma"}' http://localhost:3000/employees/:employee_id  
-##  UPDATE AN EMPLOYEE (Fake API) - PUT
+UPDATE AN EMPLOYEE (Fake API) - PUT  
 curl -X PUT -H "Content-Type: application/json" -d '{ "first_name": "Ricardo", "last_name": "Quaresma"}' http://localhost:3000/employees/:employee_id   
    
 ## Daha Fazlası İçin
