@@ -1,0 +1,178 @@
+{
+    "employees": [
+      {
+        "id": 1,
+        "first_name": "Nickolaus",
+        "last_name": "Ogers",
+        "email": "nogers0@blog.com",
+        "gender": "Male",
+        "roleId": 3
+      },
+      {
+        "id": 2,
+        "first_name": "Gabriel",
+        "last_name": "Biaggioli",
+        "email": "gbiaggioli1@nationalgeographic.com",
+        "gender": "Male",
+        "roleId": 3
+      },
+      {
+        "id": 3,
+        "first_name": "Roxane",
+        "last_name": "Winfindale",
+        "email": "rwinfindale2@about.com",
+        "gender": "Female",
+        "roleId": 2
+      },
+      {
+        "id": 4,
+        "first_name": "Micky",
+        "last_name": "Gambie",
+        "email": "mgambie3@ucoz.ru",
+        "gender": "Female",
+        "roleId": 1
+      },
+      {
+        "id": 5,
+        "first_name": "Van",
+        "last_name": "Warren",
+        "email": "vwarren4@drupal.org",
+        "gender": "Genderfluid",
+        "roleId": 2
+      },
+      {
+        "id": 6,
+        "first_name": "Banky",
+        "last_name": "Mackleden",
+        "email": "bmackleden5@guardian.co.uk",
+        "gender": "Male",
+        "roleId": 1
+      },
+      {
+        "id": 7,
+        "first_name": "Julita",
+        "last_name": "Sidlow",
+        "email": "jsidlow6@wordpress.com",
+        "gender": "Female",
+        "roleId": 3
+      },
+      {
+        "id": 8,
+        "first_name": "Vevay",
+        "last_name": "Longwood",
+        "email": "vlongwood7@princeton.edu",
+        "gender": "Genderfluid",
+        "roleId": 2
+      },
+      {
+        "id": 9,
+        "first_name": "Karrie",
+        "last_name": "Kalker",
+        "email": "kkalker8@xing.com",
+        "gender": "Female",
+        "roleId": 1
+      },
+      {
+        "id": 10,
+        "first_name": "Debby",
+        "last_name": "Capnor",
+        "email": "dcapnor9@wordpress.com",
+        "gender": "Female",
+        "roleId": 2
+      },
+      {
+        "id": 11,
+        "first_name": "Tedie",
+        "last_name": "Frier",
+        "email": "tfriera@usa.gov",
+        "gender": "Male",
+        "roleId": 2
+      },
+      {
+        "id": 12,
+        "first_name": "Raynard",
+        "last_name": "Balwin",
+        "email": "rbalwinb@discovery.com",
+        "gender": "Male",
+        "roleId": 1
+      },
+      {
+        "id": 13,
+        "first_name": "Irwinn",
+        "last_name": "McLanaghan",
+        "email": "imclanaghanc@smugmug.com",
+        "gender": "Male",
+        "roleId": 2
+      },
+      {
+        "id": 14,
+        "first_name": "Amelita",
+        "last_name": "Stickells",
+        "email": "astickellsd@unicef.org",
+        "gender": "Female",
+        "roleId": 2
+      },
+      {
+        "id": 15,
+        "first_name": "Noland",
+        "last_name": "Barwack",
+        "email": "nbarwacke@soup.io",
+        "gender": "Polygender",
+        "roleId": 1
+      },
+      {
+        "id": 16,
+        "first_name": "Brien",
+        "last_name": "Hubbucks",
+        "email": "bhubbucksf@walmart.com",
+        "gender": "Male",
+        "roleId": 3
+      },
+      {
+        "id": 17,
+        "first_name": "Haroun",
+        "last_name": "Jambrozek",
+        "email": "hjambrozekg@dagondesign.com",
+        "gender": "Male",
+        "roleId": 2
+      },
+      {
+        "id": 18,
+        "first_name": "Celka",
+        "last_name": "Anderson",
+        "email": "candersonh@amazon.de",
+        "gender": "Female",
+        "roleId": 3
+      },
+      {
+        "id": 19,
+        "first_name": "Jodi",
+        "last_name": "Snarie",
+        "email": "jsnariei@e-recht24.de",
+        "gender": "Female",
+        "roleId": 3
+      },
+      {
+        "id": 20,
+        "first_name": "Benedikt",
+        "last_name": "Lage",
+        "email": "blagej@phoca.cz",
+        "gender": "Male",
+        "roleId": 2
+      }
+    ],
+    "roles": [
+      {
+        "id": 1,
+        "name": "Manager"
+      },
+      {
+        "id": 2,
+        "name": "Engineer"
+      },
+      {
+        "id": 3,
+        "name": "Intern"
+      }
+    ]
+  }
