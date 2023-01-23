@@ -1,0 +1,18 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "node test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
