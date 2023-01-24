@@ -1,0 +1,72 @@
+<!-- Header -->
+<%- include('partials/_header') -%>
+
+
+  <body>
+
+    <!-- Navigation -->
+    <%- include('partials/_navigation') -%>
+
+
+      <!-- Page Header -->
+      <header class="masthead" style="background-image: url('/img/post-bg.jpg')">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <div class="post-heading">
+                <h1>
+                  <%= post.title %>
+                </h1>
+                <span class="meta margin-top-2">Posted by
+                  <a href="#">Start Bootstrap</a>
+                  on <%= post.dateCreated %></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Post Content -->
+      <article class="pt-3">
+        <div class="col-8 mx-auto">
+          <!-- Share box -->
+          <div class="row bg-color">
+            <div class="col-8 bg-white px-4">
+              <h1>
+                <%= post.title %>
+              </h1>
+              <p>
+                <%= post.detail %>
+              </p>
+            </div>
+            <div class="col-4 flex align-self-center">
+              <div class="d-flex flex-column align-items-center justify-content-center py-5 ">
+                <div class="w-75">
+                  <div class="mb-4">
+                    <a href="/post/edit/<%= post._id %>" class="btn btn-primary rounded w-100"><span>Update
+                        Details</span></a>
+                  </div>
+                  <div class="mt-4">
+                    <a href="/post/<%= post._id %>?_method=DELETE" class="btn btn-danger rounded w-100"><span>Delete
+                        Post</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <hr>
+
+      <!-- Footer -->
+      <%- include('partials/_footer') -%>
+
+
+        <!-- Custom scripts for this template -->
+        <script src="js/clean-blog.min.js"></script>
+
+  </body>
+
+  </html>

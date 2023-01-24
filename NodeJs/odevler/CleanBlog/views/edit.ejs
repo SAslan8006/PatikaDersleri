@@ -1,0 +1,86 @@
+<%- include('partials/_header') -%>
+
+    <body>
+
+        <!-- Navigation -->
+        <%- include('partials/_navigation') -%>
+
+
+            <!-- Page Header -->
+            <header class="masthead" style="background-image: url('/img/post-bg.jpg')">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-10 mx-auto">
+                            <div class="post-heading ">
+                                <h1>
+                                    Edit Page
+                                </h1>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Post Content -->
+            <article>
+                <div class="container-fluid px-0">
+                    <div class="mx-auto tm-content-container">
+                        <div class="row mt-3s pb-3">
+                            <div class="col-12">
+                                <div class="mx-auto tm-about-text-container px-3">
+                                    <h2 class="tm-page-title mb-4 tm-text-primary">Edit Post</h2>
+                                    <p> Integer sit amet odio id libero tincidunt dignissim in eget arcu. Aliquam
+                                        tristique ut magna sit amet tincidunt. Sed tempor tellus nulla, molestie luctus
+                                        lectus tincidunt id. You are <u>not allowed</u> to re-distribute the template
+                                        ZIP file on any template collection website.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mx-auto pb-3 tm-about-text-container px-3">
+                            <div class="row">
+                                <div class="col-lg-12 mb-5">
+                                    <!-- FORM - START -->
+                                    <form method="POST" action="/post/<%= post._id %>?_method=PUT"
+                                        class="tm-contact-form">
+                                        <!-- enctype="multipart/form-data -->
+                                        <div class="form-group">
+                                            <input type="text" name="title" value="<%= post.title %>"
+                                                class="form-control rounded-0" placeholder="Edit Post Title" required />
+                                        </div>
+
+                                        <div class="form-group">
+                                            <textarea rows="8" name="detail" class="form-control rounded-0"
+                                                placeholder="Edit Post Description"
+                                                required=""><%= post.detail %></textarea>
+                                        </div>
+
+                                        <div class="form-group mb-0">
+                                            <button type="submit"
+                                                class="btn btn-primary rounded-0 d-block ml-auto mr-0 tm-btn-animate tm-btn-submit tm-icon-submit"><span>Update</span></button>
+                                        </div>
+                                    </form>
+                                    <!-- FORM - END -->
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <hr>
+
+            <!-- Footer -->
+            <%- include('partials/_footer') -%>
+
+
+                <!-- Custom scripts for this template -->
+                <script src="js/clean-blog.min.js"></script>
+
+    </body>
+
+    </html>
