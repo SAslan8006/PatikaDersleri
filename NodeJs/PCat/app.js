@@ -21,8 +21,14 @@ app.use(express.json());
 
 //Routes
 app.get('/', async (req, res) => {
-  const photos =await Photo.find({});
+  const photos = await Photo.find({});
   res.render('index', { photos });
+});
+
+app.get('/photos/:id', async (req, res) => {
+  console.log(req.params.id);
+  const photo = await Photo.findById(req.params.id);
+  res.render('photo', { photo });
 });
 
 app.get('/about', (req, res) => {
@@ -35,6 +41,7 @@ app.get('/add', (req, res) => {
 
 app.post('/photos', async (req, res) => {
   await Photo.create(req.body);
+  console.log(req.body);
   res.redirect('/');
 });
 
