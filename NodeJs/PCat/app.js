@@ -10,7 +10,15 @@ const app = express();
 
 //connectDb
 mongoose.set('strictQuery', false);
-mongoose.connect('mongodb://127.0.0.1:27017/pcat-test-db');
+mongoose
+  .connect(
+    'mongodb+srv://suleyman:ŞifreniziGiriniz@cluster0.fyqtzqi.mongodb.net/pcat-db?retryWrites=true&w=majority'
+  )
+  .then(() => {
+    console.log('Db connetted!');
+  }).catch((err)=>{
+    console.log(err);
+  });
 
 //Template Engine
 app.set('view engine', 'ejs');
@@ -33,7 +41,7 @@ app.get('/about', pageController.getAboutPage);
 app.get('/add', pageController.getAddPage);
 app.get('/photos/edit/:id', pageController.getEditPage);
 
-const port = 3000;
+const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`Sunucu ${port} portunda başlatıldı..`);
 });
