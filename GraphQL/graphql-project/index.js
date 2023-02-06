@@ -3,8 +3,8 @@ const { ApolloServerPluginLandingPageGraphQLPlayground,} = require("apollo-serve
 
 const typeDefs = gql`
   type Book {
-    title: String
-    author: String
+    title: String!
+    author: String!
   }
 
   type Query {
