@@ -3,23 +3,25 @@ const { ApolloServerPluginLandingPageGraphQLPlayground,} = require("apollo-serve
 
 const typeDefs = gql`
   type Book {
+    id: ID!
     title: String!
     author: String!
+    score: Float
+    isPublished: Boolean
   }
 
   type Query {
-    books: [Book]
+    books: [Book!]!
   }
 `;
 
 const books = [
   {
+    id:"adaserwqqeqwefdsf132",
     title: "The Awakening",
     author: "Kate Chopin",
-  },
-  {
-    title: "City of Glass",
-    author: "Paul Auster",
+    score:5.8,
+    isPublished:true
   },
 ];
 
@@ -30,7 +32,7 @@ const resolvers = {
 };
 
 const server = new ApolloServer({ typeDefs, resolvers ,plugins: [ApolloServerPluginLandingPageGraphQLPlayground()],});
-
+ 
 server.listen().then(({ url }) => {
   console.log(`🚀  Server ready at ${url}`);
 });
