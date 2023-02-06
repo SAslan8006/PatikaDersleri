@@ -13,3 +13,19 @@ query getBook{
     author {id name surname books{id title}}
   }
 }
+query getAllAuthors{
+  authors{
+    id
+    name
+    surname
+	}
+}
+
+
+query getAuthor{
+    author(id:"1"){
+      id
+      name
+    	surname
+  }
+}
