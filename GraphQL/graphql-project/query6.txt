@@ -1,0 +1,15 @@
+query getAllBooks{
+  books{
+    id
+    title	
+	}
+}
+
+
+query getBook{
+    book(id:"2"){
+      id
+      title	
+    author {id name surname books{id title}}
+  }
+}
