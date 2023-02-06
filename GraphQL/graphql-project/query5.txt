@@ -1,0 +1,16 @@
+query user{
+    books{
+      id
+      title	
+        author
+      {
+        id
+        name
+        surname
+      }
+      isPublished
+      score
+    }
+  }
+  
+  
