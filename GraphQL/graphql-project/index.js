@@ -9,7 +9,7 @@ const typeDefs = gql`
     name: String!
     surname: String!
     age: Int
-    books: [Book!]
+    books(filter: String): [Book!]
   }
 
   type Book {
@@ -44,8 +44,15 @@ const resolvers = {
   },
   
   Author: {
-    books: (parent) =>  books.filter (book =>  book.author_id === parent.id),
-  }
+    books: (parent, args) =>  books.filter (book =>  {
+      let filtered = book.author_id === parent.id && book.title.startsWith( args.filter || "");
+
+      if(args.filter){
+        filtered = book.author_id === parent.id && book.title.toLowerCase().startsWith( args.filter.toLowerCase() || "" );
+      }
+      return filtered
+    }),
+  },
 };
 
 const server = new ApolloServer({
