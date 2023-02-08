@@ -1,0 +1,21 @@
+{
+  "name": "graphql-comment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "apollo-server-core": "^3.11.1",
+    "graphql": "^16.6.0"
+  }
+}
