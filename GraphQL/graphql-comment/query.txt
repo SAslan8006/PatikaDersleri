@@ -1,0 +1,27 @@
+query getallPosts {
+  users
+  	{
+      id 
+      fullname 
+      posts
+      	{      
+        	id
+          title
+        }
+    }
+}
+query getPost{
+  post(id:"2"){
+    id
+    title
+    user{id fullname}
+  }
+}
+
+query getAllComments {
+  comments{ 
+    id
+    text
+    post_id
+    }
+}

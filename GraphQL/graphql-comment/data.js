@@ -13,6 +13,7 @@ const comments = [
   { id: "1", text: "Lorem Ipsum", post_id: "1", user_id: "1" },
   { id: "2", text: "foo bar", post_id: "1", user_id: "2" },
   { id: "3", text: "foo var baz", post_id: "2", user_id: "1" },
+  { id: "4", text: "Lorem Ipsum baz", post_id: "2", user_id: "3" },
 ];
 
 module.exports = {
