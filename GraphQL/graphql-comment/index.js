@@ -1,12 +1,14 @@
 const { ApolloServer, gql } = require("apollo-server");
-const {  ApolloServerPluginLandingPageGraphQLPlayground,} = require("apollo-server-core");
+const {
+  ApolloServerPluginLandingPageGraphQLPlayground,
+} = require("apollo-server-core");
 const { users, posts, comments } = require("./data");
 
 const typeDefs = gql`
   type User {
     id: ID!
     fullname: String!
-    posts:[Post!]!
+    posts: [Post!]!
     comments: [Comment!]!
   }
   type Post {
@@ -31,41 +33,75 @@ const typeDefs = gql`
     comments: [Comment!]!
     comment(id: ID!): Comment!
   }
+
+  type Mutation {
+    createUser(fullname: String!): User!
+    creatPost(title:String!, user_id:ID!):Post!
+    createComment(text:String!,post_id: ID!, user_id:ID!):Comment!
+
+  }
 `;
 
+const uid = function () {
+  return Date.now().toString(36) + Math.random().toString(36).substr(2);
+};
+
 const resolvers = {
+  Mutation: {
+    createUser: (parent, args) => {
+      const user={ id: uid(), fullname: args.fullname };
+      users.push(user);
+      return user;
+    },
+    creatPost: (parent,{title,user_id})=>{
+      const post={ id: uid(), title, user_id };
+      posts.push(post);
+      return post;
+    },
+    createComment: (parent,{text,user_id,post_id})=>{
+      const comment={ id: uid(), text, user_id,post_id };
+      comments.push(comment);
+      return comment;
+    }
+  },
+
   Query: {
     //Get All Users
     users: () => users,
     //Get Single User by ID
     user: (parent, args) => {
       const user = users.find((user) => user.id === args.id);
-      if (!user) {   throw "User not found";   }
+      if (!user) {
+        throw "User not found";
+      }
       return user;
     },
 
     posts: () => posts,
     post: (parent, args) => posts.find((post) => post.id === args.id),
-    
+
     comments: () => comments,
-    comment: (parent, args) => comments.find((comment) => comment.id === args.id),
-
+    comment: (parent, args) =>
+      comments.find((comment) => comment.id === args.id),
   },
 
-  User:{
-    posts: (parent,args) => posts.filter((post) => post.user_id ===parent.id),
-    comments: (parent,args) => comments.filter((comment) => comment.user_id===parent.id),
+  User: {
+    posts: (parent, args) => posts.filter((post) => post.user_id === parent.id),
+    comments: (parent, args) =>
+      comments.filter((comment) => comment.user_id === parent.id),
   },
-  Post:{
-    user: (parent,args) => users.find((user) => user.id ===parent.user_id),
-    comments: (parent) => comments.filter((comment) => comment.post_id === parent.id),
+
+  Post: {
+    user: (parent, args) => users.find((user) => user.id === parent.user_id),
+    comments: (parent) =>
+      comments.filter((comment) => comment.post_id === parent.id),
   },
-  Comment:{
-    user: (parent,args) => users.find((user) => user.id ===parent.user_id),
-    post: (parent,args) => posts.find((post) => post.id === parent.post_id),
-  }
+
+  Comment: {
+    user: (parent, args) => users.find((user) => user.id === parent.user_id),
+    post: (parent, args) => posts.find((post) => post.id === parent.post_id),
+  },
 };
-
 
 const server = new ApolloServer({
   typeDefs,

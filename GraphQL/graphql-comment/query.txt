@@ -40,3 +40,48 @@ query getComment {
     	}
     }
 }
+
+mutation{
+  createUser(fullname:"Murat Aslan"){
+    id 
+    fullname 
+    comments{
+        text
+      }
+    posts{
+      title
+    	}
+  }
+}
+
+mutation{
+  creatPost(
+    title:"Murat Aslan eklendi" 
+    user_id:"1"
+  ){
+    id 
+    title
+    user{
+      id
+      fullname
+      posts{title}
+    }
+  }
+}
+
+mutation{
+  createComment(
+    text:"Murat Aslan eklendi" 
+    user_id:"1"
+    post_id:"1"
+  ){
+    id 
+    text
+    user{
+      id
+      fullname
+      posts{title}
+    }
+    post{id title}
+  }
+}
