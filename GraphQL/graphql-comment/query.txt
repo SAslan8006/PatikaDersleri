@@ -25,3 +25,18 @@ query getAllComments {
     post_id
     }
 }
+
+query getComment {
+  comment(id:"1"){ 
+    id
+    text
+    user {
+      id 
+      fullname
+    	}
+    post{
+      id 
+      title
+    	}
+    }
+}
