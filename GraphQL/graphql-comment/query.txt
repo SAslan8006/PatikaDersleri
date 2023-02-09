@@ -135,3 +135,32 @@ mutation{
     post{id title}
   }
 }
+
+mutation{
+  updateUser( 
+    id:"1"
+   data:{ 
+    fullname:"Ahmet Aslan" 
+    age:42
+  	}
+  ){
+    id
+    fullname
+    age
+    }
+}
+
+
+mutation{
+  updatePost( 
+    id:"1"
+   data:{ 
+    title:"Ahmet Aslan" 
+    user_id:3
+  	}
+  ){
+    id
+    title
+    user_id
+    }
+}

@@ -1,12 +1,12 @@
 const users = [
-  { id: "1", fullname: "Buket Soyhan" },
-  { id: "2", fullname: "Asli Demirci" },
+  { id: "1", fullname: "Yusuf Soyhan",age:29 },
+  { id: "2", fullname: "Tahsin Demirci" , age:24},
 ];
 
 const posts = [
-  { id: "1", title: "Buketin gönderisi", user_id: "1" },
-  { id: "2", title: "Aslinin gönderisi", user_id: "1" },
-  { id: "3", title: "Aslinin gönderisi", user_id: "2" },
+  { id: "1", title: "Yusuf gönderisi", user_id: "1" },
+  { id: "2", title: "Tahsin gönderisi", user_id: "1" },
+  { id: "3", title: "Tahsin gönderisi", user_id: "2" },
 ];
 
 const comments = [
