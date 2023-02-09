@@ -85,3 +85,53 @@ mutation{
     post{id title}
   }
 }
+
+mutation{
+  createUser(
+    data:
+    {
+      fullname:"Ahmet Aslan"
+    }){
+    id 
+    fullname 
+    comments{
+        text
+      }
+    posts{
+      title
+    	}
+  }
+}
+
+
+mutation{
+  creatPost(
+   data:{ title:"Murat Aslan eklendi" 
+    user_id:"1"}
+  ){
+    id 
+    title
+    user{
+      id
+      fullname
+      posts{title}
+    }
+  }
+}
+
+mutation{
+  createComment(
+   data:{ text:"Murat Aslan eklendi" 
+    user_id:"1"
+    post_id:"1"}
+  ){
+    id 
+    text
+    user{
+      id
+      fullname
+      posts{title}
+    }
+    post{id title}
+  }
+}

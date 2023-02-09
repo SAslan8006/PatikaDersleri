@@ -5,12 +5,19 @@ const {
 const { users, posts, comments } = require("./data");
 
 const typeDefs = gql`
+  # User
   type User {
     id: ID!
     fullname: String!
     posts: [Post!]!
     comments: [Comment!]!
   }
+
+  input CreateUserInput{
+    fullname: String!
+  }
+
+  # Post
   type Post {
     id: ID!
     title: String!
@@ -18,6 +25,12 @@ const typeDefs = gql`
     user: User!
     comments: [Comment!]!
   }
+  input CreatePostInput{
+    title:String!
+    user_id:ID!
+  }
+
+  # Comment
   type Comment {
     id: ID!
     text: String!
@@ -25,6 +38,14 @@ const typeDefs = gql`
     user: User!
     post: Post!
   }
+
+  input CreateCommentInput{
+    text:String!
+    post_id: ID!
+    user_id:ID!
+  }
+
+  # Query
   type Query {
     users: [User!]!
     user(id: ID!): User!
@@ -34,11 +55,11 @@ const typeDefs = gql`
     comment(id: ID!): Comment!
   }
 
+  # Mutation
   type Mutation {
-    createUser(fullname: String!): User!
-    creatPost(title:String!, user_id:ID!):Post!
-    createComment(text:String!,post_id: ID!, user_id:ID!):Comment!
-
+    createUser(data:CreateUserInput!): User!
+    creatPost(data:CreatePostInput!):Post!
+    createComment(data:CreateCommentInput!):Comment!
   }
 `;
 
@@ -49,17 +70,17 @@ const uid = function () {
 const resolvers = {
   Mutation: {
     createUser: (parent, args) => {
-      const user={ id: uid(), fullname: args.fullname };
+      const user={ id: uid(), fullname: args.data.fullname };
       users.push(user);
       return user;
     },
-    creatPost: (parent,{title,user_id})=>{
-      const post={ id: uid(), title, user_id };
+    creatPost: (parent,{data})=>{
+      const post={ id: uid(), ...data};
       posts.push(post);
       return post;
     },
-    createComment: (parent,{text,user_id,post_id})=>{
-      const comment={ id: uid(), text, user_id,post_id };
+    createComment: (parent,{data})=>{
+      const comment={ id: uid(), ...data };
       comments.push(comment);
       return comment;
     }
