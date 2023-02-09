@@ -62,6 +62,10 @@ const typeDefs = gql`
     post_id: ID
     user_id: ID
   }
+
+  type DeleteAllOutput{
+    count: Int!
+  }
   # Query
   type Query {
     users: [User!]!
@@ -78,18 +82,19 @@ const typeDefs = gql`
     createUser(data: CreateUserInput!): User!
     updateUser(id: ID!, data: UpdateUserInput!): User!
     deleteUser(id: ID!): User!
+    deleteAllUsers: DeleteAllOutput!
 
     # Post
     creatPost(data: CreatePostInput!): Post!
     updatePost(id: ID!, data: UpdatePostInput!): Post!
     deletePost(id: ID!): Post!
-
+    deleteAllPosts: DeleteAllOutput!
 
     # Comment
     createComment(data: CreateCommentInput!): Comment!
     updateComment(id: ID!, data: UpdateCommentInput!): Comment!
     deleteComment(id: ID!): Comment!
-
+    deleteAllComments: DeleteAllOutput!
   }
 `;
 
@@ -126,6 +131,12 @@ const resolvers = {
       return delete_user;
     },
 
+    deleteAllUsers:()=>{
+      const lenght=users.length;
+      users.splice(0,lenght);
+      return { count:lenght,}
+    },
+
     // Post
     creatPost: (parent, { data }) => {
       const post = { id: uid(), ...data };
@@ -153,6 +164,12 @@ const resolvers = {
       return delete_post;
     },
 
+    deleteAllPosts:()=>{
+      const lenght=posts.length;
+      posts.splice(0,lenght);
+      return { count:lenght,}
+    },
+
     // Comment
     createComment: (parent, { data }) => {
       const comment = { id: uid(), ...data };
@@ -171,6 +188,7 @@ const resolvers = {
       });
       return updated_comment;
     },
+
     deleteComment: (parent, { id }) => {
       const comment_index = comments.findIndex((comment) => comment.id === id);
 
@@ -178,9 +196,16 @@ const resolvers = {
 
       const delete_comment = comments[comment_index];
       posts.splice(comment_index, 1);
-      
+
       return delete_comment;
     },
+
+    deleteAllComments:()=>{
+      const lenght=comments.length;
+      comments.splice(0,lenght);
+      return { count:lenght,}
+    },
+
   },
 
   Query: {

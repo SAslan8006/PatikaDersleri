@@ -180,3 +180,21 @@ query getallUser {
       age
     }
 }
+
+mutation deleteAllUsers{
+  deleteAllUsers{
+    count
+    }
+}
+
+mutation deleteAllComments{
+  deleteAllComments{
+    count
+    }
+}
+
+mutation deleteAllPosts{
+  deleteAllPosts{
+    count
+    }
+}
