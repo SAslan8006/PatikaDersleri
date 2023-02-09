@@ -164,3 +164,19 @@ mutation{
     user_id
     }
 }
+
+
+mutation deleteUser{
+  deleteUser( id:"1"){
+    id
+    fullname
+    }
+}
+query getallUser {
+  users
+  	{
+      id 
+      fullname 
+      age
+    }
+}
