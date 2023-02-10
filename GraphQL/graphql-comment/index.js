@@ -1,10 +1,7 @@
-const { ApolloServer, gql } = require("apollo-server");
-const {
-  ApolloServerPluginLandingPageGraphQLPlayground,
-} = require("apollo-server-core");
+const {GraphQLServer,PubSub}=require('graphql-yoga');
 const { users, posts, comments } = require("./data");
 
-const typeDefs = gql`
+const typeDefs = `
   # User
   type User {
     id: ID!
@@ -96,6 +93,10 @@ const typeDefs = gql`
     deleteComment(id: ID!): Comment!
     deleteAllComments: DeleteAllOutput!
   }
+
+  type Subscription{
+    userCreated:User!
+  }
 `;
 
 const uid = function () {
@@ -103,15 +104,21 @@ const uid = function () {
 };
 
 const resolvers = {
+  Subscription:{
+    userCreated:{
+      subscribe:(_,__,{pubsub})=> pubsub.asyncIterator('userCreated')        
+      },
+  },
   Mutation: {
     // User
-    createUser: (parent, args) => {
+    createUser: (_, args,{pubsub}) => {
       const user = { id: uid(), fullname: args.data.fullname };
       users.push(user);
+      pubsub.publish('userCreated',{userCreated: user});
       return user;
     },
 
-    updateUser: (parent, { id, data }) => {
+    updateUser: (_, { id, data }) => {
       const user_index = users.findIndex((user) => user.id === id);
       if (user_index === -1) {
         throw new Error("User not found.");
@@ -246,10 +253,8 @@ const resolvers = {
   },
 };
 
-const server = new ApolloServer({
-  typeDefs,
-  resolvers,
-  plugins: [ApolloServerPluginLandingPageGraphQLPlayground({})],
-});
+const pubsub = new PubSub();
+const server = new GraphQLServer({typeDefs,resolvers,context:{pubsub}});
 
-server.listen().then(({ url }) => console.log(`Apollo server ready at ${url}`));
+server.start(()=> console.log('Server is running on localhost:4000'));
+
