@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+div{ border:1px solid black; margin:5px; padding:5px; }
+</style>
+</head>
+
+<body>
+<div class="bicimlendirme">Javascript eğitim seti</div>
+<div class="bicimlendirme">Html eğitim seti</div>
+<div class="bicimlendirme">Css eğitim seti</div>
+<div class="bicimlendirme">Php eğitim seti</div>
+<div class="bicimlendirme">Python eğitim seti</div>
+<div class="bicimlendirme">Xml eğitim seti</div>
+<div class="bicimlendirme">JQuery eğitim seti</div>
+<p id="islemsonucu"></p>
+
+<script type="text/javascript" language="javascript">
+// getElementsByClassName() 	:	Kendisine parametre olarak verilen değer doğrultusunda, belge içerisindeki belirtilen class (sınıf) adına sahip tüm elemanların referansını elde etmek için kullanılır. Eleman referansları birden fazla ise her bir eleman döngü ile elde edilebilir.
+
+var sonuc	=	document.getElementsByClassName("bicimlendirme").length;
+document.getElementById("islemsonucu").innerHTML = sonuc;
+
+</script>
+</body>
+</html>

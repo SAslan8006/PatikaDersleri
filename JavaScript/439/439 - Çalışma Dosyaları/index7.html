@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// plugins 		:	Browser'daki (tarayıcıdaki) tüm eklentilerin referansını elde etmek için kullanılır. Eklenti referansları birden fazla ise her bir eklenti döngü ile elde edilebilir.
+
+var deger	=	navigator.plugins.length;
+for(var baslangic = 0; baslangic<deger; baslangic++){
+	var sonuc	=	navigator.plugins[baslangic];
+	if(sonuc.name){
+		document.write("Plugin Adı : " + sonuc.name + "<br />");
+	}
+	if(sonuc.filename){
+		document.write("Dosya : " + sonuc.filename + "<br />");
+	}
+	if(sonuc.description){
+		document.write("Açıklama : " + sonuc.description + "<br />");
+	}
+	
+	var plugindegeriuzunlugu	=	sonuc.length;
+	for(var say = 0; say<plugindegeriuzunlugu; say++){
+		var ikincideger		=	sonuc[say];
+		if(ikincideger.type){
+			document.write("Mime Type : " + ikincideger.type + "<br />");
+		}
+		if(ikincideger.description){
+			document.write("Açıklama : " + ikincideger.description + "<br />");
+		}
+		if(ikincideger.suffixes){
+			document.write("Uzantı : " + ikincideger.suffixes + "<br />");
+		}
+	}
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// every() 		:	Kendisine parametre olarak verilen fonksiyon false (yanlış / olumsuz / geçersiz / başarısız) değeri döndürene kadar dizi elemanları üzerinde gezinilmesini sağlar.
+// 1. Parametre	:	Her işlemde elde edilen dizi elemanı.
+// 2. Parametre	:	Her işlemde elde edilen dizi elemanının indis / index değeri.
+// 3. Parametre	:	Her tekrarlamada işlemin yapıldığı diziyi tutan değişkenin referansı.
+
+function demo(eleman, sira, referans){
+	islemsonuc	=	eleman;
+	return eleman % 5 === 0;
+}
+
+var islemsonuc	=	"";
+var rakamlar	=	[5, 10, 20, 30, 50, 77, 140, 380, 420, 220, 343, 700, 400, 141];
+document.write(rakamlar + "<br />");
+
+rakamlar.every(demo);
+document.write(islemsonuc);
+
+</script>
+</body>
+</html>

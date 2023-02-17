@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+
+Volkan'ın en sevdiği hayvan <span name="hayvanadi">sibirya kurdu</span>'dur. Onur'un en sevdiği hayvan <span name="hayvanadi">kedi</span>'dir. Aslı'nın en sevdiği hayvan <span name="hayvanadi">kuş</span>'tur.<br />
+Hayvanlar : <span id="hayvanlaralani"></span>
+
+<script type="text/javascript" language="javascript">
+// getElementsByName() 		:	Kendisine parametre olarak verilen değer doğrultusunda, belge içerisinde belirtilen name özelliğine / niteliğine sahip tüm elemanların referansını elde etmek için kullanılır. Eleman referansları birden fazla ise her bir eleman döngü ile elde edilebilir.
+
+var bilgi		=	document.getElementsByName("hayvanadi");
+var hayvanlar	=	[];
+for(var baslangic = 0; baslangic<bilgi.length; baslangic++){
+	var sonuc	=	bilgi[baslangic].innerHTML;
+	hayvanlar[baslangic] 	=	sonuc;
+}
+document.getElementById("hayvanlaralani").innerHTML = hayvanlar;
+
+</script>
+</body>
+</html>

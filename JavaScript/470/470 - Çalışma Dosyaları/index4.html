@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div id="aaa" lang="de">Javascript Eğitim Seti</div>
+<div id="sonucbir"></div>
+<div id="sonuciki"></div>
+
+<script type="text/javascript" language="javascript">
+// lang		:	Belge içerisindeki herhangi bir HTML elemanının lang değerini elde etmek veya ayarlamak için kullanılır.
+
+var islembir	=	document.getElementById("aaa").lang;
+document.getElementById("sonucbir").innerHTML = "HTML elemanının ilk lang değeri : " + islembir;
+
+var islemiki	=	document.getElementById("aaa").lang = "tr";
+document.getElementById("sonuciki").innerHTML = "HTML elemanının son (güncel) lang değeri : " + islemiki;
+
+</script>
+</body>
+</html>

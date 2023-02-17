@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<form id="birinciform" name="formbir" action="http://www.extraegitim.com?sonuc.php" target="_blank" method="post" accept-charset="utf-8" autocomplete="on" enctype="multipart/form-data" novalidate>
+Adı Soyadı : <input type="text" id="birincimetinkutusu" name="metinkutusubir" value="Volkan Alakent">
+Şehir : <input type="text" id="birincisehirkutusu" name="sehirkutusubir" value="İstanbul">
+<input type="submit" value="Gönder">
+</form>
+<br /><br /><br />
+<div id="sonucalani"></div>
+
+<script type="text/javascript" language="javascript">
+// forms 	:	Belge içerisindeki form tag'ına (etiketine) sahip elemanların referansını elde etmek için kullanılır. Eleman referansları birden fazla ise her bir eleman döngü ile elde edilebilir.
+
+var sonuc 	=	document.forms[0].id;
+document.getElementById("sonucalani").innerHTML = "Form ID'si : " + sonuc;
+
+</script>
+</body>
+</html>

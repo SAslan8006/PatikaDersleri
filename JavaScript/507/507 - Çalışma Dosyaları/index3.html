@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.deneme{
+	text-decoration:none;
+	color:#FF9900;
+	font-weight:bold;
+	font-size:18px;
+}
+</style>
+</head>
+
+<body>
+<button onclick="ornek()">İşlem Yap</button>
+<br /><br />
+<a id="ornek" href="https://www.google.com.tr" target="_blank" class="deneme">Google</a>
+
+<script type="text/javascript" language="javascript">
+// removeAttribute() 	:	Belge içerisindeki herhangi bir HTML elemanının belirtilen özelliğini kaldırmak / silmek için kullanılır
+
+function ornek(){
+	document.getElementById("ornek").removeAttribute("class");
+	document.getElementById("ornek").removeAttribute("href");
+	document.getElementById("ornek").removeAttribute("target");
+}
+
+</script>
+</body>
+</html>

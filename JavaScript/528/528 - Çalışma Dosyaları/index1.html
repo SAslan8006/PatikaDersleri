@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek()">Tıkla</button>
+<div id="sonucalani"></div>
+
+<script type="text/javascript" language="javascript">
+// detail		:	Belge içerisindeki mouse (fare) ile tıklama event'ı (olayı) gerçekleştirildiğinde mouse'a (fareye) kaç defa tıklandığı sayısı değerini geriye döndürür.
+
+function ornek(){
+	var say		=	event.detail;
+	document.getElementById("sonucalani").innerHTML = "Butona Tıklanma Sayısı : " + say;
+}
+
+</script>
+</body>
+</html>

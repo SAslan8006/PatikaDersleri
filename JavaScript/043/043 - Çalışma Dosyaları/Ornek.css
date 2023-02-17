@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background-color:black; color:white; }
+div#DenemeSatiri1 { color:yellow; }
+div#DenemeSatiri2 { color:blue; }
+#DenemeSatiri3 { color:red; }
+#DenemeSatiri4 { color:grey; }

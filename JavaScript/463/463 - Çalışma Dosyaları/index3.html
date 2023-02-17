@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<a id="baglantibir" href="https://www.google.com.tr" target="_blank">Google'a Git</a> <span id="bir"></span><br />
+<a id="baglantiiki" href="https://www.yandex.com.tr" target="_blank">Yandex'e Git</a> <span id="iki"></span>
+
+<script type="text/javascript" language="javascript">
+// accessKey	:	Belge içerisindeki herhangi bir HTML elemanına atanmış olan accessKey değerini elde etmek veya ayarlamak için kullanılır.
+
+var degerbir	=	document.getElementById("baglantibir").accessKey = "g";
+var degeriki	=	document.getElementById("baglantiiki").accessKey = "y";
+
+document.getElementById("bir").innerHTML = "Kısayol Tuşu : " + degerbir;
+document.getElementById("iki").innerHTML = "Kısayol Tuşu : " + degeriki;
+
+</script>
+</body>
+</html>

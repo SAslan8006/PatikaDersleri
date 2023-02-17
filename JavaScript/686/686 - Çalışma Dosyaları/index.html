@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body onload="ornek()">
+<div>Güvenlik Kodu :</div>
+<br />
+<canvas id="guvenlikkodualani" width="150" height="50"></canvas>
+<br /><br />
+<button onclick="degistir()">Kodu Değiştir</button>
+
+<script type="text/javascript" language="javascript">
+
+var islem;
+
+function ornek(){
+	islem 	=	document.getElementById("guvenlikkodualani").getContext("2d");
+	islem.fillStyle 	=	"#e6cd57";
+	degistir();
+}
+
+function degistir(){
+	var metin	=	"";
+	for(var baslangic = 0; baslangic<6; baslangic++){
+		var rastgeledeger	=	Math.random();
+		if(Math.round(rastgeledeger) == 0){
+			metin 	+=	String.fromCharCode(48+9 * Math.random());
+		}else{
+			metin 	+=	String.fromCharCode(65+25 * Math.random());
+		}
+	}
+	islem.clearRect(0, 0, 150, 50);
+	islem.fillRect(0, 0, 150, 50);
+	islem.font 	=	"30px calibri";
+	islem.strokeText(metin, 24, 34);
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// toString() 	:	Nesnenin karakter dizesi olarak temsil edilen halinin değerini geriye döndürür. Nesne prototype özelliği kullanılarak değer ataması yapılabilir.
+
+function islem(){
+	this.isim 	=	"Volkan Alakent ";
+}
+
+islem.prototype.toString 	=	function(){
+	document.write("Extra Eğitim");
+}
+
+var bilgiler	=	new islem();
+var sonuc		=	bilgiler.toString();
+
+</script>
+</body>
+</html>

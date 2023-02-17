@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek()">Bilgileri Getir</button>
+<br /><br />
+<div id="sonuc">Verileri Elde Etmek İçin Yukarıdaki Butona Tıklayınız</div>
+
+<script type="text/javascript" language="javascript">
+function ornek(){
+	var istek	=	new XMLHttpRequest();
+	istek.onreadystatechange = function(){
+		if(this.readyState==4 && this.status==200){
+			var jsondegerleri	=	JSON.parse(this.responseText);
+			var metinsonucu				=	"";
+			var isimdegeri				=	jsondegerleri.isim;
+			var soyisimdegeri			=	jsondegerleri.soyisim;
+			var yasdegeri				=	jsondegerleri.yas;
+			var meslekdegeri			=	jsondegerleri.meslek;
+			var sehirdegeri				=	jsondegerleri.sehir;
+			var bildigidillerdegeri		=	jsondegerleri.bildigidiller;
+			
+			var nesnelerisay			=	bildigidillerdegeri.length;
+			var dillersonuc				=	"";
+				for(var baslangic = 0; baslangic<nesnelerisay; baslangic++){
+					dillersonuc		+=	"Dil : " + bildigidillerdegeri[baslangic].dil + "<br />Seviye : " + bildigidillerdegeri[baslangic].seviye + "<br /><br />";
+				}
+			
+			metinsonucu		=	"İsim Soyisim : " + isimdegeri + " " + soyisimdegeri + "<br />Yaşı : " + yasdegeri + "<br />Mesleği : " + meslekdegeri + "<br />Yaşadığı Şehir : " + sehirdegeri + "<br /><br />Bildiği Diller : <br /><br />" + dillersonuc;
+			
+			document.getElementById("sonuc").innerHTML = metinsonucu;
+		}else{
+			document.getElementById("sonuc").innerHTML = "Bilmeyen Bir Hata Oluştu!";
+		}
+	};
+	istek.open("GET", "veri.json", true);
+	istek.send();
+}
+</script>
+</body>
+</html>

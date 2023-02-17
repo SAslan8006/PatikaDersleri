@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// \uXXXX	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, 16 Bit'lik Unicode formatındaki karşılığı olan karakteri ile eşleşmesi gerektiğini belirtmek için kullanılır.
+// 16 Bit'lik Unicode karakter aralığı	:	\u0000 - \uFFFF
+// volkan : 0076 006F 006C 006B 0061 006E
+
+var metin	=	"\u0076\u006F\u006C\u006B\u0061\u006E";
+var ifade	=	new RegExp("n");
+var sonuc	=	ifade.test(metin);
+document.write(sonuc);
+
+</script>
+</body>
+</html>

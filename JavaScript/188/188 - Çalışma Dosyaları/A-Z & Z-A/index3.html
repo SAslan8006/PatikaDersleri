@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// sort() 	:	Dizi içeriğinin sıralanmasını sağlar. Metot Unicode (evrensel kod) olarak çalışır.
+function sirala(a, b){
+	var alfabe	=	"AaBbCcÇçDdEeFfGgĞğHhIıİiJjKkLlMmNnOoÖöPpQqRrSsŞşTtUuÜüVvWwXxYyZz";
+	
+	if(a.length === 0 || b.length === 0){
+		return b.length-a.length;
+	}else{
+		var bir		=	alfabe.indexOf(a[0]);
+		var iki		=	alfabe.indexOf(b[0]);
+			if(bir !== iki){
+				return iki-bir;
+			}else{
+				return sirala(a.slice(1), b.slice(1));
+			}
+	}
+}
+
+var isimler		=	["Volkan", "Ümit", "Onur", "Serkan", "Hakan", "Çağatay", "Şinasi"];
+document.write(isimler + "<br /><br />");
+isimler.sort(sirala);
+document.write(isimler);
+
+</script>
+</body>
+</html>

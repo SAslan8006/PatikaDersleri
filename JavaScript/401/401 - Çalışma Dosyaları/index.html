@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// watch() 		:	Nesnenin belirtilen bir özelliği değiştiğinde, çalıştırılacak olan herhangi bir işlev eklemek için kullanılır.
+// 1. Parametre	:	Özelliğin adı
+// 2. Parametre	:	Özelliğin eski değeri
+// 3. Parametre	:	Özelliğin yeni değeri
+
+var bilgiler	=	{
+	isim:"Volkan"
+};
+
+bilgiler.watch("isim", function(ozellikadi, eskideger, yenideger){
+	var gelenozellikadi		=	ozellikadi;
+	var geleneskideger		=	eskideger;
+	var gelenyenideger		=	yenideger;
+	var metin				=	"Özellik Adı : " + gelenozellikadi + "\nEski Değer : " + geleneskideger + "\nYeni Değer : " + gelenyenideger;
+	alert(metin);
+});
+
+bilgiler.isim 	=	"Hakan";
+
+</script>
+</body>
+</html>

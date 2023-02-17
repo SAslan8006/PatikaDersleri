@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// getMonth() 	:	Kullanıldığı değişken içeriğine yılın ay bilgisini 0 ila 11 arasında olmak üzere rakamsal olarak depolayarak, depoladığı değeri geriye döndürür. (İlk ay Ocak ayıdır ve değeri 0'dır.)
+
+var zaman	=	new Date();
+var ay		=	zaman.getMonth();
+	if(ay=="0"){
+		var ayiyaz	=	"Ocak";
+	}else if(ay=="1"){
+		var ayiyaz	=	"Şubat";
+	}else if(ay=="2"){
+		var ayiyaz	=	"Mart";
+	}else if(ay=="3"){
+		var ayiyaz	=	"Nisan";
+	}else if(ay=="4"){
+		var ayiyaz	=	"Mayıs";
+	}else if(ay=="5"){
+		var ayiyaz	=	"Haziran";
+	}else if(ay=="6"){
+		var ayiyaz	=	"Temmuz";
+	}else if(ay=="7"){
+		var ayiyaz	=	"Ağustos";
+	}else if(ay=="8"){
+		var ayiyaz	=	"Eylül";
+	}else if(ay=="9"){
+		var ayiyaz	=	"Ekim";
+	}else if(ay=="10"){
+		var ayiyaz	=	"Kasım";
+	}else if(ay=="11"){
+		var ayiyaz	=	"Aralık";
+	}else{
+		var ayiyaz	=	"Hata";
+	}
+
+document.write(ayiyaz);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body onhashchange="ornekiki()">
+<button onclick="ornek()">Tıkla</button>
+<div id="sonucalani"></div>
+<div id="sonucalaniiki"></div>
+
+<script type="text/javascript" language="javascript">
+// onhashchange 	:	Sayfa URL'inin (Uniform resource locator) (nizami kaynak bulucu) bağlantı bölümünde değişiklik olur ise belirtilecek fonksiyon çalışır.
+
+function ornek(){
+	location.hash 	=	"OrnekSayfa";
+	var deger		=	location.hash;
+	document.getElementById("sonucalani").innerHTML = "Hash değeri değişti : " + deger;
+}
+
+function ornekiki(){
+	document.getElementById("sonucalaniiki").innerHTML = "Hash değeri değişti";
+}
+
+</script>
+</body>
+</html>

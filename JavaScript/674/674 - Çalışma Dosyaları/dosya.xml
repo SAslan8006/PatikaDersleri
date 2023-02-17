@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KATALOG>
+	<SETLER>
+		<ICERIK>Javascript Eğitim Seti</ICERIK>
+		<EGITMEN>Volkan Alakent</EGITMEN>
+		<FIYAT>165,00 TL</FIYAT>
+	</SETLER>
+	<SETLER>
+		<ICERIK>Html Eğitim Seti</ICERIK>
+		<EGITMEN>Ümit</EGITMEN>
+		<FIYAT>125,00 TL</FIYAT>
+	</SETLER>
+	<SETLER>
+		<ICERIK>Css Eğitim Seti</ICERIK>
+		<EGITMEN>Onur</EGITMEN>
+		<FIYAT>145,00 TL</FIYAT>
+	</SETLER>
+	<SETLER>
+		<ICERIK>Java Eğitim Seti</ICERIK>
+		<EGITMEN>Volkan Alakent</EGITMEN>
+		<FIYAT>225,00 TL</FIYAT>
+	</SETLER>
+	<SETLER>
+		<ICERIK>Python Eğitim Seti</ICERIK>
+		<EGITMEN>Hakan</EGITMEN>
+		<FIYAT>190,00 TL</FIYAT>
+	</SETLER>
+</KATALOG>

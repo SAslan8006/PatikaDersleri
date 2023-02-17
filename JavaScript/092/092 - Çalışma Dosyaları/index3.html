@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// replace() 	:	Kendisine verilecek olan parametreler doğrultusunda değişken içeriğini kontrol eder ve eşleşen değerlerin değişimin sağlayarak yeni bir içerik oluşturur ve oluşturduğu içeriği geriye döndürür. (Düzenli ifade alabilir.)
+// 1. Parametre	:	Değişecek içerik.
+// 2. Parametre	:	Güncel içerik.
+
+// g			:	içeriğin tamamı üzerinde çalışılmasını sağlar. (Düzenli ifade)
+// i			:	içeriğin büyük harf / küçük olamasına bakmaz. (Düzenli ifade)
+
+var metin	=	"Php PHP php Php PHP php Php PHP php";
+document.write(metin + "<br />");
+
+var sonuc	=	metin.replace(/PHP/g, "Javascript");
+document.write(sonuc);
+
+</script>
+</body>
+</html>

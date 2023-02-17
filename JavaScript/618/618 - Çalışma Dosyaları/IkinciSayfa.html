@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div>Burası İkinci Sayfamız</div><br /><br />
+<a href="BirinciSayfa.html">Birinci Sayfaya Git</a> - 
+<a href="IkinciSayfa.html">İkinci Sayfaya Git</a> - 
+<a href="UcuncuSayfa.html">Üçüncü Sayfaya Git</a> - 
+<a href="DorduncuSayfa.html">Dördüncü Sayfaya Git</a> - 
+<a href="BesinciSayfa.html">Beşinci Sayfaya Git</a><br /><br />
+<button onclick="gerigit()">Geri Git</button>
+<button onclick="ilerigit()">İleri Git</button>
+<button onclick="ikigerigit()">2 Sayfa Geri Git</button>
+<button onclick="ikiilerigit()">2 Sayfa İleri Git</button><br /><br />
+<div>Geçmiş Kaydı Uzunluğu : <span id="uzunluk"></span></div>
+
+<script type="text/javascript" language="javascript">
+// history		:	Pencerenin geçmiş nesnesine erişim için kullanılır. Özellikleri sayesinde geçmiş işlemleri yapılabilir.
+// length 		:	Sayfa geçmişinde sayısını bulur
+// back() 		:	Sayfa geçmişinde 1 geri gider
+// forward() 	:	Sayfa geçmişinde 1 ileri gider
+// go() 		:	Sayfa geçmişinde belirtilen değer kadar ileri veya geri gider
+
+var gecmissayisi	=	history.length;
+document.getElementById("uzunluk").innerHTML = gecmissayisi;
+
+function gerigit(){
+	window.history.back();
+}
+
+function ilerigit(){
+	window.history.forward();
+}
+
+function ikigerigit(){
+	window.history.go(-2);
+}
+
+function ikiilerigit(){
+	window.history.go(2);
+}
+
+</script>
+</body>
+</html>

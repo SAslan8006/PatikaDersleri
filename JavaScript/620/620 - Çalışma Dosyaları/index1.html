@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek()">Tıkla</button><br /><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// prompt() 	:	Kullanıcıdan bilgi talep etmek için girdi penceresi oluşturmak için kullanılır.
+
+function ornek(){
+	var veri	=	prompt("Merhaba lütfen adınızı belirtirmisiniz?");
+	if(veri!=""){
+		document.getElementById("sonuc").innerHTML = "Merhaba " + veri + " iyi günler...";
+	}else{
+		ornek();
+	}
+}
+
+</script>
+</body>
+</html>

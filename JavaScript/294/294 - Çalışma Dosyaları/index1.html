@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// {x,y} 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin en az x defa yada en fazla y defa tekrarlanmış olması gerektiğini belirtmek için kullanılır.
+
+var metin	=	"Javaaaaaaaaaascipt";
+var ifade	=	new RegExp("a{2,20}");
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
+</script>
+</body>
+</html>

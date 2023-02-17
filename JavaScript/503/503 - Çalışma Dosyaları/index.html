@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.orneksinif{
+	color:red;
+}
+</style>
+</head>
+
+<body>
+<div id="ornek" name="deneme" style="font-weight:bold; font-size:25px;" class="orneksinif" contenteditable="true">Javascript Eğitim Seti</div>
+<br /><br />
+<div id="sonucbir"></div>
+<div id="sonuciki"></div>
+<div id="sonucuc"></div>
+<div id="sonucdort"></div>
+<div id="sonucbes"></div>
+
+<script type="text/javascript" language="javascript">
+// getAttribute() 		:	Belge içerisindeki herhangi bir HTML elemanının belirtilen özelliğinin değerini elde etmek için kullanılır.
+
+var birincideger	=	document.getElementsByTagName("DIV")[0].getAttribute("id");
+var ikincideger		=	document.getElementsByTagName("DIV")[0].getAttribute("name");
+var ucuncudeger		=	document.getElementsByTagName("DIV")[0].getAttribute("style");
+var dorduncudeger	=	document.getElementsByTagName("DIV")[0].getAttribute("class");
+var besincideger	=	document.getElementsByTagName("DIV")[0].getAttribute("contenteditable");
+
+document.getElementById("sonucbir").innerHTML = "id değeri : " + birincideger;
+document.getElementById("sonuciki").innerHTML = "name değeri : " + ikincideger;
+document.getElementById("sonucuc").innerHTML = "style değeri : " + ucuncudeger;
+document.getElementById("sonucdort").innerHTML = "class değeri : " + dorduncudeger;
+document.getElementById("sonucbes").innerHTML = "contenteditable değeri : " + besincideger;
+
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div id="sonucalani"></div>
+<script type="text/javascript" language="javascript">
+// addEventListener() 	: Belgeye event (olay) işaretleyicisi / dinleyicisi eklemek için kullanılır. İşaretlenen / dinlenen event (olay) belgede gerçekleştirilecek olur ise belirtilecek olan fonksiyon veya fonksiyonlar çalışır.
+
+document.addEventListener("click", ornek);
+
+function ornek(){
+	document.getElementById("sonucalani").innerHTML = Math.random();
+}
+
+</script>
+</body>
+</html>

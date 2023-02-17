@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div>
+	<div id="ornekbir">Javascript Eğitim Seti</div>
+	<div id="ornekiki">Php Eğitim Seti</div>
+    <!-- Deneme İçin Gizli HTML Açıklama Alanı -->
+	<div id="ornekuc">Css Eğitim Seti</div>
+	<div id="ornekdort">Xml Eğitim Seti</div>
+</div>
+<br /><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// parentNode	:	Belge içerisindeki herhangi bir node'un (düğümün) bir üst node'unu (düğümünü) elde etmek için kullanılır.
+
+var deger	=	document.getElementById("ornekuc").parentNode;
+document.getElementById("sonuc").innerHTML = deger;
+
+</script>
+</body>
+</html>

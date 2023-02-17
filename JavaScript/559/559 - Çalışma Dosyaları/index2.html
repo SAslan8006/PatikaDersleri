@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<audio src="Ses.mp3" onseeked="ornek()" controls></audio>
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// onseeked 	:	Medya elemanının yürütme konumu kullanıcı tarafından yeni konuma getirildiğinde belirtilecek olan fonksiyon çalışır.
+
+function ornek(){
+	document.getElementById("sonuc").innerHTML += "Medya oynatma konumu değiştirildi<br />";
+}
+
+</script>
+</body>
+</html>

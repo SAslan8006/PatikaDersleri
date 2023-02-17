@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+/*
+break	=	Döngüden çıkmak için kullanılır.
+*/
+
+var ornek	=	{renk1:"Siyah", renk2:"Beyaz", renk3:"Sarı", renk4:"Mavi", renk5:"Kırmızı"};
+
+var sonuc;
+for(sonuc in ornek){
+	document.write(ornek[sonuc] + "<br />");
+	if(sonuc=="renk3"){
+		break;
+	}
+}
+
+</script>
+</body>
+</html>

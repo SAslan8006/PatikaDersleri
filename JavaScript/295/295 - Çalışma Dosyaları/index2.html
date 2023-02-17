@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// + 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin 1 defa yada daha fazla tekrarlanmış olması gerektiğini belirtmek için kullanılır.
+
+var metin		=	"Javascript dilinin dosya uzantısı js jss jsss şeklinde tanımlanmaktadır.";
+var ifade		=	/js+/g;
+var sonuc		=	metin.match(ifade);
+document.write(sonuc);
+
+</script>
+</body>
+</html>

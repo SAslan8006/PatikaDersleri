@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+
+var ad		=	"VOLKAN";
+var yil		=	1980;
+var metin	=	"NABER";
+
+var bilgiler	=	{
+	isim:ad,
+	tarih:yil,
+	detay:function(){
+		var ifade	=	metin;
+		document.write(ifade + "<br /><br />");
+	}
+};
+
+var isimdegeribir	=	bilgiler.isim;
+var tarihdegeribir	=	bilgiler.tarih;
+
+document.write(isimdegeribir + " " + tarihdegeribir + "<br />");
+bilgiler.detay();
+
+</script>
+</body>
+</html>

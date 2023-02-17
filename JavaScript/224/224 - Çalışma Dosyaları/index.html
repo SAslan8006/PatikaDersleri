@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// isFinite() 	:	Kendisine parametrik olarak verilen değişken içeriğinin en büyük pozitif sayı ile en küçük negatif sayı aralığında olup olmadığını kontrol ederek, boolean (mantıksal) veri türünde sonucu geriye döndürür.
+
+var degerbir	=	100;
+var degeriki	=	55.42;
+var degeruc		=	13264274523745;
+var degerdort	=	Number.MAX_VALUE * 2;
+var degerbes	=	-Number.MAX_VALUE * 2;
+var degeralti	=	"Volkan Alakent";
+
+var sonucbir	=	Number.isFinite(degerbir);
+var sonuciki	=	Number.isFinite(degeriki);
+var sonucuc		=	Number.isFinite(degeruc);
+var sonucdort	=	Number.isFinite(degerdort);
+var sonucbes	=	Number.isFinite(degerbes);
+var sonucalti	=	Number.isFinite(degeralti);
+
+document.write("Değer: " + degerbir + "<br />");
+document.write("Sonuç: " + sonucbir + "<br /><br />");
+
+document.write("Değer: " + degeriki + "<br />");
+document.write("Sonuç: " + sonuciki + "<br /><br />");
+
+document.write("Değer: " + degeruc + "<br />");
+document.write("Sonuç: " + sonucuc + "<br /><br />");
+
+document.write("Değer: " + degerdort + "<br />");
+document.write("Sonuç: " + sonucdort + "<br /><br />");
+
+document.write("Değer: " + degerbes + "<br />");
+document.write("Sonuç: " + sonucbes + "<br /><br />");
+
+document.write("Değer: " + degeralti + "<br />");
+document.write("Sonuç: " + sonucalti);
+
+</script>
+</body>
+</html>

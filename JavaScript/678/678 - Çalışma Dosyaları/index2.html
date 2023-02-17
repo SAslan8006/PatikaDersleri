@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div id="gezenalan"><img src="nazarboncugu.png" width="25" height="26" style="border:none" /></div>
+
+<script type="text/javascript" language="javascript">
+
+var alan	=	document.getElementById("gezenalan");
+alan.style.position = "absolute";
+window.onmousemove = function(event){
+	alan.style.left 	=	event.clientX + 15 + "px";
+	alan.style.top 	 	=	event.clientY + "px";
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div id="sonucalani"></div>
+<script type="text/javascript" language="javascript">
+// addEventListener() 	: Belgeye event (olay) işaretleyicisi / dinleyicisi eklemek için kullanılır. İşaretlenen / dinlenen event (olay) belgede gerçekleştirilecek olur ise belirtilecek olan fonksiyon veya fonksiyonlar çalışır.
+
+document.addEventListener("mouseover", ornekbir);
+document.addEventListener("click", ornekiki);
+document.addEventListener("mouseout", ornekuc);
+
+function ornekbir(){
+	document.getElementById("sonucalani").innerHTML +=	"Mouse Over Oldu.<br />";
+}
+
+function ornekiki(){
+	document.getElementById("sonucalani").innerHTML +=	"Tıklama Oldu.<br />";
+}
+
+function ornekuc(){
+	document.getElementById("sonucalani").innerHTML +=	"Mouse Out Oldu.<br />";
+}
+
+</script>
+</body>
+</html>

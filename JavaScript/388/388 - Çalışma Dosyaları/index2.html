@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+
+function ornek(isimdegeri, soyisimdegeri){
+	this.isim 		=	isimdegeri;
+	this.soyisim 	=	soyisimdegeri;
+}
+
+var sonucbir	=	new ornek("VOLKAN", "ALAKENT");
+var sonuciki	=	new ornek("volkan", "alakent");
+
+var gelenisimbir		=	sonucbir.isim;
+var gelensoyisimbir		=	sonucbir.soyisim;
+document.write(gelenisimbir + " " + gelensoyisimbir + "<br />");
+
+var gelenisimiki		=	sonuciki.isim;
+var gelensoyisimiki		=	sonuciki.soyisim;
+document.write(gelenisimiki + " " + gelensoyisimiki);
+
+</script>
+</body>
+</html>

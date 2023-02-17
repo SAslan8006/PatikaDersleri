@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+
+var bilgiler	=	{
+	isim:"Volkan",
+	soyisim:"Alakent",
+	detay:{
+		yas:36,
+		sehir:"İstanbul",
+		diller:{
+			birincidil:"Php",
+			ikincidil:"Javascript",
+			ucuncudil:"Css"
+		}
+	}
+};
+
+var isimdegeri			=	bilgiler.isim;
+document.write("İsim Değeri : " + isimdegeri + "<br />");
+var soyisimdegeri		=	bilgiler.soyisim;
+document.write("Soyisim Değeri : " + soyisimdegeri + "<br />");
+var detaydegeri			=	bilgiler.detay.yas;
+document.write("Yaş Değeri : " + detaydegeri + "<br />");
+var sehirdegeri			=	bilgiler.detay.sehir;
+document.write("Şehir Değeri : " + sehirdegeri + "<br />");
+var birincidildegeri	=	bilgiler.detay.diller.birincidil;
+document.write("Birinci Dil Değeri : " + birincidildegeri + "<br />");
+var ikincidildegeri	=	bilgiler.detay.diller.ikincidil;
+document.write("İkinci Dil Değeri : " + ikincidildegeri + "<br />");
+var ucuncudildegeri	=	bilgiler.detay.diller.ucuncudil;
+document.write("Üçüncü Dil Değeri : " + ucuncudildegeri + "<br />");
+
+</script>
+</body>
+</html>

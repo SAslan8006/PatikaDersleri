@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+
+var tanimlar	=	["Volkan", "Hakan", ["Aslı", "Banu", "Hatice", ["Siyah", "Beyaz", "Sarı", "Lacivert", "Kırmızı", "Yeşil"], "Derya", "Ayşe"], "Mesut", "Onur", "Ümit", "Serkan", "Levent", "Faik", "Hasan"];
+document.write(tanimlar + "<br /><br />");
+
+var sonuc;
+for(sonuc in tanimlar){
+	if(Array.isArray(tanimlar[sonuc])){
+		var ilkkontrol;
+		for(ilkkontrol in tanimlar[sonuc]){
+			if(Array.isArray(tanimlar[sonuc][ilkkontrol])){
+				var sonkontrol;
+				for(sonkontrol in tanimlar[sonuc][ilkkontrol]){
+					document.write(tanimlar[sonuc][ilkkontrol][sonkontrol] + "<br />");
+				}
+			}else{
+				document.write(tanimlar[sonuc][ilkkontrol] + "<br />");
+			}
+		}
+	}else{
+		document.write(tanimlar[sonuc] + "<br />");
+	}
+}
+
+</script>
+</body>
+</html>

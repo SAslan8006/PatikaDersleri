@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// removeEventListener() 	:	Belgeye addEventListener() metodu ile eklenmiş olan event (olay) işaretleyicisini / dinleyicisini silmek için kullanılır.
+
+document.addEventListener("click", ornek);
+
+function ornek(){
+	alert("Tıklama Oldu");
+	document.removeEventListener("click", ornek);
+}
+
+</script>
+</body>
+</html>

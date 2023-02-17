@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<a href="javascript:ornek('https://www.google.com.tr', 1000, 650);">Google'a Git</a>
+
+<script type="text/javascript" language="javascript">
+
+function ornek(adres, istenilengenislik, istenilenyukseklik){
+	var solhesap	=	parseInt((screen.availWidth/2) - (istenilengenislik/2));
+	var usthesap	=	parseInt((screen.availHeight/2) - (istenilenyukseklik/2));
+	var ozellikler	=	"width=" + istenilengenislik + ",height=" + istenilenyukseklik + ",left=" + solhesap + ",top=" + usthesap;
+	window.open(adres, "Google", ozellikler);
+}
+
+</script>
+</body>
+</html>

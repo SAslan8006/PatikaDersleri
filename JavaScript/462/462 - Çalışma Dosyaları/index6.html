@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div id="kimlikbir" name="isimbir">Javascript Eğitim Seti</div>
+<div id="kimlikiki" name="isimiki" style="background-color:red; color:white; border:5px double blue; padding:5px; margin:5px;">Css Eğitim Seti</div>
+<div id="kimlikuc" name="isimuc">Php Eğitim Seti</div>
+<div id="sonucalani"></div>
+<script type="text/javascript" language="javascript">
+// style 	:	Belge içerisindeki HTML elemanına veya elemanlarına CSS (Cascading Style Sheets) (Basamaklı stil şablonları) özellikleri ve değerleri eklemek veya referansını elde etmek için kullanılır.
+
+var referansbir		=	document.getElementById("kimlikiki").style.backgroundColor;
+var referansiki		=	document.getElementById("kimlikiki").style.color;
+var referansuc		=	document.getElementById("kimlikiki").style.border;
+var referansdort	=	document.getElementById("kimlikiki").style.padding;
+var referansbes		=	document.getElementById("kimlikiki").style.margin;
+
+var sonuc	=	" backgroundcolor : " + referansbir + ", color : " + referansiki + ", border :  " + referansuc + ", padding : " + referansdort + ", margin : " + referansbes;
+document.getElementById("sonucalani").innerHTML = sonuc;
+
+</script>
+</body>
+</html>

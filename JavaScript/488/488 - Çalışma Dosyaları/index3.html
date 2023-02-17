@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div>
+	<div id="aaa">Javascript</div>
+    <p id="bbb">Php</p>
+	<div id="ccc">Html</div>
+    <p id="ddd">Css</p>
+	<div id="eee">Jquery</div>
+    <p id="fff">Xml</p>
+	<div id="ggg">Python</div>
+</div>
+<br /><br /><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// previousElementSibling 	:	Belge içerisindeki herhangi bir HTML elemanının içerisindeki aynı seviyede yani kardeş olan elemanlardan, belirtilecek olan elemandan önce gelen ilk elemanı elde etmek için kullanılır.
+
+var sonuc	=	document.getElementById("ddd").previousElementSibling.tagName;
+document.getElementById("sonuc").innerHTML = sonuc;
+
+</script>
+</body>
+</html>

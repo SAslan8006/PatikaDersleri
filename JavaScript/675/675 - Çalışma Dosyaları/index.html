@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div style="text-align:right;"><select onchange="ornek(this.value)">
+	<option value=""></option>
+	<option value="1">Volkan Alakent</option>
+	<option value="2">Hakan Alakent</option>
+	<option value="3">Ümit Okudan</option>
+	<option value="4">Onur Tatlı</option>
+</select></div>
+<br /><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+function ornek(gelendeger){
+	var istek	=	new XMLHttpRequest();
+	istek.onreadystatechange = function(){
+		if(this.readyState==4 && this.status==200){
+			document.getElementById("sonuc").innerHTML = this.responseText;
+		}else{
+			document.getElementById("sonuc").innerHTML = "Bilinmeyen Bir Hata Oluştu!";
+		}
+	};
+	istek.open("GET", "kaynak.php?deger=" + gelendeger, true);
+	istek.send();
+}
+</script>
+</body>
+</html>

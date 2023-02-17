@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.deneme{ font-size:25px; color:#FFFFFF; }
+</style>
+</head>
+
+<body>
+<div id="birincikimlik" name="birinciisim" style="background-color:#FF0004" class="deneme">Volkan Alakent</div><br />
+<div id="sonucalanibir"></div>
+<div id="sonucalaniiki"></div>
+<div id="sonucalaniuc"></div>
+<div id="sonucalanidort"></div>
+<div id="sonucalanibes"></div>
+<script type="text/javascript" language="javascript">
+// name 	:	Belge içerisindeki HTML elemanına eklenmiş olan özellik adı referansını elde etmek için kullanılır. HTML elemanının içerisindeki özellik sayısı birden fazla ise her bir özellik adı referansı döngü ile elde edilebilir.
+
+var sonucbir	=	document.getElementById("birincikimlik").attributes[0].name;
+var sonuciki	=	document.getElementById("birincikimlik").attributes[1].name;
+var sonucuc		=	document.getElementById("birincikimlik").attributes[2].name;
+var sonucdort	=	document.getElementById("birincikimlik").attributes[3].name;
+
+document.getElementById("sonucalanibir").innerHTML = "Birinci özelliğin adı : " + sonucbir;
+document.getElementById("sonucalaniiki").innerHTML = "İkinci özelliğin adı : " + sonuciki;
+document.getElementById("sonucalaniuc").innerHTML = "Üçüncü özelliğin adı : " + sonucuc;
+document.getElementById("sonucalanidort").innerHTML = "Dördüncü özelliğin adı : " + sonucdort;
+
+</script>
+</body>
+</html>

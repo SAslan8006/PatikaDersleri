@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+
+<div id="alanimiz">
+	<div>Javascript</div>
+	<div>Java</div>
+	<div>Html</div>
+	<div>Css</div>
+	<div>Php</div>
+</div>
+<br /><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// childNodes 		:	Belge içerisindeki herhangi bir HTML elemanının içerdiği alt node'ları (düğümleri) elde etmek için kullanılır.
+
+var islemyap	=	document.getElementById("alanimiz").childNodes;
+var uzunluk		=	islemyap.length;
+var metin		=	"";
+for(var baslangic = 0; baslangic<uzunluk; baslangic++){
+	metin	=	metin + islemyap[baslangic] + "<br />";
+}
+
+document.getElementById("sonuc").innerHTML = metin;
+
+</script>
+</body>
+</html>

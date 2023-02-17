@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// valueOf() 	:	Üzerinde çalışılan dizi değerinin tam anlamıyla aktarımını sağlayarak yeni bir dizi oluşturur ve oluşturduğu dizi değerini geriye döndürür.
+
+var isimler			=	["Hakan", "Serkan", "Onur", "Levent", "Arif"];
+document.write(isimler + "<br />");
+
+var yeniisimler		=	isimler.valueOf();
+document.write(yeniisimler + "<br />");
+
+isimler.fill("Volkan");
+document.write(isimler + "<br />");
+document.write(yeniisimler);
+
+</script>
+</body>
+</html>

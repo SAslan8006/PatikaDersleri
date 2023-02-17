@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<input type="text" onkeypress="ornek()">
+<div id="sonuc"></div>
+<script type="text/javascript" language="javascript">
+// charCode		:	Belge içerisindeki onkeypress event'ı (olayı) gerçekleştiğinde klavyeden basılan tuşun unicode (evrensel kod) kodlamasına dönüştürerek oluşturduğu değeri geriye döndürür.
+
+function ornek(){
+	var deger	=	event.charCode;
+	document.getElementById("sonuc").innerHTML += deger + " ";
+}
+
+</script>
+</body>
+</html>

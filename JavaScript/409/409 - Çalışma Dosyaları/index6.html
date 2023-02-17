@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+İlgi Alanlarınız :<br />
+Alışveriş <input name="ilgialanlari" type="checkbox" value="Alışveriş" />
+Eğlence <input name="ilgialanlari" type="checkbox" value="Eğlence" />
+Sinema <input name="ilgialanlari" type="checkbox" value="Sinema" />
+Tiyatro <input name="ilgialanlari" type="checkbox" value="Tiyatro" />
+Gezi <input name="ilgialanlari" type="checkbox" value="Gezi" />
+İnternet <input name="ilgialanlari" type="checkbox" value="İnternet" />
+Yüzmek <input name="ilgialanlari" type="checkbox" value="Yüzmek" />
+<button onclick="secmeislemi()">Hepsini Seç</button>
+<button onclick="kaldirmaislemi()">Hepsini Kaldır</button>
+
+<script type="text/javascript" language="javascript">
+// getElementsByName() 		:	Kendisine parametre olarak verilen değer doğrultusunda, belge içerisinde belirtilen name özelliğine / niteliğine sahip tüm elemanların referansını elde etmek için kullanılır. Eleman referansları birden fazla ise her bir eleman döngü ile elde edilebilir.
+
+function secmeislemi(){
+	var deger	=	document.getElementsByName("ilgialanlari");
+	for(var baslangic = 0; baslangic<deger.length; baslangic++){
+		deger[baslangic].checked 	=	true;
+	}
+}
+
+function kaldirmaislemi(){
+	var deger	=	document.getElementsByName("ilgialanlari");
+	for(var baslangic = 0; baslangic<deger.length; baslangic++){
+		deger[baslangic].checked 	=	false;
+	}
+}
+
+</script>
+</body>
+</html>

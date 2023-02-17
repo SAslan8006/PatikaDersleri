@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body style="margin:0;">
+<div onmousemove="ornek()" style="background-color:#F1F1F1; border:1px solid black; margin:0; padding:0; text-align:center; width:100%; height:500px;">Mouse'u (Fareyi) bu alan içerisinde gezdiriniz.</div>
+<div style="background-color:#F1F1F1; border:1px solid black; margin:0; margin-top:5px; padding:0; text-align:center; width:100%;">Mouse'un Koordinatı : (X) <span id="xdegeralani"></span> (Y) <span id="ydegeralani"></span></div>
+
+<script type="text/javascript" language="javascript">
+// clientX	:	Belge içerisindeki herhangi bir mouse (fare) event'ı (olayı) gerçekleştiğinde browser (tarayıcı) penceresine göre mouse'un (farenin) yatay konum koordinatının değerini geriye döndürür.
+// clientY	:	Belge içerisindeki herhangi bir mouse (fare) event'ı (olayı) gerçekleştiğinde browser (tarayıcı) penceresine göre mouse'un (farenin) dikey konum koordinatının değerini geriye döndürür.
+
+function ornek(){
+	var xdegerinibul	=	event.clientX;
+	var ydegerinibul	=	event.clientY;
+	document.getElementById("xdegeralani").innerHTML = xdegerinibul;
+	document.getElementById("ydegeralani").innerHTML = ydegerinibul;
+}
+
+</script>
+</body>
+</html>

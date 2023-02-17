@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+*{
+	margin:0px;
+}
+#slaytalani{
+	width:1000px;
+	height:350px;
+	margin: 50px auto;
+	position:relative;
+	overflow:hidden;
+	border-radius:5px;
+}
+#resim{
+	width:1000px;
+	height:350px;
+	position:relative;
+}
+.solalani{
+	width:100px;
+	height:350px;
+	position:absolute;
+	text-align:left;
+	left:0px;
+	top:0px;
+}
+.sagalani{
+	width:100px;
+	height:350px;
+	position:absolute;
+	text-align:right;
+	right:0px;
+	top:0px;
+}
+.sol{
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:40%;
+	left:25px;
+	opacity:0;
+	transition: all .5s ease-in-out 0s;
+}
+.sag{
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:40%;
+	right:25px;
+	opacity:0;
+	transition: all .5s ease-in-out 0s;
+}
+.solalani:hover .sol{
+	opacity:0.5;	
+}
+.sagalani:hover .sag{
+	opacity:0.5;	
+}
+</style>
+</head>
+
+<body onload="calistir()">
+<div id="slaytalani">
+    <img id="resim" src="slayt1.jpg" width="1000" height="350" style="border:none;" />
+    <div class="solalani"><img src="solok.png" width="50" height="50" class="sol" onclick="resimdegistir(-1)" style="border:none; cursor:pointer;"/></div>
+    <div class="sagalani"><img src="sagok.png" width="50" height="50" class="sag" onclick="resimdegistir(1)" style="border:none; cursor:pointer;"/></div>
+</div>
+
+<script type="text/javascript" language="javascript">
+var resimsirasi 	=	1;
+var toplamresim 	=	10;
+
+function resimdegistir(deger){
+	var resim		=	document.getElementById("resim");
+	resimsirasi		=	resimsirasi + deger;
+	if(resimsirasi>toplamresim){
+		resimsirasi		=	1;
+	}
+	if(resimsirasi<1){
+		resimsirasi		=	toplamresim;
+	}
+	resim.src 	=	"slayt" + resimsirasi + ".jpg";
+	clearInterval(zaman);
+	zaman		=	window.setInterval(function calistir(){
+		var resim		=	document.getElementById("resim");
+		resimsirasi		=	resimsirasi + 1;
+			if(resimsirasi>toplamresim){
+				resimsirasi		=	1;
+			}
+			if(resimsirasi<1){
+				resimsirasi		=	toplamresim;
+			}
+		resim.src 	=	"slayt" + resimsirasi + ".jpg";
+	}, 3000);
+}
+
+var zaman		=	window.setInterval(function calistir(){
+var resim		=	document.getElementById("resim");
+resimsirasi		=	resimsirasi + 1;
+	if(resimsirasi>toplamresim){
+		resimsirasi		=	1;
+	}
+	if(resimsirasi<1){
+		resimsirasi		=	toplamresim;
+	}
+	resim.src 	=	"slayt" + resimsirasi + ".jpg";
+}, 3000);
+</script>
+</body>
+</html>

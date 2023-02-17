@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek()">HTML Akışı Aç</button>
+<script type="text/javascript" language="javascript">
+// open() 	:	Belge içerisinden yeni bir HTML çıktı akışı açmak için kullanılır.
+// close() 	:	open() metodu ile açılan HTML çıktı akışını kapatmak / sonlandırmak için kullanılır.
+// Parametreler :
+// 1. Parametre : MimeType
+// 2. Parametre : Geçmiş aktarımı
+
+function ornek(){
+	var islem	=	window.open();
+	islem.document.open("text/html", "replace");
+	islem.document.write("<html><head><title>Yeni Sayfa Başlığı</title></head><body>Merhaba</body></html>");
+	islem.document.close();
+}
+
+</script>
+</body>
+</html>

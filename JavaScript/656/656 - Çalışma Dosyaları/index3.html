@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="bir()">Zamanlayıcıyı Başlat</button>
+<button onclick="iki()">Zamanlayıcıyı Durdur</button>
+<button onclick="uc()">Zamanlayıcıyı Sıfırla</button>
+<br /><br />
+<div id="sonuc">0</div>
+
+<script type="text/javascript" language="javascript">
+// clearTimeout() 	:	setTimeout() metodu kullanılarak oluşturulmuş olan zamanlayıcıyı kaldırmak veya iptal etmek veya geçersiz kılmak için kullanılır.
+
+var islem;
+
+function bir(){
+	var sayi	=	document.getElementById("sonuc").innerHTML;
+	sayi 		=	Number(sayi) + 1;
+	document.getElementById("sonuc").innerHTML = sayi;
+	islem	=	setTimeout(function(){
+		bir();
+	}, 1000);
+}
+
+function iki(){
+	clearTimeout(islem);
+}
+
+function uc(){
+	document.getElementById("sonuc").innerHTML = 0;
+	clearTimeout(islem);
+}
+
+</script>
+</body>
+</html>

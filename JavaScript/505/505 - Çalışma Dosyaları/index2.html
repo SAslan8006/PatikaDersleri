@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek()">Ekle</button>
+<br /><br />
+<a id="baglanti" target="_blank">Bağlantıya Git</a>
+
+<script type="text/javascript" language="javascript">
+// setAttribute() 	:	Belge içerisindeki herhangi bir HTML elemanına belirtilen özelliği ve değerini eklemek için kullanılır.
+
+function ornek(){
+	document.getElementById("baglanti").setAttribute("href", "https://www.google.com.tr");
+	document.getElementById("baglanti").setAttribute("style", "color:red");
+}
+
+</script>
+</body>
+</html>

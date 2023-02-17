@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// rightContext 	:	Değişken içeriğinde düzenli ifade ile aranılan değerin eşleşmesi durumunda eşleşmeyi sağlayan değişken içeriği değerinin sağında kalan tüm değerleri geriye döndürür.
+
+var metin	=	"Javascipt dünyada en yaygın olarak kullanılan bir script dilidir.";
+var ifade	=	new RegExp("bir", "g");
+ifade.test(metin);
+var sonuc	=	RegExp.rightContext;
+document.write(sonuc);
+
+</script>
+</body>
+</html>

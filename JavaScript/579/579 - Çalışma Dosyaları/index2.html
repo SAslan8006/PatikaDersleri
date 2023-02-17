@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+Ad Soyad : <input type="text" onfocusin="bir()" onfocusout="iki()">
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// onfocusout 	:	Form içerisindeki bir elemanın odağından çıkılmak üzereyken belirtilecek olan fonksiyon çalışır.
+
+function bir(){
+	document.getElementById("sonuc").innerHTML = "Odaklanmak üzere";
+}
+
+function iki(){
+	document.getElementById("sonuc").innerHTML = "Odaktan çıkılmak üzere";
+}
+
+</script>
+</body>
+</html>

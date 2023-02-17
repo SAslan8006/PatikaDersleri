@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek()">Tıklayınız</button><br /><br />
+<span id="kimlik">Javascript Eğitim Seti <!-- Volkan Alakent --></span><br /><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// nodeValue 	:	Belge içerisindeki herhangi bir node'un (düğümün) değerini elde etmek için kullanılır.
+
+function ornek(){
+	var deger		=	document.getElementById("kimlik");
+	var tur			=	deger.childNodes[1].nodeType;
+	var isim		=	deger.childNodes[1].nodeName;
+	var icerik		=	deger.childNodes[1].nodeValue;
+
+	var birlestir	=	"Düğümün Türü : " + tur + "<br />Düğümün İsmi : " + isim + "<br />Düğümün İçeriği : " + icerik;
+	document.getElementById("sonuc").innerHTML = birlestir;
+}
+
+</script>
+</body>
+</html>

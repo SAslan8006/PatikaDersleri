@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+/*
+var bilgiler		=	{isim:"Volkan", soyisim:"Alakent"};
+*/
+
+/*
+var bilgiler		=	new Object();
+bilgiler.isim 		=	"Volkan";
+bilgiler.soyisim 	=	"Alakent";
+*/
+
+var ornek	=	function(){
+	this.isim 		=	"Volkan";
+	this.soyisim 	=	"Alakent";
+}
+
+var bilgiler		=	new ornek();
+
+var isimyaz			=	bilgiler.isim;
+var soyisimyaz		=	bilgiler.soyisim;
+
+document.write(isimyaz + " " + soyisimyaz);
+
+</script>
+</body>
+</html>

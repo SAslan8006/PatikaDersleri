@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div onmousedown="ornek()">Javascript Eğitim Seti</div>
+<div id="sonucalani"></div>
+
+<script type="text/javascript" language="javascript">
+// altKey	:	Belge içerisindeki herhangi bir event (olay) tetiklenirken alt tuşuna basılıp basılmadığını kontrol ederek boolean (mantıksal) veri türünde sonucu geriye döndürür.
+
+function ornek(){
+	var deger	=	event.altKey;
+	if(deger==true){
+		document.getElementById("sonucalani").innerHTML = "Olay tetiklenirken alt tuşuna basıldı.";
+	}else{
+		document.getElementById("sonucalani").innerHTML = "Olay tetiklenirken alt tuşuna basılmadı.";
+	}
+}
+
+</script>
+</body>
+</html>

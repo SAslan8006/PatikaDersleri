@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div>Pencere içerisindeki çerçeve sayısı : <span id="sonuc"></span></div>
+<iframe src="Sayfa1.html"></iframe>
+<iframe src="Sayfa2.html"></iframe>
+<iframe src="Sayfa3.html"></iframe>
+
+<script type="text/javascript" language="javascript">
+// length 		:	Pencere içerisindeki tüm çerçeveleri sayısını elde etmek için kullanılır.
+
+var sayi	=	window.length;
+document.getElementById("sonuc").innerHTML = sayi;
+
+</script>
+</body>
+</html>

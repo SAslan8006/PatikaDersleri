@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek()">Tıklayınız</button><br /><br />
+<div id="bir"></div>
+<div id="iki"><div></div></div>
+<div id="uc">Volkan Alakent</div>
+<div id="dort"><div>Javascript Eğitim Seti</div></div>
+<br /><br />
+<div id="sonucbir"></div>
+<div id="sonuciki"></div>
+<div id="sonucuc"></div>
+<div id="sonucdort"></div>
+
+
+<script type="text/javascript" language="javascript">
+// hasChildNodes() 	:	Belge içerisindeki herhangi bir HTML elemanının alt node'larının (düğümlerinin) olup olmadığını kontrol ederek, boolean (mantıksal) veri türünde sonucu geriye döndürür.
+
+function ornek(){
+	var kontrolbir	=	document.getElementById("bir").hasChildNodes();
+	if(kontrolbir==true){
+		document.getElementById("sonucbir").innerHTML = "HTML elemanının alt node'u (düğümü) vardır."
+	}else{
+		document.getElementById("sonucbir").innerHTML = "HTML elemanının alt node'u (düğümü) yoktur."
+	}
+	
+	var kontroliki	=	document.getElementById("iki").hasChildNodes();
+	if(kontroliki==true){
+		document.getElementById("sonuciki").innerHTML = "HTML elemanının alt node'u (düğümü) vardır."
+	}else{
+		document.getElementById("sonuciki").innerHTML = "HTML elemanının alt node'u (düğümü) yoktur."
+	}
+	
+	var kontroluc	=	document.getElementById("uc").hasChildNodes();
+	if(kontroluc==true){
+		document.getElementById("sonucuc").innerHTML = "HTML elemanının alt node'u (düğümü) vardır."
+	}else{
+		document.getElementById("sonucuc").innerHTML = "HTML elemanının alt node'u (düğümü) yoktur."
+	}
+	
+	var kontroldort	=	document.getElementById("dort").hasChildNodes();
+	if(kontroldort==true){
+		document.getElementById("sonucdort").innerHTML = "HTML elemanının alt node'u (düğümü) vardır."
+	}else{
+		document.getElementById("sonucdort").innerHTML = "HTML elemanının alt node'u (düğümü) yoktur."
+	}
+}
+
+</script>
+</body>
+</html>

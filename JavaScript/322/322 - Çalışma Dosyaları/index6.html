@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// Date() 	:	Kullanıldığı değişken içerisinde tarih ve saat bilgilerini depolayarak, depoladığı değeri geriye döndürür. (Tarihe etki edilebilir.)
+
+var zaman		=	new Date();
+document.write(zaman + "<br />");
+var donustur	=	String(zaman);
+document.write(donustur + "<br />");
+var parcala		=	donustur.split(" ");
+document.write(parcala + "<br />");
+var kisagun		=	parcala[0];
+document.write("Kısa Gün : " + kisagun + "<br />");
+var kisaay		=	parcala[1];
+document.write("Kısa Ay : " + kisaay + "<br />");
+var gun			=	parcala[2];
+document.write("Gün : " + gun + "<br />");
+var yil			=	parcala[3];
+document.write("Yıl : " + yil + "<br />");
+var tamsaat		=	parcala[4];
+var parcalasaat	=	tamsaat.split(":");
+var saat		=	parcalasaat[0];
+document.write("Saat : " + saat + "<br />");
+var dakika		=	parcalasaat[1];
+document.write("Dakika : " + dakika + "<br />");
+var saniye		=	parcalasaat[2];
+document.write("Saniye : " + saniye + "<br />");
+var dilim		=	parcala[5];
+document.write("Zaman Dilimi : " + dilim + "<br />");
+
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek()">Pencere Aç</button>
+
+<script type="text/javascript" language="javascript">
+// screenLeft	:	Pencerenin bilgisayar ekranına göre yatay konum koordinatının değerini geriye döndürür.
+// screenTop	:	Pencerenin bilgisayar ekranına göre dikey konum koordinatının değerini geriye döndürür.
+
+function ornek(){
+	var penceremiz	=	open("", "Extra Eğitim", "width=300, height=100, left=50, top=75");
+	var yatay	=	penceremiz.screenLeft;
+	var dikey	=	penceremiz.screenTop;
+	penceremiz.document.write("Yatay Koordinat : " + yatay + "<br />");
+	penceremiz.document.write("Dikey Koordinat : " + dikey);
+}
+
+</script>
+</body>
+</html>

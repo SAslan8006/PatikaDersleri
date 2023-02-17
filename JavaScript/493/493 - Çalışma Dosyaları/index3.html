@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div id="jsdugumu">Javascript</div>
+<div id="cssdugumu">Css</div>
+<div id="htmldugumu">Html</div>
+<div id="phpdugumu">Php</div>
+<br /><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// compareDocumentPosition() 	:	Belge içerisinde bulunan node'ların (düğümlerin) birbilerine göre konum değerlerini elde etmek için kullanılır.
+// 2	:	Belirtilen ilk düğüm, belirtilen ikinci düğümden sonra
+// 4	:	Belirtilen ilk düğüm, belirtilen ikinci düğümden önce
+
+var ilkdugum	=	document.getElementById("phpdugumu");
+var ikincidugum	=	document.getElementById("cssdugumu");
+var islemyap	=	ilkdugum.compareDocumentPosition(ikincidugum);
+document.getElementById("sonuc").innerHTML = islemyap;
+
+</script>
+</body>
+</html>

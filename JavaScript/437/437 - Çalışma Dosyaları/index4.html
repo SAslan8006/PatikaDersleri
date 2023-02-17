@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<form id="birinciform">
+Adı Soyadı : <input type="text" id="birincimetinkutusu" name="metinkutusubir" value="Volkan Alakent">
+Şehir : <input type="text" id="birincisehirkutusu" name="sehirkutusubir" value="İstanbul">
+<button>Kaydet</button>
+</form>
+<br /><br /><br />
+<form id="ikinciform">
+Web Sitesi : <input type="text" id="birinciwebsitesikutusu" name="websitesikutusubir" value="http://www.extraegitim.com">
+E-Mail Adresi : <input type="text" id="birinciemailkutusu" name="emailkutusubir" value="info@extraegitim.com">
+<button>Kaydet</button>
+</form>
+<br /><br /><br />
+<div id="sonucalani"></div>
+
+<script type="text/javascript" language="javascript">
+// forms 	:	Belge içerisindeki form tag'ına (etiketine) sahip elemanların referansını elde etmek için kullanılır. Eleman referansları birden fazla ise her bir eleman döngü ile elde edilebilir.
+
+var sonuc 	=	document.forms.namedItem("birinciform").innerHTML;
+document.getElementById("sonucalani").innerHTML = "Kopya Form :<br />" + sonuc;
+
+</script>
+</body>
+</html>

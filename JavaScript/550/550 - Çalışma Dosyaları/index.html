@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body ononline="bir()" onoffline="iki()">
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// ononline		:	Browser (tarayıcı) sayfayı çevrimdışı modda çalıştırırken, çevrimiçi modda çalıştırmaya başladığında belirtilecek olan fonksiyon çalışır.
+// onoffline	:	Browser (tarayıcı) sayfayı çevrimiçi modda çalıştırırken, çevrimdışı modda çalıştırmaya başladığında belirtilecek olan fonksiyon çalışır.
+
+function bir(){
+	document.getElementById("sonuc").innerHTML 	=	"Sayfa çevrimiçi modda çalıştırılmaya başladı.";
+}
+
+function iki(){
+	document.getElementById("sonuc").innerHTML 	=	"Sayfa çevrimdışı modda çalıştırılmaya başladı.";
+}
+
+</script>
+</body>
+</html>

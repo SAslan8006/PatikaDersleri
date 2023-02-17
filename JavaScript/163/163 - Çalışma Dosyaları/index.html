@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// isArray()	=	Bir değişkenin içeriğinin dizi olup olup olmadığını kontrol eder. Boolean türünde sonuç döndürür. (true - false)
+
+var ornek1	=	"Javascript Eğitim Seti";
+var ornek2	=	["Javascript", "Css", "Php"];
+var ornek3	=	new Array("Javascript", "Css", "Php");
+var ornek4	=	[];
+var ornek5	=	new Array();
+
+var sonuc1	=	Array.isArray(ornek1);
+var sonuc2	=	Array.isArray(ornek2);
+var sonuc3	=	Array.isArray(ornek3);
+var sonuc4	=	Array.isArray(ornek4);
+var sonuc5	=	Array.isArray(ornek5);
+
+document.write("Birinci değişkenin içeriği dizimi ? " + sonuc1 + "<br />");
+document.write("İkinci değişkenin içeriği dizimi ? " + sonuc2 + "<br />");
+document.write("Üçüncü değişkenin içeriği dizimi ? " + sonuc3 + "<br />");
+document.write("Dördüncü değişkenin içeriği dizimi ? " + sonuc4 + "<br />");
+document.write("Beşinci değişkenin içeriği dizimi ? " + sonuc5 + "<br />");
+
+</script>
+</body>
+</html>

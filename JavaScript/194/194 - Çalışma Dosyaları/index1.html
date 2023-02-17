@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// avarage() 	:	Number (sayı) veri türü içerikli dizinin her elemanı üzerinde tek tek olmak üzere çalışır ve tüm elemanların ortalamasını bularak, bulduğu değeri geriye döndürür.
+
+Array.prototype.avarage 	=	function(){
+	var islem	=	0;
+	
+	for(var baslangic = 0; baslangic<this.length; baslangic++){
+		islem	+=	this[baslangic];
+	}
+	var sonuc	=	islem / this.length;
+	return sonuc;
+}
+
+var sayilar		=	[10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150];
+document.write(sayilar + "<br />");
+
+var ortalama	=	sayilar.avarage();
+document.write(ortalama);
+
+</script>
+</body>
+</html>

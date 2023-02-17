@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// filter() 	:	Kendisine parametre olarak verilen fonksiyonu dizideki her eleman üzerine çalıştırır. Fonksiyonun geriye true (doğru / olumlu / geçerli / başarı) değerini döndüren tüm elemanlarını kopyalarak yeni bir dizi oluşturur. Oluşturduğu dizinin değerini geriye döndürür.
+// 1. Parametre :	Her işlem çalıştığında dizinin elemanı.
+// 2. Parametre :	Her işlem çalıştığında dizinin elemanının indis / index değeri.
+// 3. Parametre : 	Tekrarlama işlemindeki diziyi tutan değişkenin referansı.
+
+function bul(eleman, sira, degisken){
+	return eleman % 2 === 0;
+}
+
+var rakamlar	=	new Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+document.write(rakamlar + "<br />");
+
+var ciftsayilar	=	rakamlar.filter(bul);
+document.write(ciftsayilar);
+
+
+</script>
+</body>
+</html>

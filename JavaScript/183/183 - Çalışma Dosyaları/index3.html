@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// find() 		:	Kendisine parametre olarak verilen fonksiyonu dizideki her eleman üzerine tek tek olmak üzere çalıştırır ve dizi içerisinde parametrik olarak verilen değeri arar. İlk eşleşmeyi sağlayan dizi elemanının değerini geriye döndürür.
+// 1. Parametre	:	Her işlemde elde edilen dizi elemanı.
+// 2. Parametre	:	Her işlemde elde edilen dizi elemanının indis / index değeri.
+// 3. Parametre	:	Her tekrar işleminde diziyi tutan değişkenin referansı.
+
+function deneme(eleman, sira, referans){
+	return sira == 3;
+}
+
+var sayilar		=	["Siyah", "Beyaz", "Sarı", "Mavi", "Kırmızı"];
+document.write(sayilar + "<br />");
+
+var sonuc		=	sayilar.find(deneme);
+document.write(sonuc);
+
+</script>
+</body>
+</html>

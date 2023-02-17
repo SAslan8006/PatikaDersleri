@@ -1,0 +1,44 @@
+{
+	"setler":[
+		{
+			"icerik":"Javascript Eğitim Seti",
+			"egitmen":"Volkan",
+			"fiyat":"165,00 TL"
+		},
+		{
+			"icerik":"Html Eğitim Seti",
+			"egitmen":"Hakan",
+			"fiyat":"125,00 TL"
+		},
+		{
+			"icerik":"Css Eğitim Seti",
+			"egitmen":"Onur",
+			"fiyat":"150,00 TL"
+		},
+		{
+			"icerik":"Php Eğitim Seti",
+			"egitmen":"Ümit",
+			"fiyat":"175,00 TL"
+		},
+		{
+			"icerik":"MySql Eğitim Seti",
+			"egitmen":"Serkan",
+			"fiyat":"125,00 TL"
+		},
+		{
+			"icerik":"Java Eğitim Seti",
+			"egitmen":"Levent",
+			"fiyat":"225,00 TL"
+		},
+		{
+			"icerik":"Python Eğitim Seti",
+			"egitmen":"Arif",
+			"fiyat":"215,00 TL"
+		},
+		{
+			"icerik":"PhpMyAdmin Eğitim Seti",
+			"egitmen":"Halil",
+			"fiyat":"85,00 TL"
+		}
+	]
+}

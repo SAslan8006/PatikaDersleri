@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.deneme{
+	width:300px;
+	height:20px;
+	background-color:yellow;
+	border:1px solid black;
+	text-align:center;
+}
+</style>
+</head>
+
+<body>
+<button onclick="ornek()">İşlem Yap</button>
+<br /><br />
+<p id="alan" class="deneme">Javascript Eğitim Seti</p>
+
+<script type="text/javascript" language="javascript">
+// removeAttributeNode() 	:	Belge içerisindeki herhangi bir HTML elemanına getAttributeNode() metodu ile belirtilmiş özellik node'unu (düğümünü), node object'inden (düğüm nesnesinden) kaldırmak / silmek için kullanılır.
+
+function ornek(){
+	var deger				=	document.getElementById("alan");
+	var kaldiralacakdugum	=	deger.getAttributeNode("class");
+	deger.removeAttributeNode(kaldiralacakdugum);
+}
+
+</script>
+</body>
+</html>

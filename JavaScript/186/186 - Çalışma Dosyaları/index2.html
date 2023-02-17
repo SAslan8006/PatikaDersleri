@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// reduceRight() 	:	Kendisine parametre olarak verilen fonksiyonu dizideki her eleman üzerinde sağdan sola tek tek olmak üzere çalıştırır ve tek bir değer oluşturarak, oluşturduğu değeri geriye döndürür.
+// 1. Parametre		:	Dizi içerisinde mevcut değer öncesindeki değerlerin toplamı / birleşimi.
+// 2. Parametre		:	Her işlemde elde edilen dizi elemanı.
+// 3. Parametre		:	Her işlemde elde edilen dizi elemanının indis / index değeri.
+// 4. Parametre		:	Her tekrarda diziyi tutan değişkenin referansı.
+
+function deneme(deger, eleman, sira, degisken){
+	return deger+eleman;
+}
+
+var sayilar		=	new Array(23, 43, 12, 7, 45, 33);
+document.write(sayilar + "<br />");
+
+var sonuc		=	sayilar.reduceRight(deneme);
+document.write(sonuc);
+
+</script>
+</body>
+</html>

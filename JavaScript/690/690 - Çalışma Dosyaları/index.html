@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div id="kapsam" style="width:110px; height:50px; overflow:hidden;">
+    <div id="birincizaralani" style="float:left; padding-right:10px;"><img id="birincizar" src="ZarBos.png" width="50" height="50" /></div>
+    <div id="ikincizaralani" style="float:left;"><img id="ikincizar" src="ZarBos.png" width="50" height="50" /></div>
+</div>
+<br />
+<div id="butonalani" style="width:110px; text-align:center;"><button id="zarat" onclick="yenizar()">Zar At</button></div>
+
+<script type="text/javascript" language="javascript">
+
+function yenizar(){
+	var rastgelesayibir		=	Math.ceil(Math.random() * 6);
+	var rastgelesayiiki		=	Math.ceil(Math.random() * 6);
+	if(rastgelesayibir==1){
+		document.getElementById("birincizar").src = "Zar1.png";
+	}else if(rastgelesayibir==2){
+		document.getElementById("birincizar").src = "Zar2.png";
+	}else if(rastgelesayibir==3){
+		document.getElementById("birincizar").src = "Zar3.png";
+	}else if(rastgelesayibir==4){
+		document.getElementById("birincizar").src = "Zar4.png";
+	}else if(rastgelesayibir==5){
+		document.getElementById("birincizar").src = "Zar5.png";
+	}else if(rastgelesayibir==6){
+		document.getElementById("birincizar").src = "Zar6.png";
+	}
+
+	if(rastgelesayiiki==1){
+		document.getElementById("ikincizar").src = "Zar1.png";
+	}else if(rastgelesayiiki==2){
+		document.getElementById("ikincizar").src = "Zar2.png";
+	}else if(rastgelesayiiki==3){
+		document.getElementById("ikincizar").src = "Zar3.png";
+	}else if(rastgelesayiiki==4){
+		document.getElementById("ikincizar").src = "Zar4.png";
+	}else if(rastgelesayiiki==5){
+		document.getElementById("ikincizar").src = "Zar5.png";
+	}else if(rastgelesayiiki==6){
+		document.getElementById("ikincizar").src = "Zar6.png";
+	}
+}
+
+</script>
+</body>
+</html>

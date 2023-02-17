@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+ul{
+	margin:0; margin-bottom:5px;
+}
+li{
+	display:inline; margin:0; height:22px; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:50px; color:red; border:1px solid red;
+}
+div{
+	width:679px; height:250px; margin-left:40px; padding:5px; border:1px solid red;
+}
+</style>
+</head>
+
+<body>
+<ul>
+	<li onclick="goster('birincialan')" style="cursor:pointer;">Javascript Eğitim Seti</li>
+	<li onclick="goster('ikincialan')" style="cursor:pointer;">Php Eğitim Seti</li>
+	<li onclick="goster('ucuncualan')" style="cursor:pointer;">Html Eğitim Seti</li>
+	<li onclick="goster('dorduncualan')" style="cursor:pointer;">Css Eğitim Seti</li>
+</ul>
+
+<div id="birincialan">Javascript Tab'ının İçeriği</div>
+
+<div id="ikincialan" style="display:none;">Php Tab'ının İçeriği</div>
+
+<div id="ucuncualan" style="display:none;">Html Tab'ının İçeriği</div>
+
+<div id="dorduncualan" style="display:none;">Css Tab'ının İçeriği</div>
+
+<script type="text/javascript" language="javascript">
+
+function tumunugizle(){
+	var alanlar		=	document.getElementsByTagName("DIV");
+	var uzunluk		=	alanlar.length;
+	for(var baslangic = 0; baslangic<uzunluk; baslangic++){
+		alanlar[baslangic].style.display = "none";
+	}
+}
+
+function goster(deger){
+	tumunugizle();
+	document.getElementById(deger).style.display = "block";
+}
+
+</script>
+</body>
+</html>

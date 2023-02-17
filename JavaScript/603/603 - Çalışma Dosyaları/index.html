@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek(event)">Tıkla</button>
+
+<script type="text/javascript" language="javascript">
+// cancelable 	:	Belge içerisinde tanımlı event'ın (olayın) iptal edilebilir olup olmadığını kontrol ederek boolean (mantıksal) veri türünde sonucu geriye döndürür.
+
+function ornek(event){
+	var sonuc	=	event.cancelable;
+	if(sonuc==true){
+		alert("Event (Olay) iptal edilebilir");
+	}else{
+		alert("Event (Olay) iptal edilemez");
+	}
+}
+
+</script>
+</body>
+</html>

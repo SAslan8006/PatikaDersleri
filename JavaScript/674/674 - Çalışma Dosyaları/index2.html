@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek()">Eğitim Setlerini Listele</button>
+<br /><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+function ornek(){
+	var istek	=	new XMLHttpRequest();
+	istek.onreadystatechange = function(){
+		if(this.readyState==4 && this.status==200){
+			var metin			=	"";
+			var xmldegerleri	=	istek.responseXML;
+			var etiket			=	xmldegerleri.getElementsByTagName("SETLER");
+			var etiketsayisi	=	etiket.length;
+			for(var baslangic = 0; baslangic<etiketsayisi; baslangic++){
+				metin	+=	etiket[baslangic].getElementsByTagName("ICERIK")[0].childNodes[0].nodeValue + "<br />" + 
+							etiket[baslangic].getElementsByTagName("EGITMEN")[0].childNodes[0].nodeValue + "<br />" + 
+							etiket[baslangic].getElementsByTagName("FIYAT")[0].childNodes[0].nodeValue + "<br /><br /><br />";
+			}
+			document.getElementById("sonuc").innerHTML = metin;
+		}else{
+			document.getElementById("sonuc").innerHTML = "İstek veya Yanıt anında hata oluştu.";
+		}
+	};
+	istek.open("GET", "dosya.xml", true);
+	istek.send();
+}
+</script>
+</body>
+</html>

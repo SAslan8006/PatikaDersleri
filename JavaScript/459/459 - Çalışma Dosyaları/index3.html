@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div>Volkan Alakent</div>
+
+<script type="text/javascript" language="javascript">
+// setNamedItem() 	:	Belge içerisindeki HTML elemanına özellik node'u (düğüme) ve değeri eklemek için kullanılır.
+
+var islem	=	document.getElementsByTagName("DIV")[0];
+var ekle	=	document.createAttribute("dir");
+ekle.value 	=	"rtl";
+islem.attributes.setNamedItem(ekle);
+
+</script>
+</body>
+</html>

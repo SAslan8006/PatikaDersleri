@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// exec() 	:	Kendisine parametre olarak verilen değişken içeriğinde düzenli ifade ile aranan değerin eşleşmesi durumunda eşleşmeyi sağlayan değişken içeriği değerinden yeni bir dizi oluşturularak, oluşturduğu dizi değerini geriye döndürür.
+// g ayarı kullanılacak olur ise exec() metodu her çağrıldığında lastIndex değeri otomatik olarak eşleşen değerden bir sonraki indis / index değerini alacaktır.
+
+var metin		=	"volkan Volkan VOLKAN";
+var ifade		=	new RegExp("volkan", "i");
+var sonucbir	=	ifade.exec(metin); // lastIndex değeri : 0
+document.write(sonucbir + "<br />");
+var sonuciki	=	ifade.exec(metin); // lastIndex değeri : 0
+document.write(sonuciki + "<br />");
+var sonucuc		=	ifade.exec(metin); // lastIndex değeri : 0
+document.write(sonucuc + "<br />");
+
+</script>
+</body>
+</html>

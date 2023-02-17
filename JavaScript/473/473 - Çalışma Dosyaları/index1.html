@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div id="kimlik" contenteditable="true">Javascript Eğitim Seti</div>
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// isContentEditable 	:	Belge içerisindeki herhangi bir HTML elemanının düzenlenebilir olup olmadığını kontrol ederek, boolean (mantıksal) veri türünde sonucu geriye döndürür.
+
+var sonuc	=	document.getElementById("kimlik").isContentEditable;
+if(sonuc==true){
+	document.getElementById("sonuc").innerHTML	=	"İlgili HTML elemanının düzenlenebilirlik özelliği vardır.";
+}else{
+	document.getElementById("sonuc").innerHTML	=	"İlgili HTML elemanının düzenlenebilirlik özelliği yoktur.";
+}
+
+</script>
+</body>
+</html>

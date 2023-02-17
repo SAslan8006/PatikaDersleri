@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<iframe src="cerceve.html" style="width:500px; height:500px;"></iframe>
+<iframe src="cerceve.html" style="width:500px; height:500px;"></iframe>
+<br /><br />
+<button onclick="ornek()">Test</button>
+<br /><br />
+<script type="text/javascript" language="javascript">
+// adoptNode() 		:	Belge içerisine başka bir belgeden node (düğüm) eklemek için kullanılır. Eklenecek olan node'un (düğümün) varsa tüm alt node'larıda (düğümleride) işleme dahil edilerek ilgili tüm node'lar (düğümler) diğer belgeden kaldırılır.
+
+function ornek(){
+	var cerceve		=	document.getElementsByTagName("IFRAME")[1];
+	var alan		=	cerceve.contentWindow.document.getElementsByTagName("DIV")[1];
+	var sonuc		=	document.adoptNode(alan);
+	document.body.appendChild(sonuc);
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+
+function bilgiler(sayibir, sayiiki, sayiuc, sayidort, sayibes){
+	this.degerbir 		=	sayibir;
+	this.degeriki 		=	sayiiki;
+	this.degeruc 		=	sayiuc;
+	this.degerdort 		=	sayidort;
+	this.degerbes 		=	sayibes;
+}
+
+bilgiler.prototype.islem 	=	function(){
+	return 	this.degerbir + this.degeriki + this.degeruc + this.degerdort + this.degerbes;
+}
+
+var sonuc	=	new bilgiler(10, 20, 30, 40, 50);
+
+var yazdir	=	sonuc.islem();
+document.write(yazdir);
+
+</script>
+</body>
+</html>

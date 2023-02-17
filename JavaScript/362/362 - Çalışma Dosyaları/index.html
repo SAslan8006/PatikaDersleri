@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// toISOString() 	:	Kullanıldığı değişken içeriğine atanmış olan tarih ve saat bilgilerini ISO standartını kullanarak string (metin) veri türünde düz bir metne dönüştürerek oluşturduğu değeri geriye döndürür.
+// ISO				: 	International standarts organization 		:	Uluslararası standartlar organizasyonu
+
+var zaman			=	new Date();
+var zamanyapisi		=	typeof zaman;
+document.write(zamanyapisi + "<br />");
+document.write(zaman + "<br /><br />");
+
+var islemyap		=	zaman.toISOString();
+var islemyapyapisi	=	typeof islemyap;
+document.write(islemyapyapisi + "<br />");
+document.write(islemyap);
+
+</script>
+</body>
+</html>

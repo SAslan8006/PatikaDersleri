@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek()">Bilgileri Getir</button>
+<br /><br />
+<div id="sonuc">Verileri Elde Etmek İçin Yukarıdaki Butona Tıklayınız</div>
+
+<script type="text/javascript" language="javascript">
+function ornek(){
+	var istek	=	new XMLHttpRequest();
+	istek.onreadystatechange = function(){
+		if(this.readyState==4 && this.status==200){
+			var jsondegerleri	=	JSON.parse(this.responseText);
+			var metinsonucu				=	"";
+			var setdegerleri			=	jsondegerleri.setler;
+			var setdegerleriuzunlugu	=	setdegerleri.length;
+				for(var baslangic = 0; baslangic<setdegerleriuzunlugu; baslangic++){
+					metinsonucu		+=	"Eğitim Seti Adı : " + setdegerleri[baslangic].icerik + "<br />Eğitimci : " + setdegerleri[baslangic].egitmen + "<br />Fiyat : " + setdegerleri[baslangic].fiyat + "<br /><br /><br />";
+				}
+			
+			document.getElementById("sonuc").innerHTML = metinsonucu;
+		}else{
+			document.getElementById("sonuc").innerHTML = "Bilmeyen Bir Hata Oluştu!";
+		}
+	};
+	istek.open("GET", "veri.json", true);
+	istek.send();
+}
+</script>
+</body>
+</html>

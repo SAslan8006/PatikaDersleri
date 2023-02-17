@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+
+function bilgi(isim, soyisim, yas, meslek, sehir){
+	this.isimozelligi 		=	isim;
+	this.soyisimozelligi 	=	soyisim;
+	this.yasozelligi 		=	yas;
+	this.meslekozelligi 	=	meslek;
+	this.sehirozelligi 		=	sehir;
+	this.islem 				=	function(yenisim, yeniyas, yenisehir){
+		this.isimozelligi 		=	yenisim;
+		this.yasozelligi 		=	yeniyas;
+		this.sehirozelligi 		=	yenisehir;
+	}
+}
+
+var sonuc	=	new bilgi("Hakan", "Alakent", "36", "Bilgisayar Yazılımcısı", "İstanbul");
+sonuc.islem("Volkan", 37, "İzmir");
+
+document.write(sonuc.isimozelligi + "<br />");
+document.write(sonuc.soyisimozelligi + "<br />");
+document.write(sonuc.yasozelligi + "<br />");
+document.write(sonuc.meslekozelligi + "<br />");
+document.write(sonuc.sehirozelligi + "<br />");
+
+</script>
+</body>
+</html>

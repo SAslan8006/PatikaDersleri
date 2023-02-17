@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornekbir()">Birinci Listeye Ekle</button>
+<button onclick="ornekiki()">İkinci Listeye Ekle</button>
+<br /><br /><br /><br />
+<ul id="bir">
+	<li>Javascript</li>
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>PHP</li>
+</ul>
+<br /><br /><br /><br />
+<ul id="iki">
+	<li>Photoshop</li>
+	<li>Corel</li>
+	<li>Paint</li>
+	<li>Paint.NET</li>
+</ul>
+
+<script type="text/javascript" language="javascript">
+// appendChild() 	:	Bir node'u (düğümü) belge içerisinde belirtilecek olan herhangi bir elemanın içerisine en sonda olmak üzere eklemek için kullanılır.
+
+function ornekbir(){
+	var elemanolustur	=	document.createElement("LI");
+	var icerikolustur	=	document.createTextNode("XML");
+	elemanolustur.appendChild(icerikolustur);
+	document.getElementById("bir").appendChild(elemanolustur);
+}
+
+function ornekiki(){
+	var elemanolustur	=	document.createElement("LI");
+	var icerikolustur	=	document.createTextNode("IrfanView");
+	elemanolustur.appendChild(icerikolustur);
+	document.getElementById("iki").appendChild(elemanolustur);
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<span id="bir" tabindex="1"><span id="sonucbir"></span> Javascript</span>
+<span id="iki" tabindex="3"><span id="sonuciki"></span> HTML</span>
+<span id="uc" tabindex="2"><span id="sonucuc"></span> CSS</span>
+
+<script type="text/javascript" language="javascript">
+// tabIndex 	:	Belge içerisindeki herhangi bir HTML elemanının tabindex değerini elde etmek veya ayarlamak için kullanılır.
+
+var degerbir	=	document.getElementById("bir").tabIndex;
+document.getElementById("sonucbir").innerHTML = "(" + degerbir + ")";
+
+var degeriki	=	document.getElementById("iki").tabIndex;
+document.getElementById("sonuciki").innerHTML = "<br />(" + degeriki + ")";
+
+var degeruc	=	document.getElementById("uc").tabIndex;
+document.getElementById("sonucuc").innerHTML = "<br />(" + degeruc + ")";
+
+</script>
+</body>
+</html>

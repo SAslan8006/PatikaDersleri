@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// \0 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, sadece Null (boş) karakteri ile eşleşmesi gerektiğini belirtmek için kullanılır.
+// 16 bit Null değeri : \u0000
+
+var metin	=	"Javascript \u0000 eğitim seti";
+var ifade	=	new RegExp("\\0");
+var sonuc	=	ifade.test(metin);
+document.write(sonuc);
+
+</script>
+</body>
+</html>

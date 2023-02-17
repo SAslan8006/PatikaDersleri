@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// valueOf() 	:	Nesnenin temel değerini elde etmek için kullanılır.
+
+function islem(sayi){
+	this.deger 	=	sayi;
+}
+
+islem.prototype.valueOf 	=	function(){
+	return this.deger;
+}
+
+var nesnemiz	=	new islem(50);
+var sonuc		=	nesnemiz.valueOf();
+document.write(sonuc);
+
+</script>
+</body>
+</html>

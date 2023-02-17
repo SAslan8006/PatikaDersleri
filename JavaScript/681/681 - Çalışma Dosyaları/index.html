@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+var sira	=	1;
+var metin1	=	"Javascript - Extra Eğitim";
+var metin2	=	"Php - Extra Eğitim";
+var metin3	=	"Html - Extra Eğitim";
+var metin4	=	"Css - Extra Eğitim";
+var metin5	=	"Java - Extra Eğitim";
+var metin6	=	"Xml - Extra Eğitim";
+
+function ornek(){
+	if(sira==1){
+		window.status 	=	metin1;
+		document.title 	=	metin1;
+		sira++;
+	}else if(sira==2){
+		window.status 	=	metin2;
+		document.title 	=	metin2;
+		sira++;
+	}else if(sira==3){
+		window.status 	=	metin3;
+		document.title 	=	metin3;
+		sira++;
+	}else if(sira==4){
+		window.status 	=	metin4;
+		document.title 	=	metin4;
+		sira++;
+	}else if(sira==5){
+		window.status 	=	metin5;
+		document.title 	=	metin5;
+		sira++;
+	}else if(sira==6){
+		window.status 	=	metin6;
+		document.title 	=	metin6;
+		sira 	=	1;
+	}
+	window.setTimeout("ornek();", 2000);	
+}
+ornek();
+
+</script>
+</body>
+</html>

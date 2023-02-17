@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<textarea id="alan" style="width:500px; height:100px;" onkeypress="ornek()"></textarea>
+<br />
+<div>Kullanılan Karakter Sayısı : <span id="kullanilankarakter">0</span></div>
+<div >Kalan Karakter Sayısı : <span id="kalankarakter">250</span></div>
+
+<script type="text/javascript" language="javascript">
+var kullanilan		=	0;
+var maksimum		=	249;
+
+function ornek(){
+	var baglan			=	document.getElementById("alan");
+	var uzunluk			=	baglan.value.length;
+	if(uzunluk>=maksimum){
+		var deger		=	baglan.value;
+		var olustur		=	deger.substr(0, maksimum);
+		document.getElementById("alan").value	=	olustur;
+		document.getElementById("kullanilankarakter").innerHTML		=	maksimum + 1;
+		document.getElementById("kalankarakter").innerHTML			=	0;
+	}else{
+		var deger		=	baglan.value;
+		var olustur		=	deger.substr(0, maksimum);
+		document.getElementById("alan").value	=	olustur;
+		document.getElementById("kullanilankarakter").innerHTML		=	uzunluk + 1;
+		document.getElementById("kalankarakter").innerHTML			=	(maksimum + 1) - (uzunluk + 1);
+	}
+}
+</script>
+</body>
+</html>

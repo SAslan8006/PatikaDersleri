@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div onmousedown="ornek()">Bu Alan Üzerindeyken Mouse'unuzun Herhangi Bir Tuşuna veya Tuşlarına Basınız.</div>
+<div id="sonucalani"></div>
+
+<script type="text/javascript" language="javascript">
+// buttons		:	Belge içerisindeki mouse (fare) ile tıklama event'ı (olayı) gerçekleştiğinde mouse'un (farenin) hangi tuşuna veya tuşlarına basıldığı değerini geriye döndürür.
+/*
+1	:	Sol Tuş
+2	:	Sağ Tuş
+3	:	Sol Tuş ve Aynı Anda Sağ Tuş
+4	:	Orta Tuş & Tekerlek
+5	:	Sol Tuş ve Aynı Anda Orta Tuş & Tekerlek
+6	:	Sağ Tuş ve Aynı Anda Orta Tuş & Tekerlek
+8	:	4. Tuş
+16	:	5. Tuş
+*/
+
+function ornek(){
+	var sonuc	=	event.buttons;
+	if(sonuc==1){
+		document.getElementById("sonucalani").innerHTML		=	"Mouse'un sol tuşuna basıldı";
+	}else if(sonuc==2){
+		document.getElementById("sonucalani").innerHTML		=	"Mouse'un sağ tuşuna basıldı";
+	}else if(sonuc==3){
+		document.getElementById("sonucalani").innerHTML		=	"Mouse'un sol tuşuna ve aynı anda sağ tuşuna basıldı";
+	}else if(sonuc==4){
+		document.getElementById("sonucalani").innerHTML		=	"Mouse'un orta tuşuna & tekerlek tuşuna basıldı";
+	}else if(sonuc==5){
+		document.getElementById("sonucalani").innerHTML		=	"Mouse'un sol tuşuna ve aynı anda orta tuşuna & tekerlek tuşuna basıldı";
+	}else if(sonuc==6){
+		document.getElementById("sonucalani").innerHTML		=	"Mouse'un sağ tuşuna ve aynı anda orta tuşuna & tekerlek tuşuna basıldı";
+	}else if(sonuc==8){
+		document.getElementById("sonucalani").innerHTML		=	"Mouse'un 4. tuşuna basıldı";
+	}else if(sonuc==16){
+		document.getElementById("sonucalani").innerHTML		=	"Mouse'un 5. tuşuna basıldı";
+	}else{
+		document.getElementById("sonucalani").innerHTML		=	sonuc;
+	}
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// lastIndex 	:	Değişken içeriğinde düzenli ifade ile aranan değerin eşleşmesi durumunda ilk eşleşmeyi sağlayan değişken içeriğinin bir sonraki indis / index değerini geriye döndürür.
+
+var metin	=	"Dünyada ve Türkiye'de en yaygın olarak kullanılan Script dili Javascript'tir.";
+var ifade	=	/script/gi;
+
+while(ifade.test(metin)==true){
+	var sonuc	=	ifade.lastIndex;
+	document.write(sonuc + "<br />");
+}
+
+</script>
+</body>
+</html>

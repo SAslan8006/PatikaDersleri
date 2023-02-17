@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div style="background-color:#F1F1F1; border:1px solid black; margin:10px; padding:10px; width:250px; height:250px;" onmouseenter="ornek()"><span id="sonucalani">Bu Alana Mouse İle Geliniz</span></div>
+
+<script type="text/javascript" language="javascript">
+// onmouseenter 	:	Belge içerisindeki herhangi bir elemanın mouse (fare) ile kapsama alanına giriş yapıldığında belirtilecek olan fonksiyon çalışır.
+
+function ornek(){
+	document.getElementById("sonucalani").innerHTML = "Alanın Kapsama Alanına Gelindi";
+	document.getElementById("sonucalani").style.fontSize = "25px";
+}
+
+</script>
+</body>
+</html>

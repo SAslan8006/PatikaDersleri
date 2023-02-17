@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div id="ornek" name="test" style="border:1px dotted red;">Volkan Alakent Javascript Eğitim Seti</div>
+
+<script type="text/javascript" language="javascript">
+// getNamedItem() 	:	Belge içerisindeki HTML elemanına eklenmiş olan özellik node'u (düğümü) referansını elde etmek için kullanılır.
+
+var islem	=	document.getElementsByTagName("DIV")[0];
+var sonuc	=	islem.attributes.getNamedItem("style").value;
+alert(sonuc);
+
+</script>
+</body>
+</html>

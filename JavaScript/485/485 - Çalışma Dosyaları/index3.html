@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div id="kimlik"><div>Volkan Alakent</div><div>Javascript</div><div>Eğitim Seti</div></div><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// lastChild	:	Belge içerisindeki herhangi bir HTML elemanının içerisindeki son alt node'u (düğümü) elde etmek için kullanılır.
+
+var deger	=	document.getElementById("kimlik").lastChild.nodeName;
+document.getElementById("sonuc").innerHTML = deger;
+
+</script>
+</body>
+</html>

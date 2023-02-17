@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+body{
+	margin:0;
+}
+.bir{
+	background-color:#F1F1F1;
+	text-align:center;
+	width:100%;
+	height:500px;
+	border:1px dotted black;
+}
+</style>
+</head>
+
+<body>
+<div class="bir" onmousemove="ornek()">Mouse'u (fareyi) bu alan içerisinde gezdiriniz.</div>
+<div id="sonucalani"></div>
+<script type="text/javascript" language="javascript">
+// pageX 	:	Belge içerisindeki herhangi bir mouse (fare) event'ı (olayı) gerçekleştiğinde browser (tarayıcı) penceresine / sayfaya göre mouse'un (farenin) yatay konum koordinatının değerini geriye döndürür.
+// pageY 	:	Belge içerisindeki herhangi bir mouse (fare) event'ı (olayı) gerçekleştiğinde browser (tarayıcı) penceresine / sayfaya göre mouse'un (farenin) dikey konum koordinatının değerini geriye döndürür.
+
+function ornek(){
+	var xdegerinibul	=	event.pageX;
+	var ydegerinibul	=	event.pageY;
+	document.getElementById("sonucalani").innerHTML = "Mosu'un Koordinatı : (X) " + xdegerinibul + " (Y) " + ydegerinibul;
+}
+
+</script>
+</body>
+</html>

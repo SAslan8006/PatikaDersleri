@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.ornek{
+	background-color:yellow;
+	width:250px;
+	height:130px;
+	border:1px dotted black;
+	padding:10px;
+	padding-top:100px;
+	text-align:center;
+}
+.ornekiki{
+	background-color:white;
+	padding:25px;
+}
+</style>
+</head>
+
+<body>
+<div id="kapsamalani" class="ornek" onmouseenter="demobir()" onmouseleave="demoiki()"><span id="sonucalani" class="ornekiki">Javascript</span></div>
+<br /><br />
+<div id="islemsonucu"></div>
+<script type="text/javascript" language="javascript">
+// onmouseleave 	:	Belge içerisindeki herhangi bir elemanın mouse (fare) ile kapsama alanından çıkış yapıldığında belirtilecek olan fonksiyon çalışır.
+
+function demobir(){
+	document.getElementById("islemsonucu").innerHTML = "Kapsama Alanına Giriş Yapıldı!";
+}
+
+function demoiki(){
+	document.getElementById("islemsonucu").innerHTML = "Kapsama Alanından Çıkış Yapıldı!";
+}
+
+</script>
+</body>
+</html>

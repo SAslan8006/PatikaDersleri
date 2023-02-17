@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<!-- Deneme İçin Gizli HTML Açıklama Alanı -->
+<p id="ornek">Volkan Alakent Javascript Eğitim Seti</p>
+<br /><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// parentNode	:	Belge içerisindeki herhangi bir node'un (düğümün) bir üst node'unu (düğümünü) elde etmek için kullanılır.
+
+var deger	=	document.getElementById("ornek").parentNode;
+document.getElementById("sonuc").innerHTML = deger;
+
+</script>
+</body>
+</html>

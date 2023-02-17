@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+
+function bir(a1, a2){
+	function iki(b1, b2){
+		function uc(c1, c2){
+			return a1 + a2 + b1 + b2 + c1 + c2;
+		}
+		return uc;
+	}
+	return iki;
+}
+
+var degisken1	=	5;
+var degisken2	=	10;
+var degisken3	=	87;
+var degisken4	=	54;
+var degisken5	=	9;
+var degisken6	=	18;
+
+var sonuc	=	bir(degisken1, degisken2)(degisken3, degisken4)(degisken5, degisken6);
+document.write(sonuc);
+
+</script>
+</body>
+</html>

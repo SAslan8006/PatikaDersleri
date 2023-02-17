@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.ornek{
+	width:300px;
+	height:100px;
+	border:1px solid black;
+	background-color:red;
+	margin-top:100px;
+	margin-left:100px;
+}
+</style>
+</head>
+
+<body style="margin:0;">
+<br /><br /><br /><br />
+<div id="alan" class="ornek"></div>
+<br /><br />
+<div id="sonucbir"></div>
+<div id="sonuciki"></div>
+
+<script type="text/javascript" language="javascript">
+// offsetLeft 		:	Belge içerisindeki herhangi bir HTML elemanının sol üst köşesi ile browser (tarayıcı) penceresinin sol üst köşesi arasındaki yatay uzaklık farkı değerini elde etmek için kullanılır.
+// offsetTop 		:	Belge içerisindeki herhangi bir HTML elemanının sol üst köşesi ile browser (tarayıcı) penceresinin sol üst köşesi arasındaki dikey uzaklık farkı değerini elde etmek için kullanılır.
+
+var degerbir	=	document.getElementById("alan").offsetLeft;
+var degeriki	=	document.getElementById("alan").offsetTop;
+document.getElementById("sonucbir").innerHTML = "Yatay uzaklık farkı : " + degerbir + "px";
+document.getElementById("sonuciki").innerHTML = "Dikey uzaklık farkı : " + degeriki + "px";
+
+</script>
+</body>
+</html>

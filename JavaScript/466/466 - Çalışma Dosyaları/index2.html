@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.bir{
+	color:red;
+}
+.iki{
+	background-color:yellow;
+}
+.uc{
+	width:300px;
+	height:25px;
+	padding-top:5px;
+	text-align:center;
+	border:1px dotted black;
+}
+</style>
+</head>
+
+<body>
+<button onclick="ornek()">İşlem Yap</button>
+<br /><br />
+<div id="alan" class="bir iki uc">Javascript Eğitim Seti</div>
+<br /><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// classList 	:	Belge içerisindeki herhangi bir HTML elemanına atanmış olan class listesi isimlerini elde etmek veya ayarlamak için kullanılır.
+/*
+item 			:	Sınıf seçicisinin adını döndürür.
+length			:	Sınıf seçicisinin sayısını döndürür.
+add				:	Sınıf seçicisi ekler.
+remove			:	Sınıf seçicisi kaldırır / siler.
+toggle			:	Sınıf seçicisi ekler veya kaldırır.
+contains		:	Sınıf seçicisi arar.
+*/
+
+function ornek(){
+	var degerbir		=	document.getElementById("alan").classList.item(0);
+	document.getElementById("sonuc").innerHTML = "İlgili elemanın 1. class adı : " + degerbir + "<br />";
+	var degeriki		=	document.getElementById("alan").classList.item(1);
+	document.getElementById("sonuc").innerHTML += "İlgili elemanın 2. class adı : " + degeriki + "<br />";
+	var degeruc			=	document.getElementById("alan").classList.item(2);
+	document.getElementById("sonuc").innerHTML += "İlgili elemanın 3. class adı : " + degeruc;
+}
+
+</script>
+</body>
+</html>

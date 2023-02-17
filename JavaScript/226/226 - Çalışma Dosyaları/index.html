@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// isSafeInteger() 		:	Kendisine parametrik olarak verilen değişken içeriğinin güvenli bir tam sayı olup olmadığını kontrol ederek, boolean (mantıksal) veri türünde sonucu geriye döndürür.
+
+var degerbir	=	5;
+var degeriki	=	3.22;
+var degeruc		=	1.1307794501951706e+23;
+
+var sonucbir	=	Number.isSafeInteger(degerbir);
+var sonuciki	=	Number.isSafeInteger(degeriki);
+var sonucuc		=	Number.isSafeInteger(degeruc);
+
+document.write(degerbir + "<br />");
+document.write(sonucbir + "<br /><br />");
+
+document.write(degeriki + "<br />");
+document.write(sonuciki + "<br /><br />");
+
+document.write(degeruc + "<br />");
+document.write(sonucuc);
+
+</script>
+</body>
+</html>

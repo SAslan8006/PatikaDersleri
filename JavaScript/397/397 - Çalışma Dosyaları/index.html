@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// propertyIsEnumerable 	:	Bir nesnenin parametrik olarak girilen özelliğinin kullanılıp kullanılmadığını ve numaralandırılabilir olup olmadığını kontrol ederek boolean (mantıksal) veri türünde sonucu geriye döndürür.
+
+var bilgiler 	=	{
+	isim:"Volkan",
+	soyisim:"Alakent",
+	yas:36
+};
+
+var isimyaz				=	bilgiler.isim;
+var soyisimyaz			=	bilgiler.soyisim;
+var yasyaz				=	bilgiler.yas;
+var sehiryaz			=	bilgiler.sehir;
+
+var isimkontrolet		=	bilgiler.propertyIsEnumerable("isim");
+var soyisimkontrolet	=	bilgiler.propertyIsEnumerable("soyisim");
+var yaskontrolet		=	bilgiler.propertyIsEnumerable("yas");
+var sehirkontrolet		=	bilgiler.propertyIsEnumerable("sehir");
+
+document.write(isimyaz + "<br />");
+document.write(isimkontrolet + "<br /><br />");
+
+document.write(soyisimyaz + "<br />");
+document.write(soyisimkontrolet + "<br /><br />");
+
+document.write(yasyaz + "<br />");
+document.write(yaskontrolet + "<br /><br />");
+
+document.write(sehiryaz + "<br />");
+document.write(sehirkontrolet);
+
+</script>
+</body>
+</html>

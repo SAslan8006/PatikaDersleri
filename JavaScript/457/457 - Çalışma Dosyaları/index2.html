@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div id="deneme">Volkan Alakent Javascript Eğitim Seti</div>
+<div id="sonucalani"></div>
+<script type="text/javascript" language="javascript">
+// specified 	:	Belge içerisindeki HTML elemanına herhangi bir özelliğin eklenip eklenmediği referansını boolean (mantıksal) veri türünde elde etmek için kullanılır.
+
+var islem	=	document.getElementsByTagName("DIV")[0];
+var sonuc	=	islem.getAttributeNode("name").specified;
+document.getElementById("sonucalani").innerHTML = sonuc;
+
+</script>
+</body>
+</html>

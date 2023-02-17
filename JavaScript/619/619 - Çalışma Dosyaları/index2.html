@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek()">Tıkla</button><br /><br />
+<div id="islemsonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// confirm() 		:	Kullınıcı işlemlerinde onay penceresi oluşturmak için kullanılır.
+
+function ornek(){
+	var onay	=	confirm("Onay veriniz veya iptal ediniz");
+	if(onay==true){
+		document.getElementById("islemsonuc").innerHTML = "Onay verildi";
+	}else{
+		document.getElementById("islemsonuc").innerHTML = "İptal edildi.";
+	}	
+}
+
+</script>
+</body>
+</html>

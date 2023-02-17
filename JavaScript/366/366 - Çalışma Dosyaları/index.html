@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// toTimeString() 		:	Kullanıldığı değişken içeriğine atanmış olan tarih ve saat bilgilerinin sadece saat kısmını alarak string veri türünde düz bir metne dönüştürerek oluşturduğu değeri geriye döndürür.
+
+var zaman			=	new Date();
+var zamanvtur		=	typeof zaman;
+document.write(zamanvtur + "<br />");
+document.write(zaman + "<br /><br />");
+
+var sonuc			=	zaman.toTimeString();
+var sonucvtur		=	typeof sonuc;
+document.write(sonucvtur + "<br />");
+document.write(sonuc);
+
+</script>
+</body>
+</html>

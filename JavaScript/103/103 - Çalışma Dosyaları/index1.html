@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// unescape() 	:	Değişken içerisindeki metnin özel karakterlerinin Unicode (evrensel kod) kodlamasına dönüştürülmüş karakterlerini çözerek değeri geriye döndürür.
+/*
+Kodlamaya dahil edilmeyen karakterler:
+0 1 2 3 4 5 6 7 8 9
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+@ - _ . * + /
+*/
+
+var deger		=	"Javascript eğitim seti";
+document.write(deger + "<br />");
+var degersonuc	=	escape(deger);
+document.write(degersonuc + "<br /><br />");
+
+var geridondur	=	unescape(degersonuc);
+document.write(geridondur);
+
+</script>
+</body>
+</html>

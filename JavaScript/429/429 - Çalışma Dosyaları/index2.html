@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek()">TIKLA</button>
+<div id="sonucalani"></div>
+
+<script type="text/javascript" language="javascript">
+// readyState 	:	Belge içeriğinin browser (tarayıcı) tarafından yüklenme durumu değeri referansını elde etmek için kullanılır.
+
+function ornek(){
+	var sonuc	=	document.readyState;
+	document.getElementById("sonucalani").innerHTML = sonuc;
+}
+
+</script>
+</body>
+</html>

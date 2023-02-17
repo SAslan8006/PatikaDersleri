@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body onhashchange="yaz()">
+<button onclick="baglantidegistir()">Tıkla</button>
+<div id="eski"></div>
+<div id="yeni"></div>
+
+<script type="text/javascript" language="javascript">
+// oldURL 	:	Sayfa URL'inin (Uniform resource locator) (nizami kaynak bulucu) bağlantı bölümünde değişiklik olduğundaki eski URL (Uniform resource locator) (nizami kaynak bulucu) adresini geriye döndürür.
+// newURL 	:	Sayfa URL'inin (Uniform resource locator) (nizami kaynak bulucu) bağlantı bölümünde değişiklik olduğundaki yeni URL (Uniform resource locator) (nizami kaynak bulucu) adresini geriye döndürür.
+
+function baglantidegistir(){
+	location.hash 	=	"Javascript-Egitim-Seti";
+}
+
+function yaz(){
+	var eskiadres	=	event.oldURL;
+	var yeniadres	=	event.newURL;
+	document.getElementById("eski").innerHTML =	"Eski URL Değeri : " + eskiadres;
+	document.getElementById("yeni").innerHTML =	"Yeni URL Değeri : " + yeniadres;
+}
+
+</script>
+</body>
+</html>

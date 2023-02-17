@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// findIndex() 	:	Kendisine parametre olarak verilen fonksiyonu dizideki her eleman üzerine tek tek olmak üzere çalıştırır ve dizi içerisinde parametrik olarak verilen değeri arar. İlk eşleşmeyi sağlayan dizi elemanının indis / index değerini geriye döndürür.
+// 1. Parametre	:	Her işlemde elde edilen dizi elemanı.
+// 2. Parametre	:	Her işlemde elde edilen dizi elemanının indis / index değeri.
+// 3. Parametre	:	Her tekrarda diziyi tutan değişkenin referansı.
+
+function deneme(eleman, sira, referans){
+	return eleman == 50;
+}
+
+var rakamlar		=	[10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+document.write(rakamlar + "<br />");
+
+var sonuc		=	rakamlar.findIndex(deneme);
+document.write(sonuc);
+
+</script>
+</body>
+</html>

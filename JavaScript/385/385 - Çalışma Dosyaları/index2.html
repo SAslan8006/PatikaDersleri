@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+
+var bilgiler	=	{
+	isim:"Volkan",
+	soyisim:"Alakent",
+	dogumtarihi:1980
+};
+
+var isimdegeri			=	bilgiler.isim;
+var soyisimdegeri		=	bilgiler.soyisim;
+var dogumtarihidegeri	=	bilgiler.dogumtarihi;
+
+document.write(isimdegeri + "<br />");
+document.write(soyisimdegeri + "<br />");
+document.write(dogumtarihidegeri + "<br />");
+
+bilgiler.ekdateylar 	=	function(){
+	document.write("İşlem Tamamlandı");
+};
+
+bilgiler.ekdateylar();
+
+</script>
+</body>
+</html>

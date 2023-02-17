@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.ornek{
+	width:200px;
+	padding:10px;
+	border-left:50px solid black;
+	border-top:10px solid black;
+}
+</style>
+</head>
+
+<body>
+<div id="alan" class="ornek">JAVASCRIPT EĞİTİM SETİ</div>
+<br /><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// clientLeft 	:	Belge içerisindeki herhangi bir HTML elemanının sol kenarlık genişliği değerini elde etmek için kullanılır.
+// clientTop 	:	Belge içerisindeki herhangi bir HTML elemanının üst kenarlık yüksekliği değerini elde etmek için kullanılır.
+
+var solkenarlikdegeri	=	document.getElementById("alan").clientLeft;
+var ustkenarlikdegeri	=	document.getElementById("alan").clientTop;
+document.getElementById("sonuc").innerHTML = "Sol kenarlık genişliği : " + solkenarlikdegeri + "px, Üst kenarlık yüksekliği : " + ustkenarlikdegeri + "px";
+
+</script>
+</body>
+</html>

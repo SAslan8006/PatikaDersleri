@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.orneksinifi{
+	width:500px;
+	height:20px;
+	margin:0;
+	padding:10px;
+	text-align:center;
+	border:1px solid #000000;
+}
+</style>
+</head>
+
+<body>
+<div id="sonuc" class="orneksinifi">Javascript Eğitim Seti</div>
+
+<script type="text/javascript" language="javascript">
+// setInterval() 	:	Belge içerisinde tanımlanan herhangi bir kodlamayı belirtilen süre aralıklarında tekrar tekrar çalıştırmak için kullanılır. Süre değeri : milisaniye
+
+setInterval(renkdegistir, 2000);
+
+function renkdegistir(){
+	var alanimiz	=	document.getElementById("sonuc");
+	var sayi		=	Math.round(Math.random() * 10);
+	
+	if(sayi==1){
+		alanimiz.style.backgroundColor = "#FF0000";
+	}else if(sayi==2){
+		alanimiz.style.backgroundColor = "#FF9900";
+	}else if(sayi==3){
+		alanimiz.style.backgroundColor = "#00FF00";
+	}else if(sayi==4){
+		alanimiz.style.backgroundColor = "#0000FF";
+	}else if(sayi==5){
+		alanimiz.style.backgroundColor = "#00FFFF";
+	}else if(sayi==6){
+		alanimiz.style.backgroundColor = "#FFFF00";
+	}else if(sayi==7){
+		alanimiz.style.backgroundColor = "#FFFFCC";
+	}else if(sayi==8){
+		alanimiz.style.backgroundColor = "#CCFFCC";
+	}else if(sayi==9){
+		alanimiz.style.backgroundColor = "#CCDDCC";
+	}else if(sayi==10){
+		alanimiz.style.backgroundColor = "#C9CD0C";
+	}else{
+		alanimiz.style.backgroundColor = "#FFFFFF";
+	}
+}
+
+</script>
+</body>
+</html>

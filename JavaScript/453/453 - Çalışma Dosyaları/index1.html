@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+/*
+Cookie'lerin (çerezlerin) yapısı :
+1. Cookie (çerez) adı
+2. Cookie (çerez) değeri
+3. Cookie'nin (çerezin) yaşam süresi
+4. Path (yol)
+
+Cookie (çerez) adı = Cookie (çerez) değeri ; Cookie'nin (çerezin) yaşam süresi ; Path (yol)
+*/
+
+var cerezbiradi			=	"isimsoyisim";
+var cerezbirdegeri		=	"Volkan Alakent";
+
+var cerezikiadi			=	"egitimseti";
+var cerezikidegeri		=	"Javascript Eğitim Seti";
+
+document.cookie 		=	cerezbiradi + "=" + cerezbirdegeri + ";";
+document.cookie 		=	cerezikiadi + "=" + cerezikidegeri + ";";
+
+var cerezler			=	document.cookie;
+document.getElementById("sonuc").innerHTML = cerezler;
+
+</script>
+</body>
+</html>

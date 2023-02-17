@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="kodla()">Dönüştür</button>
+<button onclick="coz()">Çöz</button>
+<br /><br />
+<div id="metin">Volkan Alakent - Javascript Eğitim Seti</div>
+<div id="sonuckodlanmis"></div>
+<div id="sonuccozulmus"></div>
+
+<script type="text/javascript" language="javascript">
+// atob() 	:	Pencere içerisindeki herhangi bir metnin base64 kodlamasına dönüştürülmüş karakterlerini çözerek değeri geriye döndürür.
+
+function kodla(){
+	var degerbir	=	document.getElementById("metin").innerHTML;
+	var sifrele		=	window.btoa(encodeURIComponent(degerbir));
+	document.getElementById("sonuckodlanmis").innerHTML = sifrele;
+}
+
+function coz(){
+	var degeriki	=	document.getElementById("sonuckodlanmis").innerHTML;
+	var cozumle		=	decodeURIComponent(window.atob(degeriki));
+	document.getElementById("sonuccozulmus").innerHTML = cozumle;
+}
+
+</script>
+</body>
+</html>

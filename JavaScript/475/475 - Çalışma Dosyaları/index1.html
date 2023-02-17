@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div id="OrnekBir">Javascript Eğitim Seti</div>
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// nodeType 		:	Belge içerisindeki herhangi bir node'un (düğümün) türünü elde etmek için kullanılır.
+/*
+1		ELEMENT_NODE (Eleman Düğümü)
+2		ATTRIBUTE_NODE (Özellik Düğümü)
+3		TEXT_NODE (Metin Düğümü)
+4		CDATA_SECTION_NODE (CDATA Kesit Düğümü)
+5		ENTITY_REFERANCE_NODE (Varlık Referansı Düğümü)
+6		ENTITY_NODE (Varlık Düğümü)
+7		PROCESSING_INSRUCTION_NODE (İşlem Yönergesi Düğümü)
+8		COMMENT_NODE (Açıklama Düğümü)
+9		DOCUMENT_NODE (Döküman / Belge Düğümü)
+10		DOCUMENT_TYPE_NODE (Döküman / Belge Türü Düğümü)
+11		DOCUMENT_FARGMENT_NODE (Döküman / Belge Parçası / Bölümü Düğümü)
+12		NOTATION_NODE (Gösterim Düğümü)
+*/
+
+var dugumbul	=	document.getElementById("OrnekBir").nodeType;
+if(dugumbul==1){
+	document.getElementById("sonuc").innerHTML = "Düğümün Numara Değeri : " + dugumbul + " , " + "Düğümün Açıklaması : ELEMENT_NODE (Eleman Düğümü)";
+}else if(dugumbul==2){
+	document.getElementById("sonuc").innerHTML = "Düğümün Numara Değeri : " + dugumbul + " , " + "Düğümün Açıklaması : ATTRIBUTE_NODE (Özellik Düğümü)";
+}else if(dugumbul==3){
+	document.getElementById("sonuc").innerHTML = "Düğümün Numara Değeri : " + dugumbul + " , " + "Düğümün Açıklaması : TEXT_NODE (Metin Düğümü)";
+}else if(dugumbul==4){
+	document.getElementById("sonuc").innerHTML = "Düğümün Numara Değeri : " + dugumbul + " , " + "Düğümün Açıklaması : CDATA_SECTION_NODE (CDATA Kesit Düğümü)";
+}else if(dugumbul==5){
+	document.getElementById("sonuc").innerHTML = "Düğümün Numara Değeri : " + dugumbul + " , " + "Düğümün Açıklaması : ENTITY_REFERANCE_NODE (Varlık Referansı Düğümü)";
+}else if(dugumbul==6){
+	document.getElementById("sonuc").innerHTML = "Düğümün Numara Değeri : " + dugumbul + " , " + "Düğümün Açıklaması : ENTITY_NODE (Varlık Düğümü)";
+}else if(dugumbul==7){
+	document.getElementById("sonuc").innerHTML = "Düğümün Numara Değeri : " + dugumbul + " , " + "Düğümün Açıklaması : PROCESSING_INSRUCTION_NODE (İşlem Yönergesi Düğümü)";
+}else if(dugumbul==8){
+	document.getElementById("sonuc").innerHTML = "Düğümün Numara Değeri : " + dugumbul + " , " + "Düğümün Açıklaması : COMMENT_NODE (Açıklama Düğümü)";
+}else if(dugumbul==9){
+	document.getElementById("sonuc").innerHTML = "Düğümün Numara Değeri : " + dugumbul + " , " + "Düğümün Açıklaması : DOCUMENT_NODE (Döküman / Belge Düğümü)";
+}else if(dugumbul==10){
+	document.getElementById("sonuc").innerHTML = "Düğümün Numara Değeri : " + dugumbul + " , " + "Düğümün Açıklaması : DOCUMENT_TYPE_NODE (Döküman / Belge Türü Düğümü)";
+}else if(dugumbul==11){
+	document.getElementById("sonuc").innerHTML = "Düğümün Numara Değeri : " + dugumbul + " , " + "Düğümün Açıklaması : DOCUMENT_FARGMENT_NODE (Döküman / Belge Parçası / Bölümü Düğümü)";
+}else if(dugumbul==12){
+	document.getElementById("sonuc").innerHTML = "Düğümün Numara Değeri : " + dugumbul + " , " + "Düğümün Açıklaması : NOTATION_NODE (Gösterim Düğümü)";
+}else{
+	document.getElementById("sonuc").innerHTML = "Tanımlanmayan Düğüm";
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button id="birincitag" name="birinciisim" class="" onclick="ornek()">Buton</button>
+<br /><br />
+<div id="sonucalani"></div>
+<script type="text/javascript" language="javascript">
+// length 	:	Belge içerisindeki HTML elemanına eklenmiş olan özelliklerini sayısını elde etmek için kullanılır.
+
+function ornek(){
+	var islem	=	document.getElementById("birincitag").attributes.length;
+	document.getElementById("sonucalani").innerHTML = islem;
+}
+</script>
+</body>
+</html>

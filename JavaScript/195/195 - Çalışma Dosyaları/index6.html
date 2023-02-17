@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// shuffle() 	:	Dizinin her elemanı üzerinde tek tek çalışarak tüm elemanları karıştırır ve yeni bir dizi oluşturarak oluşturduğu değeri geriye döndürür.
+
+Array.prototype.shuffle = function(){
+	var elemansayisi	=	this.length;
+	while(--elemansayisi > 0){
+		var rastgelesayi	=	Math.floor(Math.random() * (elemansayisi + 1));
+		var gecicideger		=	this[rastgelesayi];
+		this[rastgelesayi] 	=	this[elemansayisi];
+		this[elemansayisi] 	=	gecicideger;
+		return this;
+	}
+}
+
+var icerikler	=	new Array(1, "A", 3, "B", 5);
+document.write(icerikler + "<br />");
+
+var karistir	=	icerikler.shuffle();
+document.write(karistir);
+
+</script>
+</body>
+</html>

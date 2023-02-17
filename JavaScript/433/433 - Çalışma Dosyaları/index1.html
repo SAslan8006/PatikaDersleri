@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<a id="bir" name="javascript" href="https://www.google.com.tr/#q=javascript" target="_blank">Javascript</a><br />
+<a id="iki" name="html" href="https://www.google.com.tr/#q=html" target="_blank">Html</a><br />
+<a id="uc" name="css" href="https://www.google.com.tr/#q=css" target="_blank">Css</a><br />
+<a id="dort" name="php" href="https://www.google.com.tr/#q=php" target="_blank">Php</a><br />
+<a id="bes" name="jquery" href="https://www.google.com.tr/#q=jquery" target="_blank">JQuery</a><br /><br />
+Çapa sayısı : <span id="capasayisialani">0</span>
+
+<script type="text/javascript" language="javascript">
+// anchors 	:	Belge içerisindeki çapa tag'ına (etiketine) sahip tüm elemanların referansını elde etmek için kullanılır. Elemanların referansları birden fazla ise her bir eleman döngü ile elde edilebilir.
+
+var sonuc	=	document.anchors.length;
+document.getElementById("capasayisialani").innerHTML = sonuc;
+</script>
+</body>
+</html>

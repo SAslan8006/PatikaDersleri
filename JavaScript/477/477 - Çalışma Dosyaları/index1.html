@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek()">Tıklayınız</button><br /><br />
+<span id="kimlik">Javascript Eğitim Seti <!-- Volkan Alakent --></span><br /><br />
+<div id="sonucbir"></div>
+<div id="sonuciki"></div>
+
+<script type="text/javascript" language="javascript">
+// nodeValue 	:	Belge içerisindeki herhangi bir node'un (düğümün) değerini elde etmek için kullanılır.
+
+function ornek(){
+	var islemyapbir	=	document.getElementById("kimlik").childNodes[0].nodeValue;
+	document.getElementById("sonucbir").innerHTML = islemyapbir;
+
+	var islemyapiki	=	document.getElementById("kimlik").childNodes[1].nodeValue;
+	document.getElementById("sonuciki").innerHTML = islemyapiki;
+}
+
+</script>
+</body>
+</html>
