@@ -81,6 +81,49 @@ var deger	=	5;  // number
 var sonuc	=	deger.toString();
 document.write(sonuc + "<br />");
 document.write(typeof(sonuc) + "<br />");
+// Number() 	:	Değişken içeriğini mutlak olarak Number (sayı) veri türüne dönüştürerek oluşturduğu değeri geriye döndürür.
+// valueOf() 	:	Üzerinde çalışılan değişken değerinin tam anlamıyla aktarımını sağlayarak yeni bir içerik oluşturur ve oluşturduğu içeriği geriye döndürür.
+// indexOf() 	:	Değişken içerisinde parametrik olarak verilen değeri arar ve ilk eşleşmeyi sağlayan değişken içeriğinin indis / index değerini geriye döndürür.
+// lastIndexOf()	:	Değişken içerisinde parametrik olarak verilen değeri arar ve son eşleşmeyi sağlayan değişken içeriğinin indis / index değerini geriye döndürür.
+
+// search() 	:	Kendisine parametre olarak verilen değer doğrultusunda değişken içeriğini arayarak ilk eşleşmeyi sağlayan değişken içeriğinin indis / index değerini geriye döndürür. (Düzenli ifade alabilir.)
+// i 			:	İçeriğin büyük harf / küçük olmasına bakmaz (Düzenli ifade)
+
+var islem	=	metin.search(/scRipT/i);
+
+// includes() 	:	Kendisine parametre olarak verilen değer doğrultusunda değişken içeriğini kontrol ederek Boolean (mantıksal) veri türünde sonucu geriye döndürür.
+var islem	=	metin.includes("seti");
+
+// startsWith() 	:	Kendisine parametre olarak verilen değer doğrultusunda değişken içeriğinin başlangıç değerini kontrol ederek Boolean (mantıksal) veri türünde sonucu geriye döndürür.
+var sonuc	=	metin.startsWith("javascript");  
+document.write(sonuc);
+
+// endsWith() 		:	Kendisine verilen parametre doğrultusunda değişken içeriğinin bitiş değerini kontrol ederek Boolean (mantıksal) veri türünde sonucu geriye döndürür.
+
+var sonuc	=	metin.endsWith("seti");
+document.write(sonuc);
+
+// match() 		:	Kendisine parametre olarak verilen değer doğrultusunda değişken içeriğini kontrol eder ve eşleşen değer varsa içeriğin eşleşen kısmından yeni bir içerik oluşturur ve oluşturduğu içeriği geriye döndürür. (Düzenli ifade alabilir.)
+
+// g	:	İçeriğin tamamı üzerinde çalışmasını sağlar. (Düzenli ifade)
+// i	:	İçeriğin büyük harf / küçük harf olmasına bakmaz. (Düzenli ifade)
+
+
+var sonuc	=	metin.match(/JavaScript/gi);
+document.write(sonuc);
+
+// replace() 	:	Kendisine verilecek olan parametreler doğrultusunda değişken içeriğini kontrol eder ve eşleşen değerlerin değişimin sağlayarak yeni bir içerik oluşturur ve oluşturduğu içeriği geriye döndürür. (Düzenli ifade alabilir.)
+// 1. Parametre	:	Değişecek içerik.
+// 2. Parametre	:	Güncel içerik.
+
+// g			:	içeriğin tamamı üzerinde çalışılmasını sağlar. (Düzenli ifade)
+// i			:	içeriğin büyük harf / küçük olamasına bakmaz. (Düzenli ifade)
+
+var metin	=	"Php PHP php Php PHP php Php PHP php";
+document.write(metin + "<br />");
+
+var sonuc	=	metin.replace(/PHP/gi, "Javascript");
+document.write(sonuc);
 
 ```
 
