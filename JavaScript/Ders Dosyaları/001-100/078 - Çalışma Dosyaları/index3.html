@@ -14,9 +14,17 @@
 var metin	=	"Javascript dünya üzerinde kullanılan en yaygın script dilidir.";
 document.write(metin + "<br />");
 
-var sonuc	=	metin.substr(11, 5);
-document.write(sonuc);
+var icerik		=	"Volkan Alakent Javascript Eğitim Seti";  
+document.write(icerik + "<br />");
 
+var sonuc		=	icerik.slice(15, 25);  
+document.write(sonuc + "<br />");  
+
+var sonuc1	=	icerik.substring(15, 25);
+document.write(sonuc1 + "<br />");
+ 
+var sonuc2	=	icerik.substr(25, 15);
+document.write(sonuc2);
 </script>
 </body>
 </html>
