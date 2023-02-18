@@ -15,7 +15,8 @@
 // innerHTML	=	HTML dökümanı içerisinde bulunan HTML elemanına / elementine etki eder. Veri gönderir / veri değişimi yapar.
 document.getElementById("Ucuncu").innerHTML = "A'dan Z'ye";
 <div id="Ucuncu"></div>
-
+document.write("Levent<br />");
+      debugger;
 
 ```
 
