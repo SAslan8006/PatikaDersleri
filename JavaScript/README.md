@@ -120,10 +120,101 @@ document.write(sonuc);
 // i			:	içeriğin büyük harf / küçük olamasına bakmaz. (Düzenli ifade)
 
 var metin	=	"Php PHP php Php PHP php Php PHP php";
-document.write(metin + "<br />");
 
 var sonuc	=	metin.replace(/PHP/gi, "Javascript");
 document.write(sonuc);
+
+// split() 		:	Kendisine parametre olarak tanımlanmış değer doğrultusunda değişken içeriğini bölümleyerek yeni bir dizi oluşturur ve oluşturduğu değeri geriye döndürür.
+var sonuc	=	metin.split(" ");
+document.write(sonuc + "<br />");
+document.write(sonuc[2]);
+
+// localeCompare() 	:	Üzerinde çalışılan değişkene parametrik olarak verilen diğer bir değişken içeriğini tarayıcı diline göre karşılaştırarak sonucu geriye döndürür. (Unicode (everensel kod))
+// Sonuç değerleri
+// -1				:	Birinci değişken içeriği, ikinci değişken içeriğinde önce geliyorsa
+// 0				:	Birinci değişken içeriği, ikinci değişken içeriğine eşitse
+// 1				:	Birinci değişken içeriği, ikinci değişken içeriğinde sonra geliyorsa
+
+var icerikbir	=	"abc";
+var icerikiki	=	"abd";
+
+var sonuc		=	icerikbir.localeCompare(icerikiki);
+document.write(sonuc);
+
+// charAt() 	:	Kendisine parametre olarak verilen değer doğrultusunda değişken içeriğindeki karşılığı olan karakteri bularak geriye döndürür.
+document.write(icerik.charAt(13));
+
+// charCodeAt() 	:	Kendisine parametre olarak verilen değer doğrultusunda değişken içeriğindeki karşılığı olan karakteri bularak, karakterin Unicode (evrensel kod) değerini geriye döndürür.
+document.write(metin.charCodeAt(13));
+
+// fromCharCode() 	:	Kendisine parametre olarak verilen Unicode (evrensel kod) değerini karakter olarak geriye döndürür. Çoklu değer alabilir.
+document.write(String.fromCharCode(43, 45, 42, 47, 37, 34));
+
+// encodeURI() 		:	Değişken içerisindeki metnin özel karakterlerini UTF-8 (Unicode dönüşüm formatı) kodlamasına dönüştürerek oluşturduğu değeri geriye döndürür.
+// decodeURI() 		:	Değişken içerisindeki metnin özel karakterlerinin UTF-8 (Unicode dönüşüm formatı) kodlamasına dönüştürülmüş karakterlerini çözerek değeri geriye döndürür.
+// encodeURIComponent() 	:	Değişken içerisindeki metnin özel karakterlerini UTF-8 (Unicode dönüşüm formatı) kodlamasına dönüştürerek oluşturduğu değeri geriye döndürür.
+// escape() 	:	Değişken içerisindeki metnin özel karakterlerini Unicode (evrensel kod) kodlamasına dönüştürerek oluşturduğu değeri geriye döndürür.
+// unescape() 	:	Değişken içerisindeki metnin özel karakterlerinin Unicode (evrensel kod) kodlamasına dönüştürülmüş karakterlerini çözerek değeri geriye döndürür.
+
+/*
+Kodlamaya dahil edilmeyen karakterler:
+0 1 2 3 4 5 6 7 8 9
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+; : / ? @ & = + $ , # - _ . ! ~ * ' ( )
+*/
+var deger	=	"http://www.extraegitim.com?eğitimsetiadı=Javascript&Eğitmen=Volkan Alakent";
+document.write(deger + "<br />");
+
+document.write(encodeURI(deger));
+document.write(decodeURI(deger));
+document.write(encodeURIComponent(deger));
+document.write(escape("'\"^%&()=?") + "<br />");
+document.write(unescape("%22%21%27%5E%25%26%28%29%3D%3F"));
+
+// toUpperCase() 	:	Değişken içerisindeki metnin tamamını büyük harf yaparak değeri geriye döndürür.
+// toLowerCase() 	:	Değişken içerisindeki metnin tamamını küçük harfe dönüştürerek değeri geriye döndürür.
+// toLocaleUpperCase()	:	Değişken içerisindeki metnin tamamını tarayıcı lokasyonuna / diline göre büyük harfe dönüştürerek değeri geriye döndürür.
+// toLocaleLowerCase() 		:	Değişken içerindeki metnin tamamını tarayıcı lokasyonuna / dili göre küçük harfe dönüştürerek değeri geriye döndürür.
+
+var metin		=	"VolKAN alakENT";
+document.write(metin.toUpperCase());
+document.write(metin.toLowerCase());
+document.write(metin.toLocaleUpperCase());
+document.write(metin.toLocaleLowerCase());
+
+// sub() 	:	Değişken içerisindeki metni alt simge metni yaparak değerini geriye döndürür.
+// sup() 	:	Değişken içerindeki metni üst simge metni yaparak değerini geriye döndürür.
+// big() 	:	Değişken içerisindeki metni büyük fontlu metin yaparak değerini geriye döndürür.
+// small() 		:	Değişken içerisindeki metni küçük fontlu metin yaparak değerini geriye döndürür.
+// bold() 	:	Değişken içerisindeki metni kalın fontlu metin yaparak değerini geriye döndürür.
+// italics() 	:	Değişken içerisindeki metni italik (sağa yatık) fontlu metin yaparak değerini geriye döndürür.
+// strike() 	:	Değişken içerisindeki metni üzeri çizili metin yaparak değeri geriye döndürür.
+// fixed() 		:	Değişken içerisindeki metni teletype (daktilo) fontlu metin yaparak değeri geriye döndürür.
+// fontcolor()		:	Kendisine parametre olarak verilen değer doğrultusunda değişken içeriğini renklendirerek değeri geriye döndürür. Varsayılan Renk green (yeşil)
+// fontsize() 	:	Kendisine parametre olarak belirtilen değer doğrultusunda değişken içerisindeki metnin font boyutunu değiştirerek değeri geriye döndürür.
+
+var ikincideger		=	"2";
+var ikincidegerislemi	=	ikincideger.sub();
+
+document.write("H" + ikincidegerislemi + "O" + "<br />");
+document.write(metin.big()+ "<br />");
+document.write(metin.small()+ "<br />");
+document.write(metin.bold()+ "<br />");
+document.write(metin.italics()+ "<br />");
+document.write(metin.strike()+ "<br />");
+document.write(metin.fixed()+ "<br />");
+document.write(metin.fontcolor("blue")+ "<br />");
+document.write(metin.fontsize(7)+ "<br />");
+
+// anchor() 	:	Değişkene çapa (<a>...</a>) tanımlaması yapar. Aynı zamanda çapaya name değeri atar.
+// <a name="extraegitim">Extra Eğitim</a>
+var ornek	=	"Extra Eğitim";
+alert(ornek.anchor("extraegitim"));
+// link() 	:	Değişkene çapa tanımlaması yapar. Aynı zamanda çapaya köprü değeri atar.
+var ornek	=	"Extra Eğitim";
+document.write(ornek.link("http://www.extraegitim.com"));
+
 
 ```
 
