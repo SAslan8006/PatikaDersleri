@@ -103,4 +103,87 @@ var demo	=	function (parametrebir, parametreiki){
 
 demo(degerbir, degeriki);
 
+// Fonksiyonlara parametreyle kdli tutar hesaplama
+
+function test(tutar, kdv=18){
+	var kdvtutari	=	(tutar / 100) * kdv;
+	var nettutar	=	tutar + kdvtutari;
+	document.write("Gelen Tutar: " + tutar + "<br />");
+	document.write("Gelen Tutarın KDV'si: " + kdvtutari + "<br />");
+	document.write("Toplam Tutar: " + nettutar);
+}
+test(1000, 8);
+
+// Otamatik çalışan fonksiyonlara değer verme
+
+var degiskenbir	=	"Selam";
+var degiskeniki	=	"Naber";
+
+var test	=	function(degerbir, degeriki="Volkan"){
+	document.write(degerbir + " " + degeriki);
+}(degiskenbir, degiskeniki);
+
+// Fonksiyondan başka bir fonksiyon cağırma
+
+var parabirimi	=	function (birim, tutar){
+	if(birim=="Türk Lirası"){
+		var kur	=	1;
+	}else if(birim=="Amerikan Doları"){
+		var kur	=	3;
+	}else if(birim=="Euro"){
+		var kur	=	4;
+	}
+	return tutarhesapla(kur, tutar);
+}
+
+var tutarhesapla	=	function (gelenkur, gelentutar){
+	var hesapyap	=	gelenkur * gelentutar;
+	document.write(hesapyap);
+}
+
+parabirimi("Amerikan Doları", 142);
+
+// İç içe çok boyutlu fonksiyonlar
+
+function deneme(parametrebir, parametreiki){
+	function test(sonbir){
+		var sonuc	=	sonbir * sonbir;
+		document.write(sonuc + "<br />");
+	}
+	return test(parametrebir) + test(parametreiki);
+}
+
+deneme(3, 6);
+
+function bir(a1, a2){
+	function iki(b1, b2){
+		function uc(c1, c2){
+			return a1 + a2 + b1 + b2 + c1 + c2;
+		}
+		return uc;
+	}
+	return iki;
+}
+
+var degisken1	=	5;
+var degisken2	=	10;
+var degisken3	=	87;
+var degisken4	=	54;
+var degisken5	=	9;
+var degisken6	=	18;
+
+var sonuc	=	bir(degisken1, degisken2)(degisken3, degisken4)(degisken5, degisken6);
+document.write(sonuc);
+
+// İç içe çok boyutlu fonksiyonlarda alt fonsiyonları değiştirme
+
+var deneme	=	function(){
+	var sonuc	=	function(degerbir, degeriki){
+		document.write(degerbir + " " + degeriki);
+	}
+	return sonuc;
+}
+
+deneme()("Volkan", "Hakan");
+
 ```
