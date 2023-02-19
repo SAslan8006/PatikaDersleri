@@ -195,5 +195,20 @@ for(sonuc in ornek){
 
 ```JS  
 
+// break	=	Döngüden çıkmak için kullanılır.
+// continue	=	Döngünün o anki işlemini sonlandırarak döngünün başına döner ve işleme kaldığı yerden devam eder.
+
+var ornek	=	{renk1:"Siyah", renk2:"Beyaz", renk3:"Sarı", renk4:"Mavi", renk5:"Kırmızı"};
+
+var sonuc;
+for(sonuc in ornek){
+	document.write(ornek[sonuc] + "<br />");
+	if(sonuc=="renk3"){
+		break;
+	}
+      if(sonuc=="renk2"){
+		continue;
+	}
+}
 
 ```
