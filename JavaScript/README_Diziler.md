@@ -230,4 +230,36 @@ document.write(renkler + "<br />");
 var islem		=	renkler.join(" ve ");
 document.write(islem);
 
+// toString() 		:	Dizideki tüm elemanları içeren string veri türünde düz bir metin oluşturur ve oluşturduğu değeri geriye döndürür.
+
+var isimler		=	new Array("Volkan", "Hakan", "Onur", new Array("Aslı", "Gökçe", new Array("Hatice", "Derya"), "Banu"), "Ümit", "Serkan");
+document.write(isimler + "<br />");
+var isimlerkontrol	=	typeof isimler;
+document.write(isimlerkontrol + "<br /><br />");
+
+var islem		=	isimler.toString();
+document.write(islem + "<br />");
+var islemkontrol	=	typeof islem;
+document.write(islemkontrol + "<br /><br />");
+
+// valueOf() 	:	Üzerinde çalışılan dizi değerinin tam anlamıyla aktarımını sağlayarak yeni bir dizi oluşturur ve oluşturduğu dizi değerini geriye döndürür.
+
+var isimler			=	new Array("Hakan", "Serkan", "Onur", "Levent", "Arif");
+document.write(isimler + "<br />");
+
+var yeniisimler		=	isimler.valueOf();
+document.write(yeniisimler + "<br />");
+
+isimler.fill("Volkan");
+document.write(isimler + "<br />");
+document.write(yeniisimler);
+
+// indexOf()	:	Dizi içerisinde parametrik olarak verilen değeri arar ve ilk eşleşmeyi sağlayan elemanın indis / index değerini geriye döndürür.
+
+var isimler		=	new Array("Volkan", "Hakan", "Onur", "Ümit", "Onur");
+document.write(isimler + "<br />");
+
+var islemyap	=	isimler.indexOf("Onur");
+document.write(islemyap);
+
 ```
