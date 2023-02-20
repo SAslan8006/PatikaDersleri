@@ -177,4 +177,57 @@ var yenisayilar	=	sayilar.slice(2, -3);
 var yenisayilar	=	sayilar.slice(2, 5);
 document.write(yenisayilar);
 
+// copyWithin() 	: 	Kendisine verilecek olan parametreler ile tanımlanmış dizi aralığında bulunan değerleri kopyalayarak, parametreler doğrultusunda dizinin elemanlarını değiştirir ve dizinin değerini geriye döndürür.
+// 1. Parametre		:	Hedef
+// 2. Parametre		:	Başlangıç
+// 3. Parametre		:	Bitiş
+
+var isimler		=	new Array("Volkan", "Hakan", "Onur", "Ümit", "Levent", "Serkan", "Arif", "Cengiz", "Çağatay", "Ali", "Murat", "Kubilay", "Ahmet", "Halil", "Mustafa", "Muzaffer");
+document.write(isimler + "<br />");
+
+isimler.copyWithin(10, 3, 5);
+document.write(isimler);
+
+// fill() 		:	Kendisine verilecek olan parametreler ile tanımlanmış dizi aralığında bulunan değeri, parametre ile belirtilmiş olan değer doğrultusunda dizinin elemanlarını değiştirir ve dizinin değerini geriye döndürür.
+// 1. Parametre : 	Değer
+// 2. Parametre : 	Başlangıç indisi / indexi
+// 3. Parametre : 	Bitiş indisi / indexi
+
+var meyveler	=	new Array("Elma", "Armut", "Kiraz", "Kayısı", "Karpuz", "Kavun", "Muz", "Ananas");
+document.write(meyveler + "<br />");
+
+meyveler.fill("Nar", 2);
+meyveler.fill("Nar", 2,-2);
+document.write(meyveler);
+
+// concat()		:	Üzerinde çalışılan diziye parametrik olarak verilen eleman veya elemanları yada dizi veye dizileri dahil ederek yeni bir dizi oluşturur ve oluşturmuş olduğu dizi değerini geriye döndürür.
+
+var erkekisimleri		=	new Array("Volkan", "Hakan", "Onur", "Levent", "Serkan");
+var bayanisimleri		=	new Array("Aslı", "Banu", "Hatice", new Array("Hale", "Ayşe", "Emine"), "Derya", "Gökçe");
+var renkisimleri		=	new Array("Siyah", "Mavi", "Beyaz");
+
+var isimler		=	erkekisimleri.concat(renkisimleri, bayanisimleri[3]);
+var isimler		=	erkekisimleri.concat(renkisimleri, bayanisimleri[3][1]);
+var isimler		=	erkekisimleri.concat(bayanisimleri[2], bayanisimleri[4]);
+
+document.write(isimler);
+
+// join()		:	Dizideki elemanların arasına kendisine parametre olarak verilen değeri ayraç olarak kullanarak string veri türünde düz bir metin oluşturur ve bu oluşturduğu değeri geriye döndürür.
+
+var renkler		=	new Array("Siyah", "Beyaz", "Sarı", "Mavi");
+var kontrolbir	=	Array.isArray(renkler);
+document.write("(" + kontrolbir + ")" + renkler + "<br />");
+
+var islem		=	renkler.join();
+var kontroliki	=	Array.isArray(islem);
+document.write("(" + kontroliki + ")" + islem);
+
+//Örnek 2
+
+var renkler		=	["Siyah", "Beyaz", ["Kırmızı", "Bordo"], "Sarı", "Mavi"];
+document.write(renkler + "<br />");
+
+var islem		=	renkler.join(" ve ");
+document.write(islem);
+
 ```
