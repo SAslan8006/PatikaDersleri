@@ -175,7 +175,7 @@ var degisken6	=	18;
 var sonuc	=	bir(degisken1, degisken2)(degisken3, degisken4)(degisken5, degisken6);
 document.write(sonuc);
 
-// İç içe çok boyutlu fonksiyonlarda alt fonsiyonları değiştirme
+// İç içe çok boyutlu fonksiyonlarda alt fonsiyonları değiştirme ve çağırma
 
 var deneme	=	function(){
 	var sonuc	=	function(degerbir, degeriki){
@@ -185,5 +185,84 @@ var deneme	=	function(){
 }
 
 deneme()("Volkan", "Hakan");
+
+var demobir		=	function(degerbir, degeriki, degeruc){
+	var testbir		=	function(){
+		var testiki		=	function(){
+			document.write(degerbir + " " + degeriki + " " + degeruc);
+		}
+		return testiki();
+	}
+	return testbir();
+}
+
+demobir("Volkan", "Alakent", "Javascript");
+
+// Kendini tekrar çağıran fonksiyonlar
+var ifadebir = 1;
+var ifadeiki = 20;
+var ifade = "Volkan Alakent<br />";
+	function tekrarla(baslangicdeger, bitisdeger, ifade) {
+	if (baslangicdeger <= bitisdeger) {
+		document.write(baslangicdeger,". ",ifade);
+		baslangicdeger += 1;
+		tekrarla(baslangicdeger, bitisdeger,ifade);
+	} else {
+		return;
+	}
+	}
+
+tekrarla(ifadebir, ifadeiki,ifade);
+
+// length 	:	Fonksiyona tanımlanan parametre sayısı değerini geriye döndürür.
+
+function ornek(isim, soyisim, yas, sehir, ulke){
+	var islemyap	=	ornek.length;
+	document.write(islemyap);
+}
+
+ornek("Volkan", "Alakent", 36, "İstanbul", "Türkiye");
+
+// arguments 	:	Fonksiyona herhangi bir parametre tanımlanmadan bile gelebilecek tüm parametre değerlerinin alınmasını sağlar.
+
+function ornek(isim, soyisim){
+	for(var baslangic = 0; baslangic<arguments.length; baslangic++){
+		document.write(arguments[baslangic] + "<br />");
+	}
+}
+
+ornek("Volkan", "Alakent", 36, "İstanbul", "Türkiye");
+
+// caller 	:	Fonksiyonu çağıran diğer bir fonksiyon referans olarak alınarak tüm bilgilerinin elde edilmesini sağlar.
+
+function esas(){
+	for(var baslangic = 0; baslangic<esas.caller.arguments.length; baslangic++){
+		document.write(diger.arguments[baslangic] + "<br />");
+	}
+}
+
+function diger(isim, soyisim){
+	esas();
+}
+
+diger("Volkan", "Alakent");
+
+//Fonksiyon cağırma ve return örneği
+var kisi	=	function(){
+	var isimsoyisim		=	"Volkan Alakent";
+	return {
+		isimgetir:function(){
+			return isimsoyisim;
+		},
+		isimdegistir:function(yeniisim){
+			isimsoyisim		=	yeniisim;
+		}
+	}
+}();
+
+kisi.isimdegistir("Hakan Alakent");
+document.write(kisi.isimgetir(););
+
+
 
 ```
