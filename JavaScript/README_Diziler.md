@@ -415,4 +415,121 @@ document.write(sayilar + "<br />");
 sayilar.forEach(islem);
 document.write(sonuc);
 
+// some() 		:	Kendisine parametre olarak belirtilen fonksiyon true (doğru / geçerli / olumlu / başarılı) değeri döndürene kadar dizi elemanları üzerinde sıra ile gezinilmesini sağlar.
+// 1. parametre	:	Her işlemde elde edilen dizi elemanı.
+// 2. parametre	:	Her işlemde elde edilen dizi elemanının indis / index değeri.
+// 3. parametre	:	Her tekrarlama işleminde diziyi tutan değişkenin referansı.
+
+function islem(elaman, sira, degisken){
+	sonuc	=	sira;
+	return elaman == "Masa";
+}
+
+var sonuc		=	"";
+var esyalar		=	new Array("Masa", "Sandalye", "Vitrin", "Konsol", "Sehpa", "Masa", "Koltuk");
+document.write(esyalar + "<br />");
+
+esyalar.some(islem);
+document.write(sonuc);
+
+// every() 		:	Kendisine parametre olarak verilen fonksiyon false (yanlış / olumsuz / geçersiz / başarısız) değeri döndürene kadar dizi elemanları üzerinde gezinilmesini sağlar.
+// 1. Parametre	:	Her işlemde elde edilen dizi elemanı.
+// 2. Parametre	:	Her işlemde elde edilen dizi elemanının indis / index değeri.
+// 3. Parametre	:	Her tekrarlamada işlemin yapıldığı diziyi tutan değişkenin referansı.
+
+function demo(eleman, sira, referans){
+	islemsonuc	=	eleman;
+	return eleman.length <= 5;
+}
+
+var islemsonuc	=	"";
+var renkler	=	new Array("Siyah", "Beyaz", "Kırmızı", "Yeşil", "Gri", "Sarı", "Turuncu");
+document.write(renkler + "<br />");
+
+renkler.every(demo);
+document.write(islemsonuc);
+
+// filter() 	:	Kendisine parametre olarak verilen fonksiyonu dizideki her eleman üzerine çalıştırır. Fonksiyonun geriye true (doğru / olumlu / geçerli / başarı) değerini döndüren tüm elemanlarını kopyalarak yeni bir dizi oluşturur. Oluşturduğu dizinin değerini geriye döndürür.
+// 1. Parametre :	Her işlem çalıştığında dizinin elemanı.
+// 2. Parametre :	Her işlem çalıştığında dizinin elemanının indis / index değeri.
+// 3. Parametre : 	Tekrarlama işlemindeki diziyi tutan değişkenin referansı.
+
+function bul(eleman, sira, degisken){
+	return eleman.length < 8;
+}
+
+var icerikler	=	new Array("Türkiye", "Almanya", "İngiltere", "Amerika", "Tunus", "Yunanistan", "Bulgaristan", "Kenya", "Kamerun");
+document.write(icerikler + "<br />");
+
+var sonuc	=	icerikler.filter(bul);
+document.write(sonuc);
+
+// map() 	:	Kendisine parametre olarak verilen fonksiyonu dizideki her eleman üzerinde çalıştırır. Fonksiyonun her eleman için geriye döndürdüğü değerlerden yeni bir dizi oluşur ve yeni dizi değerini geriye döndürür.
+// 1. Parametre : 	Her işlemde elde edilen dizi elemanı.
+// 2. Parametre : 	Her işlemde elde edilen dizi elemanının indis / index değeri.
+// 3. Parametre : 	Her tekrarda diziyi tutan değişkenin referansı.
+
+function ornek(eleman, sira, degisken){
+	var islem	=	"Merhaba " + eleman;
+	return islem;
+}
+
+var icerik		=	new Array("Volkan", "Hakan", "Onur", "Serkan");
+document.write(icerik + "<br />");
+
+var yeni		=	icerik.map(ornek);
+document.write(yeni);
+
+// avarage() 	:	Number (sayı) veri türü içerikli dizinin her elemanı üzerinde tek tek olmak üzere çalışır ve tüm elemanların ortalamasını bularak, bulduğu değeri geriye döndürür.
+
+
+Array.prototype.avarage 	=	function(){
+	var islem	=	0;
+	
+	for(var baslangic = 0; baslangic<this.length; baslangic++){
+		islem	+=	this[baslangic];
+	}
+	var sonuc	=	islem / this.length;
+	return sonuc;
+}
+
+Array.prototype.toplama 	=	function(){
+	var islem	=	0;
+	
+	for(var baslangic = 0; baslangic<this.length; baslangic++){
+		islem	+=	this[baslangic];
+	}
+	var sonuc	=	islem;
+	return sonuc;
+}
+
+var sayilar		=	new Array(10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150);
+document.write(sayilar + "<br />");
+
+var ortalama	=	sayilar.toplama();
+var ortalama1	=	sayilar.avarage();
+
+document.write("Toplam:"+ortalama+"<br />");
+document.write("Ortalama:"+ortalama1);
+
+// shuffle() 	:	Dizinin her elemanı üzerinde tek tek çalışarak tüm elemanları karıştırır ve yeni bir dizi oluşturarak oluşturduğu değeri geriye döndürür.
+
+Array.prototype.shuffle = function(){
+	var elemansayisi	=	this.length;
+	while(--elemansayisi > 0){
+		var rastgelesayi	=	Math.floor(Math.random() * (elemansayisi + 1));
+		var gecicideger		=	this[rastgelesayi];
+		this[rastgelesayi] 	=	this[elemansayisi];
+		this[elemansayisi] 	=	gecicideger;
+	}
+	return this;
+}
+
+var icerikler	=	new Array(1, "A", 3, "B", 5,7, "A", 8, "B", 9,10, "A", 11, "B", 12);
+document.write(icerikler + "<br />");
+
+var karistir	=	icerikler.shuffle();
+document.write(karistir);
+
+
 ```

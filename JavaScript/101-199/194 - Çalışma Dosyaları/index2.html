@@ -19,11 +19,25 @@ Array.prototype.avarage 	=	function(){
 	return sonuc;
 }
 
+Array.prototype.toplama 	=	function(){
+	var islem	=	0;
+	
+	for(var baslangic = 0; baslangic<this.length; baslangic++){
+		islem	+=	this[baslangic];
+	}
+	var sonuc	=	islem;
+	return sonuc;
+}
+
 var sayilar		=	new Array(10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150);
 document.write(sayilar + "<br />");
 
-var ortalama	=	sayilar.avarage();
-document.write(ortalama);
+var ortalama	=	sayilar.toplama();
+var ortalama1	=	sayilar.avarage();
+
+document.write("Toplam:"+ortalama+"<br />");
+document.write("Ortalama:"+ortalama1);
+
 
 </script>
 </body>

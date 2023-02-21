@@ -10,14 +10,14 @@
 // shuffle() 	:	Dizinin her elemanı üzerinde tek tek çalışarak tüm elemanları karıştırır ve yeni bir dizi oluşturarak oluşturduğu değeri geriye döndürür.
 
 Array.prototype.shuffle = function(){
-	var elemansayisi	=	this.length;
+	var elemansayisi	=	icerikler.length;
 	while(--elemansayisi > 0){
 		var rastgelesayi	=	Math.floor(Math.random() * (elemansayisi + 1));
 		var gecicideger		=	this[rastgelesayi];
 		this[rastgelesayi] 	=	this[elemansayisi];
-		this[elemansayisi] 	=	gecicideger;
-		return this;
+		this[elemansayisi] 	=	gecicideger;		
 	}
+	return this;
 }
 
 var icerikler	=	["A", "B", "C", "D", "E"];

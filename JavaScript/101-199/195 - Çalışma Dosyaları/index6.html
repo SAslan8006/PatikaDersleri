@@ -16,11 +16,11 @@ Array.prototype.shuffle = function(){
 		var gecicideger		=	this[rastgelesayi];
 		this[rastgelesayi] 	=	this[elemansayisi];
 		this[elemansayisi] 	=	gecicideger;
-		return this;
 	}
+	return this;
 }
 
-var icerikler	=	new Array(1, "A", 3, "B", 5);
+var icerikler	=	new Array(1, "A", 3, "B", 5,7, "A", 8, "B", 9,10, "A", 11, "B", 12);
 document.write(icerikler + "<br />");
 
 var karistir	=	icerikler.shuffle();
