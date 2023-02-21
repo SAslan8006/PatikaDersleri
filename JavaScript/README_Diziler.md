@@ -262,4 +262,157 @@ document.write(isimler + "<br />");
 var islemyap	=	isimler.indexOf("Onur");
 document.write(islemyap);
 
+// lastIndexOf()		:	Dizi içerisinde parametrik olarak verilen değeri arar ve son eşleşmeyi sağlayan dizi elemanın indis / index değerini geriye döndürür.
+
+var renkler		=	new Array("Siyah", "Beyaz", "Gri", "Mavi", "Sarı", "Kırmızı", "Gri", "Mor", "Yeşil", "Gri", "Turuncu");
+document.write(renkler + "<br />");
+
+var sonuc		=	renkler.lastIndexOf("Gri");
+document.write(sonuc);
+
+// find() 		:	Kendisine parametre olarak verilen fonksiyonu dizideki her eleman üzerine tek tek olmak üzere çalıştırır ve dizi içerisinde parametrik olarak verilen değeri arar. İlk eşleşmeyi sağlayan dizi elemanının değerini geriye döndürür.
+// 1. Parametre	:	Her işlemde elde edilen dizi elemanı.
+// 2. Parametre	:	Her işlemde elde edilen dizi elemanının indis / index değeri.
+// 3. Parametre	:	Her tekrar işleminde diziyi tutan değişkenin referansı.
+
+function deneme(eleman, sira, referans){
+	return sira == 3;
+}
+
+var sayilar		=	new Array("Siyah", "Beyaz", "Sarı", "Mavi", "Kırmızı");
+document.write(sayilar + "<br />");
+
+var sonuc		=	sayilar.find(deneme);
+document.write(sonuc);
+
+// findIndex() 	:	Kendisine parametre olarak verilen fonksiyonu dizideki her eleman üzerine tek tek olmak üzere çalıştırır ve dizi içerisinde parametrik olarak verilen değeri arar. İlk eşleşmeyi sağlayan dizi elemanının indis / index değerini geriye döndürür.
+// 1. Parametre	:	Her işlemde elde edilen dizi elemanı.
+// 2. Parametre	:	Her işlemde elde edilen dizi elemanının indis / index değeri.
+// 3. Parametre	:	Her tekrarda diziyi tutan değişkenin referansı.
+
+function deneme(eleman, sira, referans){
+	return eleman == 50;
+}
+
+var rakamlar		=	new Array(10, 20, 30, 40, 50, 60, 70, 80, 90, 100);
+document.write(rakamlar + "<br />");
+
+var sonuc		=	rakamlar.findIndex(deneme);
+document.write(sonuc);
+
+// reduce() 	:	Kendisine parametre olarak verilen fonksiyonu dizideki her eleman üzerinde soldan sağa tek tek olmak üzere çalıştırır ve tek bir değer oluşturarak, oluşturduğu değeri geriye döndürür.
+// 1. Parametre	:	Dizi içerisinde mevcut değer öncesindeki değerlerin toplamı / birleşimi.
+// 2. Parametre	:	Her işlemde elde edilen dizi elemanı.
+// 3. Parametre	:	Her işlemde elde edilen dizi elemanının indis / index değeri.
+// 4. Parametre	:	Her tekrarda diziyi tutan değişkenin referansı.
+
+function deneme(deger, eleman, sira, degisken){
+	return deger+eleman;
+}
+
+var harfler		=	new Array("A", "B", "C", "D", "E");
+document.write(harfler + "<br />");
+
+var islem		=	harfler.reduce(deneme);
+document.write(islem);
+
+// reduceRight() 	:	Kendisine parametre olarak verilen fonksiyonu dizideki her eleman üzerinde sağdan sola tek tek olmak üzere çalıştırır ve tek bir değer oluşturarak, oluşturduğu değeri geriye döndürür.
+// 1. Parametre		:	Dizi içerisinde mevcut değer öncesindeki değerlerin toplamı / birleşimi.
+// 2. Parametre		:	Her işlemde elde edilen dizi elemanı.
+// 3. Parametre		:	Her işlemde elde edilen dizi elemanının indis / index değeri.
+// 4. Parametre		:	Her tekrarda diziyi tutan değişkenin referansı.
+
+function deneme(deger, eleman, sira, degisken){
+	return deger+eleman;
+}
+
+var icerik		=	new Array("Volkan ", "Hakan ", "Onur ", "Ümit ", "Serkan ");
+document.write(icerik + "<br />");
+
+var sonuc		=	icerik.reduceRight(deneme);
+document.write(sonuc);
+
+
+// reverse()		:	Dizi içerisindeki sıralamayı tersine çevirerek yeni bir dizi oluşturur ve oluşturduğu değeri geriye döndürür.
+
+var meyveler		=	new Array("Elma", "Armut", "Karpuz", "Kavun", "Muz", ["Çiçek", "Vişne"], "Ananas");
+document.write(meyveler + "<br />");
+
+var yenimeyveler	=	meyveler.reverse();
+document.write(yenimeyveler);
+
+// sort() 	:	Dizi içeriğinin sıralanmasını sağlar. Metot Unicode (evrensel kod) olarak çalışır.
+
+var isimler		=	["Volkan", "Ümit", "Onur", "Serkan", "Hakan"];
+document.write(isimler + "<br /><br />");
+isimler.sort();
+document.write(isimler);
+
+// sort() 	:	Dizi içeriğinin sıralanmasını sağlar. Metot Unicode (evrensel kod) olarak çalışır.
+function sirala(a, b){
+	return a-b;
+}
+
+function sirala(a, b){
+	return b-a;
+}
+
+var sayilar		=	new Array(2, 12, 100, 144, 53, 8.55, 75, 10.12);
+
+document.write(sayilar + "<br /><br />");
+sayilar.sort(sirala);
+document.write(sayilar);
+
+// sort() 	:	Dizi içeriğinin sıralanmasını sağlar. Metot Unicode (evrensel kod) olarak çalışır.
+function sirala(a, b){
+	var alfabe	=	"AaBbCcÇçDdEeFfGgĞğHhIıİiJjKkLlMmNnOoÖöPpQqRrSsŞşTtUuÜüVvWwXxYyZz";
+	
+	if(a.length === 0 || b.length === 0){
+		return b.length-a.length;
+		//return a.length-b.length;
+	}else{
+		var bir		=	alfabe.indexOf(a[0]);
+		var iki		=	alfabe.indexOf(b[0]);
+			if(bir !== iki){
+				return iki-bir;
+				//return bir-iki
+			}else{
+				return sirala(a.slice(1), b.slice(1));
+			}
+	}
+}
+
+var isimler		=	new Array("Volkan", "Ümit", "Onur", "Serkan", "Hakan", "Çağatay", "Şinasi");
+document.write(isimler + "<br /><br />");
+isimler.sort(sirala);
+document.write(isimler);
+
+// forEach() 	:	Kendisine parametre olarak verilen fonksiyonu dizideki her eleman üzerine tek tek çalıştırır ve geriye herhangi bir değer döndürmez. Fakat istenirse ilgili değerlere erişilebilir.
+// 1. parametre	:	Her işlemde elde edilen dizi elemanı.
+// 2. parametre	:	Her işlemde elde edilen dizi elemanın indis / index değeri.
+// 3. parametre	:	Tekrarlama işlemi için dizinin atandığı değişkenin referansı.
+
+function islem(eleman, sira, degisken){
+	sonuc	=	sonuc + " Çalıştı " + eleman + "<br />";
+}
+
+var sonuc		=	"";
+var sayilar		=	["Volkan", "Hakan", "Onur", "Levent"];
+document.write(sayilar + "<br />");
+
+sayilar.forEach(islem);
+document.write(sonuc);
+
+//Örnek 2
+function islem(eleman, sira, degisken){
+	sonuc	+=	eleman;
+}
+
+var sonuc		=	0;
+var sayilar		=	new Array(2, 4, 6, 8, 10, 12, 14, 16, 18, 20);
+document.write(sayilar + "<br />");
+
+sayilar.forEach(islem);
+document.write(sonuc);
+
 ```
