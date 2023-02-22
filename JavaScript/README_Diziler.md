@@ -531,5 +531,13 @@ document.write(icerikler + "<br />");
 var karistir	=	icerikler.shuffle();
 document.write(karistir);
 
+// Matematiksel işlemler
+
+var degerbir	=	110;
+var degeriki	=	10;
+
+degerbir	-=	degeriki;
+document.write(degerbir);
+
 
 ```
