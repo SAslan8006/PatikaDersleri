@@ -608,15 +608,70 @@ document.write(sonuc);
 // sinh() 		:	Kendisine parametre olarak verilen herhangi bir sayı değerinin hiperbolik sinüsünü bularak, bulduğu değeri geriye döndürür.
 // asin() 		:	Kendisine parametre olarak verilen -1 ile 1 arasındaki sayı değerinin ark sinüsünü radyan cinsinden bularak, bulduğu değeri geriye döndürür.
 // asinh() 		:	Kendisine parametre olarak verilen herhangi bir sayının değerinin hiperbolik ark sinüsünü bularak, bulduğu değeri geriye döndürür.
-
+var deger	=	1.1;
 var deger	=	2;
 var sonuc	=	Math.sin(deger);
 var sonuc1	=	Math.sinh(deger);
 var sonuc2	=	Math.asin(deger);
-var sonuc	=	Math.asinh(deger);
+var sonuc3	=	Math.asinh(deger);
 
 document.write(sonuc);
 
+// cos() 	:	Kendisine parametre olarak verilen herhangi bir sayı değerinin kosinüsünü bularak, bulduğu değeri geriye döndürür.
+// cosh() 	:	Kendisine parametre olarak verilen herhangi bir sayının hiperbolik kosinüsünü bularak, bulduğu değeri geriye döndürür.
+// acos() 	:	Kendisine parametre olarak verilen -1 ile 1 arasındaki sayı değerinin ark kosinüsünü radyan cinsinden bularak, bulduğu değeri geriye döndürür.
+// acosh() 		:	Kendisine parametre olarak verilen herhangi bir sayı değerinin hiperbolik ark kosinüsünü bularak, bulduğu değeri geriye döndürür.
 
+var deger	=	1;
+var sonuc	=	Math.cos(deger);
+var sonuc1	=	Math.cosh(deger);
+var sonuc2	=	Math.acos(deger);
+var sonuc3	=	Math.acosh(deger);
+document.write(sonuc);
+
+// tan() 	:	Kendisine parametre olarak verilen herhangi bir sayının tanjantını bularak, bulduğu değeri geriye döndürür.
+// tanh() 	:	Kendisine parametre olarak verilen herhangi bir sayının hiperbolik tanjantını bularak, bulduğu değeri geriye döndürür.
+// atan() 	:	Kendisine parametre olarak belirtilen herhangi bir sayı değerinin ark tanjantını radyan cinsinden bularak, bulduğu değeri geriye döndürür.
+
+var deger	=	123;
+var sonuc	=	Math.tan(deger);
+var sonuc1	=	Math.tanh(deger);
+var sonuc2	=	Math.atan(deger);
+document.write(islem);
+
+// atanh() 		:	Kendisine parametre olarak verilen herhangi bir sayı değerinin / -1 ile 1 arasındaki sayı değerinin hiperbolik ark tanjantını bularak, bulduğu değeri geriye döndürür.
+
+var deger	=	1;
+var sonuc	=	Math.atanh(deger);
+document.write(sonuc);
+
+// atan2() 		:	Kendisine parametre olarak verilen sayı değerlerinin ark tanjantını radyan cinsinden bularak, bulduğu değeri geriye döndürür.
+
+var degerbir	=	8;
+var degeriki	=	4;
+var sonuc		=	Math.atan2(degerbir, degeriki);
+document.write(sonuc);
+
+// exp() 	:	Kendisine parametre olarak verilen herhangi bir sayı değerinin euler sayısı üssünü bularak, bulduğu değeri geriye döndürür.
+
+var deger	=	2;
+var sonuc	=	Math.exp(deger);
+document.write(sonuc);
+
+// expm1() 		:	Kendisine parametre olarak verilen herhangi bir sayının Euler sayısı üssünü bularak ve bir eksilterek, sonucu geriye döndürür.
+
+var deger		=	2;
+var sonucbir	=	Math.exp(deger);
+var sonuciki	=	Math.expm1(deger);
+document.write(sonucbir + "<br />");
+document.write(sonuciki);
+
+// log() 	:	Kendisine parametre olarak verilen herhangi bir sayının doğal logaritmasını bularak, bulduğu değeri geriye döndürür. (Baz : Euler sayısı)
+
+var deger	=	2;
+
+var sonuc	=	Math.log(deger);
+
+document.write(sonuc);
 
 ```
