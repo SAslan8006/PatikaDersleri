@@ -264,4 +264,108 @@ var ifade	=	/\Bvolkan/;
 var sonuc	=	metin.search(ifade);
 document.write(sonuc);
 
+// ?=		:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter dizilimi içerisindeki belirtilen bir referans değerin önünde düzenli ifade ile eşleşebilecek değerleri aramak için kullanılır.
+
+var metin	=	"Javascript dünya üzerinde ve Türkiye'de en yaygın olarak kullanılmakta olan script dilidir.";
+var ifade	=	new RegExp("script(?= dünya)");
+var ifade	=	/script(?= dünya)/;
+var ifade	=	new RegExp("script(?= di)");
+var ifade	=	/script(?= di)/;
+
+var sonuc	=	metin.search(ifade);
+document.write(sonuc);
+
+// ?! 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter dizilimi içerisindeki belirtilen bir referans değer ile takip edilmeyen değerleri düzenli ifade ile eşleşebilecek değerleri aramak için kullanılır.
+
+var metin	=	"Javascript Türkiye'de ve dünyada en yaygın olarak kullanılmakta olan bir script dilidir.";
+var ifade	=	new RegExp("script(?! T)");
+var ifade	=	/script(?! T)/;
+
+var sonuc	=	metin.search(ifade);
+document.write(sonuc);
+
+// {x} 		:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin x defa tekrarlanmış olması gerektiğini belirtmek için kullanılır.
+
+var metin	=	"Javascript eğitim seti";
+var ifade	=	new RegExp("a{2}");
+var ifade	=	new RegExp("a{2}", "i");
+var ifade	=	/a{2}/i;
+var ifade	=	/a{2}/;
+var sonuc	=	ifade.test(metin);
+document.write(sonuc);
+
+// {x,} 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin x defa yada daha fazla tekrarlanmış olması gerektiğini belirtmek için kullanılır.
+
+var metin		=	"Javascipt eğittttttttttttttttttttttttttttttttttttttttttttttttttttttim seti";
+var ifadebir	=	new RegExp("t{3}", "g");
+var ifadeiki	=	new RegExp("t{3,}", "g");
+var ifadebir	=	/t{3}/g;
+var ifadeiki	=	/t{3,}/g;
+var ifade		=	new RegExp("t{3,}");
+var ifade		=	/t{3,}/;
+var sonucbir	=	metin.match(ifadebir);
+var sonuciki	=	metin.match(ifadeiki);
+document.write(sonucbir + "<br />");
+document.write(sonuciki);
+
+// {x,y} 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin en az x defa yada en fazla y defa tekrarlanmış olması gerektiğini belirtmek için kullanılır.
+
+var metin	=	"Javaaaaaaaaaascipt";
+var ifade	=	new RegExp("a{2,20}");
+var ifade	=	/a{2,20}/;
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
+// + 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin 1 defa yada daha fazla tekrarlanmış olması gerektiğini belirtmek için kullanılır.
+
+var metin		=	"Javascript dilinin dosya uzantısı js jss jsss şeklinde tanımlanmaktadır.";
+var ifade		=	new RegExp("js+", "g");
+var ifade		=	/js+/g;
+var sonuc		=	metin.match(ifade);
+document.write(sonuc);
+
+// ? 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin 0 defa yada 1 defa tekrarlanmış olması gerektiğini belirtmek için kullanılır.
+
+var metin	=	"Javascript dilinin dosya uzantısı j js jss jsss şeklindedir.";
+var ifade	=	new RegExp("js?", "gi");
+var ifade	=	/js?/gi;
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
+// () 	:	Düzenli ifadelerde grup tanımlamak için kullanılır.
+
+var metin	=	"Volkan Alakent Html ve Javascript eğitim seti.";
+var ifade	=	new RegExp("(Html|Javascript)", "g");
+var ifade	=	/(Html|Javascript)/g;
+var ifade	=	new RegExp("(J)(a)(v)(a)(s)(c)(r)(i)(p)(t)", "g");
+var ifade	=	/(J)(a)(v)(a)(s)(c)(r)(i)(p)(t)/g;
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
+// \ 	:	Düzenli ifadelerde ardından gelecek olan karakterin özel bir karakter olup olmadığını belirtmek için kullanılır.
+
+var metin	=	"JavaScript eğitim seti";
+var ifade	=	new RegExp("\\S","g");
+var ifade	=	/\S/g;
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
+// (?:x) 	:	Düzenli ifadelerde alt grup oluşturmak için kullanılır.
+
+var metin	=	"Javascript";
+var ifade	=	/(?:sc)/;
+var ifade	=	new RegExp("(?:sc)");
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
+// [abc] 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, belirtilen karakterlerden herhangi birisi ile eşleşmesi gerektiğini belirtmek için kullanılır.
+
+var metin	=	"Volkan Alakent Javascript eğitim seti.";
+var ifade	=	new RegExp("[Javascript]", "g");
+var ifade	=	/[Javascript]/g;
+var ifade	=	new RegExp("[VAJğ]", "g");
+var ifade	=	/[VAJğ]/g;
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
 ```
