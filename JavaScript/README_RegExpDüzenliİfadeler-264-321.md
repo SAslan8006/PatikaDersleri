@@ -368,4 +368,205 @@ var ifade	=	/[VAJğ]/g;
 var sonuc	=	metin.match(ifade);
 document.write(sonuc);
 
+// [a-z] 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, belirtilen karakter aralığından herhangi birisi ile eşleşmesi gerektiğini belirtmek için kullanılır.
+
+var metin	=	"Volkan Alakent 1980 Doğumludur.";
+var ifade	=	new RegExp("[0-9]", "g"); // [0123456789]
+var ifade	=	new RegExp("[a-z]", "gi"); // [abc......xyz]
+var ifade	=	/[A-Z]/g; // [ABC......XYZ]
+var ifade	=	new RegExp("[A-Z]", "g"); // [ABC......XYZ]
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
+// [^abc] 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, belirtilen karakterler dışındaki karakterlerden herhangi birisi ile eşleşmesi gerektiğini belirtmek için kullanılır.
+
+var metin	=	"Volkan Alakent Javascript";
+var ifade	=	new RegExp("[^VAJ]", "g");
+var ifade	=	/[^VAJ]/g;
+var ifade	=	new RegExp("[^ ]", "g");
+var ifade	=	/[^ ]/g;
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
+// [^a-z] 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, belirtilen karakter aralığı dışındaki karakterlerin herhangi birisi ile eşleşmesi gerektiğini belirtmek için kullanılır.
+
+var metin	=	"Javascript Volkan Alakent 2016";
+var ifade	=	new RegExp("[^a-z]", "gi"); // abc.....xyz
+var ifade	=	/[^a-z]/gi; // abc.....xyz
+var ifade	=	new RegExp("[^0-9]", "g"); // 0123456789
+var ifade	=	/[^0-9]/g; // 0123456789
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
+// (x|y) 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, belirtilen x yada y karakterlerinden herhangi birisi ile eşleşmesi gerektiğini belirtmek için kullanılır.
+
+var metin	=	"merhaba Volkan naber Hakan";
+var ifade	=	new RegExp("(Vol|Ha)kan", "g");	// (Volkan|Hakan)
+var ifade	=	/(Vol|Ha)kan/g;	// (Volkan|Hakan)
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
+// . 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, yeni satır karakteri hariç herhangi birisi ile eşleşmesi gerektiğini belirtmek için kullanılır.
+
+var metin	=	"Javascript rapor";
+var ifade	=	new RegExp("r.p", "g");
+var ifade	=	/r.p/g;
+var ifade	=	new RegExp("J.+t", "g");
+var ifade	=	/J.+t/g;
+var ifade	=	new RegExp("J.+t", "g");
+var ifade	=	/J.+t/g;
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
+// \w 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, harf, rakam veya _ (alt çizgi) karakterlerinden herhangi birisi ile eşleşmesi gerektiğini belirtmek için kullanılır.
+
+var metin	=	"!'V^+%o&/l()=k?*{a}[]n%&'_)(19+%80&&!";
+var ifade	=	new RegExp("\\w", "g");
+var ifade	=	/\w/g;
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
+// \W 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, harf, rakam veya _ (alt çizgi) karakterleri dışındaki karakterlerden herhangi birisi ile eşleşmesi gerektiğini belirtmek için kullanılır.
+
+var metin	=	"Vo&/^lkan=!'1980";
+var ifade	=	new RegExp("\\W", "g");
+var ifade	=	/\W/g;
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
+// \d 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, sadece rakam karakterlerinin herhangi birisi ile eşleşmesi gerektiğini belirtmek için kullanılır.
+
+var metin	=	"Volkan Alakent 1980";
+var ifade	=	new RegExp("\\d", "g");
+var ifade	=	/\d/g;
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
+// \D 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, rakam karakterleri dışındaki karakterlerden herhangi birisi ile eşleşmesi gerektiğini belirtmek için kullanılır.
+
+var metin	=	"Volkan Alakent 1980";
+var ifade	=	new RegExp("\\D", "g");
+var ifade	=	/\D/g;
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
+// \s 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, sadece boşluk karakteri ile eşleşmesi gerektiğini belirtmek için kullanılır.
+
+var metin	=	"Javascript eğitim seti Volkan Alakent";
+var ifade	=	new RegExp("\\s", "g");
+var ifade	=	/\s/g;
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
+// \S 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, boşluk karakteri dışındaki karakterlerden herhangi birisi ile eşleşmesi gerektiğini belirtmek için kullanılır.
+
+var metin	=	"Javascript eğitim seti";
+var ifade	=	new RegExp("\\S", "g");
+var ifade	=	/\S/g;
+var sonuc	=	metin.match(ifade);
+document.write(sonuc);
+
+// \0 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, sadece Null (boş) karakteri ile eşleşmesi gerektiğini belirtmek için kullanılır.
+// 16 bit Null değeri : \u0000
+
+var metin	=	"Javascript \u0000 eğitim seti";
+var ifade	=	new RegExp("\\0");
+var ifade	=	/\0/;
+var sonuc	=	ifade.test(metin);
+document.write(sonuc);
+
+// \f 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, sadece form besleme karakteri ile eşleşmesi gerektiğini belirtmek için kullanılır.
+// \u000C	:	16 Bit yazım şekli
+
+var metin	=	"ABC \u000C ABC";
+var ifade	=	new RegExp("\\f");
+var ifade	=	/\f/;
+var sonuc	=	ifade.test(metin);
+document.write(sonuc);
+
+// \n 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulan değerin, sadece yeni satır karakteri ile eşleşmesi gerektiğini belirtmek için kullanılır.
+// \u000A 	:	16 Bitlik yazım şekli
+
+var metin	=	"Volkan Alakent\nJavascript eğitim seti.";
+var ifade	=	new RegExp("\\n");
+var sonuc	=	ifade.test(metin);
+document.write(metin);
+
+// \r 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, sadece paragraf sonu karakteri ile eşleşmesi gerektiğini belirtmek için kullanılır.
+// \u000D 	:	16 Bit yazım şekli
+
+var metin	=	"Volkan Alakent\rJavascript eğitim seti.";
+var ifade	=	/\r/;
+var sonuc	=	ifade.test(metin);
+document.write(metin);
+
+// \t 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, sadece yatay sekme (tab) karakteri ile eşleşmesi gerektiğini belirtmek için kullanılır.
+// \u0009	:	16 Bit yazma şekli
+
+var metin	=	"Volkan Alakent		Javascript eğitim seti";
+var metin	=	"Volkan Alakent\u0009Javascript eğitim seti";
+var ifade	=	new RegExp("\\t");
+var ifade	=	/\t/;
+var sonuc	=	ifade.test(metin);
+document.write(sonuc);
+
+// \v 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, sadece dikey sekme karakteri ile eşleşmesi gerektiğini belirtmek için kullanılır.
+// \u000B	:	16 Bit yazma şekli
+
+var metin	=	"Volkan \u000B Alakent Javascript eğitim seti";
+var ifade	=	new RegExp("\\v");
+var ifade	=	/\v/;
+var sonuc 	=	ifade.test(metin);
+document.write(sonuc);
+
+// \XXX :	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, octal numeral system tabanında ASCII karşılığı olan karakteri ile eşleşmesi gerektiğini belirtmek için kullanılır.
+// Değer aralığı : \000 - \377
+// octal numeral system : sekizlik sayı sistemi
+// ASCII : American Standart Code for Information Interchange :	Bilgi değişimi için Amerikan standart kodlama sistemi
+// 166 157 154 153 141 156
+
+var metin	=	"volkan";
+var ifade	=	new RegExp("\\153");
+var ifade	=	/\153/;
+var ifade	=	new RegExp("o");
+var ifade	=	/o/;
+var sonuc	=	ifade.test(metin);
+document.write(sonuc);
+
+var metin	=	"\166\157\154\153\141\156";
+document.write(metin);
+
+// \xXX 	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, hexadecimal numeral system tabanında ASCII karşılığı olan karakteri ile eşleşmesi gerektiğini belirtmek için kullanılır. Değer aralığı : \x00 - \xFF
+// hexadecimal numeral system : Onaltılık sayı sistemi
+// ASCII	:	American Standart Code for Information Interchange 	:	Bilgi değişimi için Amerikan standart kodlama sistemi
+// \x76 \x6F \x6C \x6B \x61 \x6E
+
+var metin	=	"volkan";
+var sonuc	=	ifade.test(metin);var metin	=	"\x76\x6F\x6C\x6B\x61\x6E";
+var ifade	=	new RegExp("\\x61");
+var ifade	=	/\x61/;
+var ifade	=	new RegExp("n");
+var ifade	=	/n/;
+document.write(sonuc);
+
+var metin	=	"\x76\x6F\x6C\x6B\x61\x6E";
+document.write(metin);
+
+// \uXXXX	:	Düzenli ifade dahilinde kontrol edilecek olan değişken içeriği karakter diziliminde bulunan değerin, 16 Bit'lik Unicode formatındaki karşılığı olan karakteri ile eşleşmesi gerektiğini belirtmek için kullanılır.
+// 16 Bit'lik Unicode karakter aralığı	:	\u0000 - \uFFFF
+// volkan : 0076 006F 006C 006B 0061 006E
+
+var metin	=	"Volkan";
+var metin	=	"\u0076\u006F\u006C\u006B\u0061\u006E";
+var ifade	=	new RegExp("\\u006C");
+var ifade	=	/\u006C/;
+var ifade	=	new RegExp("n");
+var ifade	=	/n/;
+var sonuc	=	ifade.test(metin);
+document.write(sonuc);
+
+var metin	=	"\u0076\u006F\u006C\u006B\u0061\u006E";
+document.write(metin);
+
+
 ```
