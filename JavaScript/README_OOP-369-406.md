@@ -312,6 +312,7 @@ var ornek			=	function(isim="Volkan", soyisim="Alakent"){
 }
 
 var sonuc			=	new ornek();
+var sonuc			=	new ornek("Hakan");
 
 var isimyaz			=	sonuc.isimdegeri;
 var soyisimyaz		=	sonuc.soyisimdegeri;
@@ -321,19 +322,227 @@ document.write(metin);
 // Fonsiyon şekilinde nesne tanımalarında gönderilen parametrenin sonradan değiştirilmesi
 
 
+function bilgi(isim, soyisim, yas, meslek, sehir){
+	this.isimozelligi 		=	isim;
+	this.soyisimozelligi 	=	soyisim;
+	this.yasozelligi 		=	yas;
+	this.meslekozelligi 	=	meslek;
+	this.sehirozelligi 		=	sehir;
+	this.islem 				=	function(yenisim, yeniyas, yenisehir){
+		this.isimozelligi 		=	yenisim;
+		this.yasozelligi 		=	yeniyas;
+		this.sehirozelligi 		=	yenisehir;
+	}
+}
+
+var sonuc	=	new bilgi("Hakan", "Alakent", "36", "Bilgisayar Yazılımcısı", "İstanbul");
+sonuc.islem("Volkan", 37, "İzmir");
+
+document.write(sonuc.isimozelligi + "<br />");
+document.write(sonuc.soyisimozelligi + "<br />");
+document.write(sonuc.yasozelligi + "<br />");
+document.write(sonuc.meslekozelligi + "<br />");
+document.write(sonuc.sehirozelligi + "<br />");
 
 // Nesnleride fon in döngüsünün kullanımı
 
+var bilgiler	=	{
+	isim:"Volkan",
+	soyisim:"Alakent",
+	tarih:"1980",
+	meslek:"Bilgisayar yazılımcısı",
+	sehir:"İstanbul",
+	diller:function(){
+		var birincidil	=	"PHP";
+		var ikincidil	=	"Java";
+		var ucuncudil	=	"Python";
+		var dorduncudil	=	"Javascript";
+		var besncidil	=	"Html";
+	}
+};
+
+for(var sonuc in bilgiler){
+	if(sonuc!="diller"){
+		var deger	=	bilgiler[sonuc];
+		document.write(deger + "<br />");
+	}
+}
+
 // İç içe çok boyutlu nesneler ile çalışma
 
-// Nesnelerde delete metodu kullanımı
+var bilgiler	=	{
+	isim:"Volkan",
+	soyisim:"Alakent",
+	detay:{
+		yas:36,
+		sehir:"İstanbul",
+		diller:{
+			birincidil:"Php",
+			ikincidil:"Javascript",
+			ucuncudil:"Css"
+		}
+	}
+};
 
-// Nesnelerde progtotype özelliğinin kullanımı 
+var isimdegeri			=	bilgiler.isim;
+document.write("İsim Değeri : " + isimdegeri + "<br />");
+var soyisimdegeri		=	bilgiler.soyisim;
+document.write("Soyisim Değeri : " + soyisimdegeri + "<br />");
+var detaydegeri			=	bilgiler.detay.yas;
+document.write("Yaş Değeri : " + detaydegeri + "<br />");
+var sehirdegeri			=	bilgiler.detay.sehir;
+document.write("Şehir Değeri : " + sehirdegeri + "<br />");
+var birincidildegeri	=	bilgiler.detay.diller.birincidil;
+document.write("Birinci Dil Değeri : " + birincidildegeri + "<br />");
+var ikincidildegeri	=	bilgiler.detay.diller.ikincidil;
+document.write("İkinci Dil Değeri : " + ikincidildegeri + "<br />");
+var ucuncudildegeri	=	bilgiler.detay.diller.ucuncudil;
+document.write("Üçüncü Dil Değeri : " + ucuncudildegeri + "<br />");
+
+// Nesnelerde delete metodu kullanımı
+var bilgiler	=	{
+	isim:"Volkan",
+	soyisim:"Alakent",
+	yas:36
+};
+
+delete bilgiler.isim;
+delete bilgiler.soyisim;
+bilgiler.isim 	=	"Hakan";
+
+var isimdegeri			=	bilgiler.isim;
+var soyisimdegeri		=	bilgiler.soyisim;
+var yasdegeri			=	bilgiler.yas;
+
+document.write(isimdegeri + "<br />");
+document.write(soyisimdegeri + "<br />");
+document.write(yasdegeri);
+
+// Nesnelerde prototype özelliğinin kullanımı 
+
+function bilgiler(sayibir, sayiiki, sayiuc, sayidort, sayibes){
+	this.degerbir 		=	sayibir;
+	this.degeriki 		=	sayiiki;
+	this.degeruc 		=	sayiuc;
+	this.degerdort 		=	sayidort;
+	this.degerbes 		=	sayibes;
+}
+
+bilgiler.prototype.islem 	=	function(){
+	return 	this.degerbir + this.degeriki + this.degeruc + this.degerdort + this.degerbes;
+}
+
+var sonuc	=	new bilgiler(10, 20, 30, 40, 50);
+
+var yazdir	=	sonuc.islem();
+document.write(yazdir);
 
 // Nesnelerde __proto__ özelliğinin kullanımı
+// __proto__ 	:	Bir nesnenin prototype nesnesini elde etmek için kullanılır ve prototype nesnesi içerisindeki özelliklere ulaşarak değeri geriye döndürür.
+
+function bilgiler(){
+	this.isim 		=	"Volkan";
+	this.soyisim 	=	"Alakent";
+}
+
+bilgiler.prototype.islem 	=	function(){
+	this.ifade 		=	"Merhaba";
+}
+
+var sonuc	=	new bilgiler();
+
+var isimyaz			=	sonuc.isim;
+var soyisimyaz		=	sonuc.soyisim;
+var ifadeyaz		=	sonuc.__proto__.ifade;
+
+document.write(isimyaz + "<br />");
+document.write(soyisimyaz + "<br />");
+document.write(ifadeyaz);
+
 
 // Nesnelerde hasOwnProperty() özellğinin kullanımı
+// hasOwnProperty 	:	Bir nesnenin parametrik olarak girilen özelliğinin kullanılıp kullanılmadığını kontrol ederek boolean (mantıksal) veri türünde sonucu geriye döndürür.
 
+var bilgiler	=	{
+	isim:"Volkan",
+	soyisim:"Alakent",
+	yas:36
+};
+
+var isimkontrolet 		=	bilgiler.hasOwnProperty("isim");
+document.write("isim özelliği : " + isimkontrolet + "<br />");
+
+var soyisimkontrolet 	=	bilgiler.hasOwnProperty("soyisim");
+document.write("soyisim özelliği : " + soyisimkontrolet + "<br />");
+
+var yaskontrolet 		=	bilgiler.hasOwnProperty("yas");
+document.write("yas özelliği : " + yaskontrolet + "<br />");
+
+var sehirkontrolet 		=	bilgiler.hasOwnProperty("sehir");
+document.write("sehir özelliği : " + sehirkontrolet);
+
+// Nesnelerde propertyIsEnumerable() özellliğinin kullanımı
+// propertyIsEnumerable 	:	Bir nesnenin parametrik olarak girilen özelliğinin kullanılıp kullanılmadığını ve numaralandırılabilir olup olmadığını kontrol ederek boolean (mantıksal) veri türünde sonucu geriye döndürür.
+
+var bilgiler 	=	{
+	isim:"Volkan",
+	soyisim:"Alakent",
+	yas:36
+};
+
+var isimyaz				=	bilgiler.isim;
+var soyisimyaz			=	bilgiler.soyisim;
+var yasyaz				=	bilgiler.yas;
+var sehiryaz			=	bilgiler.sehir;
+
+var isimkontrolet		=	bilgiler.propertyIsEnumerable("isim");
+var soyisimkontrolet	=	bilgiler.propertyIsEnumerable("soyisim");
+var yaskontrolet		=	bilgiler.propertyIsEnumerable("yas");
+var sehirkontrolet		=	bilgiler.propertyIsEnumerable("sehir");
+
+document.write(isimyaz + "<br />");
+document.write(isimkontrolet + "<br /><br />");
+
+document.write(soyisimyaz + "<br />");
+document.write(soyisimkontrolet + "<br /><br />");
+
+document.write(yasyaz + "<br />");
+document.write(yaskontrolet + "<br /><br />");
+
+document.write(sehiryaz + "<br />");
+document.write(sehirkontrolet);
+
+//Nesnelerde isPrototypeOf() özelliğinin kullanımı
+// isPrototypeOf() 	:	Parametrik olarak girilen nesne prototype zincirinde, bir constructor (yapıcı metot) bulunup blunmadığını kontrol ederek boolean (mantıksal) veri türünde sonucu geriye döndürür.
+
+function bilgiler(){
+
+}
+
+var sonuc		=	new bilgiler();
+
+var kontrolet	=	bilgiler.prototype.isPrototypeOf(sonuc);
+
+document.write(kontrolet);
+
+//Nesnelerde instanceof operatörünün kullanımı
+// instanceof 	:	Bir nesnenin constructor'ının (yapıcı metodunun) doğruluğunu kontrol ederek boolean veri türünde sonucu geriye döndürür.
+
+function demobir(){
+	
+}
+
+function demoiki(){
+	
+}
+
+var sonucbir	=	new demobir();
+var islembir	=	sonucbir instanceof demobir;
+document.write(islembir + "<br />");
+
+var sonuciki	=	new demobir();
+var islemiki	=	sonucbir instanceof demoiki;
+document.write(islemiki);
 
 
 ```
