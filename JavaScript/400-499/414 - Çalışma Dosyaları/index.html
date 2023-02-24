@@ -7,6 +7,8 @@
 
 <body>
 <div id="sonucalani"></div>
+<div id="sonucalani1"></div>
+
 <script type="text/javascript" language="javascript">
 // implementation 	:	Belge ile ilgili DOMimplementation arayüzünden türetilmiş bir DOMimplementation nesnesi referansını boolean (mantıksal) veri türünde elde etmek için kullanılır.
 // implementation	:	Uygulama
@@ -14,6 +16,7 @@
 
 var islem	=	document.implementation;
 document.getElementById("sonucalani").innerHTML = islem.hasFeature("HTML", "1.0");
+document.getElementById("sonucalani1").innerHTML = islem.hasFeature("HTML", "1.0");
 
 </script>
 </body>

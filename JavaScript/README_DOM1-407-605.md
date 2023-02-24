@@ -145,7 +145,150 @@ for(var baslangic = 0; baslangic<sonuc.length; baslangic++){
 ```
 
 ```Html
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<script type="text/javascript" language="javascript">
+// doctype 		:	Belge döküman türü referansını elde etmek için kullanılır.
+
+var islem	=	document.doctype.name;
+document.write(islem);
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// documentElement 		:	HTML tag'ının (etiketinin) referansını element nesnesi halinde elde etmek için kullanılır.
+
+var islem	=	document.documentElement.nodeName;
+document.write(islem);
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div id="sonucalani"></div>
+<script type="text/javascript" language="javascript">
+// implementation 	:	Belge ile ilgili DOMimplementation arayüzünden türetilmiş bir DOMimplementation nesnesi referansını boolean (mantıksal) veri türünde elde etmek için kullanılır.
+// implementation	:	Uygulama
+// Feature 			:	Özellik
+
+var islem	=	document.implementation;
+document.getElementById("sonucalani").innerHTML = islem.hasFeature("HTML", "1.0");
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="islemsari()">Sarı</button>
+<button onclick="islemsiyah()">Siyah</button>
+<button onclick="islemmavi()">Mavi</button>
+<button onclick="islemkirmizi()">Kırmızı</button>
+<button onclick="islemyesil()">Yeşil</button>
+<button onclick="islembeyaz()">Beyaz</button>
+
+<script type="text/javascript" language="javascript">
+// body 	:	Belge içerisindeki body tag'ının (etiketinin) referansını elde etmek için kullanılır.
+
+function islemsari(){
+	document.body.style.backgroundColor = "yellow";
+}
+
+function islemsiyah(){
+	document.body.style.backgroundColor = "black";
+}
+
+function islemmavi(){
+	document.body.style.backgroundColor = "blue";
+}
+
+function islemkirmizi(){
+	document.body.style.backgroundColor = "red";
+}
+
+function islemyesil(){
+	document.body.style.backgroundColor = "green";
+}
+
+function islembeyaz(){
+	document.body.style.backgroundColor = "white";
+}
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head id="OrnekID">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// head 	:	Belge içerisindeki head tag'ının (etiketinin) referansını elde etmek için kullanılır.
+
+var sonuc	=	document.head.id;
+document.write(sonuc);
+
+</script>
+</body>
+</html>
+```
+
+```Html
+```
+
+```Html
+```
+
+```Html
+```
+
+```Html
+```
+
+```Html
+```
+
+```Html
 ```
 
 ```Html
