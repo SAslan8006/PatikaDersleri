@@ -366,7 +366,7 @@ var donustur		=	zaman.toString();
 var donusturturu	=	typeof donustur;
 document.write(donusturturu + " " + donustur);
 
-// toLocaleString() 	:	Kullanıldığı değişken içeriğine atanmış olan tarih ve saat bilgilerini tarayıcı lokasyonuna / diline göre alarak string (metin) veri türünde düz bir metne dönüştürerek oluşturduğu değeri geriye döndürür.
+// toLocaleString() 	:	Kullanıldığı değişken içeriğine atanmış olan tarih ve saat bilgilerini tarayıcı lokasyonuna / diline göre alarak string (metin) veri türünde düz bir metne dönüştürerek oluşturduğu değeri geriye döndürür. 23.02.2023 20:28:41
 
 var zaman			=	new Date();
 var zamanturu		=	typeof zaman;
@@ -438,6 +438,8 @@ document.write(zamantur + " " + zaman + "<br />");
 var xzaman		=	zaman.toLocaleDateString();
 var xzamantur	=	typeof xzaman;
 document.write(xzamantur + " " + xzaman);
+
+string
 
 // toTimeString() 		:	Kullanıldığı değişken içeriğine atanmış olan tarih ve saat bilgilerinin sadece saat kısmını alarak string veri türünde düz bir metne dönüştürerek oluşturduğu değeri geriye döndürür.
 
