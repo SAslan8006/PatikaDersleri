@@ -450,6 +450,7 @@ bilgiler.prototype.islem 	=	function(){
 }
 
 var sonuc	=	new bilgiler();
+sonuc.__proto__.islem();
 
 var isimyaz			=	sonuc.isim;
 var soyisimyaz		=	sonuc.soyisim;
@@ -544,5 +545,102 @@ var sonuciki	=	new demobir();
 var islemiki	=	sonucbir instanceof demoiki;
 document.write(islemiki);
 
+// constructor 		:	Nesnenin constructor'ını (yapıcı metodunu) elde etmek için kullanılır ve constructor'ın (yapıcı metodun) değerini geriye döndürür. Ayrıca aynı zamanda kontrol işlemleri içinde kullanılabilir.
 
+function bilgiler(){
+	isim:"Volkan";
+}
+
+var sonuc	=	new bilgiler();
+
+if(sonuc.constructor == Bilgiler){
+	document.write("Evet yapıcı metot adı bilgiler'dir.");
+}else{
+	document.write("Hayır yapıcı metot adı farklı bir değerdir.");
+}
+
+// watch() 		:	Nesnenin belirtilen bir özelliği değiştiğinde, çalıştırılacak olan herhangi bir işlev eklemek için kullanılır.
+// 1. Parametre	:	Özelliğin adı
+// 2. Parametre	:	Özelliğin eski değeri
+// 3. Parametre	:	Özelliğin yeni değeri
+
+var bilgiler	=	{
+	isim:"Volkan"
+};
+
+bilgiler.watch("isim", function(ozellikadi, eskideger, yenideger){
+	var gelenozellikadi		=	ozellikadi;
+	var geleneskideger		=	eskideger;
+	var gelenyenideger		=	yenideger;
+	var metin				=	"Özellik Adı : " + gelenozellikadi + "\nEski Değer : " + geleneskideger + "\nYeni Değer : " + gelenyenideger;
+	alert(metin);
+});
+
+bilgiler.isim 	=	"Hakan";
+
+// unwatch() 	:	Nesnenin belirtilen bir özelliği değiştiğinde, eklenmiş olan bir işlevi kaldırmak için kullanılır.
+
+var bilgiler	=	{
+	isim:"Volkan"
+};
+
+bilgiler.watch("isim", function(ozellikadi, eskideger, yenideger){
+	var gelenozellikadi		=	ozellikadi;
+	var geleneskideger		=	eskideger;
+	var gelenyenideger		=	yenideger;
+	var metin				=	gelenozellikadi + "\n" + geleneskideger + "\n" + gelenyenideger;
+	alert(metin);
+});
+
+bilgiler.unwatch("isim");
+bilgiler.isim 	=	"Hakan";
+
+bilgiler.isim 	=	"Hakan";
+bilgiler.unwatch("isim");
+bilgiler.isim 	=	"Mesut";
+
+// toString() 	:	Nesnenin karakter dizesi olarak temsil edilen halinin değerini geriye döndürür. Nesne prototype özelliği kullanılarak değer ataması yapılabilir.
+
+function islem(){
+	this.isim 	=	"Volkan Alakent ";
+}
+
+islem.prototype.toString 	=	function(){
+	document.write("Extra Eğitim");
+}
+
+var bilgiler	=	new islem();
+var sonuc		=	bilgiler.toString();
+
+// toLocaleString() 	:	Nesnenin tarayıcı lokasyonuna / diline göre karakter dizesi olarak temsil edilen halinin değerini geriye döndürür. Nesne değeri üzerinden tarayıcı lokasyonuna / diline göre özel işlemler yapabilir.
+
+var deger	=	15814;
+var sonuc	=	deger.toLocaleString("tr-TR", {style:"currency", currency:"TRY", minimumSignificantDigits:2});
+document.write(sonuc);
+
+// toSource() 	:	Nesnenin kaynak kodunu temsil eden halinin değerini geriye döndürür.
+
+
+var bilgiler 	=	{
+	isim:"Volkan",
+	soyisim:"Alakent",
+	yas:36
+};
+
+var sonuc	=	bilgiler.toSource();
+document.write(sonuc);
+
+// valueOf() 	:	Nesnenin temel değerini elde etmek için kullanılır.
+
+function islem(sayi){
+	this.deger 	=	sayi;
+}
+
+islem.prototype.valueOf 	=	function(){
+	return this.deger;
+}
+
+var nesnemiz	=	new islem(50);
+var sonuc		=	nesnemiz.valueOf();
+document.write(sonuc);
 ```
