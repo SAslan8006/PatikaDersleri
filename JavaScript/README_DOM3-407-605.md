@@ -2,7 +2,6 @@
 
 ## DOM işlemleri  
 
-
 ```Html
 
 ```
