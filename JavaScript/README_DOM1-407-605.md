@@ -756,11 +756,115 @@ document.getElementById("sonucalani").innerHTML = "Form Elemanları İçerikleri
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<img src="Javascript_Resmi.jpg">
+<img src="HTML_Resmi.jpg">
+<img src="CSS_Resmi.jpg">
+<div id="sonuc"></div>
+<script type="text/javascript" language="javascript">
+// images 	:	Belge içerisindeki img tag'ına (etiketine) sahip tüm elemanların referansını elde etmek için kullanılır. Eleman referansları birden fazla ise her bir eleman döngü ile elde edilebilir.
+var islem	=	document.images[0].src;
+var islem	=	document.images.item(1).src;
+var islem	=	document.images.namedItem("uc").src;
+var islem	=	document.images.length;
+document.images[0].width	=	167;
+document.images[0].height	=	187;
+document.getElementById("sonuc").innerHTML = "Resim sayısı : " + islem;
+
+var adet	=	document.images.length;
+var metin	=	"";
+for(var baslangic = 0; baslangic<adet; baslangic++){
+	var degerimiz	=	document.images[baslangic].src;
+	metin	+=	degerimiz + " & ";
+}
+
+
+document.images[0].style.border 	=	"1px solid black";
+document.images[1].style.border 	=	"1px dotted black";
+document.images[2].style.border 	=	"1px solid black";
+
+document.getElementById("sonuc").innerHTML = "Dosyalar : " + metin;
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<script type="text/javascript" language="javascript">
+// plugins 		:	Browser'daki (tarayıcıdaki) tüm eklentilerin referansını elde etmek için kullanılır. Eklenti referansları birden fazla ise her bir eklenti döngü ile elde edilebilir.
+
+var deger	=	navigator.plugins;
+document.write(deger);
+var deger	=	navigator.plugins.length;
+document.write("Toplam Plugin sayısı : " + deger);
+
+var deger	=	navigator.plugins.length;
+for(var baslangic = 0; baslangic<deger; baslangic++){
+	var sonuc	=	navigator.plugins[baslangic].name;
+	document.write("Plugin adı : " + sonuc + "<br />");
+}
+
+var deger	=	navigator.plugins.length;
+for(var baslangic = 0; baslangic<deger; baslangic++){
+	var sonuc	=	navigator.plugins[baslangic];
+	document.write("Plugin Adı : " + sonuc.name + "<br />");
+	document.write("Dosya : " + sonuc.filename + "<br />");
+	document.write("Açıklama : " + sonuc.description + "<br />");
+	
+	var plugindegeriuzunlugu	=	sonuc.length;
+	for(var say = 0; say<plugindegeriuzunlugu; say++){
+		var ikincideger		=	sonuc[say];
+		document.write("Mime Type : " + ikincideger.type + "<br />");
+		document.write("Açıklama : " + ikincideger.description + "<br />");
+		document.write("Uzantı : " + ikincideger.suffixes + "<br /><br /><br />");
+	}
+}
+
+var deger	=	navigator.plugins.length;
+for(var baslangic = 0; baslangic<deger; baslangic++){
+	var sonuc	=	navigator.plugins[baslangic];
+	if(sonuc.name){
+		document.write("Plugin Adı : " + sonuc.name + "<br />");
+	}
+	if(sonuc.filename){
+		document.write("Dosya : " + sonuc.filename + "<br />");
+	}
+	if(sonuc.description){
+		document.write("Açıklama : " + sonuc.description + "<br />");
+	}
+	
+	var plugindegeriuzunlugu	=	sonuc.length;
+	for(var say = 0; say<plugindegeriuzunlugu; say++){
+		var ikincideger		=	sonuc[say];
+		if(ikincideger.type){
+			document.write("Mime Type : " + ikincideger.type + "<br />");
+		}
+		if(ikincideger.description){
+			document.write("Açıklama : " + ikincideger.description + "<br />");
+		}
+		if(ikincideger.suffixes){
+			document.write("Uzantı : " + ikincideger.suffixes + "<br />");
+		}
+	}
+}
+</script>
+</body>
+</html>
 ```
 
 ```Html
