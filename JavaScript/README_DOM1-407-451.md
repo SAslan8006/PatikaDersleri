@@ -1327,5 +1327,50 @@ function ornek(){
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<iframe id="cevercevealani" src="anasayfa.html" style="width:500px; height:500px;"></iframe>
+<br />
+<button onclick="ornek()">İŞLEM YAP</button><br /><br />
+<script type="text/javascript" language="javascript">
+// importNode() 	:	Belge içerisine başka bir belgeden node (düğüm) eklemek için kullanılır. Eklenecek olan node'un (düğümün) varsa tüm alt node'larıda (düğümleride) işleme dahil edilir.
+// appendChild()	:	Bir node'u (düğümü) belirtilecek olan herhangi bir elemanın inçerisine en sonda olmak üzere eklemek için kullanılır.
+
+function ornek(){
+	var cerceve		=	document.getElementById("cevercevealani");
+	var alan		=	cerceve.contentWindow.document.getElementsByTagName("DIV")[0];
+	var sonuc		=	document.importNode(alan, true);
+	document.body.appendChild(sonuc);
+}
+function ornek(){
+	var cerceve		=	document.getElementById("cevercevealani");
+	var alan		=	cerceve.contentWindow.document.getElementsByTagName("DIV")[0];
+	var sonuc		=	document.importNode(alan, true);
+	document.body.appendChild(sonuc);
+}
+</script>
+</body>
+</html>
+
+<!-- Ana Sayfa -->
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div id="birinci"><span style="color:red;">Volkan</span> <span style="color:blue;">Alakent</span></div>
+<div id="ikinci">Javascript Eğitim Seti</div>
+</body>
+</html>
 ```
+
+
