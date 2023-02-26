@@ -868,126 +868,462 @@ for(var baslangic = 0; baslangic<deger; baslangic++){
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.demo{ color:red; }
+</style>
+</head>
 
+<body>
+<h2>Javascript Eğitim Seti</h2>
+Anlatan Volkan Alakent<br /><br />
+<button onclick="ornek()">Uygula</button>
+
+<script type="text/javascript" language="javascript">
+// createAttribute() 	:	Belge içerisindeki istenilen bir elemana yeni bir özellik / nitelik node'u (düğümü) oluşturur ve oluşturduğu bu node'u (düğümü) bir node object (düğüm nesnesi) olarak geriye döndürür.
+// setAttributeNode() 	:	createAttribute() metodu ile oluşturulan özellik node'unu (düğümünü), node object'ine (düğüm nesnesine) uygular. 
+
+function ornek(){
+	var deger		=	document.getElementsByTagName("h2")[0];
+	var ozellik		=	document.createAttribute("class");
+	ozellik.value 	=	"demo";
+	deger.setAttributeNode(ozellik);
+}
+function ornek(){
+	var deger		=	document.getElementById("alan");
+	var ozellik		=	document.createAttribute("href");
+	ozellik.value 	=	"http://www.volkanalakent.com";
+	deger.setAttributeNode(ozellik);
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<button onclick="islem()">Ekle</button>
+<div id="alan">...</div>
+
+<script type="text/javascript" language="javascript">
+// createElement() 		:	Belge içerisinde yeni bir HTML eleman node'u (düğümü) oluşturur ve oluşturduğu bu node'u (düğümü) bir node object (düğüm nesnesi) olarak geriye döndürür.
+// createTextNode() 	:	createElement() metodu ile oluşturulan HTML elemanına metin node'u (düğümü) oluşturur ve oluşturduğu bu node'u (düğümü) bir node object (düğüm nesnesi) olarak geriye döndürür.
+// appendChild() 		:	Bir node'u (düğümü) belirtilecek olan herhangi bir elemanın içerisine en sonda olmak üzere eklemek için kullanılır.
+var sonuc	=	document.createElement("BUTTON");
+var sonuc	=	document.createElement("INPUT");
+document.body.appendChild(sonuc);
+
+var sonuc	=	document.createElement("BUTTON");
+var metin	=	document.createTextNode("Tıklayınız");
+sonuc.appendChild(metin);
+document.body.appendChild(sonuc);
+
+
+function islem(){
+	var sonuc	=	document.createElement("DIV");
+	var metin	=	document.createTextNode("Javascript eğitim seti.");
+	sonuc.appendChild(metin);
+	document.getElementById("alan").appendChild(sonuc);
+}
+</script>
+</body>
+</html>
 ```
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
-```
+<body>
+<button id="bir" onclick="ornekbir()">Birinci Açıklama Metnini Ekle</button><button id="iki" onclick="ornekiki()">İkinci Açıklama Metnini Ekle</button>
+<script type="text/javascript" language="javascript">
+// createComment() 	:	Belge içerisine yeni bir açıklama node'u (düğümü) oluşturur ve oluşturduğu bu node'u (düğümü) bir node object (düğüm nesnesi) olarak geriye döndürür.
+// appendChild() 	:	Bir node'u (düğümü) belirtilecek olan herhangi bir elemanın içerisine en sonda olmak üzere eklemek için kullanılır.
 
-```Html
+function ornekbir(){
+	var hedef	=	document.createComment("Burası birinci açıklama metnidir.");
+	document.body.appendChild(hedef);
+}
 
-```
+function ornekiki(){
+	var hedef	=	document.createComment("Burası ikinci açıklama metnidir.");
+	document.body.appendChild(hedef);
+}
 
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<div id="sonucalani"></div>
+<script type="text/javascript" language="javascript">
+// addEventListener() 	: Belgeye event (olay) işaretleyicisi / dinleyicisi eklemek için kullanılır. İşaretlenen / dinlenen event (olay) belgede gerçekleştirilecek olur ise belirtilecek olan fonksiyon veya fonksiyonlar çalışır.
+
+document.addEventListener("mouseover", ornekbir);
+document.addEventListener("click", ornekiki);
+document.addEventListener("mouseout", ornekuc);
+document.addEventListener("click", ornek);
+
+function ornek(){
+	document.getElementById("sonucalani").innerHTML = Math.random();
+}
+function ornekbir(){
+	document.getElementById("sonucalani").innerHTML +=	"Mouse Over Oldu.<br />";
+}
+
+function ornekiki(){
+	document.getElementById("sonucalani").innerHTML +=	"Tıklama Oldu.<br />";
+}
+
+function ornekuc(){
+	document.getElementById("sonucalani").innerHTML +=	"Mouse Out Oldu.<br />";
+}
+
+document.addEventListener("mouseover", function (){
+	document.getElementById("sonucalani").innerHTML = Math.random();
+});
+document.addEventListener("mouseout", function (){
+	document.getElementById("sonucalani").innerHTML = Math.random();
+});
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<button onclick="sonlandir()">Olay Dinleyicisini Kaldır</button><br />
+<div id="sonucalani"></div>
+<script type="text/javascript" language="javascript">
+// removeEventListener() 	:	Belgeye addEventListener() metodu ile eklenmiş olan event (olay) işaretleyicisini / dinleyicisini silmek için kullanılır.
+
+document.addEventListener("mousemove", ornek);
+
+function ornek(){
+	document.getElementById("sonucalani").innerHTML = Math.random();
+}
+
+function sonlandir(){
+	document.removeEventListener("mousemove", ornek);
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<div id="metinalani" dir="rtl">Javascript eğitim seti</div>
+<div id="sonucalani"></div>
+
+<script type="text/javascript" language="javascript">
+// dir 		:	Belge içerisindeki metinlerin yazılış yönü referansını elde etmek için kullanılır. Ayrıca belge içerisindeki metinlerin yazılış yönünün atamasını ayarlamak içinde kullanılır.
+// ltr		:	left to right (soldan sağa)
+// rtl		:	right to left (sağdan sola)
+
+var islem	=	document.getElementById("metinalani").dir;
+document.getElementById("sonucalani").innerHTML = islem;
+document.getElementById("metinalani").dir = "ltr";
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
-```
-```Html
+<body>
+<button onclick="ornek()">HTML Akışı Aç</button>
+<script type="text/javascript" language="javascript">
+// open() 	:	Belge içerisinden yeni bir HTML çıktı akışı açmak için kullanılır.
+// close() 	:	open() metodu ile açılan HTML çıktı akışını kapatmak / sonlandırmak için kullanılır.
+// Parametreler :
+// 1. Parametre : MimeType
+// 2. Parametre : Geçmiş aktarımı
 
-```
+function ornek(){
+	document.open();
+	document.write("Burası Yeni HTML Akışı Sayfası");
+	document.close();
+}
 
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-```Html
-
-```
-
-```Html
-
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+body{ color:red; font-size:25px; }
+p{ color:blue; }
+div{ color:yellow; }
+</style>
+<style>
+body{ font-weight:bold; }
+</style>
+</head>
 
+<body>
+Volkan Alakent Javascript Eğitim Seti<br />
+<script type="text/javascript" language="javascript">
+// styleSheets 		:	Belge üzerinde etkisi olan tüm stil sayfalarının nesne referansını elde etmek için kullanılır. Stil sayfası referansları birden fazla ise her stil sayfası referansı döngü ile elde edilebilir.
+
+var deger	=	document.styleSheets[0].cssRules;
+var sayi	=	document.styleSheets[0].cssRules.length;
+var dizi	=	[];
+for(var baslangic = 0; baslangic<sayi; baslangic++){
+	var sonuc	=	document.styleSheets[0].cssRules[baslangic].cssText;
+	dizi[baslangic] 	=	sonuc;
+}
+
+document.write(dizi);
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+body{ color:red; font-size:25px; }
+p{ color:blue; }
+div{ color:yellow; }
+</style>
+<style>
+body{ font-weight:bold; }
+</style>
+</head>
 
+<body>
+Volkan Alakent Javascript Eğitim Seti<br />
+<script type="text/javascript" language="javascript">
+// styleSheets 		:	Belge üzerinde etkisi olan tüm stil sayfalarının nesne referansını elde etmek için kullanılır. Stil sayfası referansları birden fazla ise her stil sayfası referansı döngü ile elde edilebilir.
+
+document.styleSheets[0].cssRules[0].style.backgroundColor = "yellow";
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div class="birinci">Volkan Alakent</div>
+<div class="ikinci">Javascript</div>
+<div class="ucuncu">Php</div>
+<div class="dorduncu">Css</div>
+<div class="besinci">Html</div>
+<br /><br />
+<button onclick="ornek()">İşlemi Gerçekleştir</button>
+<script type="text/javascript" language="javascript">
+// querySelector() 		:	CSS (Cascading Style Sheets) (Basamaklı Stil Şablonları) seçicileri ile belgedeki bir elemanın referansını elde etmek için kullanılır.
+
+function ornek(){
+	document.querySelector("div.ikinci").style.fontSize = "35px";
+	document.querySelector("#sonucalani").innerHTML = "JQuery";
+	document.querySelector("div#sonucalani").innerHTML = "JQuery";
+	document.querySelector("div#bir>span").style.fontSize = "35px";
+	document.querySelector("div#bir>span#biriki").style.fontSize = "35px";
+	document.querySelector("div#bir>a.deneme").style.fontSize = "35px";
+	document.querySelector("div#bir>#biriki").style.fontSize = "35px";
+	document.querySelector("div#birinci+div").style.fontSize = "35px";
+	document.querySelector("div#birinci+p").style.fontSize = "35px";
+	var sonuc	=	document.querySelector("div#bir>span#biriki").innerHTML;
+	var sonuc	=	document.querySelector(".bir").innerHTML;
+	alert(sonuc);
+	document.querySelector(".ikinci").style.fontSize = "35px";
+}
+
+</script>
+</body>
+</html>
+```
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div class="bir">Volkan Alakent Javascript Eğitim Seti</div>
+<div class="iki">Volkan Alakent Php Eğitim Seti</div>
+<div class="uc">Volkan Alakent Html Eğitim Seti</div>
+<div class="dort">Volkan Alakent Css Eğitim Seti</div>
+<p class="bes">Volkan Alakent JQuery Eğitim Seti</p>
+<p class="alti">Volkan Alakent MySql Eğitim Seti</p>
+<br />
+<span id="sonucalani"></span>
+<br /><br />
+<button onclick="ornek()">Buton</button>
+
+<script type="text/javascript" language="javascript">
+// querySelectorAll() 	:	CSS seçicileri ile belgedeki eleman veya elemanların referansını elde etmek için kullanılır. Eleman referansları birden fazla ise her bir eleman döngü ile elde edilebilir.
+
+function ornek(){
+	var islem	=	document.querySelectorAll("div").length;
+	document.getElementById("sonucalani").innerHTML = "Talep edilen Tag adedi : " + islem;
+}
+function ornek(){
+	var islem	=	document.querySelectorAll("p").length;
+	document.getElementById("sonucalani").innerHTML = "Talep edilen Tag adedi : " + islem;
+}
+function ornek(){
+	document.querySelectorAll("div")[1].style.backgroundColor = "yellow";
+}
+function ornek(){
+	var sonuc	=	document.querySelectorAll("div")[0].innerHTML;
+	document.getElementById("sonucalani").innerHTML = sonuc;
+}
+function ornek(){
+	var sonuc	=	document.querySelectorAll("p")[0].innerHTML;
+	document.getElementById("sonucalani").innerHTML = sonuc;
+}
+function ornek(){
+	document.querySelectorAll("p.alti")[1].style.fontSize = "25px";
+}
+function ornek(){
+	var islem 	=	document.querySelectorAll(".deneme")[1].innerHTML;
+	document.getElementById("sonucalani").innerHTML = islem;
+}
+function ornek(){
+	var sayi	=	document.querySelectorAll(".deneme").length;
+	for(var baslangic = 0; baslangic<sayi; baslangic++){
+		document.querySelectorAll(".deneme")[baslangic].style.backgroundColor = "yellow";;
+	}
+}
+function ornek(){
+	var sayi	=	document.querySelectorAll(".deneme").length;
+	for(var baslangic = 0; baslangic<sayi; baslangic++){
+		document.querySelectorAll(".deneme")[baslangic].style.backgroundColor = "yellow";;
+	}
+}
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<iframe src="cerceve.html" style="width:500px; height:500px;"></iframe>
+<iframe src="cerceve.html" style="width:500px; height:500px;"></iframe>
+<br /><br />
+<button onclick="ornek()">Test</button>
+<br /><br />
+<script type="text/javascript" language="javascript">
+// adoptNode() 		:	Belge içerisine başka bir belgeden node (düğüm) eklemek için kullanılır. Eklenecek olan node'un (düğümün) varsa tüm alt node'larıda (düğümleride) işleme dahil edilerek ilgili tüm node'lar (düğümler) diğer belgeden kaldırılır.
+
+function ornek(){
+	var cerceve		=	document.getElementsByTagName("IFRAME")[0];
+	var alan		=	cerceve.contentWindow.document.getElementsByTagName("DIV")[1];
+	var sonuc		=	document.adoptNode(alan);
+	document.body.appendChild(sonuc);
+}
+
+function ornek(){
+	var cerceve		=	document.getElementsByTagName("IFRAME")[0];
+	var alan		=	cerceve.contentWindow.document.getElementsByTagName("DIV")[0];
+	var sonuc		=	document.adoptNode(alan);
+	document.body.appendChild(sonuc);
+}
+function ornek(){
+	var cerceve		=	document.getElementsByTagName("IFRAME")[0];
+	var alan		=	cerceve.contentWindow.document.getElementsByTagName("DIV")[0];
+	var sonuc		=	document.adoptNode(alan);
+	document.body.appendChild(sonuc);
+}
+function ornek(){
+	var cerceve		=	document.getElementsByTagName("IFRAME")[1];
+	var alan		=	cerceve.contentWindow.document.getElementsByTagName("DIV")[1];
+	var sonuc		=	document.adoptNode(alan);
+	document.body.appendChild(sonuc);
+}
+</script>
+</body>
+</html>
+
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div id="bir"><span id="adalani" style="color:blue;">Volkan</span> <span id="soyadalani" style="color:red;">Alakent</span></div>
+<div id="iki">Javascript Eğitim Seti</div>
+</body>
+</html>
 ```
 
 ```Html
