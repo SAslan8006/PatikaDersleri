@@ -269,34 +269,294 @@ document.getElementById("sonuc").innerHTML = islemyap;
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<button onclick="ornek()">Tıklayınız</button>
+<br /><br />
+
+<ul id="liste">
+	<li>Javascript</li>
+	<li>Php</li>
+	<li>Html</li>
+</ul>
+
+<br /><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// textContent 	:	Belge içerisindeki herhangi bir node'un (düğümün), text node'larının (metin düğümlerinin) değerini elde etmek veya ayarlamak için kullanılır.
+
+function ornek(){
+	var deger	=	document.getElementById("alan").textContent;
+	var deger	=	document.getElementById("deneme").textContent;
+	document.getElementById("alan").textContent = "Volkan Alakent";
+	document.getElementById("deneme").textContent = "Yeni Düğüm";
+	var deger	=	document.getElementById("liste").textContent;
+	var deger	=	document.getElementById("liste").innerHTML;
+	document.getElementById("sonuc").innerHTML = deger;
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<div id="jsdugumu">Javascript</div>
+<div id="cssdugumu">Css</div>
+<div id="htmldugumu">Html</div>
+<div id="phpdugumu">Php</div>
+<br /><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// compareDocumentPosition() 	:	Belge içerisinde bulunan node'ların (düğümlerin) birbilerine göre konum değerlerini elde etmek için kullanılır.
+// 2	:	Belirtilen ilk düğüm, belirtilen ikinci düğümden sonra
+// 4	:	Belirtilen ilk düğüm, belirtilen ikinci düğümden önce
+
+var ilkdugum	=	document.getElementById("phpdugumu");
+var ikincidugum	=	document.getElementById("cssdugumu");
+var islemyap	=	ilkdugum.compareDocumentPosition(ikincidugum);
+document.getElementById("sonuc").innerHTML = islemyap;
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+
+<div>
+	<div id="ornekbir">Javascript Eğitim Seti</div>
+	<div id="ornekiki">HTML Eğitim Seti</div>
+	<div id="ornekuc">CSS Eğitim Seti</div>
+	<div id="ornekdort">PHP Eğitim Seti</div>
+</div>
+<br /><br />
+<div id="sonucalani"></div>
+
+<script type="text/javascript" language="javascript">
+// parentElement	:	Belge içerisindeki herhangi ibr HTML elemanının bir üst elemanını elde etmek için kullanılır.
+
+var sonuc	=	document.getElementById("ornekuc").parentElement;
+var sonuc	=	document.getElementById("ornek").parentElement;
+document.getElementById("sonucalani").innerHTML = sonuc;
+document.getElementById("ornekuc").style.backgroundColor = "yellow";
+document.getElementById("ornekuc").parentElement.style.backgroundColor = "yellow";
+document.getElementById("ornekuc").parentElement.parentElement.style.backgroundColor = "yellow";
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<!-- Deneme İçin Gizli HTML Açıklama Alanı -->
+<div>
+	<div id="ornekbir">Javascript Eğitim Seti</div>
+	<div id="ornekiki">Php Eğitim Seti</div>
+    <!-- Deneme İçin Gizli HTML Açıklama Alanı -->
+	<div id="ornekuc">Css Eğitim Seti</div>
+	<div id="ornekdort">Xml Eğitim Seti</div>
+</div>
+<br /><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// parentNode	:	Belge içerisindeki herhangi bir node'un (düğümün) bir üst node'unu (düğümünü) elde etmek için kullanılır.
+
+var deger	=	document.getElementById("ornek").parentNode;
+var deger	=	document.getElementById("ornekuc").parentNode;
+var deger	=	document.getElementById("ornekuc").parentNode.parentNode;
+document.getElementById("sonuc").innerHTML = deger;
+
+document.getElementById("ornekuc").style.backgroundColor = "yellow";
+document.getElementById("ornekuc").parentNode.style.backgroundColor = "yellow";
+document.getElementById("ornekuc").parentNode.parentNode.style.backgroundColor = "yellow";
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<button onclick="ornekbir()">Birinci Listeye Ekle</button>
+<button onclick="ornekiki()">İkinci Listeye Ekle</button>
+<br /><br /><br /><br />
+<ul id="bir">
+	<li>Javascript</li>
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>PHP</li>
+</ul>
+<br /><br /><br /><br />
+<ul id="iki">
+	<li>Photoshop</li>
+	<li>Corel</li>
+	<li>Paint</li>
+	<li>Paint.NET</li>
+</ul>
+
+<script type="text/javascript" language="javascript">
+// appendChild() 	:	Bir node'u (düğümü) belge içerisinde belirtilecek olan herhangi bir elemanın içerisine en sonda olmak üzere eklemek için kullanılır.
+
+function ornekbir(){
+	var elemanolustur	=	document.createElement("LI");
+	var icerikolustur	=	document.createTextNode("XML");
+	elemanolustur.appendChild(icerikolustur);
+	document.getElementById("bir").appendChild(elemanolustur);
+}
+
+function ornekiki(){
+	var elemanolustur	=	document.createElement("LI");
+	var icerikolustur	=	document.createTextNode("IrfanView");
+	elemanolustur.appendChild(icerikolustur);
+	document.getElementById("iki").appendChild(elemanolustur);
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<button onclick="ornek()">Sil</button>
+<br /><br />
+<ol id="liste">
+	<li id="bir">Javascript</li>
+	<li id="iki">Php</li>
+	<li id="uc">Xml</li>
+	<li id="dort">Css</li>
+	<li id="bes">Html</li>
+</ol>
+
+<script type="text/javascript" language="javascript">
+// removeChild()		:	Belge içerisindeki herhangi bir HTML elemanının içerdiği node'u (düğümü) kaldırmak / silmek için kullanılır.
+
+function ornek(){
+    var islem	=	document.getElementById("liste");
+	islem.removeChild(document.getElementById("uc"));
+
+	var islem	=	document.getElementById("liste");
+	islem.removeChild(islem.childNodes[5]);
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<button onclick="ornek()">Değiştir</button>
+<br /><br />
+<ul id="liste">
+	<li id="bir">Php</li>
+	<li id="iki">Html</li>
+	<li id="uc">Css</li>
+	<li id="dort">Xml</li>
+</ul>
+
+<script type="text/javascript" language="javascript">
+// replaceChild() 	:	Belge içerisindeki herhangi bir HTML elemanının içerdiği node'u (düğümü) değiştirmek için kullanılır.
+
+function ornek(){
+	var yenieleman	=	document.createElement("LI");
+	var yenidugum	=	document.createTextNode("Javascript");
+	yenieleman.appendChild(yenidugum);
+	
+	var deger		=	document.getElementById("liste");
+	deger.replaceChild(yenieleman, deger.childNodes[3]);
+}
+
+</script>
+</body>
+</html>
 ```
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<ul id="listebir">
+	<li id="abir">Javascript</li>
+	<li id="aiki">Php</li>
+	<li id="auc">Css</li>
+</ul>
+<br /><br />
+<button onclick="ornek()">Kopyala</button>
+
+
+<script type="text/javascript" language="javascript">
+// cloneNode() 		:	Belge içerisindeki herhangi bir HTML elemanının içerdiği node'u (düğümü) kopyalamak için kullanılır.
+
+function ornek(){
+    var kopyalanacakdugum	=	document.getElementById("listebir").childNodes[1];
+	var kopyalanacakdugum	=	document.getElementsByTagName("UL")[0];
+	var kopyala				=	kopyalanacakdugum.cloneNode(true);
+	document.body.appendChild(kopyala);
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
