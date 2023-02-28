@@ -560,30 +560,219 @@ function ornek(){
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<button onclick="ornek()">Ekle</button>
+<br /><br />
+<ul id="listebir"><li>Javascript</li><li>Php</li><li>Css</li></ul>
+<br /><br />
+<ul id="listeiki"><li>Html</li><li>Xml</li><li>JQuery</li></ul>
+
+<script type="text/javascript" language="javascript">
+// insertBefore() 	:	Bir node'u (düğümü) belge içerisndeki belirtilecek olan herhangi bir node'un (düğümün) önüne eklemek için kullanılır.
+
+function ornek(){
+	var islembir	=	document.getElementById("listeiki").lastChild;
+	var islemiki	=	document.getElementById("listebir");
+	var yer			=	islemiki.childNodes[0];
+	islemiki.insertBefore(islembir, yer);
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<div id="ornek">Javascript Eğitim Seti</div>
+<br /><br />
+<div id="sonucalani"></div>
+
+<script type="text/javascript" language="javascript">
+// hasAttribute() 		:	Belge içerisindeki herhangi bir HTML elemanının belirtilen özelliğe sahip olup olmadığını kontrol ederek, boolean (mantıksal) veri türünde sonucu geriye döndürür.
+
+var kontrolet	=	document.getElementById("ornek").hasAttribute("name");
+if(kontrolet==true){
+	document.getElementById("sonucalani").innerHTML = "Belirttiğiniz özellik ilgili HTML elemanında bulunmaktadır.";
+}else{
+	document.getElementById("sonucalani").innerHTML = "Belirttiğiniz özellik ilgili HTML elemanında yoktur.";
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<div contenteditable="true">Javascript Eğitim Seti</div>
+<br /><br />
+<div id="sonucalani"></div>
+
+<script type="text/javascript" language="javascript">
+// hasAttributes() 		:	Belge içerisindeki herhangi bir HTML elemanının herhangi bir özelliğe sahip olup olmadığını kontrol ederek, boolean (mantıksal) veri türünde sonucu geriye döndürür.
+
+var kontrol		=	document.getElementsByTagName("DIV")[0].hasAttributes();
+if(kontrol==true){
+	document.getElementById("sonucalani").innerHTML = "İlgili HTML elemanının global bir özelliği vardır.";
+}else{
+	document.getElementById("sonucalani").innerHTML = "İlgili HTML elemanının global bir özelliği yoktur.";
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.orneksinif{
+	color:red;
+}
+</style>
+</head>
 
+<body>
+<div id="ornek" name="deneme" style="font-weight:bold; font-size:25px;" class="orneksinif" contenteditable="true">Javascript Eğitim Seti</div>
+<br /><br />
+<div id="sonucbir"></div>
+<div id="sonuciki"></div>
+<div id="sonucuc"></div>
+<div id="sonucdort"></div>
+<div id="sonucbes"></div>
+
+<script type="text/javascript" language="javascript">
+// getAttribute() 		:	Belge içerisindeki herhangi bir HTML elemanının belirtilen özelliğinin değerini elde etmek için kullanılır.
+
+var birincideger	=	document.getElementsByTagName("DIV")[0].getAttribute("id");
+var ikincideger		=	document.getElementsByTagName("DIV")[0].getAttribute("name");
+var ucuncudeger		=	document.getElementsByTagName("DIV")[0].getAttribute("style");
+var dorduncudeger	=	document.getElementsByTagName("DIV")[0].getAttribute("class");
+var besincideger	=	document.getElementsByTagName("DIV")[0].getAttribute("contenteditable");
+
+document.getElementById("sonucbir").innerHTML = "id değeri : " + birincideger;
+document.getElementById("sonuciki").innerHTML = "name değeri : " + ikincideger;
+document.getElementById("sonucuc").innerHTML = "style değeri : " + ucuncudeger;
+document.getElementById("sonucdort").innerHTML = "class değeri : " + dorduncudeger;
+document.getElementById("sonucbes").innerHTML = "contenteditable değeri : " + besincideger;
+
+</script>
+</body>
+</html>
 ```
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<a id="baglanti" href="https://www.google.com.tr" target="_blank">Link'e Git</a>
+<br /><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// getAttributeNode() 		:	Belge içerisindeki herhangi bir HTML elemanının belirtilen özellik node'unun (düğümünün) değerini elde etmek veya ayarlamak için kullanılır.
+
+var degerbul	=	document.getElementById("baglanti").getAttributeNode("href").value = "https://www.yandex.com.tr";
+document.getElementById("sonuc").innerHTML = degerbul;
+
+document.getElementById("baglanti").getAttributeNode("href").value = "https://www.yandex.com.tr";
+document.getElementById("baglanti").getAttributeNode("target").value = "_top";
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<button onclick="ornek()">Ekle</button>
+<br /><br />
+<a id="baglanti" target="_blank">Bağlantıya Git</a>
+
+<script type="text/javascript" language="javascript">
+// setAttribute() 	:	Belge içerisindeki herhangi bir HTML elemanına belirtilen özelliği ve değerini eklemek için kullanılır.
+
+function ornek(){
+	document.getElementById("deneme").setAttribute("type", "button");
+
+	document.getElementById("baglanti").setAttribute("href", "https://www.google.com.tr");
+	document.getElementById("baglanti").setAttribute("style", "color:red");
+	
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<button onclick="ornek()">Tıklayınız</button>
+<br /><br />
+<a id="baglanti">Bağlantıya Git</a>
+
+<script type="text/javascript" language="javascript">
+// setAttributeNode() 	:	Belge içerisindeki herhangi bir HTML elemanına createAttribute() metodu ile oluşturulan özellik node'unu (düğümünü) ve değerini, node object'ine (düğüm nesnesine) uygulamak için kullanılır.
+
+function ornek(){
+	var baglan					=	document.getElementById("baglanti");
+	var eklenecekozellikbir		=	document.createAttribute("href");
+	eklenecekozellikbir.value 	=	"https://www.google.com.tr";
+	var eklenecekozellikiki		=	document.createAttribute("target");
+	eklenecekozellikiki.value 	=	"_top";
+	var eklenecekozellikuc		=	document.createAttribute("style");
+	eklenecekozellikuc.value 	=	"color:blue; font-size:25px;";
+	baglan.setAttributeNode(eklenecekozellikbir);
+	baglan.setAttributeNode(eklenecekozellikiki);
+	baglan.setAttributeNode(eklenecekozellikuc);
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
