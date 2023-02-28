@@ -776,6 +776,474 @@ function ornek(){
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.deneme{
+	text-decoration:none;
+	color:#FF9900;
+	font-weight:bold;
+	font-size:18px;
+}
+</style>
+</head>
+
+<body>
+<button onclick="ornek()">İşlem Yap</button>
+<br /><br />
+<a id="ornek" href="https://www.google.com.tr" target="_blank" class="deneme">Google</a>
+
+<script type="text/javascript" language="javascript">
+// removeAttribute() 	:	Belge içerisindeki herhangi bir HTML elemanının belirtilen özelliğini kaldırmak / silmek için kullanılır
+
+function ornek(){
+	document.getElementById("ornek").removeAttribute("class");
+	document.getElementById("ornek").removeAttribute("href");
+	document.getElementById("ornek").removeAttribute("target");
+}
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.deneme{
+	width:300px;
+	height:20px;
+	background-color:yellow;
+	border:1px solid black;
+	text-align:center;
+}
+</style>
+</head>
+
+<body>
+<button onclick="ornek()">İşlem Yap</button>
+<br /><br />
+<p id="alan" class="deneme">Javascript Eğitim Seti</p>
+
+<script type="text/javascript" language="javascript">
+// removeAttributeNode() 	:	Belge içerisindeki herhangi bir HTML elemanına getAttributeNode() metodu ile belirtilmiş özellik node'unu (düğümünü), node object'inden (düğüm nesnesinden) kaldırmak / silmek için kullanılır.
+
+function ornek(){
+	var deger				=	document.getElementById("alan");
+	var kaldiralacakdugum	=	deger.getAttributeNode("class");
+	deger.removeAttributeNode(kaldiralacakdugum);
+}
+function ornek(){
+	var deger					=	document.getElementById("baglanti");
+	var kaldiralacakdugumbir	=	deger.getAttributeNode("href");
+	var kaldiralacakdugumiki	=	deger.getAttributeNode("target");
+	deger.removeAttributeNode(kaldiralacakdugumbir);
+	deger.removeAttributeNode(kaldiralacakdugumiki);
+}
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.ornek{
+	width:200px;
+	padding:10px;
+	border-left:50px solid black;
+	border-top:10px solid black;
+}
+</style>
+</head>
+
+<body>
+<div id="alan" class="ornek">JAVASCRIPT EĞİTİM SETİ</div>
+<br /><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// clientLeft 	:	Belge içerisindeki herhangi bir HTML elemanının sol kenarlık genişliği değerini elde etmek için kullanılır.
+// clientTop 	:	Belge içerisindeki herhangi bir HTML elemanının üst kenarlık yüksekliği değerini elde etmek için kullanılır.
+
+var solkenarlikdegeri	=	document.getElementById("alan").clientLeft;
+var ustkenarlikdegeri	=	document.getElementById("alan").clientTop;
+document.getElementById("sonuc").innerHTML = "Sol kenarlık genişliği : " + solkenarlikdegeri + "px, Üst kenarlık yüksekliği : " + ustkenarlikdegeri + "px";
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.ornek{
+	width:70px;
+	height:50px;
+	background-color:yellow;
+	padding-top:25px;
+	padding-left:25px;
+}
+</style>
+</head>
+
+<body>
+<div id="alan" class="ornek">Javascript</div>
+<br /><br />
+<div id="bir"></div>
+<div id="iki"></div>
+
+<script type="text/javascript" language="javascript">
+// clientWidth 		:	Belge içerisindeki herhangi bir HTML elemanının içerik genişliği değerini elde etmek için kullanılır.
+// clientHeight 	:	Belge içerisindeki herhangi bir HTML elemanının içerik yüksekliği değerini elde etmek için kullanılır.
+/*
+Hesaplama
+Genişlik 			:	padding-left + genişlik + padding-right
+Yükseklik 			:	padding-top + yükseklik + padding-bottom
+*/
+
+var degerbir	=	document.getElementById("alan").clientWidth;
+var degeriki	=	document.getElementById("alan").clientHeight;
+document.getElementById("bir").innerHTML = "Elemanın içerik genişliği : " + degerbir + "px";
+document.getElementById("iki").innerHTML = "Elemanın içerik yüksekliği : " + degeriki + "px";
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.ornek{
+	width:300px;
+	height:100px;
+	border:1px solid black;
+	background-color:red;
+	margin-top:100px;
+	margin-left:100px;
+}
+</style>
+</head>
+
+<body style="margin:0;">
+<br /><br /><br /><br />
+<div id="alan" class="ornek"></div>
+<br /><br />
+<div id="sonucbir"></div>
+<div id="sonuciki"></div>
+
+<script type="text/javascript" language="javascript">
+// offsetLeft 		:	Belge içerisindeki herhangi bir HTML elemanının sol üst köşesi ile browser (tarayıcı) penceresinin sol üst köşesi arasındaki yatay uzaklık farkı değerini elde etmek için kullanılır.
+// offsetTop 		:	Belge içerisindeki herhangi bir HTML elemanının sol üst köşesi ile browser (tarayıcı) penceresinin sol üst köşesi arasındaki dikey uzaklık farkı değerini elde etmek için kullanılır.
+
+var degerbir	=	document.getElementById("alan").offsetLeft;
+var degeriki	=	document.getElementById("alan").offsetTop;
+document.getElementById("sonucbir").innerHTML = "Yatay uzaklık farkı : " + degerbir + "px";
+document.getElementById("sonuciki").innerHTML = "Dikey uzaklık farkı : " + degeriki + "px";
+
+</script>
+</body>
+</html>
+```
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.ornek{
+	width:800px;
+	height:600px;
+	border:5px double blue;
+	background-color:#F1F1F1;
+	padding-top:25px;
+	padding-left:20px;
+	padding-right:15px;
+	padding-bottom:10px;
+}
+</style>
+</head>
+
+<body>
+<div id="alan" class="ornek"></div>
+<br /><br />
+<div id="sonucbir"></div>
+<div id="sonuciki"></div>
+
+<script type="text/javascript" language="javascript">
+// offsetWidth 		:	Belge içerisindeki herhangi bir HTML elemanının genişlik değerini elde etmek için kullanılır.
+// offsetHeight 	:	Belge içerisindeki herhangi bir HTML elemanının yükseklik değerini elde etmek için kullanılır.
+/*
+Hesaplama :
+Genişlik			:	border-left + padding-left + genişlik + padding-right + border-right;
+Yükseklik			:	border-top + padding-top + yükseklik + padding-bottom + border-bottom;
+*/
+
+var degerbir	=	document.getElementById("alan").offsetWidth;
+var degeriki	=	document.getElementById("alan").offsetHeight;
+document.getElementById("sonucbir").innerHTML = "Elemanın genişliği " + degerbir + "px'dir.";
+document.getElementById("sonuciki").innerHTML = "Elemanın yüksekliği " + degeriki + "px'dir.";
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.bir{
+	background-color:#FF9900;
+	width:500px;
+	height:500px;
+	overflow:auto;
+}
+.iki{
+	width:2000px;
+	height:2000px;
+	padding:20px;
+	background-color:yellow;
+}
+</style>
+</head>
+
+<body>
+<div id="kapsayici" class="bir" onscroll="ornek()">
+	<div id="alan" class="iki">Javascript</div>
+</div>
+<br /><br />
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// scrollLeft 		:	Belge içerisindeki herhangi bir HTML elemanının yatay kaydırılma genişliği pixel değerini elde etmek için kullanılır.
+// scrollTop 		:	Belge içerisindeki herhangi bir HTML elemanının dikey kaydırılma genişliği pixel değerini elde etmek için kullanılır.
+/*
+Hesaplama : 
+Yatay (Genişlik) 	:	margin-left + border-left + padding-left + genişlik + padding-right + border-right + margin-right
+Dikey (Yükseklik) 	:	margin-top + border-top + padding-top + yükseklik + padding-bottom + border-bottom + margin-bottom
+*/
+
+function ornek(){
+	var degerbir	=	document.getElementById("kapsayici").scrollLeft;
+	var degeriki	=	document.getElementById("kapsayici").scrollTop;
+	document.getElementById("sonuc").innerHTML = "Yatay Kaydırılma Değeri : " + degerbir + "px'dir. Dikey Kaydırılma Değeri : " + degeriki + "px'dir";
+}
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.bir{
+	background-color:yellow;
+	width:800px;
+	height:600px;
+	overflow:auto;
+}
+.iki{
+	background-color:#F1F1F1;
+	width:5000px;
+	height:4000px;
+	padding-left:10px;
+	padding-top:15px;
+	padding-right:20px;
+	padding-bottom:25px;
+}
+</style>
+</head>
+
+<body>
+<div id="kapsayici" class="bir">
+	<div id="alan" class="iki">Javascript Eğitim Seti</div>
+</div>
+<div id="sonuc"></div>
+
+<script type="text/javascript" language="javascript">
+// scrollWidth 		:	Belge içerisindeki herhangi bir HTML elemanının toplam yatay kaydırma genişliği değerini elde etmek için kullanılır.
+// scrollHeight 	:	Belge içerisindeki herhangi bir HTML elemanının toplam dik kaydırma yüksekliği değerini elde etmek için kullanılır.
+/*
+Hesaplama :
+Genişlikte			:	padding-left + genişlik + padding-right
+Yükseklikte			:	padding-top + yükseklik + padding-bottom
+*/
+
+var hesapbir	=	document.getElementById("kapsayici").scrollWidth;
+var hesapiki	=	document.getElementById("kapsayici").scrollHeight;
+document.getElementById("sonuc").innerHTML = "HTML elemanının toplam kaydırılabilir yatay genişlik değeri : " + hesapbir + "px <br />" + "HTML elemanının toplam kaydırılabilir dikey yükseklik değeri : " + hesapiki + "px";
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+
+<div onclick="ornek()">TIKLA</div>
+<div id="sonucalani"></div>
+
+<script type="text/javascript" language="javascript">
+// onclick 		:	Belge içerisindeki herhangi bir elemana mouse (fare) ile sol tıklandığında belirtilecek olan fonksiyon çalışır.
+
+function ornek(){
+	document.getElementById("sonucalani").innerHTML = "TIKLAMA İŞLEMİ GERÇEKLEŞTİ";
+}
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div>İşlem sonucunu görmek istiyorsanız aşağıdaki işlem metnine çift tıklayınız!</div>
+<div ondblclick="deneme()">5 + 3 = <span id="sonucalani"></span></div>
+
+<script type="text/javascript" language="javascript">
+// ondblclick 	:	Belge içerisindeki herhangi bir elemana mouse (fare) ile çift sol tıklandığında belirtilecek olan fonksiyon çalışır.
+
+function deneme(){
+	var islem = 5 + 3;
+	document.getElementById("sonucalani").innerHTML = islem;
+}
+
+</script>
+</body>
+</html>
+```
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button id="kimlik" onmousedown="ornek()">Tıklayınız</button>
+
+<script type="text/javascript" language="javascript">
+// onmousedown 	:	Belge içerisindeki herhangi bir elemana mouse (fare) ile sol veya sağ tıklandığında belirtilecek olan fonksiyon çalışır.
+
+function ornek(){
+	document.getElementById("kimlik").innerHTML = "Butona Tıklandı, Lütfen Bekleyiniz...";
+}
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div oncontextmenu="ornek()" contextmenu="menumuz">Buraya Sağ Tıklayınız</div>
+
+<menu id="menumuz" type="context">
+	<menuitem label="YENİLE - EXTRA EĞİTİM" onclick="window.location.reload()"></menuitem>
+</menu>
+
+<div id="sonucalani"></div>
+
+<script type="text/javascript" language="javascript">
+// oncontextmenu 	:	Belge içerisindeki herhangi bir elemana mouse (fare) ile sağ tıklandığında belirtilecek olan fonksiyon çalışır.
+
+function ornek(){
+	document.getElementById("sonucalani").innerHTML = "Sağ tıklama oldu, contextmenu açıldı.";
+}
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<img id="resmim" src="dunya.png" border="0" width="75" height="75" onmouseover="ornek()">
+
+<script type="text/javascript" language="javascript">
+// onmouseover 		:	Belge içerisindeki herhangi bir elemanın mouse (fare) ile üzerine gelindiğinde belirtilecek olan fonksiyon çalışır.
+
+function ornek(){
+	document.getElementById("resmim").style.width	=	"250px";
+	document.getElementById("resmim").style.height	=	"250px";
+}
+
+</script>
+</body>
+</html>
+```
+
+```Html
+
+```
+
+```Html
+
+```
+
+```Html
 
 ```
 
