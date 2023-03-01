@@ -3,6 +3,21 @@
 ## DOM işlemleri  
 
 ```Html
+<!-- Ses dosyası örneği -->
+
+```
+
+```Html
+<!-- Ses dosyası örneği -->
+
+```
+
+```Html
+<!-- Ses dosyası örneği -->
+
+```
+
+```Html
 
 ```
 
