@@ -1236,67 +1236,577 @@ function ornek(){
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<img src="dunya.png" id="resimbir" border="0" width="75" height="75" onmouseover="buyut()" onmouseout="kucult()">
+
+<script type="text/javascript" language="javascript">
+// onmouseout 	:	Belge içerisindeki herhangi bir elemanın mouse (fare) ile üzerinden gidildiğinde belirtilecek olan fonksiyon çalışır.
+
+function buyut(){
+	document.getElementById("resimbir").style.width 	=	"250px";
+	document.getElementById("resimbir").style.height 	=	"250px";
+}
+
+function kucult(){
+	document.getElementById("resimbir").style.width 	=	"75px";
+	document.getElementById("resimbir").style.height 	=	"75px";
+}
+
+</script>
+</body>
+</html>
+<!-- //Örnek 2 -->
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div onmouseover="aktifbir()" onmouseout="pasifbir()">Volkan Alakent Javascript Eğitim Seti</div>
+<div onmouseover="aktifiki()" onmouseout="pasifiki()">Volkan Alakent Php Eğitim Seti</div>
+<div onmouseover="aktifuc()" onmouseout="pasifuc()">Volkan Alakent Html Eğitim Seti</div>
+<div onmouseover="aktifdort()" onmouseout="pasifdort()">Volkan Alakent Css Eğitim Seti</div>
+<div onmouseover="aktifbes()" onmouseout="pasifbes()">Volkan Alakent Python Eğitim Seti</div>
+
+<script type="text/javascript" language="javascript">
+// onmouseout 	:	Belge içerisindeki herhangi bir elemanın mouse (fare) ile üzerinden gidildiğinde belirtilecek olan fonksiyon çalışır.
+
+function aktifbir(){
+	document.getElementsByTagName("DIV")[0].style.backgroundColor = "#F1F1F1";
+}
+function pasifbir(){
+	document.getElementsByTagName("DIV")[0].style.backgroundColor = "white";
+}
+
+function aktifiki(){
+	document.getElementsByTagName("DIV")[1].style.backgroundColor = "#F1F1F1";
+}
+function pasifiki(){
+	document.getElementsByTagName("DIV")[1].style.backgroundColor = "white";
+}
+
+function aktifuc(){
+	document.getElementsByTagName("DIV")[2].style.backgroundColor = "#F1F1F1";
+}
+function pasifuc(){
+	document.getElementsByTagName("DIV")[2].style.backgroundColor = "white";
+}
+
+function aktifdort(){
+	document.getElementsByTagName("DIV")[3].style.backgroundColor = "#F1F1F1";
+}
+function pasifdort(){
+	document.getElementsByTagName("DIV")[3].style.backgroundColor = "white";
+}
+
+function aktifbes(){
+	document.getElementsByTagName("DIV")[4].style.backgroundColor = "#F1F1F1";
+}
+function pasifbes(){
+	document.getElementsByTagName("DIV")[4].style.backgroundColor = "white";
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<div style="background-color:#F1F1F1; border:1px solid black; margin:10px; padding:10px; width:250px; height:250px;" onmouseenter="ornek()"><span id="sonucalani">Bu Alana Mouse İle Geliniz</span></div>
+
+<script type="text/javascript" language="javascript">
+// onmouseenter 	:	Belge içerisindeki herhangi bir elemanın mouse (fare) ile kapsama alanına giriş yapıldığında belirtilecek olan fonksiyon çalışır.
+
+function ornek(){
+	document.getElementById("sonucalani").innerHTML = "Alanın Kapsama Alanına Gelindi";
+	document.getElementById("sonucalani").style.fontSize = "25px";
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.ornek{
+	background-color:yellow;
+	width:250px;
+	height:130px;
+	border:1px dotted black;
+	padding:10px;
+	padding-top:100px;
+	text-align:center;
+}
+.ornekiki{
+	background-color:white;
+	padding:25px;
+}
+</style>
+</head>
 
+<body>
+<div id="kapsamalani" class="ornek" onmouseenter="demobir()" onmouseleave="demoiki()"><span id="sonucalani" class="ornekiki">Javascript</span></div>
+<br /><br />
+<div id="islemsonucu"></div>
+<script type="text/javascript" language="javascript">
+// onmouseleave 	:	Belge içerisindeki herhangi bir elemanın mouse (fare) ile kapsama alanından çıkış yapıldığında belirtilecek olan fonksiyon çalışır.
+
+function demobir(){
+	document.getElementById("islemsonucu").innerHTML = "Kapsama Alanına Giriş Yapıldı!";
+}
+
+function demoiki(){
+	document.getElementById("islemsonucu").innerHTML = "Kapsama Alanından Çıkış Yapıldı!";
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<div id="kimlik" style="background-color:#E5E3E3; width:280px; height:130px; border:1px solid black; padding:10px; padding-top:120px; margin:10px; text-align:center;" onmousemove="deneme()">0</div> 
+
+
+<script type="text/javascript" language="javascript">
+// onmousemove 	:	Belge içerisindeki herhangi bir elemanın mouse (fare) ile kapsama alanında gezildiğinde belirtilecek olan fonksiyon çalışır.
+
+var sayi	=	0;
+
+function deneme(){
+	document.getElementById("kimlik").innerHTML = sayi+=1;
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<div onmouseup="ornek()">Javascript Eğitim Seti</div>
+
+<script type="text/javascript" language="javascript">
+// onmouseup	:	Belge içerisindeki herhangi bir elemana mouse (fare) ile sol basılı duran tıklama bırakıldığında belirtilecek olan fonksiyon çalışır.
+
+function ornek(){
+	alert("Tıklama Bırakıldı!");
+}
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<div id="kimlik" onmousewheel="ornek()">Javascript Eğitim Seti - Volkan Alakent</div>
+<!-- <div id="kimlik" onwheel="ornek()">Javascript Eğitim Seti - Volkan Alakent</div> -->
+
+<script type="text/javascript" language="javascript">
+// onmousewheel		&		onwheel			:	Belge içerisindeki herhangi bir eleman üzerindeyken mouse'un (farenin) tekerleği yukarı veya aşağı yuvarlandığında belirtilecek olan fonksiyon çalışır.
+
+function ornek(){
+	document.getElementById("kimlik").style.fontSize	=	"30px";
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<div onmousedown="ornek()">Bu Alan Üzerinde Mouse'un Herhangi Bir Tuşuna Basınız</div>
+<div id="sonucalani"></div>
+
+<script type="text/javascript" language="javascript">
+// button 	:	Belge içerisinde mouse (fare) ile tıklama event'ı (olayı) gerçekleştiğinde mouse'un (farenin) hangi tuşuna basıldığı değerini geriye döndürür.
+/*
+0	:	Sol Tuş
+1	:	Orta Tuş & Tekerlek
+2	:	Sağ Tuş
+
+Internet Explorer (8 ve 8 öncesi sürümleri)
+1	:	Sol Tuş
+2	:	Sağ Tuş
+4	:	Orta Tuş & Tekerlek
+*/
+
+function ornek(){
+	var tusdegeri	=	event.button;
+	if(tusdegeri==0){
+		document.getElementById("sonucalani").innerHTML = 	"Mouse'un sol tuşuna basıldı";
+	}else if(tusdegeri==1){
+		document.getElementById("sonucalani").innerHTML = 	"Mouse'un orta tuşuna & tekerler tuşuna basıldı";
+	}else if(tusdegeri==2){
+		document.getElementById("sonucalani").innerHTML = 	"Mouse'un sağ tuşuna basıldı";
+	}
+}
+
+</script>
+</body>
+</html>
 ```
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<div onmousedown="ornek()">Bu Alan Üzerindeyken Mouse'unuzun Herhangi Bir Tuşuna veya Tuşlarına Basınız.</div>
+<div id="sonucalani"></div>
+
+<script type="text/javascript" language="javascript">
+// buttons		:	Belge içerisindeki mouse (fare) ile tıklama event'ı (olayı) gerçekleştiğinde mouse'un (farenin) hangi tuşuna veya tuşlarına basıldığı değerini geriye döndürür.
+/*
+1	:	Sol Tuş
+2	:	Sağ Tuş
+3	:	Sol Tuş ve Aynı Anda Sağ Tuş
+4	:	Orta Tuş & Tekerlek
+5	:	Sol Tuş ve Aynı Anda Orta Tuş & Tekerlek
+6	:	Sağ Tuş ve Aynı Anda Orta Tuş & Tekerlek
+8	:	4. Tuş
+16	:	5. Tuş
+*/
+
+function ornek(){
+	var sonuc	=	event.buttons;
+	if(sonuc==1){
+		document.getElementById("sonucalani").innerHTML		=	"Mouse'un sol tuşuna basıldı";
+	}else if(sonuc==2){
+		document.getElementById("sonucalani").innerHTML		=	"Mouse'un sağ tuşuna basıldı";
+	}else if(sonuc==3){
+		document.getElementById("sonucalani").innerHTML		=	"Mouse'un sol tuşuna ve aynı anda sağ tuşuna basıldı";
+	}else if(sonuc==4){
+		document.getElementById("sonucalani").innerHTML		=	"Mouse'un orta tuşuna & tekerlek tuşuna basıldı";
+	}else if(sonuc==5){
+		document.getElementById("sonucalani").innerHTML		=	"Mouse'un sol tuşuna ve aynı anda orta tuşuna & tekerlek tuşuna basıldı";
+	}else if(sonuc==6){
+		document.getElementById("sonucalani").innerHTML		=	"Mouse'un sağ tuşuna ve aynı anda orta tuşuna & tekerlek tuşuna basıldı";
+	}else if(sonuc==8){
+		document.getElementById("sonucalani").innerHTML		=	"Mouse'un 4. tuşuna basıldı";
+	}else if(sonuc==16){
+		document.getElementById("sonucalani").innerHTML		=	"Mouse'un 5. tuşuna basıldı";
+	}else{
+		document.getElementById("sonucalani").innerHTML		=	sonuc;
+	}
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<button onclick="ornek()">Tıkla</button>
+<div id="sonucalani"></div>
+
+<script type="text/javascript" language="javascript">
+// detail		:	Belge içerisindeki mouse (fare) ile tıklama event'ı (olayı) gerçekleştirildiğinde mouse'a (fareye) kaç defa tıklandığı sayısı değerini geriye döndürür.
+
+function ornek(){
+	var say		=	event.detail;
+	document.getElementById("sonucalani").innerHTML = "Butona Tıklanma Sayısı : " + say;
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+body{
+	margin:0;
+	padding:0;
+}
+.mousealani{
+	background-color:#f1F1F1;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:500px;
+	border:1px solid black;
+	text-align:center;	
+}
+.sonucalani{
+	background-color:#f1F1F1;
+	margin:0;
+	margin-top:5px;
+	padding:5px;
+	width:100%;
+	border:1px solid black;
+	text-align:center;	
+}
+</style>
+</head>
 
+<body>
+<div class="mousealani" onmousemove="ornek()">Mouse'u (Fareyi) bu alanda gezdiriniz.</div>
+<div class="sonucalani">Mouse'un Koordinatı : (X) <span id="xdegeri"></span> (Y) <span id="ydegeri"></span></div>
+
+<script type="text/javascript" language="javascript">
+// screenX 	:	Belge içerisindeki herhangi bir mouse (fare) event'ı (olayı) gerçekleştiğinde bilgisayar ekranına göre mouse'un (farenin) yatay konum koordinatının değerini geriye döndürür.
+// screenY 	:	Belge içerisindeki herhangi bir mouse (fare) event'ı (olayı) gerçekleştiğinde bilgisayar ekranına göre mouse'un (farenin) dikey konum koordinatının değerini geriye döndürür.
+
+function ornek(){
+	var xdegerinibul	=	event.screenX;
+	var ydegerinibul	=	event.screenY;
+	document.getElementById("xdegeri").innerHTML = xdegerinibul;
+	document.getElementById("ydegeri").innerHTML = ydegerinibul;
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body style="margin:0;">
+<div onmousemove="ornek()" style="background-color:#F1F1F1; border:1px solid black; margin:0; padding:0; text-align:center; width:100%; height:500px;">Mouse'u (Fareyi) bu alan içerisinde gezdiriniz.</div>
+<div style="background-color:#F1F1F1; border:1px solid black; margin:0; margin-top:5px; padding:0; text-align:center; width:100%;">Mouse'un Koordinatı : (X) <span id="xdegeralani"></span> (Y) <span id="ydegeralani"></span></div>
+
+<script type="text/javascript" language="javascript">
+// clientX	:	Belge içerisindeki herhangi bir mouse (fare) event'ı (olayı) gerçekleştiğinde browser (tarayıcı) penceresine göre mouse'un (farenin) yatay konum koordinatının değerini geriye döndürür.
+// clientY	:	Belge içerisindeki herhangi bir mouse (fare) event'ı (olayı) gerçekleştiğinde browser (tarayıcı) penceresine göre mouse'un (farenin) dikey konum koordinatının değerini geriye döndürür.
+
+function ornek(){
+	var xdegerinibul	=	event.clientX;
+	var ydegerinibul	=	event.clientY;
+	document.getElementById("xdegeralani").innerHTML = xdegerinibul;
+	document.getElementById("ydegeralani").innerHTML = ydegerinibul;
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+body{
+	margin:0;
+}
+.bir{
+	background-color:#F1F1F1;
+	text-align:center;
+	width:100%;
+	height:500px;
+	border:1px dotted black;
+}
+</style>
+</head>
 
+<body>
+<div class="bir" onmousemove="ornek()">Mouse'u (fareyi) bu alan içerisinde gezdiriniz.</div>
+<div id="sonucalani"></div>
+<script type="text/javascript" language="javascript">
+// pageX 	:	Belge içerisindeki herhangi bir mouse (fare) event'ı (olayı) gerçekleştiğinde browser (tarayıcı) penceresine / sayfaya göre mouse'un (farenin) yatay konum koordinatının değerini geriye döndürür.
+// pageY 	:	Belge içerisindeki herhangi bir mouse (fare) event'ı (olayı) gerçekleştiğinde browser (tarayıcı) penceresine / sayfaya göre mouse'un (farenin) dikey konum koordinatının değerini geriye döndürür.
+
+function ornek(){
+	var xdegerinibul	=	event.pageX;
+	var ydegerinibul	=	event.pageY;
+	document.getElementById("sonucalani").innerHTML = "Mosu'un Koordinatı : (X) " + xdegerinibul + " (Y) " + ydegerinibul;
+}
+
+</script>
+</body>
+</html>
 ```
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<input type="text" onkeydown="ornek()">
+
+<script type="text/javascript" language="javascript">
+// onkeydown 	:	Belge içerisindeki herhangi bir eleman üzerinde klavyeden herhangi bir tuşa basıldığında belirtilecek olan fonksiyon çalışır.
+
+function ornek(){
+	alert("Klavyeden tuşa basıldı!");
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<textarea id="metinalani" onkeypress="ornek()"></textarea>
+<div id="sonuc"></div>
+<script type="text/javascript" language="javascript">
+// onkeypress	:	Belge içerisindeki herhangi bir eleman üzerinde klavyeden herhangi bir tuşa basıldığında belirtilecek olan fonksiyon çalışır.
+
+function ornek(){
+	document.getElementById("sonuc").innerHTML = "Bir tuşa basıldı!";
+	document.getElementById("metinalani").style.backgroundColor = "yellow";
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<textarea onkeyup="deneme()"></textarea>
+<script type="text/javascript" language="javascript">
+// onkeyup	:	Belge içerisindeki herhangi bir eleman üzerinde klavyeden basılı duran bir tuş bırakıldığında belirtilecek olan fonksiyon çalışır.
+
+function deneme(){
+	alert("Tuş basılarak bırakıldı");
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<input id="metinalani" type="text" onkeypress="ornek()">
+<div id="sonucalani"></div>
+<script type="text/javascript" language="javascript">
+// key 	:	Belge içerisindeki onkeypress, onkeydown veya onkeyup event'ı (olayı) gerçekleştiğinde klavyeden basılan tuşun değerini geriye döndürür.
+
+function ornek(){
+	var basilantus	=	event.key;
+	document.getElementById("sonucalani").innerHTML = "Basılan tuş : " + basilantus;
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<input type="text" onkeypress="ornek()">
+<div id="sonuc"></div>
+<script type="text/javascript" language="javascript">
+// charCode		:	Belge içerisindeki onkeypress event'ı (olayı) gerçekleştiğinde klavyeden basılan tuşun unicode (evrensel kod) kodlamasına dönüştürerek oluşturduğu değeri geriye döndürür.
+
+function ornek(){
+	var deger	=	event.charCode;
+	document.getElementById("sonuc").innerHTML += deger + " ";
+}
+
+</script>
+</body>
+</html>
 ```
