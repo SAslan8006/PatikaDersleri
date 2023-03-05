@@ -939,110 +939,501 @@ document.write(deger);
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// appVersion	:	Browser'ın (tarayıcının) sürüm bilgisi referansını elde etmek için kullanılır.
+
+var versiyonbilgisi		=	navigator.appVersion;
+document.write(versiyonbilgisi);
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// language 	:	Browser'ın (tarayıcının) dil bilgisi referansını elde etmek için kullanılır.
+
+var deger	=	navigator.language;
+document.write(deger);
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// product		:	Browser'ın (tarayıcının) hangi görüntüleme moturunu kullandığı bilgisini elde etmek için kullanılır.
+
+var sonuc	=	navigator.product;
+document.write(sonuc);
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// userAgent 	:	Browser'ın (tarayıcının) tam model referansını elde etmek için kullanılır.
+
+var sonuc	=	navigator.userAgent;
+document.write(sonuc);
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// platform		:	Browser'ın (tarayıcının) hangi platform üzerinde çalıştırıldığı bilgisi referansını elde etmek için kullanılır.
+
+var sonuc	=	navigator.platform;
+document.write(sonuc);
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// onLine		:	Browser'ın (tarayıcının) çevrimiçi modda çalıştırılıp çalıştırılmadığını kontrol ederek, boolean (mantıksal) veri türünde sonucu geriye döndürür.
+
+var kontrolet	=	navigator.onLine;
+if(kontrolet==true){
+	document.write("Browser (Tarayıcı) çevrimiçi modda çalışıyor");
+}else{
+	document.write("Browser (Tarayıcı) çevrimdışı modda çalışıyor");
+}
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// cookieEnabled 	:	Browser'ın (tarayıcının) cookie (çerez) kullanımını destekleyip desteklemediğini kontrol ederek, boolean (mantıksal) veri türünde sonucu geriye döndürür.
+
+var kontrolet	=	navigator.cookieEnabled;
+if(kontrolet==true){
+	document.write("Browser'ın (Tarayıcının) cookie (Çerez) desteği aktiftir.");
+}else{
+	document.write("Browser'ın (Tarayıcının) cookie (Çerez) desteği pasiftir.");
+}
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// javaEnabled() 	:	Browser'da (tarayıcıda) Java kodlamalarının etkinlik durumunu kontrol ederek, boolean (mantıksal) veri türünde sonucu geriye döndürür.
+
+var kontrolet	=	navigator.javaEnabled();
+if(kontrolet==true){
+	document.write("Browser'ınızda (Tarayıcınızda) Java Kodlarının Çalıştırılması Aktiftir.");
+}else{
+	document.write("Browser'ınızda (Tarayıcınızda) Java Kodlarının Çalıştırılması Pasiftir.");
+}
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// pathname		:	Bir URL'in (Uniform resource locator'ın) (Nizami kaynak bulucusunun) path (yol) bilgisi referansını elde etmek veya ayarlamak için kullanılır.
+
+var yol		=	location.pathname = "/C:/Users/Volkan%20Alakent/Desktop/Ders/index1.html";
+document.write(yol);
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// search 	:	Bir URL'in (Uniform resource locator'ın) (nizami kaynak bulucusunun) sorgu dizesi bilgisi referansını elde etmek veya ayarlamak için kullanılır.
+
+var sonuc	=	location.search = "?adi=hakan&soyadi=alakent&yasi=38";
+document.write(sonuc);
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// protocol 	:	Bir URL'in (Uniform resource locator'ın) (Nizami kaynak bulucusunun) protokol adı referansını elde etmek için kullanılır.
+
+var sonuc	=	location.protocol;
+document.write(sonuc);
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek()">İşlem Yap</button>
+
+<script type="text/javascript" language="javascript">
+// assign() 	:	Browser (tarayıcı) penceresine yeni bir sayfa yüklemek için kullanılır.
+
+function ornek(){
+	location.assign("http://www.mynet.com");
+}
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek()">İşlem Yap</button>
+<script type="text/javascript" language="javascript">
+// replace() 	:	Browser (tarayıcı) penceresinde bulunan sayfayı yeni bir sayfa ile değiştirmek için kullanılır.
+
+function ornek(){
+	location.replace("http://www.mynet.com");
+}
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek()">Yenile</button><br /><br />
+Volkan Alakent Javascript Eğitim Seti
+<script type="text/javascript" language="javascript">
+// reload() 	:	Browser (tarayıcı) penceresinde bulunan sayfayı yenilemek için kullanılır.
+
+function ornek(){
+	location.reload();
+}
+
+</script>
+</body>
+</html>
+```
+
+```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<script type="text/javascript" language="javascript">
+// setTimeout() 	:	Belge içerisinde tanımlanan herhangi bir kodlamayı belirtilen süre sonunda sadece bir defa olmak üzere çalıştırmak için kullanılır.
+// Süre Değeri 		:	Milisaniye 	:	1000Ms : 1s
+
+function ornekbir(){
+	alert("5 Saniye süreniz doldu");
+}
+
+function ornekiki(){
+	alert("10 Saniye süreniz doldu");
+}
+
+function ornekuc(){
+	alert("15 Saniye süreniz doldu");
+}
+
+setTimeout(ornekbir, 5000);
+setTimeout(ornekiki, 10000);
+setTimeout(ornekuc, 15000);
+
+</script>
+</body>
+</html>
+
+<!-- Örnek -->
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<button onclick="ornek()">Saymaya Başla</button>
+<div id="sonuc">0</div>
+
+<script type="text/javascript" language="javascript">
+// setTimeout() 	:	Belge içerisinde tanımlanan herhangi bir kodlamayı belirtilen süre sonunda sadece bir defa olmak üzere çalıştırmak için kullanılır.
+// Süre Değeri 		:	Milisaniye 	:	1000Ms : 1s
+
+function ornek(){
+	var sayidegeri	=	document.getElementById("sonuc").innerHTML;
+	sayidegeri		=	Number(sayidegeri) + 1;
+	document.getElementById("sonuc").innerHTML = sayidegeri;
+	setTimeout(function(){
+		ornek();
+	}, 1000);
+}
+
+</script>
+</body>
+</html>
 
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+<button onclick="bir()">Zamanlayıcıyı Başlat</button>
+<button onclick="iki()">Zamanlayıcıyı Durdur</button>
+<button onclick="uc()">Zamanlayıcıyı Sıfırla</button>
+<br /><br />
+<div id="sonuc">0</div>
+
+<script type="text/javascript" language="javascript">
+// clearTimeout() 	:	setTimeout() metodu kullanılarak oluşturulmuş olan zamanlayıcıyı kaldırmak veya iptal etmek veya geçersiz kılmak için kullanılır.
+
+var islem;
+
+function bir(){
+	var sayi	=	document.getElementById("sonuc").innerHTML;
+	sayi 		=	Number(sayi) + 1;
+	document.getElementById("sonuc").innerHTML = sayi;
+	islem	=	setTimeout(function(){
+		bir();
+	}, 1000);
+}
+
+function iki(){
+	clearTimeout(islem);
+}
+
+function uc(){
+	document.getElementById("sonuc").innerHTML = 0;
+	clearTimeout(islem);
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+.orneksinifi{
+	width:500px;
+	height:20px;
+	margin:0;
+	padding:10px;
+	text-align:center;
+	border:1px solid #000000;
+}
+</style>
+</head>
 
+<body>
+<div id="sonuc" class="orneksinifi">Javascript Eğitim Seti</div>
+
+<script type="text/javascript" language="javascript">
+// setInterval() 	:	Belge içerisinde tanımlanan herhangi bir kodlamayı belirtilen süre aralıklarında tekrar tekrar çalıştırmak için kullanılır. Süre değeri : milisaniye
+
+setInterval(renkdegistir, 2000);
+
+function renkdegistir(){
+	var alanimiz	=	document.body;
+	var sayi		=	Math.round(Math.random() * 10);
+	
+	if(sayi==1){
+		alanimiz.style.backgroundColor = "#FF0000";
+	}else if(sayi==2){
+		alanimiz.style.backgroundColor = "#FF9900";
+	}else if(sayi==3){
+		alanimiz.style.backgroundColor = "#00FF00";
+	}else if(sayi==4){
+		alanimiz.style.backgroundColor = "#0000FF";
+	}else if(sayi==5){
+		alanimiz.style.backgroundColor = "#00FFFF";
+	}else if(sayi==6){
+		alanimiz.style.backgroundColor = "#FFFF00";
+	}else if(sayi==7){
+		alanimiz.style.backgroundColor = "#FFFFCC";
+	}else if(sayi==8){
+		alanimiz.style.backgroundColor = "#CCFFCC";
+	}else if(sayi==9){
+		alanimiz.style.backgroundColor = "#CCDDCC";
+	}else if(sayi==10){
+		alanimiz.style.backgroundColor = "#C9CD0C";
+	}else{
+		alanimiz.style.backgroundColor = "#FFFFFF";
+	}
+}
+
+</script>
+</body>
+</html>
 ```
 
 ```Html
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
-```
+<body>
+<button onclick="bir()">Zamanlayıcıyı Başlat</button>
+<button onclick="iki()">Zamanlayıcıyı İptal Et</button>
 
-```Html
+<script type="text/javascript" language="javascript">
+// clearInterval()		:	setInterval() metodu kullanılarak oluşturulmuş olan zamanlayıcıyı kaldırmak / iptal etmek / geçersiz kılmak için kullanılır.
 
-```
+var zamanlayici;
 
-```Html
+function bir(){
+	zamanlayici		=	setInterval(function(){
+		alert("5 Saniye süre doldu!");
+	}, 5000);
+}
 
-```
+function iki(){
+	clearInterval(zamanlayici);
+}
 
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
-```
-
-```Html
-
+</script>
+</body>
+</html>
 ```
 
