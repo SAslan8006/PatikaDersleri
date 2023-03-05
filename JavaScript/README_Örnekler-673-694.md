@@ -1090,15 +1090,272 @@ resimsirasi		=	resimsirasi + 1;
 
 ```Html
 
+<!-- Zar Atma Örneği -->
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
+
+<body>
+<div id="kapsam" style="width:110px; height:50px; overflow:hidden;">
+    <div id="birincizaralani" style="float:left; padding-right:10px;"><img id="birincizar" src="ZarBos.png" width="50" height="50" /></div>
+    <div id="ikincizaralani" style="float:left;"><img id="ikincizar" src="ZarBos.png" width="50" height="50" /></div>
+</div>
+<br />
+<div id="butonalani" style="width:110px; text-align:center;"><button id="zarat" onclick="yenizar()">Zar At</button></div>
+
+<script type="text/javascript" language="javascript">
+
+function yenizar(){
+	var rastgelesayibir		=	Math.ceil(Math.random() * 6);
+	var rastgelesayiiki		=	Math.ceil(Math.random() * 6);
+	if(rastgelesayibir==1){
+		document.getElementById("birincizar").src = "Zar1.png";
+	}else if(rastgelesayibir==2){
+		document.getElementById("birincizar").src = "Zar2.png";
+	}else if(rastgelesayibir==3){
+		document.getElementById("birincizar").src = "Zar3.png";
+	}else if(rastgelesayibir==4){
+		document.getElementById("birincizar").src = "Zar4.png";
+	}else if(rastgelesayibir==5){
+		document.getElementById("birincizar").src = "Zar5.png";
+	}else if(rastgelesayibir==6){
+		document.getElementById("birincizar").src = "Zar6.png";
+	}
+
+	if(rastgelesayiiki==1){
+		document.getElementById("ikincizar").src = "Zar1.png";
+	}else if(rastgelesayiiki==2){
+		document.getElementById("ikincizar").src = "Zar2.png";
+	}else if(rastgelesayiiki==3){
+		document.getElementById("ikincizar").src = "Zar3.png";
+	}else if(rastgelesayiiki==4){
+		document.getElementById("ikincizar").src = "Zar4.png";
+	}else if(rastgelesayiiki==5){
+		document.getElementById("ikincizar").src = "Zar5.png";
+	}else if(rastgelesayiiki==6){
+		document.getElementById("ikincizar").src = "Zar6.png";
+	}
+}
+
+</script>
+</body>
+</html>
+
 ```
 
 ```Html
+<!-- Dijital Saat Örneği -->
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+<style>
+#saat{
+	padding:10px;
+	background-color:#000000;
+	border:1px solid red;
+	color:white;
+}
+</style>
+</head>
 
+<body>
+<div style="width:150px; margin:25px auto;">
+	<span id="saat"></span>
+</div>
+<script type="text/javascript" language="javascript">
+
+function ekle(deger){
+	var stringyap	=	deger.toString();
+	var uzunluk		=	stringyap.length;
+		if(uzunluk===1){
+			return "0" + stringyap;
+		}else{
+			return stringyap;
+		}
+}
+
+function saatguncelle(){
+	var zaman			=	new Date();
+	var saatdegeri		=	zaman.getHours();
+	var dakikadegeri	=	zaman.getMinutes();
+	var saniyedegeri	=	zaman.getSeconds();
+	document.getElementById("saat").innerHTML = ekle(saatdegeri) + ":" + ekle(dakikadegeri) + ":" + ekle(saniyedegeri);
+}
+
+setInterval(saatguncelle, 1000);
+
+</script>
+</body>
+</html>
 
 ```
 
 ```Html
+<!-- Personel Başarı Yüzdesi animasyon Örneği -->
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Extra Eğitim</title>
+</head>
 
+<body>
+
+<div id="alan" style="width:100%; height:219px; margin:0 auto; text-align:center;">
+	<div id="tablobaslik" style="width:1200px; height:30px; padding-top:10px; margin:0 auto; text-align:center; background-color:#F1F1F1; font-weight:bold; border:1px solid black;">Personel Başarı Yüzdesi</div>
+    <div id="kapsamalani" style="position:relative; width:1200px; height:175px; margin:0 auto; border:1px solid black;">
+        <div id="isim1" style="width:195px; height:25px; float:left; text-align:left; padding-top:5px; padding-left:5px;">Volkan Alakent</div>
+        <div id="grafik1" style="width:0px; height:20px; float:left; margin-top:5px; margin-bottom:5px;"><div id="deger1" style="padding-top:3px; text-align:right; font-size:14px;"></div></div>
+        <br /><br />
+        <div id="isim2" style="width:195px; height:25px; float:left; text-align:left; padding-top:5px; padding-left:5px;">Hakan Alakent</div>
+        <div id="grafik2" style="width:0px; height:20px; float:left; margin-top:5px; margin-bottom:5px;"><div id="deger2" style="padding-top:3px; text-align:right; font-size:14px;"></div></div>
+        <br /><br />
+        <div id="isim3" style="width:195px; height:25px; float:left; text-align:left; padding-top:5px; padding-left:5px;">Onur Tatlı</div>
+        <div id="grafik3" style="width:0px; height:20px; float:left; margin-top:5px; margin-bottom:5px;"><div id="deger3" style="padding-top:3px; text-align:right; font-size:14px;"></div></div>
+        <br /><br />
+        <div id="isim4" style="width:195px; height:25px; float:left; text-align:left; padding-top:5px; padding-left:5px;">Serkan Çelik</div>
+        <div id="grafik4" style="width:0px; height:20px; float:left; margin-top:5px; margin-bottom:5px;"><div id="deger4" style="padding-top:3px; text-align:right; font-size:14px;"></div></div>
+        <br /><br />
+        <div id="isim5" style="width:195px; height:25px; float:left; text-align:left; padding-top:5px; padding-left:5px;">Ümit Okudan</div>
+        <div id="grafik5" style="width:0px; height:20px; float:left; margin-top:5px; margin-bottom:5px;"><div id="deger5" style="padding-top:3px; text-align:right; font-size:14px;"></div></div>
+    </div>
+</div>
+
+<script type="text/javascript" language="javascript">
+	var toplamalan		=	1000;
+	
+	var grafik1alan		=	document.getElementById("grafik1");
+	var yuzde1			=	88;
+	var hesapla1		=	100 / yuzde1;
+	var piksel1			=	toplamalan / hesapla1;
+	var baslangic1		=	0;
+	
+	var zaman1			=	setInterval(function(){
+		if(yuzde1<50){
+			document.getElementById("grafik1").style.backgroundColor = "#F0EB5D";
+		}else{
+			document.getElementById("grafik1").style.backgroundColor = "#467CD9";
+		}
+		document.getElementById("grafik1").style.width = baslangic1 + "px";
+		baslangic1 		=	baslangic1+1;
+		if(baslangic1>=piksel1){
+			if(yuzde1<50){
+				document.getElementById("grafik1").style.color = "#467CD9";
+			}else{
+				document.getElementById("grafik1").style.color = "#F0EB5D";
+			}
+			document.getElementById("deger1").innerHTML = "%" + yuzde1 + "&nbsp;";
+			clearInterval(zaman1);
+		}
+	}, 1);
+	
+	var grafik2alan		=	document.getElementById("grafik2");
+	var yuzde2			=	79;
+	var hesapla2		=	100 / yuzde2;
+	var piksel2			=	toplamalan / hesapla2;
+	var baslangic2		=	0;
+	
+	var zaman2			=	setInterval(function(){
+		if(yuzde2<50){
+			document.getElementById("grafik2").style.backgroundColor = "#F0EB5D";
+		}else{
+			document.getElementById("grafik2").style.backgroundColor = "#467CD9";
+		}
+		document.getElementById("grafik2").style.width = baslangic2 + "px";
+		baslangic2 		=	baslangic2+1;
+		if(baslangic2>=piksel2){
+			if(yuzde2<50){
+				document.getElementById("grafik2").style.color = "#467CD9";
+			}else{
+				document.getElementById("grafik2").style.color = "#F0EB5D";
+			}
+			document.getElementById("deger2").innerHTML = "%" + yuzde2 + "&nbsp;";
+			clearInterval(zaman2);
+		}
+	}, 1);
+	
+	var grafik3alan		=	document.getElementById("grafik3");
+	var yuzde3			=	45;
+	var hesapla3		=	100 / yuzde3;
+	var piksel3			=	toplamalan / hesapla3;
+	var baslangic3		=	0;
+	
+	var zaman3			=	setInterval(function(){
+		if(yuzde3<50){
+			document.getElementById("grafik3").style.backgroundColor = "#F0EB5D";
+		}else{
+			document.getElementById("grafik3").style.backgroundColor = "#467CD9";
+		}
+		document.getElementById("grafik3").style.width = baslangic3 + "px";
+		baslangic3 		=	baslangic3+1;
+		if(baslangic3>=piksel3){
+			if(yuzde3<50){
+				document.getElementById("grafik3").style.color = "#467CD9";
+			}else{
+				document.getElementById("grafik3").style.color = "#F0EB5D";
+			}
+			document.getElementById("deger3").innerHTML = "%" + yuzde3 + "&nbsp;";
+			clearInterval(zaman3);
+		}
+	}, 1);
+	
+	var grafik4alan		=	document.getElementById("grafik4");
+	var yuzde4			=	68;
+	var hesapla4		=	100 / yuzde4;
+	var piksel4			=	toplamalan / hesapla4;
+	var baslangic4		=	0;
+	
+	var zaman4			=	setInterval(function(){
+		if(yuzde4<50){
+			document.getElementById("grafik4").style.backgroundColor = "#F0EB5D";
+		}else{
+			document.getElementById("grafik4").style.backgroundColor = "#467CD9";
+		}
+		document.getElementById("grafik4").style.width = baslangic4 + "px";
+		baslangic4 		=	baslangic4+1;
+		if(baslangic4>=piksel4){
+			if(yuzde4<50){
+				document.getElementById("grafik4").style.color = "#467CD9";
+			}else{
+				document.getElementById("grafik4").style.color = "#F0EB5D";
+			}
+			document.getElementById("deger4").innerHTML = "%" + yuzde4 + "&nbsp;";
+			clearInterval(zaman4);
+		}
+	}, 1);
+	
+	var grafik5alan		=	document.getElementById("grafik5");
+	var yuzde5			=	51;
+	var hesapla5		=	100 / yuzde5;
+	var piksel5			=	toplamalan / hesapla5;
+	var baslangic5		=	0;
+	
+	var zaman5			=	setInterval(function(){
+		if(yuzde5<50){
+			document.getElementById("grafik5").style.backgroundColor = "#F0EB5D";
+		}else{
+			document.getElementById("grafik5").style.backgroundColor = "#467CD9";
+		}
+		document.getElementById("grafik5").style.width = baslangic5 + "px";
+		baslangic5 		=	baslangic5+1;
+		if(baslangic5>=piksel5){
+			if(yuzde5<50){
+				document.getElementById("grafik5").style.color = "#467CD9";
+			}else{
+				document.getElementById("grafik5").style.color = "#F0EB5D";
+			}
+			document.getElementById("deger5").innerHTML = "%" + yuzde5 + "&nbsp;";
+			clearInterval(zaman5);
+		}
+	}, 1);
+</script>
+</body>
+</html>
 
 ```
 
