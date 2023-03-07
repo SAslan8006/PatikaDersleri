@@ -1,5 +1,5 @@
-const scriptA = require('./scriptA');
+// const scriptA = require('./scriptA');
 
-scriptA.log('Çınar');
-console.log(scriptA.name);
-// console.log(scriptA.age);
+// scriptA.log('Çınar');
+// console.log(scriptA.name);
+// // console.log(scriptA.age);

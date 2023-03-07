@@ -1,14 +1,12 @@
-
 console.log(__filename);
 console.log(__dirname);
 
-var firstName = 'Sadık';
+var firstName = "Sadık";
 var log = function (name) {
-    console.log(name);
-}
+  console.log(name);
+};
 
 exports = {
-    firstName,
-    log
-}
-
+  firstName,
+  log,
+};
