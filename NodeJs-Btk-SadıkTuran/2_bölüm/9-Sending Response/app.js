@@ -20,7 +20,7 @@ const server = http.createServer((req, res) => {
     */
 
 
-    fs.readFile('indexx.html', function (error, file) {
+    fs.readFile('index.html', function (error, file) {
 
         if (error) {
             res.setHeader('Content-Type', 'text/plain');

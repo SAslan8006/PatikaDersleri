@@ -8,5 +8,7 @@ console.log(result);
 console.log(result.path);
 console.log(result.query.year);
 console.log(result.query.month);
+console.log(result.href);
+
 
 

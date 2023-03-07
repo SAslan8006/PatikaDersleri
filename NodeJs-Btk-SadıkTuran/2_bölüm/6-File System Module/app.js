@@ -19,7 +19,7 @@ const data = fs.readFile('index.html', 'utf8', function (error, data) {
     }
 });
 */
-/*
+/* // Sliyor yeniden oluşturuyor ekliyor
 fs.writeFile('deneme.txt', 'Hello World...', function (error) {
     if (error) {
         console.log(error);
@@ -28,7 +28,7 @@ fs.writeFile('deneme.txt', 'Hello World...', function (error) {
     }
 })
 */
-/*
+/* // Eski dosyan varsa içerisine ekliyor
 fs.appendFile('deneme1.txt', 'Hello World...', function (error) {
     if (error) {
         console.log(error);
