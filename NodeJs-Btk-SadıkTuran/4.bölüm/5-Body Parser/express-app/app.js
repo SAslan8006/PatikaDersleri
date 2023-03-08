@@ -11,6 +11,7 @@ app.get('/add-product', (req, res, next) => {
             <body>
                 <form action="/product" method="POST"> 
                     <input type="text" name="productName">
+                    <input type="text" name="productSoyad">
                     <input type="submit" value="Save Product">
                 </form>
             </body>
