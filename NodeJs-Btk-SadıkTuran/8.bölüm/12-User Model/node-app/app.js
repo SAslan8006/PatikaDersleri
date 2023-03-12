@@ -40,7 +40,7 @@ sequelize
         User.findByPk(1)
             .then(user => {
                 if (!user) {
-                    User.create({ name: 'sadikturan', email: 'email@gmail.com' });
+                    User.create({ name: 'suleymanaslan', email: 'email@gmail.com' });
                 }
                 return user;
             }).then(user => {
