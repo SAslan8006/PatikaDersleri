@@ -3,7 +3,7 @@ const MongoClient = mongodb.MongoClient;
 
 const mongoConnect = (callback) => {
     // MongoClient.connect('mongodb://localhost/node-app')
-    MongoClient.connect('mongodb+srv://sadikturan:WbQ5vdSRiQIfcmdp@cluster0-4nd5p.mongodb.net/test?retryWrites=true')
+    MongoClient.connect('mongodb+srv://suleymanaslan:xSnSnEVEKmlB7jm3@cluster0.p8ipqnj.mongodb.net/test?retryWrites=true&w=majority')
         .then(client => {
             console.log('connected');
             callback(client);
@@ -16,3 +16,4 @@ const mongoConnect = (callback) => {
 
 
 module.exports = mongoConnect;
+
