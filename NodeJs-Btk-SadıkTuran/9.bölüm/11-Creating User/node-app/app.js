@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use((req, res, next) => {
-    User.findByUserName('sadikturan')
+    User.findByUserName('suleymanaslan')
         .then(user => {
             req.user = new User(user.name, user.email, user._id);
             next();
@@ -35,10 +35,10 @@ app.use(errorController.get404Page);
 
 mongoConnect(() => {
 
-    User.findByUserName('sadikturan')
+    User.findByUserName('suleymanaslan')
         .then(user => {
             if (!user) {
-                user = new User('sadikturan', 'email@sadikturan.com');
+                user = new User('suleymanaslan', 'email@suleymanaslan.com');
                 return user.save();
             }
             return user;
