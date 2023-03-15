@@ -2,7 +2,7 @@ const User = require('../models/user');
 const bcrypt = require('bcrypt');
 const sgMail = require('@sendgrid/mail');
 
-sgMail.setApiKey('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');
+sgMail.setApiKey('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');
 
 exports.getLogin = (req, res, next) => {
     var errorMessage = req.session.errorMessage;
@@ -92,7 +92,7 @@ exports.postRegister = (req, res, next) => {
 
             const msg = {
                 to: email,
-                from: 'info@sadikturan.com',
+                from: 'info@suleymanaslan.com',
                 subject: 'Hesap Oluşturuldu.',
                 html: '<h1>Hesabınız başarılı bir şekilde oluşturuldu.</h1>',
             };
